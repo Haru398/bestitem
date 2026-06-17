@@ -1,0 +1,21 @@
+datasource db {
+  provider = "sqlite"
+
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Post {
+  id            String   @id @default(cuid())
+  category      String
+  subCategory   String?
+  title         String
+  content       String
+  price         String?
+  imageUrl      String
+  coupangIframe String?
+  views         Int      @default(0)
+  createdAt     DateTime @default(now())
+}

@@ -1,0 +1,40 @@
+const fs = require('fs');
+
+const content = `여름철 편안함과 스타일을 동시에 잡을 수 있는 데일리 아이템을 찾고 계신가요? 최근 실사용자들 사이에서 '가성비 끝판왕'이라 불리며 압도적인 인기를 끌고 있는 제품, '1+1 버닝몬스터 데일리 무지 밴딩 반바지'를 소개합니다. 가장 먼저 눈에 띄는 것은 단연 핏(Fit)입니다. 한국인의 체형을 완벽하게 분석하여 떨어지는 트렌디한 와이드 핏을 자랑하며, 다리가 길어 보이는 시각적 효과까지 선사합니다. 어색하게 딱 달라붙지 않고 여유롭게 떨어지는 실루엣 덕분에 외출복은 물론 가벼운 산책용으로도 손색이 없습니다.
+
+디자인만큼이나 중요한 것이 바로 소재입니다. 버닝몬스터 반바지는 통기성과 땀 흡수력이 뛰어난 고급 코튼 블렌디드 원단을 사용했습니다. 피부에 닿는 촉감이 매우 부드러워 장시간 착용해도 까슬거림이 전혀 없으며, 한여름의 뜨거운 태양 아래서도 피부가 쾌적하게 숨을 쉬는 느낌을 받을 수 있습니다. 잦은 세탁에도 쉽게 변형되지 않는 강한 내구성 덕분에, 여름 내내 탄탄한 핏과 부드러운 감촉을 그대로 유지하며 매일 새 옷처럼 입을 수 있습니다.
+
+이 제품이 대중적으로 엄청난 사랑을 받는 또 다른 이유는 바로 '1+1 가성비' 구성과 실용적인 디테일입니다. 프리미엄 퀄리티를 자랑함에도 1+1 구성으로 제공되어 땀을 많이 흘리는 여름철에 번갈아 입기 딱 좋습니다. 특히 허리 부분에는 짱짱하면서도 부드러운 고탄력 밴딩을 적용하여 꽉 조이는 압박감 없이 편안하게 밀착됩니다. 내부에 사이즈 조절 스트링이 내장되어 체형에 맞게 세밀한 조절이 가능하며, 깊고 넉넉한 사이드 포켓을 배치해 스마트폰이나 지갑 보관 시에도 바지 핏이 망가지지 않습니다.
+
+많은 분들이 의류 구매 시 가장 고민하시는 부분이 바로 '사이즈'와 '실제 착용 느낌'일 것입니다. 해당 공식 판매처의 피팅 모델은 **키 180cm, 몸무게 72kg의 체형으로 'L 사이즈'를 여유롭게 착용**하였습니다. 일반적인 체형의 남성분이라면 정사이즈를 추천해 드리며, 조금 더 힙하고 루즈한 오버핏을 원하신다면 한 사이즈 업(Up) 하시는 것을 적극 권장합니다. 블랙, 그레이, 네이비 등 베이직한 컬러 구성으로 어떤 상의와 매치해도 찰떡같이 어울리는 놀라운 소화력을 보여줍니다.
+
+정확한 사이즈 선택을 위해 구매 전 아래의 상세 사이즈표를 꼭 참고해 주세요. 버닝몬스터 데일리 반바지는 M부터 XXL까지 다양한 폭의 사이즈를 제공하여 체형에 구애받지 않고 누구나 멋스럽게 착용할 수 있습니다.
+[ 📏 상세 사이즈 안내 ]
+• M 사이즈 : 허리둘레 28~30인치 / 총기장 44cm / 허벅지 단면 32cm
+• L 사이즈 : 허리둘레 30~32인치 / 총기장 46cm / 허벅지 단면 34cm
+• XL 사이즈 : 허리둘레 32~34인치 / 총기장 48cm / 허벅지 단면 36cm
+• XXL 사이즈 : 허리둘레 34~36인치 / 총기장 50cm / 허벅지 단면 38cm`;
+
+const newItem = {
+  id: 'item-shorts-1',
+  title: '[1+1] 버닝몬스터 데일리 무지 밴딩 반바지 하프팬츠',
+  category: '패션/의류',
+  content: content,
+  imageUrl: 'https://t3c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/6042/001fe330d2ddfb71d6e8e7350c391b2c83c72be00364f8239df8e19d5d53.jpg',
+  additionalImages: [
+    '/images/shorts_model_1.png',
+    '/images/shorts_model_2.png',
+    '/images/shorts_model_3.png',
+    '/images/shorts_model_4.png',
+    '/images/shorts_model_5.png'
+  ],
+  hashtags: ['#버닝몬스터', '#남자반바지', '#1+1반바지', '#밴딩팬츠', '#여름코디', '#가성비의류'],
+  coupangLink: 'https://link.coupang.com/a/eyKtpOrH8C',
+  coupangIframe: '<iframe src="https://coupa.ng/cnptap" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>'
+};
+
+let data = JSON.parse(fs.readFileSync('src/app/data.json', 'utf8'));
+data = data.filter(item => item.id !== 'item-shorts-1');
+data.unshift(newItem);
+fs.writeFileSync('src/app/data.json', JSON.stringify(data, null, 2));
+console.log('Successfully applied USER PROVIDED images and fixed the title.');

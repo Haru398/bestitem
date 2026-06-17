@@ -1,0 +1,22 @@
+const fs = require('fs');
+let data = JSON.parse(fs.readFileSync('src/app/data.json', 'utf8'));
+
+const newItem = {
+  id: 'item-sunvisor-1',
+  title: '여름 필수템! 뷰네스 UV차단 99.9% 챙넓은 여성 자외선차단 썬캡 완벽 리뷰',
+  content: '무더운 여름이 다가오면서 가장 먼저 걱정되는 것은 바로 따갑게 내리쬐는 자외선입니다. 자외선은 기미, 주근깨는 물론 피부 노화의 가장 큰 주범이기 때문에 선크림만으로는 절대 안심할 수 없습니다. 외출 시 양산을 쓰기에는 두 손이 자유롭지 못해 불편함을 느끼셨던 분들에게 완벽한 해결책이 되어줄 아이템, 바로 \'뷰네스 UV차단 99.9% 챙넓은 여성 자외선차단 썬캡\'을 소개합니다.\n\n이 제품의 가장 큰 장점은 압도적인 자외선 차단율입니다. 무려 99.9%의 차단율을 자랑하여 강력한 태양 아래에서도 내 피부를 완벽하고 안전하게 보호해 줍니다. 얇고 민감한 얼굴 피부를 넓게 덮어주는 것은 물론, 모발과 두피가 자외선에 손상되는 것까지 꼼꼼하게 막아줍니다. 등산, 골프, 가벼운 산책이나 장보기 등 야외 활동이 잦은 일상생활 어디에서든 이 썬캡 하나면 자외선 걱정을 완벽하게 덜어낼 수 있습니다.\n\n특히 가장 돋보이는 부분은 \'와이드한 챙\' 디자인입니다. 얼굴 전체를 넉넉하게 덮어주는 챙 길이 덕분에 자외선을 사각지대 없이 빈틈없이 차단하는 것은 물론, 얼굴이 훨씬 작아 보이는 일명 \'얼굴 소멸 효과\'까지 누릴 수 있습니다. 세련되고 깔끔한 디자인으로 어떤 일상복이나 운동복에도 이질감 없이 세련되게 잘 어울리며, 다양한 컬러 옵션이 준비되어 있어 개인의 취향에 맞게 선택할 수 있는 점도 엄청난 매력 포인트입니다.\n\n여름철 땀이 많이 나는 시기인 만큼 착용감 역시 간과할 수 없습니다. 뷰네스 썬캡은 이마가 직접 닿는 부분에 쾌적하고 통풍이 훌륭한 흡습속건 소재를 사용하여 장시간 착용해도 땀이 차거나 답답하지 않습니다. 또한 머리를 조이지 않는 부드럽고 유연한 밴딩 처리가 되어 있어 누구나 두상 크기에 구애받지 않고 하루 종일 편안하게 착용할 수 있으며, 가벼운 초경량 무게감 덕분에 목이나 머리에 전혀 무리가 가지 않습니다.\n\n올여름, 자외선으로부터 내 소중한 피부를 완벽하게 지키기 위한 절대 필수템! 뷰네스 UV차단 99.9% 챙넓은 썬캡으로 실용성과 스타일을 한 번에 챙겨보세요. 현재 뛰어난 품질에 합리적인 가성비까지 갖추고 있어 폭발적인 칭찬 리뷰가 쏟아지고 있습니다. 본격적인 폭염과 야외 활동이 잦아지는 지금, 품절되기 전에 미리 준비하셔서 건강하고 쾌적한 여름을 맞이하시길 강력히 추천드립니다.\n\n*(본 포스팅에 사용된 일부 이미지는 제품의 이해를 돕기 위한 참고용 이미지입니다.)*',
+  imageUrl: 'https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3251/17d172a622db10e6af4b5dfc1867720681f3b1989c05d20c2ed5bfc43da2.jpg',
+  additionalImages: [
+    'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1572307480813-ceb0e59d8325?auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1611005886638-348e351f33f6?auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1550246140-5119ae4790b8?auto=format&fit=crop&w=800&q=80'
+  ],
+  hashtags: ['#자외선차단썬캡', '#뷰네스썬캡', '#여성용썬캡', '#챙넓은모자', '#여름필수템', '#자외선차단', '#얼굴소멸모자', '#등산모자', '#골프썬캡', '#쿠팡추천템'],
+  coupangLink: 'https://link.coupang.com/a/ex95TNrNZc',
+  coupangIframe: '<iframe src="https://coupa.ng/cnpgUW" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>'
+};
+
+data.unshift(newItem);
+fs.writeFileSync('src/app/data.json', JSON.stringify(data, null, 2));
+console.log('Added item-sunvisor-1');

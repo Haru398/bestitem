@@ -1,0 +1,70 @@
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal {
+  background: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.modal h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cancelBtn {
+  padding: 10px 20px;
+  border: none;
+  background: #ccc;
+  color: #333;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.saveBtn {
+  padding: 10px 20px;
+  border: none;
+  background: #0070f3;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.saveBtn:disabled {
+  opacity: 0.6;
+}

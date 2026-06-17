@@ -1,0 +1,54 @@
+const fs = require('fs');
+const path = require('path');
+const db = require('better-sqlite3')('dev.db');
+const { spawn } = require('child_process');
+
+// 1. Insert into DB (images are already copied from the failed run, but let's assume they are there)
+const newPost = {
+  id: 'item-' + Date.now(),
+  category: '가전',
+  subCategory: '계절가전',
+  title: '[올여름 필수템] 기본에 충실한 초강력 시원함! 14인치 스탠드형 선풍기 완벽 리뷰',
+  content: `무더운 여름, 에어컨만으로는 부족하시죠? 구석구석 시원한 바람을 전달해 줄 기본기 탄탄한 **'14인치 화이트 스탠드형 선풍기'**를 소개합니다.
+
+![선풍기 전체 디자인](/images/fan_1.png)
+
+가장 눈에 띄는 것은 어느 공간에나 잘 어울리는 **'깔끔한 올 화이트 디자인'**입니다. 군더더기 없는 심플한 헤드와 매끄러운 바디는 거실, 침실, 사무실 등 어디에 두어도 인테리어를 해치지 않고 화사한 분위기를 연출해 줍니다. 
+
+![정면 디자인 및 안전망](/images/fan_2.png)
+
+선풍기의 본질은 역시 바람이죠! 넓은 날개 디자인으로 설계되어 일반 선풍기보다 훨씬 풍부하고 부드러운 바람을 만들어냅니다. 촘촘하게 설계된 안전망 덕분에 호기심 많은 아이들이 있는 집에서도 안심하고 사용할 수 있습니다.
+
+![측면 각도 조절 및 모터](/images/fan_3.png)
+
+측면을 보시면 **'자유로운 상하 각도 조절 기능'**을 확인하실 수 있습니다. 견고한 모터와 부드러운 목 관절 덕분에 원하는 방향으로 정확하게 바람을 보낼 수 있으며, 에어컨과 함께 사용하면 실내 공기를 빠르게 순환시켜 냉방 효율을 극대화해 줍니다. 뒷면의 이동 손잡이로 방마다 가볍게 들고 이동하기도 편리합니다.
+
+![직관적인 버튼 및 타이머](/images/fan_4.png)
+
+가장 매력적인 부분은 **'남녀노소 누구나 쉽게 쓸 수 있는 직관적인 조작부'**입니다. 
+- **바람 세기:** 정지, 미풍, 약풍, 강풍 4단계 버튼으로 직관적으로 조절 가능합니다.
+- **안심 타이머:** 최대 3시간까지 설정 가능한 다이얼 타이머(연속, 정지, 1, 2, 3시간)가 탑재되어 있어, 수면 중에도 체온 저하 걱정 없이 시원하고 안전하게 잠들 수 있습니다.
+
+복잡한 기능 없이 딱 필요한 기능만 알차게 담은 가성비 끝판왕 스탠드 선풍기! 올여름 폭염이 오기 전에 하단 링크를 통해 미리 장만해 보세요!
+
+[👉 최저가 구매 링크 바로가기](https://link.coupang.com/a/eD9OrsAenA)
+
+<div style="display:flex; justify-content:center; margin-top:20px;">
+  <iframe src="https://coupa.ng/cntcTB" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+</div>`,
+  imageUrl: '/images/fan_1.png'
+};
+
+const stmt = db.prepare('INSERT INTO posts (id, category, subCategory, title, content, imageUrl, views, createdAt) VALUES (@id, @category, @subCategory, @title, @content, @imageUrl, 0, CURRENT_TIMESTAMP)');
+stmt.run(newPost);
+console.log('Inserted fan post into DB');
+
+// 3. Restart dev server
+const child = spawn('npm', ['run', 'dev'], {
+  cwd: 'D:\\서버구축폴더\\bestitem',
+  shell: true,
+  detached: true,
+  stdio: 'ignore'
+});
+child.unref();
+console.log('Restarted dev server');
