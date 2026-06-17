@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1rxncug86bump.js"],""]
+a:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+:HL["/icon.png","image"]
+:HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
+:HL["/images/vest_1.png","image"]
+:HL["/_next/static/chunks/35b2d8b7eb75s.css","style"]
+3:Tc87,<p>매년 갱신되는 역대급 폭염! 야외에서 일하시거나 땀을 많이 흘리시는 분들께 한여름은 그야말로 지옥이죠. 그래서 오늘은 뙤약볕 아래에서도 냉장고 안에 있는 듯한 시원함을 선사할 궁극의 생존템, **&#39;4팬 냉각 에어컨 작업복 조끼&#39;**를 소개해 드립니다!</p>
+<p><img src="/images/vest_1.png" alt="남녀 공용 착용샷 및 전체 구성품"></p>
+<p>첫 번째 사진은 실제 착용 모습과 전체 구성품입니다! 남녀노소 누구나 편하게 입을 수 있는 깔끔한 네이비 컬러 디자인에, 무려 <strong>4개의 강력한 쿨링 팬</strong>이 앞뒤로 장착되어 있습니다. 대용량 배터리와 전용 케이블까지 풀세트로 구성되어 있어 이 제품 하나면 올여름 준비는 끝납니다. 빛 반사 띠까지 디테일하게 들어가 있어 야간 작업 시 안전까지 챙겼네요!</p>
+<p><img src="/images/vest_2.png" alt="4단 속도 조절 에어컨 조끼 측면샷"></p>
+<p>시원함의 비결은 바로 이 옆구리와 등 쪽에 밀착된 팬에서 나오는 **&#39;순환 송풍 기술&#39;**입니다. 버튼 하나로 <strong>4단 속도 조절</strong>이 가능해서 땀이 많이 날 때는 강력한 터보풍으로, 실내에 들어왔을 때는 부드러운 미풍으로 유도리 있게 조절할 수 있습니다. </p>
+<p><img src="/images/vest_3.png" alt="타사 제품과의 압도적 성능 비교"></p>
+<p>시중에 파는 저렴한 2팬 조끼와는 차원이 다릅니다! 압도적인 **&#39;4팬 쌍대류 설계&#39;**로 바람이 옷 안에서 덩어리져 더욱 빠르게 땀을 식혀줍니다. 또한, 신형 넥 에어 덕트 디자인으로 목과 얼굴까지 시원한 바람이 올라오도록 업그레이드되었습니다. 고품질 대용량 배터리 덕분에 하루 종일 방전 걱정 없이 빵빵하게 틀고 다닐 수 있죠.</p>
+<p><img src="/images/vest_4.png" alt="고온 환경 야외 작업 필수템"></p>
+<p>&quot;이런 분들께 강력 추천합니다!&quot;
+뜨거운 열기를 견뎌야 하는 용접/건설 현장, 그늘 없는 농사일, 배달 기사님들, 낚시나 등산 등 야외 레저를 즐기시는 분들까지! 땀범벅이 되기 쉬운 모든 고온 환경에서 체온을 급속도로 낮춰주고 쾌적함을 유지해 주는 그야말로 <strong>야외 필수템</strong>입니다.</p>
+<p><img src="/images/vest_5.png" alt="급속 냉각 쾌적함 연출샷"></p>
+<p>한여름 무더위, 더 이상 참지 마세요! 이 조끼 하나 쓱 걸쳐 입는 순간 땀은 마르고, 머리부터 허리까지 쾌적한 에어컨 바람이 몸 전체를 감싸줍니다.</p>
+<p>폭염 대비 필수템 4팬 에어컨 작업복, 지금 바로 쿠팡에서 초특가로 만나보세요! 부모님이나 남편 선물로도 강력 추천합니다!</p>
+<p><a href="https://link.coupang.com/a/eEf3IdFtNk">👉 최저가 구매 링크 바로가기</a></p>
+<div style="display:flex; justify-content:center; margin-top:20px;">
+  <iframe src="https://coupa.ng/cntjAE" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+</div>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"post-module__eKrpXW__container","children":[["$","header",null,{"className":"post-module__eKrpXW__header","children":[["$","div",null,{"className":"post-module__eKrpXW__logo","children":["$","$L2",null,{"href":"/","style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","img",null,{"src":"/icon.png","alt":"아이템몬스터 로고","width":32,"height":32,"style":{"borderRadius":"50%"}}]," 아이템몬스터"]}]}],["$","nav",null,{"className":"post-module__eKrpXW__nav","children":["$","$L2",null,{"href":"/","children":"← 홈으로 돌아가기"}]}]]}],["$","main",null,{"className":"post-module__eKrpXW__main","children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":["$","span",null,{"className":"post-module__eKrpXW__category","children":"생활용품"}]}],["$","h1",null,{"className":"post-module__eKrpXW__title","children":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰"}],["$","div",null,{"className":"post-module__eKrpXW__heroImage","style":{"backgroundImage":"url(/images/vest_1.png)"}}],["$","div",null,{"className":"post-module__eKrpXW__ftcAlert","children":"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."}],["$","div",null,{"className":"post-module__eKrpXW__adBanner","children":["$","a",null,{"href":"https://link.coupang.com/a/exy45HN1I4","target":"_blank","rel":"noreferrer","referrerPolicy":"unsafe-url","children":["$","img",null,{"src":"https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","alt":"오늘의 쿠팡 특가는?"}]}]}],["$","div",null,{"className":"post-module__eKrpXW__content","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"post-module__eKrpXW__markdownContent"}]}],"$undefined",["$","div",null,{"className":"post-module__eKrpXW__linkCardWrapper","children":[["$","p",null,{"className":"post-module__eKrpXW__linkCardHeading","children":"더 자세한 정보는 아래 링크를 확인하세요."}],["$","a",null,{"href":"https://link.coupang.com/a/eEf3IdFtNk","target":"_blank","rel":"noopener noreferrer","className":"post-module__eKrpXW__linkCard","children":["$L4","$L5"]}]]}],null]}],"$L6"]}],["$L7","$L8"],"$L9"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OaueMjCH2E6Z98HZa_qG_"}
+4:["$","img",null,{"src":"/images/vest_1.png","alt":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰","className":"post-module__eKrpXW__linkCardImg"}]
+5:["$","div",null,{"className":"post-module__eKrpXW__linkCardInfo","children":[["$","span",null,{"className":"post-module__eKrpXW__linkCardName","children":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰"}],["$","span",null,{"className":"post-module__eKrpXW__linkCardBrand","children":"COUPANG"}],["$","span",null,{"className":"post-module__eKrpXW__linkCardUrl","children":"link.coupang.com"}]]}]
+6:["$","footer",null,{"className":"post-module__eKrpXW__footer","children":["$","p",null,{"children":"© 2026 아이템몬스터(ItemMonster). All rights reserved."}]}]
+7:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/35b2d8b7eb75s.css","precedence":"next"}]
+8:["$","script","script-0",{"src":"/_next/static/chunks/1rxncug86bump.js","async":true}]
+9:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null

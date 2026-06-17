@@ -1,0 +1,30 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/1rxncug86bump.js"],""]
+9:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+:HL["/icon.png","image"]
+:HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
+:HL["/images/white_dehumidifier_2.png","image"]
+:HL["/_next/static/chunks/35b2d8b7eb75s.css","style"]
+3:Tbc1,<p>매년 꿉꿉한 장마철마다 눅눅해지는 집안 공기, 인테리어를 해치지 않으면서도 강력한 제습 효과를 원하시나요? 오늘은 성능은 물론이고 세련된 디자인까지 모두 잡은 **&#39;감성 화이트 대용량 제습기&#39;**를 소개해 드립니다!</p>
+<p><img src="/images/white_dehumidifier_2.png" alt="화이트 제습기 전면 디자인"></p>
+<p>첫 번째 사진에서 보시듯, 군더더기 없이 깔끔하게 떨어지는 화이트 컬러 바디 전면에는 미세한 도트 패턴이 들어가 있어 밋밋하지 않고 고급스럽습니다. 어떤 공간에 두어도 튀지 않고 인테리어 오브제처럼 자연스럽게 스며드는 매력적인 디자인입니다.</p>
+<p><img src="/images/white_dehumidifier_2.png" alt="침실/거실 인테리어 연출컷"></p>
+<p>실제 침실 협탁 옆에 배치한 모습입니다. 그레이 톤의 가구와 매치해도 아주 찰떡이죠? 모던한 감성을 극대화해 주어 거실, 안방, 드레스룸 어디에 두어도 세련된 무드를 연출할 수 있습니다. </p>
+<p><img src="/images/white_dehumidifier_3.png" alt="직관적인 상단 터치 패널"></p>
+<p>상단 조작부는 가볍게 터치만 하면 작동하는 직관적인 터치 패널로 구성되어 있습니다. 풍량 조절(SPEED), 타이머(TIMER)는 물론이고 아이들이나 반려동물이 함부로 누르지 못하도록 하는 &#39;잠금 기능(ION/LOCK)&#39;까지 탑재되어 있어 안전하고 편리하게 사용할 수 있습니다. 중앙의 LED 창을 통해 현재 습도도 한눈에 파악할 수 있죠!</p>
+<p><img src="/images/white_dehumidifier_4.png" alt="연속 배수 호스 연결부"></p>
+<p>장마철 물통 비우기 귀찮으시죠? 이 제품은 후면에 **&#39;연속 배수 호스&#39;**를 바로 연결할 수 있는 포트가 마련되어 있습니다. 동봉된 투명 호스를 연결하고 화장실이나 베란다 배수구 쪽으로 빼두기만 하면, 물통이 꽉 차서 멈출 걱정 없이 24시간 내내 뽀송하게 연속 제습이 가능합니다!</p>
+<p><img src="/images/white_dehumidifier_5.png" alt="컴팩트한 사이즈와 편리한 이동성"></p>
+<p>마지막으로 사이즈 체감 샷입니다. 대용량 제습 능력을 갖추었음에도 불구하고 부담스럽게 크지 않고 슬림하게 잘 빠졌습니다. 게다가 하단에 부드러운 바퀴가 달려 있어 여성분들도 방에서 방으로 힘들이지 않고 쓱쓱 밀고 다니며 편리하게 사용할 수 있습니다.</p>
+<p>성능과 디자인 모두를 만족시키는 완벽한 제습기, 지금 바로 확인해 보세요!</p>
+<p><a href="https://link.coupang.com/a/eEhxFm1NGS">👉 최저가 구매 링크 바로가기</a></p>
+<div style="display:flex; justify-content:center; margin-top:20px;">
+  <iframe src="https://coupa.ng/cntk2O" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+</div>0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"post-module__eKrpXW__container","children":[["$","header",null,{"className":"post-module__eKrpXW__header","children":[["$","div",null,{"className":"post-module__eKrpXW__logo","children":["$","$L2",null,{"href":"/","style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","img",null,{"src":"/icon.png","alt":"아이템몬스터 로고","width":32,"height":32,"style":{"borderRadius":"50%"}}]," 아이템몬스터"]}]}],["$","nav",null,{"className":"post-module__eKrpXW__nav","children":["$","$L2",null,{"href":"/","children":"← 홈으로 돌아가기"}]}]]}],["$","main",null,{"className":"post-module__eKrpXW__main","children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":["$","span",null,{"className":"post-module__eKrpXW__category","children":"가전/디지털"}]}],["$","h1",null,{"className":"post-module__eKrpXW__title","children":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰"}],["$","div",null,{"className":"post-module__eKrpXW__heroImage","style":{"backgroundImage":"url(/images/white_dehumidifier_2.png)"}}],["$","div",null,{"className":"post-module__eKrpXW__ftcAlert","children":"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."}],["$","div",null,{"className":"post-module__eKrpXW__adBanner","children":["$","a",null,{"href":"https://link.coupang.com/a/exy45HN1I4","target":"_blank","rel":"noreferrer","referrerPolicy":"unsafe-url","children":["$","img",null,{"src":"https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","alt":"오늘의 쿠팡 특가는?"}]}]}],["$","div",null,{"className":"post-module__eKrpXW__content","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"post-module__eKrpXW__markdownContent"}]}],"$undefined",["$","div",null,{"className":"post-module__eKrpXW__linkCardWrapper","children":[["$","p",null,{"className":"post-module__eKrpXW__linkCardHeading","children":"더 자세한 정보는 아래 링크를 확인하세요."}],["$","a",null,{"href":"https://link.coupang.com/a/eEhxFm1NGS","target":"_blank","rel":"noopener noreferrer","className":"post-module__eKrpXW__linkCard","children":[["$","img",null,{"src":"/images/white_dehumidifier_2.png","alt":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰","className":"post-module__eKrpXW__linkCardImg"}],"$L4"]}]]}],null]}],"$L5"]}],["$L6","$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OaueMjCH2E6Z98HZa_qG_"}
+4:["$","div",null,{"className":"post-module__eKrpXW__linkCardInfo","children":[["$","span",null,{"className":"post-module__eKrpXW__linkCardName","children":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰"}],["$","span",null,{"className":"post-module__eKrpXW__linkCardBrand","children":"COUPANG"}],["$","span",null,{"className":"post-module__eKrpXW__linkCardUrl","children":"link.coupang.com"}]]}]
+5:["$","footer",null,{"className":"post-module__eKrpXW__footer","children":["$","p",null,{"children":"© 2026 아이템몬스터(ItemMonster). All rights reserved."}]}]
+6:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/35b2d8b7eb75s.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/1rxncug86bump.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null
