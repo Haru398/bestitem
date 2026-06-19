@@ -1,0 +1,114 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+e:I[27201,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+5:T746,
+
+** grabsattention **
+
+Imagine this moment right when you're scrolling through products on coupang.com, and something catches your eye because it perfectly solves a problem you know you have but haven't acknowledged yet. Today, there's an amazing product that can transform your daily life in ways you may not even comprehend.
+
+**analysis**
+
+Are you struggling with [unique feature of the product]? Are you looking for a solution that provides [benefit]? Well, this product is here to change everything! It has been tested by users who have given [user reviews], and it works because of its innovative design. Don't miss out on having [benefit] like never before.
+
+**definition**
+
+Our product [specific product name] is crafted with [specific features]. Made for you, simple to use, designed to bring you convenience and comfort, this is quality that you can count on. It's not just an object; it's a solution waiting to be used by someone who knows their worth.
+
+**disputation**
+
+Why settle for less when you have this product! You might have been waiting for the perfect time to make this purchase, as our prices are set to match your budget while still bringing you value. Remember, quality doesn't have to cost more; it's about having [benefit] without compromising on anything else.
+
+**additional info**
+
+[Insert specific user reviews with star ratings]
+
+**conversion**
+
+Why waste another second? Take the first step towards improving your life today and purchase our product now! Let me know if you need any help with this. Your satisfaction is important to us!
+
+**final call**
+
+Click here to shop on coupang.com and experience everything our store has to offer.
+
+[Insert specific link to coupang page]
+
+---
+
+[iframe src="https://coupa.ng/cnu6fy" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>6:T746,
+
+** grabsattention **
+
+Imagine this moment right when you're scrolling through products on coupang.com, and something catches your eye because it perfectly solves a problem you know you have but haven't acknowledged yet. Today, there's an amazing product that can transform your daily life in ways you may not even comprehend.
+
+**analysis**
+
+Are you struggling with [unique feature of the product]? Are you looking for a solution that provides [benefit]? Well, this product is here to change everything! It has been tested by users who have given [user reviews], and it works because of its innovative design. Don't miss out on having [benefit] like never before.
+
+**definition**
+
+Our product [specific product name] is crafted with [specific features]. Made for you, simple to use, designed to bring you convenience and comfort, this is quality that you can count on. It's not just an object; it's a solution waiting to be used by someone who knows their worth.
+
+**disputation**
+
+Why settle for less when you have this product! You might have been waiting for the perfect time to make this purchase, as our prices are set to match your budget while still bringing you value. Remember, quality doesn't have to cost more; it's about having [benefit] without compromising on anything else.
+
+**additional info**
+
+[Insert specific user reviews with star ratings]
+
+**conversion**
+
+Why waste another second? Take the first step towards improving your life today and purchase our product now! Let me know if you need any help with this. Your satisfaction is important to us!
+
+**final call**
+
+Click here to shop on coupang.com and experience everything our store has to offer.
+
+[Insert specific link to coupang page]
+
+---
+
+[iframe src="https://coupa.ng/cnu6fy" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"** grabsattention ** - 아이템몬스터"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"referrer","content":"no-referrer"}],["$","meta","3",{"name":"google-site-verification","content":"Pj0JXhij0djXGxaeUr0KPAa9roYwxD3Qcwesob3JU2Q"}],["$","meta","4",{"property":"og:title","content":"** grabsattention **"}],["$","meta","5",{"property":"og:description","content":"$6"}],"$L7","$L8","$L9","$La","$Lb"]}]}]}],"$Lc"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"tNZhIaWs7_cqmIxXkPZBc"}
+7:["$","meta","6",{"name":"twitter:card","content":"summary"}]
+8:["$","meta","7",{"name":"twitter:title","content":"** grabsattention **"}]
+d:T746,
+
+** grabsattention **
+
+Imagine this moment right when you're scrolling through products on coupang.com, and something catches your eye because it perfectly solves a problem you know you have but haven't acknowledged yet. Today, there's an amazing product that can transform your daily life in ways you may not even comprehend.
+
+**analysis**
+
+Are you struggling with [unique feature of the product]? Are you looking for a solution that provides [benefit]? Well, this product is here to change everything! It has been tested by users who have given [user reviews], and it works because of its innovative design. Don't miss out on having [benefit] like never before.
+
+**definition**
+
+Our product [specific product name] is crafted with [specific features]. Made for you, simple to use, designed to bring you convenience and comfort, this is quality that you can count on. It's not just an object; it's a solution waiting to be used by someone who knows their worth.
+
+**disputation**
+
+Why settle for less when you have this product! You might have been waiting for the perfect time to make this purchase, as our prices are set to match your budget while still bringing you value. Remember, quality doesn't have to cost more; it's about having [benefit] without compromising on anything else.
+
+**additional info**
+
+[Insert specific user reviews with star ratings]
+
+**conversion**
+
+Why waste another second? Take the first step towards improving your life today and purchase our product now! Let me know if you need any help with this. Your satisfaction is important to us!
+
+**final call**
+
+Click here to shop on coupang.com and experience everything our store has to offer.
+
+[Insert specific link to coupang page]
+
+---
+
+[iframe src="https://coupa.ng/cnu6fy" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>9:["$","meta","8",{"name":"twitter:description","content":"$d"}]
+a:["$","link","9",{"rel":"icon","href":"/icon.png?icon.3mra1v-albadv.png","sizes":"1024x1024","type":"image/png"}]
+b:["$","$Le","10",{}]
+c:["$","meta",null,{"name":"next-size-adjust","content":""}]

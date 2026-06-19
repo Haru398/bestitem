@@ -2,5 +2,97 @@
 2:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
 3:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 4:"$Sreact.suspense"
-5:I[27201,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
-0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰 - 아이템몬스터"}],["$","meta","1",{"name":"description","content":"매년 꿉꿉한 장마철마다 눅눅해지는 집안 공기, 인테리어를 해치지 않으면서도 강력한 제습 효과를 원하시나요? 오늘은 성능은 물론이고 세련된 디자인까지 모두 잡은 **'감성 화이트 대용량 제습기'**를 소개해 드립니다!\n\n![화이트 제습기 전면 디자인](/images/white_dehumi"}],["$","meta","2",{"name":"referrer","content":"no-referrer"}],["$","meta","3",{"name":"google-site-verification","content":"Pj0JXhij0djXGxaeUr0KPAa9roYwxD3Qcwesob3JU2Q"}],["$","meta","4",{"property":"og:title","content":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰"}],["$","meta","5",{"property":"og:description","content":"매년 꿉꿉한 장마철마다 눅눅해지는 집안 공기, 인테리어를 해치지 않으면서도 강력한 제습 효과를 원하시나요? 오늘은 성능은 물론이고 세련된 디자인까지 모두 잡은 **'감성 화이트 대용량 제습기'**를 소개해 드립니다!\n\n![화이트 제습기 전면 디자인](/images/white_dehumi"}],["$","meta","6",{"property":"og:image","content":"http://localhost:3000/images/white_dehumidifier_2.png"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰"}],["$","meta","9",{"name":"twitter:description","content":"매년 꿉꿉한 장마철마다 눅눅해지는 집안 공기, 인테리어를 해치지 않으면서도 강력한 제습 효과를 원하시나요? 오늘은 성능은 물론이고 세련된 디자인까지 모두 잡은 **'감성 화이트 대용량 제습기'**를 소개해 드립니다!\n\n![화이트 제습기 전면 디자인](/images/white_dehumi"}],["$","meta","10",{"name":"twitter:image","content":"http://localhost:3000/images/white_dehumidifier_2.png"}],["$","link","11",{"rel":"icon","href":"/icon.png?icon.3mra1v-albadv.png","sizes":"1024x1024","type":"image/png"}],["$","$L5","12",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"JCTRIb1I4CYv_qDhRDGpj"}
+10:I[27201,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+5:Tb0a,매년 꿉꿉한 장마철마다 눅눅해지는 집안 공기, 인테리어를 해치지 않으면서도 강력한 제습 효과를 원하시나요? 오늘은 성능은 물론이고 세련된 디자인까지 모두 잡은 **'감성 화이트 대용량 제습기'**를 소개해 드립니다!
+
+![화이트 제습기 전면 디자인](/images/white_dehumidifier_2.png)
+
+첫 번째 사진에서 보시듯, 군더더기 없이 깔끔하게 떨어지는 화이트 컬러 바디 전면에는 미세한 도트 패턴이 들어가 있어 밋밋하지 않고 고급스럽습니다. 어떤 공간에 두어도 튀지 않고 인테리어 오브제처럼 자연스럽게 스며드는 매력적인 디자인입니다.
+
+![침실/거실 인테리어 연출컷](/images/white_dehumidifier_2.png)
+
+실제 침실 협탁 옆에 배치한 모습입니다. 그레이 톤의 가구와 매치해도 아주 찰떡이죠? 모던한 감성을 극대화해 주어 거실, 안방, 드레스룸 어디에 두어도 세련된 무드를 연출할 수 있습니다. 
+
+![직관적인 상단 터치 패널](/images/white_dehumidifier_3.png)
+
+상단 조작부는 가볍게 터치만 하면 작동하는 직관적인 터치 패널로 구성되어 있습니다. 풍량 조절(SPEED), 타이머(TIMER)는 물론이고 아이들이나 반려동물이 함부로 누르지 못하도록 하는 '잠금 기능(ION/LOCK)'까지 탑재되어 있어 안전하고 편리하게 사용할 수 있습니다. 중앙의 LED 창을 통해 현재 습도도 한눈에 파악할 수 있죠!
+
+![연속 배수 호스 연결부](/images/white_dehumidifier_4.png)
+
+장마철 물통 비우기 귀찮으시죠? 이 제품은 후면에 **'연속 배수 호스'**를 바로 연결할 수 있는 포트가 마련되어 있습니다. 동봉된 투명 호스를 연결하고 화장실이나 베란다 배수구 쪽으로 빼두기만 하면, 물통이 꽉 차서 멈출 걱정 없이 24시간 내내 뽀송하게 연속 제습이 가능합니다!
+
+![컴팩트한 사이즈와 편리한 이동성](/images/white_dehumidifier_5.png)
+
+마지막으로 사이즈 체감 샷입니다. 대용량 제습 능력을 갖추었음에도 불구하고 부담스럽게 크지 않고 슬림하게 잘 빠졌습니다. 게다가 하단에 부드러운 바퀴가 달려 있어 여성분들도 방에서 방으로 힘들이지 않고 쓱쓱 밀고 다니며 편리하게 사용할 수 있습니다.
+
+성능과 디자인 모두를 만족시키는 완벽한 제습기, 지금 바로 확인해 보세요!
+
+[👉 최저가 구매 링크 바로가기](https://link.coupang.com/a/eEhxFm1NGS)
+
+<div style="display:flex; justify-content:center; margin-top:20px;">
+  <iframe src="https://coupa.ng/cntk2O" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+</div>6:Tb0a,매년 꿉꿉한 장마철마다 눅눅해지는 집안 공기, 인테리어를 해치지 않으면서도 강력한 제습 효과를 원하시나요? 오늘은 성능은 물론이고 세련된 디자인까지 모두 잡은 **'감성 화이트 대용량 제습기'**를 소개해 드립니다!
+
+![화이트 제습기 전면 디자인](/images/white_dehumidifier_2.png)
+
+첫 번째 사진에서 보시듯, 군더더기 없이 깔끔하게 떨어지는 화이트 컬러 바디 전면에는 미세한 도트 패턴이 들어가 있어 밋밋하지 않고 고급스럽습니다. 어떤 공간에 두어도 튀지 않고 인테리어 오브제처럼 자연스럽게 스며드는 매력적인 디자인입니다.
+
+![침실/거실 인테리어 연출컷](/images/white_dehumidifier_2.png)
+
+실제 침실 협탁 옆에 배치한 모습입니다. 그레이 톤의 가구와 매치해도 아주 찰떡이죠? 모던한 감성을 극대화해 주어 거실, 안방, 드레스룸 어디에 두어도 세련된 무드를 연출할 수 있습니다. 
+
+![직관적인 상단 터치 패널](/images/white_dehumidifier_3.png)
+
+상단 조작부는 가볍게 터치만 하면 작동하는 직관적인 터치 패널로 구성되어 있습니다. 풍량 조절(SPEED), 타이머(TIMER)는 물론이고 아이들이나 반려동물이 함부로 누르지 못하도록 하는 '잠금 기능(ION/LOCK)'까지 탑재되어 있어 안전하고 편리하게 사용할 수 있습니다. 중앙의 LED 창을 통해 현재 습도도 한눈에 파악할 수 있죠!
+
+![연속 배수 호스 연결부](/images/white_dehumidifier_4.png)
+
+장마철 물통 비우기 귀찮으시죠? 이 제품은 후면에 **'연속 배수 호스'**를 바로 연결할 수 있는 포트가 마련되어 있습니다. 동봉된 투명 호스를 연결하고 화장실이나 베란다 배수구 쪽으로 빼두기만 하면, 물통이 꽉 차서 멈출 걱정 없이 24시간 내내 뽀송하게 연속 제습이 가능합니다!
+
+![컴팩트한 사이즈와 편리한 이동성](/images/white_dehumidifier_5.png)
+
+마지막으로 사이즈 체감 샷입니다. 대용량 제습 능력을 갖추었음에도 불구하고 부담스럽게 크지 않고 슬림하게 잘 빠졌습니다. 게다가 하단에 부드러운 바퀴가 달려 있어 여성분들도 방에서 방으로 힘들이지 않고 쓱쓱 밀고 다니며 편리하게 사용할 수 있습니다.
+
+성능과 디자인 모두를 만족시키는 완벽한 제습기, 지금 바로 확인해 보세요!
+
+[👉 최저가 구매 링크 바로가기](https://link.coupang.com/a/eEhxFm1NGS)
+
+<div style="display:flex; justify-content:center; margin-top:20px;">
+  <iframe src="https://coupa.ng/cntk2O" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+</div>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰 - 아이템몬스터"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"referrer","content":"no-referrer"}],["$","meta","3",{"name":"google-site-verification","content":"Pj0JXhij0djXGxaeUr0KPAa9roYwxD3Qcwesob3JU2Q"}],["$","meta","4",{"property":"og:title","content":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰"}],["$","meta","5",{"property":"og:description","content":"$6"}],"$L7","$L8","$L9","$La","$Lb","$Lc","$Ld"]}]}]}],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"tNZhIaWs7_cqmIxXkPZBc"}
+7:["$","meta","6",{"property":"og:image","content":"http://localhost:3000/images/white_dehumidifier_2.png"}]
+8:["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}]
+9:["$","meta","8",{"name":"twitter:title","content":"[장마철 뽀송하게] 화이트 톤의 깔끔한 감성! 대용량 제습기 리얼 리뷰"}]
+f:Tb0a,매년 꿉꿉한 장마철마다 눅눅해지는 집안 공기, 인테리어를 해치지 않으면서도 강력한 제습 효과를 원하시나요? 오늘은 성능은 물론이고 세련된 디자인까지 모두 잡은 **'감성 화이트 대용량 제습기'**를 소개해 드립니다!
+
+![화이트 제습기 전면 디자인](/images/white_dehumidifier_2.png)
+
+첫 번째 사진에서 보시듯, 군더더기 없이 깔끔하게 떨어지는 화이트 컬러 바디 전면에는 미세한 도트 패턴이 들어가 있어 밋밋하지 않고 고급스럽습니다. 어떤 공간에 두어도 튀지 않고 인테리어 오브제처럼 자연스럽게 스며드는 매력적인 디자인입니다.
+
+![침실/거실 인테리어 연출컷](/images/white_dehumidifier_2.png)
+
+실제 침실 협탁 옆에 배치한 모습입니다. 그레이 톤의 가구와 매치해도 아주 찰떡이죠? 모던한 감성을 극대화해 주어 거실, 안방, 드레스룸 어디에 두어도 세련된 무드를 연출할 수 있습니다. 
+
+![직관적인 상단 터치 패널](/images/white_dehumidifier_3.png)
+
+상단 조작부는 가볍게 터치만 하면 작동하는 직관적인 터치 패널로 구성되어 있습니다. 풍량 조절(SPEED), 타이머(TIMER)는 물론이고 아이들이나 반려동물이 함부로 누르지 못하도록 하는 '잠금 기능(ION/LOCK)'까지 탑재되어 있어 안전하고 편리하게 사용할 수 있습니다. 중앙의 LED 창을 통해 현재 습도도 한눈에 파악할 수 있죠!
+
+![연속 배수 호스 연결부](/images/white_dehumidifier_4.png)
+
+장마철 물통 비우기 귀찮으시죠? 이 제품은 후면에 **'연속 배수 호스'**를 바로 연결할 수 있는 포트가 마련되어 있습니다. 동봉된 투명 호스를 연결하고 화장실이나 베란다 배수구 쪽으로 빼두기만 하면, 물통이 꽉 차서 멈출 걱정 없이 24시간 내내 뽀송하게 연속 제습이 가능합니다!
+
+![컴팩트한 사이즈와 편리한 이동성](/images/white_dehumidifier_5.png)
+
+마지막으로 사이즈 체감 샷입니다. 대용량 제습 능력을 갖추었음에도 불구하고 부담스럽게 크지 않고 슬림하게 잘 빠졌습니다. 게다가 하단에 부드러운 바퀴가 달려 있어 여성분들도 방에서 방으로 힘들이지 않고 쓱쓱 밀고 다니며 편리하게 사용할 수 있습니다.
+
+성능과 디자인 모두를 만족시키는 완벽한 제습기, 지금 바로 확인해 보세요!
+
+[👉 최저가 구매 링크 바로가기](https://link.coupang.com/a/eEhxFm1NGS)
+
+<div style="display:flex; justify-content:center; margin-top:20px;">
+  <iframe src="https://coupa.ng/cntk2O" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
+</div>a:["$","meta","9",{"name":"twitter:description","content":"$f"}]
+b:["$","meta","10",{"name":"twitter:image","content":"http://localhost:3000/images/white_dehumidifier_2.png"}]
+c:["$","link","11",{"rel":"icon","href":"/icon.png?icon.3mra1v-albadv.png","sizes":"1024x1024","type":"image/png"}]
+d:["$","$L10","12",{}]
+e:["$","meta",null,{"name":"next-size-adjust","content":""}]
