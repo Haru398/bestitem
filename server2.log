@@ -1,0 +1,8 @@
+AI Worker Server running on port 3334
+(node:1232) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Mock AI JSON] API Key 없음. 가짜 응답 반환.
+[Mock AI JSON] API Key 없음. 가짜 응답 반환.
+[Mock AI JSON] API Key 없음. 가짜 응답 반환.
+[Mock AI JSON] API Key 없음. 가짜 응답 반환.
+[Mock AI Text] API Key 없음. 가짜 응답 반환.

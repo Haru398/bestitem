@@ -1,0 +1,116 @@
+/**
+ * item.monster 자동화 서버
+ * n8n이 Execute Command 대신 이 서버의 API를 HTTP 요청으로 호출합니다.
+ * 
+ * 실행: node automation_server.js
+ * 포트: 3333
+ */
+
+const http = require('http');
+const { execSync } = require('child_process');
+const path = require('path');
+const fs = require('fs');
+
+const PORT = 3333;
+const BASE = 'D:\\서버구축폴더\\bestitem';
+
+const server = http.createServer((req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    res.writeHead(200);
+    res.end();
+    return;
+  }
+
+  // ─── GET /health ───────────────────────────────────────────────
+  if (req.url === '/health') {
+    res.writeHead(200);
+    res.end(JSON.stringify({ status: 'ok', time: new Date().toISOString() }));
+    return;
+  }
+
+  // ─── POST 요청만 허용 ──────────────────────────────────────────
+  if (req.method !== 'POST') {
+    res.writeHead(405);
+    res.end(JSON.stringify({ error: 'Method not allowed' }));
+    return;
+  }
+
+  let body = '';
+  req.on('data', chunk => { body += chunk.toString(); });
+  req.on('end', () => {
+    let data = {};
+    try { data = JSON.parse(body || '{}'); } catch (e) {}
+
+    // ─── POST /insert ─── 이미지 저장 + DB 삽입 ─────────────────
+    if (req.url === '/insert') {
+      console.log('\n🔄 [INSERT] 시작...');
+      console.log('   상품:', data.title || '(제목 없음)');
+      try {
+        const env = { ...process.env, POST_DATA: JSON.stringify(data) };
+        const output = execSync('node insert_auto.js', {
+          cwd: BASE,
+          env,
+          encoding: 'utf8',
+          timeout: 60000
+        });
+        console.log('✅ [INSERT] 완료');
+        res.writeHead(200);
+        res.end(JSON.stringify({ success: true, output }));
+      } catch (e) {
+        console.error('❌ [INSERT] 오류:', e.message);
+        res.writeHead(500);
+        res.end(JSON.stringify({ success: false, error: e.message, stderr: e.stderr }));
+      }
+      return;
+    }
+
+    // ─── POST /deploy ─── GitHub 정식 배포 ──────────────────────
+    if (req.url === '/deploy') {
+      console.log('\n🚀 [DEPLOY] 시작...');
+      try {
+        const output = execSync('node auto_deploy.js', {
+          cwd: BASE,
+          encoding: 'utf8',
+          timeout: 120000
+        });
+        console.log('✅ [DEPLOY] 완료');
+        res.writeHead(200);
+        res.end(JSON.stringify({ success: true, output }));
+      } catch (e) {
+        console.error('❌ [DEPLOY] 오류:', e.message);
+        res.writeHead(500);
+        res.end(JSON.stringify({ success: false, error: e.message }));
+      }
+      return;
+    }
+
+    res.writeHead(404);
+    res.end(JSON.stringify({ error: 'Not found' }));
+  });
+
+  req.on('error', (e) => {
+    res.writeHead(500);
+    res.end(JSON.stringify({ error: e.message }));
+  });
+});
+
+server.listen(PORT, '127.0.0.1', () => {
+  console.log('');
+  console.log('╔══════════════════════════════════════════════════╗');
+  console.log('║     item.monster 자동화 서버 실행 중!            ║');
+  console.log('╠══════════════════════════════════════════════════╣');
+  console.log(`║  주소: http://localhost:${PORT}                      ║`);
+  console.log('║                                                  ║');
+  console.log('║  POST /insert  → DB 저장 + 이미지 다운로드      ║');
+  console.log('║  POST /deploy  → GitHub 정식 배포                ║');
+  console.log('║  GET  /health  → 서버 상태 확인                  ║');
+  console.log('║                                                  ║');
+  console.log('║  ⚠️ 이 창 닫으면 자동화가 멈춥니다!             ║');
+  console.log('╚══════════════════════════════════════════════════╝');
+  console.log('');
+});

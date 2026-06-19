@@ -9,8 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.8.0",
     "@prisma/client": "^7.8.0",
+    "axios": "^1.18.0",
     "better-sqlite3": "^12.10.1",
+    "image-size": "^2.0.2",
     "jimp": "^1.6.1",
     "marked": "^18.0.5",
     "next": "16.2.9",
@@ -22,6 +25,7 @@
     "react-dom": "19.2.4",
     "recharts": "^3.8.1",
     "sharp": "^0.35.1",
+    "tesseract.js": "^7.0.0",
     "uuid": "^14.0.0"
   },
   "devDependencies": {

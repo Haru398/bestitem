@@ -1,21 +1,120 @@
+// ============================================================
+// ITEM.MONSTER V2 - Prisma Schema
+// 6개 테이블: Post / PostSection / PostVersion /
+//             TelegramState / UserSession / PostLock
+// ============================================================
+
 datasource db {
   provider = "sqlite"
-
 }
 
 generator client {
   provider = "prisma-client-js"
 }
 
+// ─────────────────────────────────────────────────────────────
+// 1. Post - 핵심 게시글 테이블
+// ─────────────────────────────────────────────────────────────
 model Post {
-  id            String   @id @default(cuid())
-  category      String
-  subCategory   String?
-  title         String
-  content       String
-  price         String?
-  imageUrl      String
-  coupangIframe String?
-  views         Int      @default(0)
-  createdAt     DateTime @default(now())
+  postId           String   @id                  // POST-001 형식
+  status           String   @default("WAIT")     // 11단계 상태값
+  version          Int      @default(1)
+  category         String   @default("")
+  title            String   @default("")
+  summary          String   @default("")
+  thumbnail        String   @default("")
+  intro            String   @default("")
+  outro            String   @default("")
+  coupangLink      String   @default("")
+  coupangHtml      String   @default("")
+  errorInfo        String   @default("")         // ERROR 상태 시 오류 내용
+  lastFailedStatus String   @default("")         // ERROR 재시도 시 복귀할 상태
+  views            Int      @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  sections PostSection[]
+  versions PostVersion[]
+  lock     PostLock?
+
+  @@map("posts_v2")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 2. PostSection - 섹션 분리 테이블 (section당 1행)
+//    section3 수정 시 해당 행만 UPDATE
+// ─────────────────────────────────────────────────────────────
+model PostSection {
+  id           Int      @id @default(autoincrement())
+  postId       String
+  sectionOrder Int                               // 1~5 (순서)
+  image        String   @default("")             // /images/파일명
+  imageAlt     String   @default("")
+  text         String   @default("")
+  qualityScore Int      @default(0)              // 이미지 품질 점수 0~100
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  post Post @relation(fields: [postId], references: [postId], onDelete: Cascade)
+
+  @@unique([postId, sectionOrder])
+  @@map("post_sections")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 3. PostVersion - 버전 히스토리 (스냅샷 저장)
+// ─────────────────────────────────────────────────────────────
+model PostVersion {
+  id         Int      @id @default(autoincrement())
+  postId     String
+  version    Int
+  snapshot   String                              // Post + Sections 전체 JSON
+  changeNote String   @default("")               // "v2 제목수정" / "v5 v3으로 복구"
+
+  createdAt DateTime @default(now())
+
+  post Post @relation(fields: [postId], references: [postId], onDelete: Cascade)
+
+  @@map("post_versions")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 4. TelegramState - 텔레그램 중복 처리 방지
+//    n8n 재시작 후에도 lastProcessedUpdateId 유지
+// ─────────────────────────────────────────────────────────────
+model TelegramState {
+  id                    Int      @id @default(1)
+  lastProcessedUpdateId Int      @default(0)
+  updatedAt             DateTime @updatedAt
+
+  @@map("telegram_state")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 5. UserSession - 작업 세션 추적 (다중 사용자 지원)
+//    userId = telegram chat_id 기준
+// ─────────────────────────────────────────────────────────────
+model UserSession {
+  userId           String   @id                  // telegram chat_id
+  currentPostId    String   @default("")          // 현재 작업 중인 postId
+  lastViewedPostId String   @default("")          // 마지막 미리보기 postId
+  status           String   @default("idle")     // idle/creating/reviewing/editing/approved
+  updatedAt        DateTime @updatedAt
+
+  @@map("user_sessions")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 6. PostLock - 동시 수정 충돌 방지
+//    수정 시작 시 Lock 획득, 완료 또는 오류 시 해제
+// ─────────────────────────────────────────────────────────────
+model PostLock {
+  postId   String   @id
+  lockedBy String                                // userId
+  lockedAt DateTime @default(now())
+
+  post Post @relation(fields: [postId], references: [postId], onDelete: Cascade)
+
+  @@map("post_locks")
 }
