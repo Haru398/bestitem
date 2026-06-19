@@ -5,8 +5,9 @@ import db from "../lib/db";
 import Link from "next/link";
 
 export default function Home() {
-  const rawPosts = db.prepare('SELECT * FROM posts_v2 ORDER BY createdAt DESC').all() as any[];
-  const posts = rawPosts.map(p => ({
+  const oldPosts = db.prepare('SELECT * FROM posts ORDER BY createdAt DESC').all() as any[];
+  const rawPostsV2 = db.prepare('SELECT * FROM posts_v2 ORDER BY createdAt DESC').all() as any[];
+  const mappedV2 = rawPostsV2.map(p => ({
     id: p.postId,
     category: p.category || '생활용품',
     title: p.title,
@@ -14,6 +15,7 @@ export default function Home() {
     imageUrl: p.thumbnail || '',
     views: 0
   }));
+  const posts = [...mappedV2, ...oldPosts];
 
   return (
     <div className={styles.container}>
