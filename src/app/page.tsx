@@ -5,7 +5,7 @@ import db from "../lib/db";
 import Link from "next/link";
 
 export default function Home() {
-  const posts = db.prepare('SELECT * FROM posts ORDER BY createdAt DESC').all() as any[];
+  const posts = db.prepare('SELECT * FROM posts_v2 ORDER BY createdAt DESC').all() as any[];
 
   return (
     <div className={styles.container}>
