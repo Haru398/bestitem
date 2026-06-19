@@ -4,5 +4,9 @@
 :HL["/_next/static/chunks/35b2d8b7eb75s.css","style"]
 :HL["/icon.png","image"]
 :HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
+:HL["/images/umbrella_2.png","image"]
+:HL["/images/umbrella_3.png","image"]
+:HL["/images/umbrella_4.png","image"]
+:HL["/images/umbrella_5.png","image"]
 :HL["/images/umbrella_1.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-umbrella-1","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"vN_qYTLcRj_mAONUrDEgF"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-umbrella-1","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"IWpwdKuQDT_ERt6wG9kqy"}

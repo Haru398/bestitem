@@ -49,6 +49,9 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
   const secStmt = db.prepare('SELECT * FROM post_sections WHERE postId = ? ORDER BY sectionOrder ASC');
   const sections = secStmt.all(resolvedParams.id) as any[];
 
+  // V1 레거시 포스트 판단 (intro, outro가 없고 텍스트가 없는 경우)
+  const isV1Post = !post.intro && !post.outro && sections.every((s: any) => !s.text);
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -83,6 +86,11 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
         </div>
 
         <div className={styles.content}>
+          {/* V1 레거시 데이터 호환성: V1 포스트인 경우 summary(이전 content)를 전체 텍스트로 렌더링 */}
+          {isV1Post && post.summary && (
+            <div dangerouslySetInnerHTML={{ __html: marked.parse(post.summary) }} className={styles.markdownContent} />
+          )}
+
           {/* 도입부 */}
           {post.intro && (
             <div dangerouslySetInnerHTML={{ __html: marked.parse(post.intro) }} className={styles.markdownContent} />
