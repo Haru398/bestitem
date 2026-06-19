@@ -5,7 +5,15 @@ import db from "../lib/db";
 import Link from "next/link";
 
 export default function Home() {
-  const posts = db.prepare('SELECT * FROM posts_v2 ORDER BY createdAt DESC').all() as any[];
+  const rawPosts = db.prepare('SELECT * FROM posts_v2 ORDER BY createdAt DESC').all() as any[];
+  const posts = rawPosts.map(p => ({
+    id: p.postId,
+    category: p.category || '생활용품',
+    title: p.title,
+    content: p.summary || '',
+    imageUrl: p.thumbnail || '',
+    views: 0
+  }));
 
   return (
     <div className={styles.container}>
