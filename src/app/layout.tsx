@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "광고에 속지 마세요! 가전, 생활용품, 다이어트 식품 등 에디터가 직접 선별한 진짜 베스트 아이템과 실시간 쿠팡 특가 정보를 제공합니다.",
   referrer: "no-referrer",
   verification: {
-    google: "Pj0JXhij0djXGxaeUr0KPAa9roYwxD3Qcwesob3JU2Q",
+    google: "-QNGr2v5OMVwT2AUFGIdfWLpyzSVLmBdxO-tYAtkebw",
   },
 };
 
