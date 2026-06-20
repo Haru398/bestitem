@@ -137,7 +137,7 @@ for (const sec of sections) {
   insertSec.run({
     postId: POST_ID,
     sectionOrder: sec.order,
-    image: sec.img ? `/images/mosquito_swatter/${sec.img}` : null,
+    image: sec.img ? `/images/mosquito_swatter/${sec.img}` : '',
     text: sec.text,
     now: new Date().toISOString()
   });
