@@ -47,8 +47,8 @@ const postData = {
 다우니 초고농축 호텔 컬렉션 미스티크는 단순한 세탁 보조제를 넘어 일상에 프리미엄 향기를 더해주는 라이프스타일 아이템입니다. 초고농축의 경제성, 호텔 감성의 럭셔리한 미스티크 향, 그리고 옷감을 보호하는 강력한 유연 효과까지 삼박자를 고루 갖춘 제품입니다. 매일 피부에 닿는 수건이나 침구류부터 외출복까지 폭넓게 활용할 수 있으며, 특히 실내 건조가 잦은 1인 가구나 대가족 모두에게 높은 만족도를 선사할 것입니다. 향기로운 일상을 원하신다면 지금 바로 확인해 보세요.`,
   coupangLink: 'https://link.coupang.com/a/eI7RtU0wFg',
   coupangHtml: `<iframe src="https://coupa.ng/cnw2ch" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>`,
-  errorInfo: null,
-  lastFailedStatus: null,
+  errorInfo: '',
+  lastFailedStatus: '',
   views: 0,
   createdAt: new Date().toISOString(),
   updatedAt: new Date().toISOString()
