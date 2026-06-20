@@ -1,14 +1,17 @@
 import { MetadataRoute } from 'next';
-import posts from './data.json';
+import db from '../lib/db';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://item.monster';
 
+  const stmt = db.prepare("SELECT postId, createdAt FROM posts_v2");
+  const posts = stmt.all() as { postId: string, createdAt: string }[];
+
   const postUrls = posts.map((post) => ({
-    url: `${baseUrl}/post/${post.id}`,
-    lastModified: new Date(),
+    url: `${baseUrl}/post/${post.postId}`,
+    lastModified: new Date(post.createdAt || Date.now()),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
