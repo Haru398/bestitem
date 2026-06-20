@@ -5,11 +5,11 @@ const xlsx = require('D:\\\\서버구축폴더\\\\scratch\\\\node_modules\\\\xls
 const { execSync } = require('child_process');
 
 // 설정
-const WORKSPACE = 'D:\\\\서버구축폴더\\\\bestitem';
-const EXCEL_PATH = 'D:\\\\쿠팡파트너스엑셀작업목록\\\\쿠팡파트너스_작업목록_템플릿.xlsx';
+const WORKSPACE = 'D:/서버구축폴더/bestitem';
+const EXCEL_PATH = 'D:/쿠팡파트너스엑셀작업목록/쿠팡파트너스_작업목록_템플릿.xlsx';
 const SOURCE_DIR_NAME = '다우니 초고농축 호텔 컬렉션 섬유유연제 미스티크 본품, 1.05L, 3개';
-const SOURCE_DIR = path.join('D:\\\\정식홈페이지자동화', SOURCE_DIR_NAME);
-const BACKUP_DIR = path.join('D:\\\\정식서버업로드전용폴더', SOURCE_DIR_NAME);
+const SOURCE_DIR = path.join('D:/정식홈페이지자동화', SOURCE_DIR_NAME);
+const BACKUP_DIR = path.join('D:/정식서버업로드전용폴더', SOURCE_DIR_NAME);
 const PUBLIC_IMG_DIR = path.join(WORKSPACE, 'public', 'images', 'downy_mystique');
 const POST_ID = 'item-downy-mystique-1';
 
