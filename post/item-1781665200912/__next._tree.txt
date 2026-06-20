@@ -5,4 +5,4 @@
 :HL["/icon.png","image"]
 :HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
 :HL["/images/fan_1.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-1781665200912","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"yP16e3GAqoN3TAB7fzZfX"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-1781665200912","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"K9Oy_k_dV0BUJ7dIm7hwk"}
