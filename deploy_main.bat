@@ -14,6 +14,10 @@ if %errorlevel% neq 0 (
   exit /b 1
 )
 
+echo [2.5/4] D드라이브 정식서버업로드전용폴더에 게시글 백업 추출...
+call node backup_all_posts.js
+
+
 echo [3/4] main 브랜치로 이동 후 out 내용 교체...
 git checkout main
 
