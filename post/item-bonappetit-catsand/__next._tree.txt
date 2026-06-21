@@ -9,4 +9,4 @@
 :HL["/images/item-bonappetit-catsand_2_1782002502907.png","image"]
 :HL["/images/item-bonappetit-catsand_3_1782002502908.png","image"]
 :HL["/images/item-bonappetit-catsand_thumb1782002502906.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-bonappetit-catsand","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Cx7rIYW8vtCGowTjdeSLu"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-bonappetit-catsand","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"yy8sef_Mcy1AEnzYkPY3W"}

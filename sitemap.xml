@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-21T00:41:49.199Z</lastmod>
+<lastmod>2026-06-21T04:26:02.786Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -201,6 +201,18 @@
 <url>
 <loc>https://item.monster/post/item-ciao-churu-gourmet</loc>
 <lastmod>2026-06-20T15:41:42.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-hera-cleansing-foam</loc>
+<lastmod>2026-06-20T19:25:52.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-haru-nuts-origins</loc>
+<lastmod>2026-06-20T19:25:52.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
