@@ -118,34 +118,33 @@ for (const product of products) {
   }
 
   const stmtPost = db.prepare(`
-    INSERT INTO posts_v2 (postId, title, category, subCategory, summary, thumbnail, coupangLink, coupangHtml)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO posts_v2 (postId, title, category, summary, thumbnail, coupangLink, coupangHtml, createdAt, updatedAt)
+    VALUES (?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
   `);
   
   stmtPost.run(
     product.id,
     product.title,
     product.category,
-    '',
     product.summary,
     thumbnailUrl,
     product.link,
     product.iframe
   );
   
-  const stmtIntro = db.prepare('INSERT INTO post_sections (postId, sectionType, sectionOrder, text) VALUES (?, ?, ?, ?)');
-  stmtIntro.run(product.id, 'intro', 0, product.intro);
+  const stmtIntro = db.prepare('INSERT INTO post_sections (postId, sectionOrder, text, createdAt, updatedAt) VALUES (?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
+  stmtIntro.run(product.id, 0, product.intro);
   
   let order = 1;
-  const stmtSec = db.prepare('INSERT INTO post_sections (postId, sectionType, sectionOrder, image, text) VALUES (?, ?, ?, ?, ?)');
+  const stmtSec = db.prepare('INSERT INTO post_sections (postId, sectionOrder, image, text, createdAt, updatedAt) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
   for (const sec of product.sections) {
     if (sec.imagePath) {
-      stmtSec.run(product.id, 'content', order++, sec.imagePath, sec.text);
+      stmtSec.run(product.id, order++, sec.imagePath, sec.text);
     }
   }
   
-  const stmtOutro = db.prepare('INSERT INTO post_sections (postId, sectionType, sectionOrder, text) VALUES (?, ?, ?, ?)');
-  stmtOutro.run(product.id, 'outro', order++, product.outro);
+  const stmtOutro = db.prepare('INSERT INTO post_sections (postId, sectionOrder, text, createdAt, updatedAt) VALUES (?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
+  stmtOutro.run(product.id, order++, product.outro);
   
   if (!fs.existsSync(product.backupDir)) {
     fs.mkdirSync(product.backupDir, { recursive: true });
