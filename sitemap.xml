@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-22T21:45:48.854Z</lastmod>
+<lastmod>2026-06-22T22:01:19.861Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -303,6 +303,12 @@
 <url>
 <loc>https://item.monster/post/item-dyson-v8-fluffy</loc>
 <lastmod>2026-06-22T12:45:42.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-drato-cooling-sun-spray</loc>
+<lastmod>2026-06-22T13:01:13.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
