@@ -9,4 +9,4 @@
 :HL["/images/item-dahyang-smoked-duck_2_1782158434863.jpg","image"]
 :HL["/images/item-dahyang-smoked-duck_3_1782158434865.jpg","image"]
 :HL["/images/item-dahyang-smoked-duck_thumb1782158434855.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-dahyang-smoked-duck","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"TdeCm9p2uGjB060PWiZE2"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-dahyang-smoked-duck","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"zDfoGK8iU7dIK_gycEpOz"}
