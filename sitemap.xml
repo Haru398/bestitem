@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-22T21:11:59.595Z</lastmod>
+<lastmod>2026-06-22T21:10:29.525Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -285,12 +285,6 @@
 <url>
 <loc>https://item.monster/post/item-seoulmilk-greek-yogurt</loc>
 <lastmod>2026-06-22T12:10:22.000Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://item.monster/post/item-domestic-iceberg-lettuce</loc>
-<lastmod>2026-06-22T12:11:53.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
