@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-22T13:57:22.093Z</lastmod>
+<lastmod>2026-06-22T14:01:14.680Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -225,6 +225,12 @@
 <url>
 <loc>https://item.monster/post/item-coupangbasic-toiletpaper</loc>
 <lastmod>2026-06-22T04:46:28.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-maeil-soymilk-highprotein</loc>
+<lastmod>2026-06-22T05:01:08.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
