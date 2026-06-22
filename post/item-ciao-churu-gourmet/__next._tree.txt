@@ -9,4 +9,4 @@
 :HL["/images/item-ciao-churu-gourmet_2_1782002502928.png","image"]
 :HL["/images/item-ciao-churu-gourmet_3_1782002502928.png","image"]
 :HL["/images/item-ciao-churu-gourmet_thumb1782002502926.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-ciao-churu-gourmet","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"8Kq7J1xPHP-0TWvdoz2qR"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-ciao-churu-gourmet","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"if9j6O9n0gOKv-FbY_DM9"}
