@@ -5,4 +5,4 @@
 :HL["/icon.png","image"]
 :HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
 :HL["/images/white_dehumidifier_2.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-1781671373729","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"X1whDFU6JVUkQqdHcP8S7"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-1781671373729","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"KJa6a1nzKXMevMDxTTSkh"}
