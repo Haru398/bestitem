@@ -8,4 +8,4 @@
 :HL["/images/item-dyson-digital-slim_1_1782164510444.png","image"]
 :HL["/images/item-dyson-digital-slim_2_1782164510445.png","image"]
 :HL["/images/item-dyson-digital-slim_thumb1782164510440.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-dyson-digital-slim","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Niwo_e2IWJVdQsZr2nNmB"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-dyson-digital-slim","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"TdeCm9p2uGjB060PWiZE2"}
