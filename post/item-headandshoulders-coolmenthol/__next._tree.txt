@@ -1,0 +1,13 @@
+:HL["/_next/static/chunks/0jtlt-2m_-h60.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/35b2d8b7eb75s.css","style"]
+:HL["/icon.png","image"]
+:HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
+:HL["/images/item-headandshoulders-coolmenthol_0_1782138335868.jpg","image"]
+:HL["/images/item-headandshoulders-coolmenthol_1_1782138335869.jpg","image"]
+:HL["/images/item-headandshoulders-coolmenthol_2_1782138335871.jpg","image"]
+:HL["/images/item-headandshoulders-coolmenthol_3_1782138335872.jpg","image"]
+:HL["/images/item-headandshoulders-coolmenthol_4_1782138335874.jpg","image"]
+:HL["/images/item-headandshoulders-coolmenthol_thumb1782138335865.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-headandshoulders-coolmenthol","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"m3SxvDe3iTzun20PpojEl"}
