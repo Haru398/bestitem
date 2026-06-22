@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   referrer: "no-referrer",
   verification: {
     google: "-QNGr2v5OMVwT2AUFGIdfWLpyzSVLmBdxO-tYAtkebw",
+    other: {
+      "naver-site-verification": "e8c86e95433d2791ada1d1475101e508e62e1743",
+    },
   },
 };
 

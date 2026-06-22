@@ -2,7 +2,7 @@
 2:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
 3:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
 4:"$Sreact.suspense"
-d:I[27201,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+e:I[27201,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
 5:T96f,무더운 여름, 에어컨만으로는 부족하시죠? 구석구석 시원한 바람을 전달해 줄 기본기 탄탄한 **'14인치 화이트 스탠드형 선풍기'**를 소개합니다.
 
 ![선풍기 전체 디자인](/images/fan_1.png)
@@ -55,8 +55,9 @@ d:I[27201,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-
 
 <div style="display:flex; justify-content:center; margin-top:20px;">
   <iframe src="https://coupa.ng/cntcTB" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
-</div>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"[올여름 필수템] 기본에 충실한 초강력 시원함! 14인치 스탠드형 선풍기 완벽 리뷰 - 아이템몬스터"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"referrer","content":"no-referrer"}],["$","meta","3",{"name":"google-site-verification","content":"-QNGr2v5OMVwT2AUFGIdfWLpyzSVLmBdxO-tYAtkebw"}],["$","meta","4",{"property":"og:title","content":"[올여름 필수템] 기본에 충실한 초강력 시원함! 14인치 스탠드형 선풍기 완벽 리뷰"}],["$","meta","5",{"property":"og:description","content":"$6"}],["$","meta","6",{"property":"og:image","content":"http://localhost:3000/images/fan_1.png"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"[올여름 필수템] 기본에 충실한 초강력 시원함! 14인치 스탠드형 선풍기 완벽 리뷰"}],"$L7","$L8","$L9","$La"]}]}]}],"$Lb"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wpo_oVBhgK5D4mVAL3PLx"}
-c:T96f,무더운 여름, 에어컨만으로는 부족하시죠? 구석구석 시원한 바람을 전달해 줄 기본기 탄탄한 **'14인치 화이트 스탠드형 선풍기'**를 소개합니다.
+</div>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"[올여름 필수템] 기본에 충실한 초강력 시원함! 14인치 스탠드형 선풍기 완벽 리뷰 - 아이템몬스터"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"referrer","content":"no-referrer"}],["$","meta","3",{"name":"google-site-verification","content":"-QNGr2v5OMVwT2AUFGIdfWLpyzSVLmBdxO-tYAtkebw"}],["$","meta","4",{"name":"naver-site-verification","content":"e8c86e95433d2791ada1d1475101e508e62e1743"}],["$","meta","5",{"property":"og:title","content":"[올여름 필수템] 기본에 충실한 초강력 시원함! 14인치 스탠드형 선풍기 완벽 리뷰"}],["$","meta","6",{"property":"og:description","content":"$6"}],["$","meta","7",{"property":"og:image","content":"http://localhost:3000/images/fan_1.png"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],"$L7","$L8","$L9","$La","$Lb"]}]}]}],"$Lc"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dHYqfRa4ntc5FcN0vhaKW"}
+7:["$","meta","9",{"name":"twitter:title","content":"[올여름 필수템] 기본에 충실한 초강력 시원함! 14인치 스탠드형 선풍기 완벽 리뷰"}]
+d:T96f,무더운 여름, 에어컨만으로는 부족하시죠? 구석구석 시원한 바람을 전달해 줄 기본기 탄탄한 **'14인치 화이트 스탠드형 선풍기'**를 소개합니다.
 
 ![선풍기 전체 디자인](/images/fan_1.png)
 
@@ -82,8 +83,8 @@ c:T96f,무더운 여름, 에어컨만으로는 부족하시죠? 구석구석 시
 
 <div style="display:flex; justify-content:center; margin-top:20px;">
   <iframe src="https://coupa.ng/cntcTB" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
-</div>7:["$","meta","9",{"name":"twitter:description","content":"$c"}]
-8:["$","meta","10",{"name":"twitter:image","content":"http://localhost:3000/images/fan_1.png"}]
-9:["$","link","11",{"rel":"icon","href":"/icon.png?icon.3mra1v-albadv.png","sizes":"1024x1024","type":"image/png"}]
-a:["$","$Ld","12",{}]
-b:["$","meta",null,{"name":"next-size-adjust","content":""}]
+</div>8:["$","meta","10",{"name":"twitter:description","content":"$d"}]
+9:["$","meta","11",{"name":"twitter:image","content":"http://localhost:3000/images/fan_1.png"}]
+a:["$","link","12",{"rel":"icon","href":"/icon.png?icon.3mra1v-albadv.png","sizes":"1024x1024","type":"image/png"}]
+b:["$","$Le","13",{}]
+c:["$","meta",null,{"name":"next-size-adjust","content":""}]

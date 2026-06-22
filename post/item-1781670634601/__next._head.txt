@@ -61,10 +61,10 @@
 
 <div style="display:flex; justify-content:center; margin-top:20px;">
   <iframe src="https://coupa.ng/cntjAE" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
-</div>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰 - 아이템몬스터"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"referrer","content":"no-referrer"}],["$","meta","3",{"name":"google-site-verification","content":"-QNGr2v5OMVwT2AUFGIdfWLpyzSVLmBdxO-tYAtkebw"}],["$","meta","4",{"property":"og:title","content":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰"}],["$","meta","5",{"property":"og:description","content":"$6"}],"$L7","$L8","$L9","$La","$Lb","$Lc","$Ld"]}]}]}],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Wpo_oVBhgK5D4mVAL3PLx"}
-7:["$","meta","6",{"property":"og:image","content":"http://localhost:3000/images/vest_1.png"}]
-8:["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}]
-9:["$","meta","8",{"name":"twitter:title","content":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰"}]
+</div>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰 - 아이템몬스터"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"referrer","content":"no-referrer"}],["$","meta","3",{"name":"google-site-verification","content":"-QNGr2v5OMVwT2AUFGIdfWLpyzSVLmBdxO-tYAtkebw"}],["$","meta","4",{"name":"naver-site-verification","content":"e8c86e95433d2791ada1d1475101e508e62e1743"}],["$","meta","5",{"property":"og:title","content":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰"}],["$","meta","6",{"property":"og:description","content":"$6"}],"$L7","$L8","$L9","$La","$Lb","$Lc","$Ld"]}]}]}],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dHYqfRa4ntc5FcN0vhaKW"}
+7:["$","meta","7",{"property":"og:image","content":"http://localhost:3000/images/vest_1.png"}]
+8:["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}]
+9:["$","meta","9",{"name":"twitter:title","content":"[폭염 완벽 대비] 입는 에어컨! 4팬 장착 쿨링 냉각 작업복 조끼 리얼 리뷰"}]
 f:Tb9f,매년 갱신되는 역대급 폭염! 야외에서 일하시거나 땀을 많이 흘리시는 분들께 한여름은 그야말로 지옥이죠. 그래서 오늘은 뙤약볕 아래에서도 냉장고 안에 있는 듯한 시원함을 선사할 궁극의 생존템, **'4팬 냉각 에어컨 작업복 조끼'**를 소개해 드립니다!
 
 ![남녀 공용 착용샷 및 전체 구성품](/images/vest_1.png)
@@ -94,8 +94,8 @@ f:Tb9f,매년 갱신되는 역대급 폭염! 야외에서 일하시거나 땀을
 
 <div style="display:flex; justify-content:center; margin-top:20px;">
   <iframe src="https://coupa.ng/cntjAE" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
-</div>a:["$","meta","9",{"name":"twitter:description","content":"$f"}]
-b:["$","meta","10",{"name":"twitter:image","content":"http://localhost:3000/images/vest_1.png"}]
-c:["$","link","11",{"rel":"icon","href":"/icon.png?icon.3mra1v-albadv.png","sizes":"1024x1024","type":"image/png"}]
-d:["$","$L10","12",{}]
+</div>a:["$","meta","10",{"name":"twitter:description","content":"$f"}]
+b:["$","meta","11",{"name":"twitter:image","content":"http://localhost:3000/images/vest_1.png"}]
+c:["$","link","12",{"rel":"icon","href":"/icon.png?icon.3mra1v-albadv.png","sizes":"1024x1024","type":"image/png"}]
+d:["$","$L10","13",{}]
 e:["$","meta",null,{"name":"next-size-adjust","content":""}]
