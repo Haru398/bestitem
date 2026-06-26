@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-26T23:09:24.320Z</lastmod>
+<lastmod>2026-06-26T23:21:25.900Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -495,6 +495,12 @@
 <url>
 <loc>https://item.monster/post/item-mocha-cnt-gold-mild</loc>
 <lastmod>2026-06-26T14:09:17.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-amd-ryzen-5600</loc>
+<lastmod>2026-06-26T14:21:19.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>

@@ -9,4 +9,4 @@
 :HL["/images/item-samyang-carbo-buldak_2_1782161111067.png","image"]
 :HL["/images/item-samyang-carbo-buldak_3_1782161111069.png","image"]
 :HL["/images/item-samyang-carbo-buldak_thumb1782161111062.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-samyang-carbo-buldak","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Ky6en8woZoklye3aiR0L2"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-samyang-carbo-buldak","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"P-RtfnvglgdU4Vu0PqURo"}
