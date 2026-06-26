@@ -9,4 +9,4 @@
 :HL["/images/item-nongshim-yukgaejang_2_1782161019005.jpg","image"]
 :HL["/images/item-nongshim-yukgaejang_3_1782161019007.jpg","image"]
 :HL["/images/item-nongshim-yukgaejang_thumb1782161018999.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nongshim-yukgaejang","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"evbkaG3n0kERUtlS_Hj-5"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nongshim-yukgaejang","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Fws87U4K1gmhl2xEt8zwK"}

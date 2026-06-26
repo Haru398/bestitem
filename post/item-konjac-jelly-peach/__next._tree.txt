@@ -11,4 +11,4 @@
 :HL["/images/konjac_jelly/5.png","image"]
 :HL["/images/konjac_jelly/6.png","image"]
 :HL["/images/konjac_jelly/썸네일.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-konjac-jelly-peach","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"evbkaG3n0kERUtlS_Hj-5"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-konjac-jelly-peach","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Fws87U4K1gmhl2xEt8zwK"}
