@@ -8,4 +8,4 @@
 :HL["/images/item-domestic-iceberg-lettuce_1_1782162713122.jpg","image"]
 :HL["/images/item-domestic-iceberg-lettuce_2_1782162713123.png","image"]
 :HL["/images/item-domestic-iceberg-lettuce_thumb1782162713118.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-iceberg-lettuce","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GVwrmQ-lqZyD5pMwE-T58"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-iceberg-lettuce","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CMExwqDFxiDNKxq5rSW96"}

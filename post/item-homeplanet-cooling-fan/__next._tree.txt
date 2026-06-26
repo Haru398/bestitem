@@ -9,4 +9,4 @@
 :HL["/images/item-homeplanet-cooling-fan_2_1782470214865.jpg","image"]
 :HL["/images/item-homeplanet-cooling-fan_3_1782470214866.jpg","image"]
 :HL["/images/item-homeplanet-cooling-fan_thumb1782470214860.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-homeplanet-cooling-fan","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GVwrmQ-lqZyD5pMwE-T58"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-homeplanet-cooling-fan","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CMExwqDFxiDNKxq5rSW96"}
