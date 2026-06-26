@@ -9,4 +9,4 @@
 :HL["/images/item-kleenex-deco-soft_2_1782512567079.jpg","image"]
 :HL["/images/item-kleenex-deco-soft_3_1782512567080.jpg","image"]
 :HL["/images/item-kleenex-deco-soft_thumb1782512567075.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-kleenex-deco-soft","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"uMkR_v69YXw2TVWxxYXbj"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-kleenex-deco-soft","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Ky6en8woZoklye3aiR0L2"}
