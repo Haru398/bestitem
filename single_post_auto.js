@@ -8,23 +8,23 @@ const dbPath = path.join(__dirname, 'dev.db');
 const db = new Database(dbPath);
 
 const product = {
-  id: 'item-f-killer-light-trap',
+  id: 'item-cesco-fly-stick',
   category: '생활용품',
-  title: '초파리 모기 퇴치! 에프킬라 라이트트랩 분석 및 장단점',
-  sourceDir: 'D:\\정식홈페이지자동화\\에프킬라 라이트트랩 + 리필 2p 세트, 1세트',
-  backupDir: 'D:\\정식서버업로드전용폴더\\에프킬라 라이트트랩 + 리필 2p 세트, 1세트',
-  link: 'https://link.coupang.com/a/eNL4EWqwsm',
-  iframe: '<iframe src="https://coupa.ng/cnAofv" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>',
-  images: ['썸네일.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg'],
-  intro: '날씨가 따뜻해지면서 어김없이 찾아오는 불청객들이 있습니다. 귀에서 웽웽거리며 단잠을 깨우는 모기, 그리고 음식물 쓰레기 주변을 맴돌며 시각적인 불쾌감을 주는 초파리와 날파리 떼인데요. 시중에 파는 화학 살충제 스프레이를 뿌리자니 특유의 독한 냄새와 호흡기 건강이 걱정되고, 전기 모기채를 들고 이리저리 뛰어다니기엔 체력적인 한계에 부딪히기 일쑤입니다. 살충제 명가에서 야심 차게 선보인 신개념 해충 퇴치 솔루션, **에프킬라 라이트트랩**은 이러한 소비자들의 고민을 완벽하게 해결해 줄 혁신적인 아이템입니다.\n\n이 제품은 독한 살충 성분 없이 오직 불빛과 끈끈이만을 이용해 해충을 유인하고 포획하는 안전하고 스마트한 방식으로 입소문을 타고 있습니다. 냄새 걱정 없이 우리 집의 평화를 지켜줄 에프킬라 라이트트랩의 탁월한 포집 능력과 안심 설계 기술을 꼼꼼하게 분석해 보겠습니다.',
+  title: '지긋지긋한 초파리 완벽 퇴치! 세스코마이랩 플라이스틱 효과 분석',
+  sourceDir: 'D:\\정식홈페이지자동화\\세스코마이랩 플라이스틱, 2개, 84g',
+  backupDir: 'D:\\정식서버업로드전용폴더\\세스코마이랩 플라이스틱, 2개, 84g',
+  link: 'https://link.coupang.com/a/eNMBW3aqFp',
+  iframe: '<iframe src="https://coupa.ng/cnAojn" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>',
+  images: ['썸네일.jpg', '1.jpg', '2.jpg'],
+  intro: '무더운 여름철, 음식물 쓰레기통 주변이나 과일 껍질 근처에 쉴 새 없이 날아드는 초파리 떼 때문에 짜증 나셨던 경험, 다들 한 번쯤 있으실 겁니다. 작고 재빨라서 손이나 파리채로 잡기도 쉽지 않고, 살충제를 뿌리자니 주방이나 식탁 근처라 찜찜하기 마련인데요. 대한민국 방역의 대명사 세스코에서 그동안의 방제 노하우를 듬뿍 담아 일반 가정집을 위해 야심 차게 선보인 초파리 전문 퇴치기, **세스코마이랩 플라이스틱**이 바로 그 해답이 될 수 있습니다.\n\n살충 성분이 들어간 스프레이를 공기 중에 흩뿌릴 필요 없이, 초파리가 좋아하는 유인제를 통해 스스로 날아와 붙게 만드는 똑똑하고 안전한 유인 포획 방식이 특징입니다. 일반적인 끈끈이 트랩들과는 차원이 다른 세스코만의 독자적인 포획 기술과, 눈에 띄지 않게 깔끔하게 처리할 수 있는 위생적인 디자인까지 플라이스틱의 모든 것을 상세히 분석해 보겠습니다.',
   sections: [
-    { img: '1.jpg', text: '가장 돋보이는 특징은 인체에 해로운 화학 살충 성분을 일절 배제했다는 점입니다. 오로지 곤충들이 가장 좋아하는 특정 파장의 은은한 UV(자외선) 불빛만을 발산하여 모기와 초파리, 날파리 등을 본체 쪽으로 자연스럽게 유인합니다. 자극적인 냄새나 유해 물질 배출이 전혀 없어 호흡기가 약한 어린아이나 반려동물이 있는 가정, 혹은 환기가 어려운 밀폐된 실내 공간에서도 24시간 내내 안심하고 꽂아둘 수 있습니다.' },
-    { img: '2.jpg', text: '불빛에 이끌려 본체로 다가온 해충들은 후면에 부착된 초강력 끈끈이 패드에 찰싹 달라붙어 꼼짝도 하지 못하게 됩니다. 전기로 태워 죽이는 포충기들처럼 "타닥" 하는 불쾌한 소음이나 타는 냄새가 발생하지 않으며, 죽은 벌레들의 잔해가 바닥으로 떨어져 지저분해질 염려도 없습니다. 끈끈이에 빈틈없이 포획된 해충들은 눈에 띄지 않게 패드 뒷면에 가려지므로 시각적인 불쾌감 또한 최소화했습니다.' },
-    { img: '3.jpg', text: '유지 관리가 매우 간편하다는 것도 큰 장점입니다. 끈끈이 패드에 벌레가 가득 차면 손에 더러운 잔해를 묻힐 필요 없이, 다 쓴 패드만 쏙 뽑아서 쓰레기통에 버리고 새로운 리필 패드를 끼워주기만 하면 끝입니다. 본 세트에는 기기 본체와 함께 넉넉한 교체용 리필 패드 2개가 기본으로 구성되어 있어, 한 번 구매하면 여름 내내 해충 걱정 없이 오랫동안 쾌적한 환경을 유지할 수 있습니다.' },
-    { img: '4.jpg', text: '어느 공간에나 자연스럽게 녹아드는 깔끔하고 심플한 디자인을 채택했습니다. 투박한 기존의 포충기들과 달리 콘센트에 꽂아두어도 인테리어를 해치지 않으며, 밤에는 은은한 푸른빛을 내뿜어 훌륭한 무드등이나 수면등 역할까지 톡톡히 해냅니다. 거실, 침실, 주방, 베란다 등 해충이 자주 출몰하는 곳 어디든 콘센트만 있으면 간편하게 설치하여 우리 집만의 완벽한 방어막을 구축할 수 있습니다.' }
+    { img: '1.jpg', text: '가장 큰 장점은 세스코의 해충 방제 전문가들이 수많은 테스트를 거쳐 개발한 \'특수 유인제\'에 있습니다. 초파리와 파리류가 가장 좋아하는 냄새와 성분을 과학적으로 배합하여, 트랩 근처를 지나가는 해충들을 거부할 수 없는 매력으로 강력하게 끌어당깁니다. 단순히 시각적인 것에만 의존하는 것이 아니라 후각까지 자극하는 이중 유인 시스템 덕분에, 설치해 두기만 하면 눈 깜짝할 새에 끈끈이에 달라붙어 있는 놀라운 포획력을 경험할 수 있습니다.' },
+    { img: '2.jpg', text: '인체에 유해한 화학 살충 성분을 공기 중으로 분사하지 않는 100% 무독성 포획 방식을 채택하여 안전성을 극대화했습니다. 호흡기를 자극하는 독한 냄새나 유해 물질이 발생하지 않기 때문에 아이가 있는 집이나 강아지, 고양이를 키우는 반려동물 가정에서도 안심하고 사용할 수 있습니다. 특히 주방의 식탁 위나 싱크대 주변, 음식물 쓰레기통 근처 등 화학 살충제를 뿌리기 꺼려졌던 민감한 공간에서 더욱 빛을 발하는 제품입니다.' },
+    { img: '1.jpg', text: '포획된 해충의 징그러운 사체를 눈으로 직접 마주하지 않아도 된다는 점은 사용자들의 만족도를 가장 크게 높여주는 요소입니다. 노란색 스틱 형태의 끈끈이 패드는 본체 케이스 안쪽에 숨겨져 있어 밖에서는 잡힌 벌레들이 잘 보이지 않도록 세심하게 디자인되었습니다. 미관상 지저분해 보이지 않으며, 사용 후 버릴 때도 끈끈이를 만질 필요 없이 케이스째로 깔끔하게 분리수거할 수 있어 마지막까지 완벽하게 위생적입니다.' },
+    { img: '2.jpg', text: '설치 방법 또한 매우 직관적이고 간편합니다. 복잡한 조립 과정 없이 포장을 뜯고 유인제가 담긴 하단 캡을 스틱 본체에 끼워 넣은 뒤, 초파리가 자주 출몰하는 곳에 툭 세워두기만 하면 모든 준비가 끝납니다. 콤팩트하고 세련된 디자인으로 집안 어디에 두어도 인테리어를 해치지 않으며, 2개가 한 세트로 구성되어 있어 주방과 베란다 등 겹치는 동선에 나누어 설치하면 더욱 뛰어난 방제 효과를 누릴 수 있습니다.' }
   ],
-  outro: '매번 여름마다 모기향을 피우고 화학 스프레이를 뿌리며 냄새와 씨름했던 날들은 이제 안녕입니다. 독한 살충 성분 없이 불빛으로 유인하고 끈끈이로 조용하게 잡아내는 **에프킬라 라이트트랩**은, 아이와 반려동물이 있는 가정에서도 안심하고 사용할 수 있는 가장 스마트한 해충 퇴치 솔루션입니다. 리필 패드 2개가 포함된 실속 있는 세트 구성으로, 소리 없이 강하게 올여름 우리 집의 쾌적함을 지켜보시길 바랍니다.',
-  summary: '초파리 모기 퇴치! 에프킬라 라이트트랩 분석 및 장단점'
+  outro: '매년 여름마다 주방을 점령하는 초파리 군단과의 끝없는 전쟁, 이제는 대한민국 No.1 방역 전문가 세스코의 기술력으로 종지부를 찍어보세요. 무독성 유인제로 안전하게 끌어당기고, 보이지 않는 곳에 깔끔하게 포획하여 버릴 때까지 쾌적함을 유지해 주는 **세스코마이랩 플라이스틱**은 여름철 주방의 필수 평화 지킴이입니다. 스트레스 없이 깔끔하고 위생적인 우리 집을 위해 지금 바로 똑똑한 방제 솔루션을 선택해 보시길 바랍니다.',
+  summary: '지긋지긋한 초파리 완벽 퇴치! 세스코마이랩 플라이스틱 효과 분석'
 };
 
 function sanitizeString(str) {
@@ -48,10 +48,6 @@ for (let i = 0; i < additionalImages.length; i++) {
   const dest = path.join(publicImgDir, filename);
   fs.copyFileSync(path.join(product.sourceDir, additionalImages[i]), dest);
   additionalImageUrls.push('/images/' + filename);
-  
-  if (product.sections[i]) {
-    product.sections[i].imagePath = '/images/' + filename;
-  }
 }
 
 const stmtPost = db.prepare(`
@@ -75,9 +71,12 @@ stmtIntro.run(product.id, 0, product.intro);
 let order = 1;
 const stmtSec = db.prepare('INSERT INTO post_sections (postId, sectionOrder, image, text, createdAt, updatedAt) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
 for (const sec of product.sections) {
-  if (sec.imagePath) {
-    stmtSec.run(product.id, order++, sec.imagePath, sec.text);
+  let imgPath = null;
+  const idx = additionalImages.indexOf(sec.img);
+  if (idx !== -1 && additionalImageUrls[idx]) {
+    imgPath = additionalImageUrls[idx];
   }
+  stmtSec.run(product.id, order++, imgPath, sec.text);
 }
 
 const stmtOutro = db.prepare('INSERT INTO post_sections (postId, sectionOrder, text, createdAt, updatedAt) VALUES (?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
@@ -101,7 +100,7 @@ const sheet = wb.Sheets[sheetName];
 const data = xlsx.utils.sheet_to_json(sheet);
 
 for (let row of data) {
-  if (row['폴더이름'] === '에프킬라 라이트트랩 + 리필 2p 세트, 1세트') {
+  if (row['폴더이름'] === '세스코마이랩 플라이스틱, 2개, 84g') {
     row['작업여부'] = 'O';
     break;
   }

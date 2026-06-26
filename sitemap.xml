@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-26T11:44:40.952Z</lastmod>
+<lastmod>2026-06-26T12:03:10.737Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -363,6 +363,12 @@
 <url>
 <loc>https://item.monster/post/item-f-killer-light-trap</loc>
 <lastmod>2026-06-26T02:44:29.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-cesco-fly-stick</loc>
+<lastmod>2026-06-26T03:03:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
