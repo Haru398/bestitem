@@ -9,4 +9,4 @@
 :HL["/images/item-smart-ai-glasses_2_1782489107731.jpg","image"]
 :HL["/images/item-smart-ai-glasses_3_1782489107733.jpg","image"]
 :HL["/images/item-smart-ai-glasses_thumb1782489107724.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-smart-ai-glasses","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"SrZHrR4CFAND5lrp5R9Es"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-smart-ai-glasses","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GVwrmQ-lqZyD5pMwE-T58"}
