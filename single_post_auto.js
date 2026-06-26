@@ -8,23 +8,23 @@ const dbPath = path.join(__dirname, 'dev.db');
 const db = new Database(dbPath);
 
 const product = {
-  id: 'item-lenovo-thinkcentre-2025',
-  category: '디지털',
-  title: '압도적인 성능의 미니 PC! 레노버 2025 씽크센터 네오 울트라 완벽 분석',
-  sourceDir: 'D:\\정식홈페이지자동화\\레노버 2025 씽크센터 Neo Ultra Gen2 코어Ultra5 인텔 14세대 지포스 RTX 5060',
-  backupDir: 'D:\\정식서버업로드전용폴더\\레노버 2025 씽크센터 Neo Ultra Gen2 코어Ultra5 인텔 14세대 지포스 RTX 5060',
-  link: 'https://link.coupang.com/a/eNQFLI6D2i',
-  iframe: '<iframe src="https://coupa.ng/cnApCt" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>',
-  images: ['썸네일.jpg', '1.png', '2.png', '3.png', '4.png'],
-  intro: '고사양 게임이나 무거운 그래픽 작업을 위해 데스크탑을 구매하고 싶지만, 책상 위를 가득 채우는 거대한 크기와 투박한 디자인 때문에 망설여지시나요? 크기는 작지만 성능만큼은 웬만한 타워형 데스크탑을 압도하는 콤팩트한 폼팩터의 혁신이 시작되었습니다. 공간 활용의 극대화와 괴물 같은 스펙을 동시에 충족시키는 하이엔드 미니 PC, **레노버 2025 씽크센터 Neo Ultra Gen2**를 소개합니다.\n\n이 제품은 최신 인텔 14세대 코어 Ultra 프로세서와 지포스 RTX 5060이라는 강력한 조합을 불과 3.6리터 크기의 작은 섀시 안에 완벽하게 담아낸 레노버의 야심작입니다. 일반적인 미니 PC들이 내장 그래픽의 한계로 인해 고사양 작업에 취약했던 반면, 씽크센터 네오 울트라는 외장 그래픽카드를 탑재하여 AAA급 게임은 물론 3D 렌더링, 영상 편집까지 거침없이 소화해 내는데요. 작은 고추가 맵다는 속담을 하드웨어로 증명해 낸 이 놀라운 데스크탑의 핵심 스펙들을 하나씩 꼼꼼하게 파헤쳐 보겠습니다.',
+  id: 'item-tamsa-water',
+  category: '식품',
+  title: '온 가족이 믿고 마시는 안심 생수! 탐사 샘물 2L 완벽 분석',
+  sourceDir: 'D:\\정식홈페이지자동화\\탐사 샘물, 2L, 12개',
+  backupDir: 'D:\\정식서버업로드전용폴더\\탐사 샘물, 2L, 12개',
+  link: 'https://link.coupang.com/a/eTDRg7moyO',
+  iframe: '<iframe src="https://coupa.ng/cnFpQk" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>',
+  images: ['썸네일.jpg', '1.jpg'],
+  intro: '우리 몸의 70%를 차지하며 건강 유지에 가장 필수적인 요소인 물, 매일 마시는 물인 만큼 어떤 생수를 선택할지 고민이 많으실 텐데요. 시중에 수많은 브랜드의 생수들이 쏟아져 나오지만, 수원지가 불분명하거나 미네랄 성분이 부족해 아쉬움을 느끼셨던 분들이라면 주목해 주시기 바랍니다. 까다로운 수질 검사를 통과하여 온 가족이 안심하고 마실 수 있는 맑고 깨끗한 프리미엄 생수, **탐사 샘물 2L**를 소개합니다.\n\n이 제품은 깨끗한 자연이 숨 쉬는 엄선된 청정 수원지에서 끌어올려 자연 그대로의 신선함과 풍부한 미네랄을 고스란히 담아낸 것이 특징입니다. 꼼꼼한 다중 여과 시스템을 거쳐 불순물은 완벽하게 제거하고 물 본연의 깔끔하고 부드러운 목 넘김만을 남겼는데요. 우리가 매일 마시는 물의 기준을 한 단계 높여줄 탐사 샘물만의 특별한 장점들을 자세히 분석해 보겠습니다.',
   sections: [
-    { img: '1.png', text: '가장 눈에 띄는 장점은 단연 \'초소형 폼팩터가 선사하는 압도적인 공간 활용성\'입니다. 부피가 3.6리터에 불과하여 모니터 뒤, 책상 구석, 혹은 거실 TV 옆 등 공간의 제약 없이 어디든 자유롭게 배치할 수 있습니다. 무겁고 둔탁한 타워형 본체가 차지하던 넓은 데스크 공간을 되찾아 주어 미니멀하고 깔끔한 데스크테리어(Desk-terior) 환경을 완성할 수 있으며, 이사를 가거나 자리를 이동할 때도 한 손으로 가볍게 들고 옮길 수 있습니다.' },
-    { img: '2.png', text: '작은 크기가 무색할 만큼 \'인텔 14세대 코어 Ultra 5 프로세서의 강력한 심장\'을 탑재했습니다. 이전 세대 대비 비약적으로 상승한 멀티 코어 성능을 바탕으로 복잡한 연산이나 다중 작업(멀티태스킹)을 버벅거림 없이 매끄럽게 처리합니다. 수십 개의 인터넷 창을 띄워놓고 엑셀 작업을 하거나, 무거운 프로그램을 동시에 실행해도 시스템의 지연 없이 쾌적한 비즈니스 및 작업 환경을 제공합니다.' },
-    { img: '3.png', text: '게이머와 크리에이터들의 가슴을 설레게 할 \'엔비디아 지포스 RTX 5060 외장 그래픽카드\'가 장착되어 있습니다. 초소형 PC의 고질적인 약점이었던 그래픽 성능을 완벽하게 극복하여, 최신 고사양 3D 게임들을 높은 프레임으로 즐길 수 있으며 4K 동영상 편집이나 3D 모델링, AI 연산 등 전문가 수준의 무거운 그래픽 워크로드도 막힘없이 훌륭하게 수행해 냅니다. 작지만 어떤 작업이든 해낼 수 있는 진정한 올라운더 PC입니다.' },
-    { img: '4.png', text: '초소형 폼팩터에 고성능 부품이 집약되어 발생할 수 있는 발열 문제는 \'레노버만의 독보적인 스마트 쿨링 시스템\'으로 완벽하게 제어합니다. 공기 역학적 설계를 통해 차가운 공기를 효율적으로 흡입하고 내부의 뜨거운 열기를 빠르게 외부로 배출시켜, 장시간 고사양 게임을 플레이하거나 무거운 렌더링 작업을 돌려도 성능 저하(스로틀링) 없이 안정적인 시스템 온도를 유지해 줍니다. 쿨링팬의 소음 역시 매우 정숙하여 작업의 몰입도를 깨뜨리지 않습니다.' }
+    { img: '1.jpg', text: '생수를 고를 때 가장 중요하게 따져봐야 할 부분은 바로 \'수원지와 수질 관리 시스템\'입니다. 탐사 샘물은 환경부의 엄격한 수질 기준을 통과한 국내 청정 지역의 암반수를 취수하여 만들어집니다. 촘촘한 마이크로 필터링 공법과 자외선(UV) 살균 및 오존 처리 등 깐깐한 정수 시스템을 거치기 때문에, 눈에 보이지 않는 미세한 불순물이나 세균 걱정 없이 아이부터 어른까지 안심하고 깨끗한 물을 마실 수 있습니다.' },
+    { img: null, text: '물은 단순히 갈증을 해소하는 것을 넘어, 체내 대사를 돕는 중요한 역할을 하는데요. 탐사 샘물에는 칼슘, 칼륨, 마그네슘, 불소 등 \'우리 몸에 꼭 필요한 필수 미네랄이 균형 있게 함유\'되어 있습니다. 인위적으로 첨가물을 넣은 것이 아닌 자연 상태의 암반수가 오랜 시간 동안 머금고 있던 미네랄 성분 덕분에, 물맛이 비리지 않고 은은한 단맛과 함께 부드러운 목 넘김을 선사하여 평소 물을 잘 마시지 않는 분들도 부담 없이 섭취하기 좋습니다.' },
+    { img: null, text: '집에서 요리를 할 때나 커피를 내릴 때도 생수의 역할은 매우 중요합니다. 미네랄 밸런스가 뛰어난 탐사 샘물을 사용하여 밥을 지으면 쌀알에 수분이 고르게 스며들어 윤기가 흐르고 찰진 밥맛을 완성할 수 있으며, 찌개나 국물 요리의 깊은 감칠맛을 살려줍니다. 또한, 차를 우려내거나 원두커피를 내릴 때 특유의 잡내 없이 깔끔하게 향미를 끌어올려 주어 일상생활 곳곳에서 활용도가 매우 높습니다.' },
+    { img: null, text: '탐사 샘물은 2L 대용량 페트병 12개 묶음으로 구성되어 있어 \'뛰어난 가성비와 편리함\'을 자랑합니다. 무겁게 마트에서 박스째로 낑낑대며 들고 올 필요 없이 집 앞까지 편하게 배송받을 수 있으며, 4인 가족 기준으로도 넉넉하게 마실 수 있는 대용량이라 자주 주문해야 하는 번거로움을 줄여줍니다. 냉장고에 시원하게 보관해 두고 물 마시는 습관을 기르기에 최적의 조건을 갖춘 제품입니다.' }
   ],
-  outro: '크고 무거운 데스크탑만이 고성능을 발휘한다는 편견은 이제 버리셔도 좋습니다. 인텔 최신 14세대 프로세서와 RTX 5060의 괴물 같은 성능을 이토록 작고 세련된 디자인 안에 담아낸 **레노버 2025 씽크센터 Neo Ultra Gen2**는 미니 PC 시장의 판도를 바꿀 혁신적인 제품입니다. 공간의 낭비 없이 쾌적한 하이엔드 게이밍 및 작업 환경을 구축하고 싶으시다면, 주저 없이 선택해 보시길 강력히 추천합니다.',
-  summary: '압도적인 성능의 미니 PC! 레노버 2025 씽크센터 네오 울트라 완벽 분석'
+  outro: '매일 우리 몸을 채우는 생수, 아무거나 대충 고르지 마세요. 엄격한 수질 검사와 체계적인 정수 공정을 거쳐 자연의 맑고 깨끗함을 그대로 담아낸 **탐사 샘물 2L**는 당신과 가족의 건강한 수분 섭취를 위한 가장 탁월한 선택이 될 것입니다. 믿을 수 있는 품질과 부드러운 물맛, 그리고 집 앞까지 배송되는 편리함까지 모두 갖춘 탐사 샘물로 매일매일 상쾌하고 건강한 일상을 누려보시길 강력히 추천합니다.',
+  summary: '온 가족이 믿고 마시는 안심 생수! 탐사 샘물 2L 완벽 분석'
 };
 
 function sanitizeString(str) {
@@ -48,11 +48,11 @@ for (let i = 0; i < additionalImages.length; i++) {
   const dest = path.join(publicImgDir, filename);
   fs.copyFileSync(path.join(product.sourceDir, additionalImages[i]), dest);
   additionalImageUrls.push('/images/' + filename);
-  
-  if (product.sections[i]) {
-    product.sections[i].imagePath = '/images/' + filename;
-  }
 }
+
+// Since the DB already threw an error, it rolled back implicitly or didn't insert fully, but let's delete the partial post just in case
+db.prepare('DELETE FROM posts_v2 WHERE postId = ?').run(product.id);
+db.prepare('DELETE FROM post_sections WHERE postId = ?').run(product.id);
 
 const stmtPost = db.prepare(`
   INSERT INTO posts_v2 (postId, title, category, summary, thumbnail, coupangLink, coupangHtml, createdAt, updatedAt)
@@ -73,10 +73,16 @@ const stmtIntro = db.prepare('INSERT INTO post_sections (postId, sectionOrder, t
 stmtIntro.run(product.id, 0, product.intro);
 
 let order = 1;
-const stmtSec = db.prepare('INSERT INTO post_sections (postId, sectionOrder, image, text, createdAt, updatedAt) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
-for (const sec of product.sections) {
-  if (sec.imagePath) {
-    stmtSec.run(product.id, order++, sec.imagePath, sec.text);
+const stmtSecWithImg = db.prepare('INSERT INTO post_sections (postId, sectionOrder, image, text, createdAt, updatedAt) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
+const stmtSecNoImg = db.prepare('INSERT INTO post_sections (postId, sectionOrder, text, createdAt, updatedAt) VALUES (?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
+
+for (let i = 0; i < product.sections.length; i++) {
+  const sec = product.sections[i];
+  const imagePath = sec.img && sec.img === '1.jpg' && additionalImageUrls.length > 0 ? additionalImageUrls[0] : null;
+  if (imagePath) {
+    stmtSecWithImg.run(product.id, order++, imagePath, sec.text);
+  } else {
+    stmtSecNoImg.run(product.id, order++, sec.text);
   }
 }
 
@@ -101,7 +107,7 @@ const sheet = wb.Sheets[sheetName];
 const data = xlsx.utils.sheet_to_json(sheet);
 
 for (let row of data) {
-  if (row['폴더이름'] === '레노버 2025 씽크센터 Neo Ultra Gen2 코어Ultra5 인텔 14세대 지포스 RTX 5060') {
+  if (row['폴더이름'] === '탐사 샘물, 2L, 12개') {
     row['작업여부'] = 'O';
     break;
   }
