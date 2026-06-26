@@ -9,4 +9,4 @@
 :HL["/images/item-coupangbasic-toiletpaper_2_1782135988989.jpg","image"]
 :HL["/images/item-coupangbasic-toiletpaper_3_1782135988990.png","image"]
 :HL["/images/item-coupangbasic-toiletpaper_thumb1782135988984.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-coupangbasic-toiletpaper","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GTmupoTtnfsv2c_X-fn3G"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-coupangbasic-toiletpaper","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZXxkLzVfrsaxyHtoaTTJT"}

@@ -9,4 +9,4 @@
 :HL["/images/item-f-killer-light-trap_2_1782474269673.jpg","image"]
 :HL["/images/item-f-killer-light-trap_3_1782474269675.jpg","image"]
 :HL["/images/item-f-killer-light-trap_thumb1782474269667.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-f-killer-light-trap","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GTmupoTtnfsv2c_X-fn3G"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-f-killer-light-trap","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZXxkLzVfrsaxyHtoaTTJT"}

@@ -9,4 +9,4 @@
 :HL["/images/item-masmarulez-ecobag_2_1782140596905.jpg","image"]
 :HL["/images/item-masmarulez-ecobag_3_1782140596906.jpg","image"]
 :HL["/images/item-masmarulez-ecobag_thumb1782140596899.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-masmarulez-ecobag","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GTmupoTtnfsv2c_X-fn3G"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-masmarulez-ecobag","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZXxkLzVfrsaxyHtoaTTJT"}
