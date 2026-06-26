@@ -9,4 +9,4 @@
 :HL["/images/item-golden-ratio-rice_2_1782474072913.png","image"]
 :HL["/images/item-golden-ratio-rice_3_1782474072915.png","image"]
 :HL["/images/item-golden-ratio-rice_thumb1782474072906.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-golden-ratio-rice","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"m-mSwKfNmH3i4eDRL_SjR"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-golden-ratio-rice","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"uMkR_v69YXw2TVWxxYXbj"}

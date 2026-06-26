@@ -8,4 +8,4 @@
 :HL["/images/item-tamsa-powerwash-detergent_1_1782168669322.jpg","image"]
 :HL["/images/item-tamsa-powerwash-detergent_2_1782168669323.jpg","image"]
 :HL["/images/item-tamsa-powerwash-detergent_thumb1782168669318.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-tamsa-powerwash-detergent","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"m-mSwKfNmH3i4eDRL_SjR"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-tamsa-powerwash-detergent","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"uMkR_v69YXw2TVWxxYXbj"}
