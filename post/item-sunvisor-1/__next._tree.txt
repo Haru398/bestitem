@@ -5,4 +5,4 @@
 :HL["/icon.png","image"]
 :HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
 :HL["https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3251/17d172a622db10e6af4b5dfc1867720681f3b1989c05d20c2ed5bfc43da2.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-sunvisor-1","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Fws87U4K1gmhl2xEt8zwK"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-sunvisor-1","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"91cwB0A4TbVJbh03Q97vl"}
