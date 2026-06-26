@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-26T15:51:54.899Z</lastmod>
+<lastmod>2026-06-26T16:10:54.397Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -411,6 +411,12 @@
 <url>
 <loc>https://item.monster/post/item-smart-ai-glasses</loc>
 <lastmod>2026-06-26T06:51:47.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-ezviz-bc1c-cctv</loc>
+<lastmod>2026-06-26T07:10:48.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>

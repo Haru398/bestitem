@@ -9,4 +9,4 @@
 :HL["/images/item-hp-omnibook-ultra-14_2_1782487273159.jpg","image"]
 :HL["/images/item-hp-omnibook-ultra-14_3_1782487273162.jpg","image"]
 :HL["/images/item-hp-omnibook-ultra-14_thumb1782487273152.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-hp-omnibook-ultra-14","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"0gQ4sI6Lj-x4mAsP6KRK7"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-hp-omnibook-ultra-14","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"evbkaG3n0kERUtlS_Hj-5"}
