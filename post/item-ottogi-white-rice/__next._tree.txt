@@ -9,4 +9,4 @@
 :HL["/images/item-ottogi-white-rice_2_1782473714480.jpg","image"]
 :HL["/images/item-ottogi-white-rice_3_1782473714482.jpg","image"]
 :HL["/images/item-ottogi-white-rice_thumb1782473714471.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-ottogi-white-rice","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CMExwqDFxiDNKxq5rSW96"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-ottogi-white-rice","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ct41drZdc5kn-7fqQV5s6"}

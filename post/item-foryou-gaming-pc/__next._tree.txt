@@ -9,4 +9,4 @@
 :HL["/images/item-foryou-gaming-pc_2_1782486929961.jpg","image"]
 :HL["/images/item-foryou-gaming-pc_3_1782486929962.jpg","image"]
 :HL["/images/item-foryou-gaming-pc_thumb1782486929955.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-foryou-gaming-pc","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CMExwqDFxiDNKxq5rSW96"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-foryou-gaming-pc","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ct41drZdc5kn-7fqQV5s6"}
