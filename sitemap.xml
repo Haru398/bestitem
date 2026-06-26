@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-26T15:15:38.640Z</lastmod>
+<lastmod>2026-06-26T15:21:20.170Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -399,6 +399,12 @@
 <url>
 <loc>https://item.monster/post/item-foryou-gaming-pc</loc>
 <lastmod>2026-06-26T06:15:29.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-hp-omnibook-ultra-14</loc>
+<lastmod>2026-06-26T06:21:13.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
