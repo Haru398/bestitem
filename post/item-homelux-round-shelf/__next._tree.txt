@@ -10,4 +10,4 @@
 :HL["/images/item-homelux-round-shelf_3_1782160406271.png","image"]
 :HL["/images/item-homelux-round-shelf_4_1782160406273.png","image"]
 :HL["/images/item-homelux-round-shelf_thumb1782160406259.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-homelux-round-shelf","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"6EW0PQgdfdzOYdy6sqvvB"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-homelux-round-shelf","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"C8GYko7VONJWFbTrmlmfJ"}

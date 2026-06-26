@@ -8,23 +8,23 @@ const dbPath = path.join(__dirname, 'dev.db');
 const db = new Database(dbPath);
 
 const product = {
-  id: 'item-cesco-fly-stick',
+  id: 'item-happyhome-power-mat',
   category: '생활용품',
-  title: '지긋지긋한 초파리 완벽 퇴치! 세스코마이랩 플라이스틱 효과 분석',
-  sourceDir: 'D:\\정식홈페이지자동화\\세스코마이랩 플라이스틱, 2개, 84g',
-  backupDir: 'D:\\정식서버업로드전용폴더\\세스코마이랩 플라이스틱, 2개, 84g',
-  link: 'https://link.coupang.com/a/eNMBW3aqFp',
-  iframe: '<iframe src="https://coupa.ng/cnAojn" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>',
-  images: ['썸네일.jpg', '1.jpg', '2.jpg'],
-  intro: '무더운 여름철, 음식물 쓰레기통 주변이나 과일 껍질 근처에 쉴 새 없이 날아드는 초파리 떼 때문에 짜증 나셨던 경험, 다들 한 번쯤 있으실 겁니다. 작고 재빨라서 손이나 파리채로 잡기도 쉽지 않고, 살충제를 뿌리자니 주방이나 식탁 근처라 찜찜하기 마련인데요. 대한민국 방역의 대명사 세스코에서 그동안의 방제 노하우를 듬뿍 담아 일반 가정집을 위해 야심 차게 선보인 초파리 전문 퇴치기, **세스코마이랩 플라이스틱**이 바로 그 해답이 될 수 있습니다.\n\n살충 성분이 들어간 스프레이를 공기 중에 흩뿌릴 필요 없이, 초파리가 좋아하는 유인제를 통해 스스로 날아와 붙게 만드는 똑똑하고 안전한 유인 포획 방식이 특징입니다. 일반적인 끈끈이 트랩들과는 차원이 다른 세스코만의 독자적인 포획 기술과, 눈에 띄지 않게 깔끔하게 처리할 수 있는 위생적인 디자인까지 플라이스틱의 모든 것을 상세히 분석해 보겠습니다.',
+  title: '여름 모기 완벽 차단! 해피홈 블랙에디션 파워매트S 세트 성분 분석',
+  sourceDir: 'D:\\정식홈페이지자동화\\해피홈 블랙에디션 파워매트S 리필 78p + 플러그형 훈증기 세트, 2세트',
+  backupDir: 'D:\\정식서버업로드전용폴더\\해피홈 블랙에디션 파워매트S 리필 78p + 플러그형 훈증기 세트, 2세트',
+  link: 'https://link.coupang.com/a/eNMKx3mIrQ',
+  iframe: '<iframe src="https://coupa.ng/cnAomO" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>',
+  images: ['썸네일.png', '1.png', '2.png', '3.png', '4.png'],
+  intro: '무더운 여름밤, 귓가를 맴도는 불쾌한 모기 소리 때문에 밤잠을 설쳐본 경험은 누구나 한 번쯤 있으실 겁니다. 시중에 나와 있는 다양한 모기 퇴치제 중에서도, 액체나 스프레이가 아닌 전통적인 매트형 훈증기는 특유의 안정감과 뛰어난 지속력으로 여전히 많은 분들의 사랑을 받고 있습니다. 하지만 매번 리필을 갈아 끼우는 번거로움이나 아쉬운 디자인 때문에 사용을 망설이셨다면, 유한양행에서 야심 차게 선보인 **해피홈 블랙에디션 파워매트S 세트**를 주목해 보시길 바랍니다.\n\n이 제품은 모기약 특유의 투박함을 벗어던지고 세련된 무광 블랙 컬러를 입어 인테리어 소품으로도 손색이 없는 감각적인 디자인을 자랑합니다. 78개의 넉넉한 리필 매트와 플러그형 훈증기 본체가 2세트나 포함된 역대급 짐승 용량 구성으로, 올여름 우리 집 모기 방어막을 든든하게 책임져 줄 해피홈 블랙에디션만의 독보적인 스펙을 낱낱이 파헤쳐 보겠습니다.',
   sections: [
-    { img: '1.jpg', text: '가장 큰 장점은 세스코의 해충 방제 전문가들이 수많은 테스트를 거쳐 개발한 \'특수 유인제\'에 있습니다. 초파리와 파리류가 가장 좋아하는 냄새와 성분을 과학적으로 배합하여, 트랩 근처를 지나가는 해충들을 거부할 수 없는 매력으로 강력하게 끌어당깁니다. 단순히 시각적인 것에만 의존하는 것이 아니라 후각까지 자극하는 이중 유인 시스템 덕분에, 설치해 두기만 하면 눈 깜짝할 새에 끈끈이에 달라붙어 있는 놀라운 포획력을 경험할 수 있습니다.' },
-    { img: '2.jpg', text: '인체에 유해한 화학 살충 성분을 공기 중으로 분사하지 않는 100% 무독성 포획 방식을 채택하여 안전성을 극대화했습니다. 호흡기를 자극하는 독한 냄새나 유해 물질이 발생하지 않기 때문에 아이가 있는 집이나 강아지, 고양이를 키우는 반려동물 가정에서도 안심하고 사용할 수 있습니다. 특히 주방의 식탁 위나 싱크대 주변, 음식물 쓰레기통 근처 등 화학 살충제를 뿌리기 꺼려졌던 민감한 공간에서 더욱 빛을 발하는 제품입니다.' },
-    { img: '1.jpg', text: '포획된 해충의 징그러운 사체를 눈으로 직접 마주하지 않아도 된다는 점은 사용자들의 만족도를 가장 크게 높여주는 요소입니다. 노란색 스틱 형태의 끈끈이 패드는 본체 케이스 안쪽에 숨겨져 있어 밖에서는 잡힌 벌레들이 잘 보이지 않도록 세심하게 디자인되었습니다. 미관상 지저분해 보이지 않으며, 사용 후 버릴 때도 끈끈이를 만질 필요 없이 케이스째로 깔끔하게 분리수거할 수 있어 마지막까지 완벽하게 위생적입니다.' },
-    { img: '2.jpg', text: '설치 방법 또한 매우 직관적이고 간편합니다. 복잡한 조립 과정 없이 포장을 뜯고 유인제가 담긴 하단 캡을 스틱 본체에 끼워 넣은 뒤, 초파리가 자주 출몰하는 곳에 툭 세워두기만 하면 모든 준비가 끝납니다. 콤팩트하고 세련된 디자인으로 집안 어디에 두어도 인테리어를 해치지 않으며, 2개가 한 세트로 구성되어 있어 주방과 베란다 등 겹치는 동선에 나누어 설치하면 더욱 뛰어난 방제 효과를 누릴 수 있습니다.' }
+    { img: '1.png', text: '가장 눈에 띄는 변화는 단연 \'시크하고 세련된 블랙 디자인\'입니다. 기존의 알록달록하고 촌스러웠던 모기 훈증기들과 달리, 무광의 깔끔한 블랙 컬러를 채택하여 침실, 거실, 아이 방 등 어떤 공간의 콘센트에 꽂아두어도 시각적으로 튀지 않고 자연스럽게 녹아듭니다. 인테리어에 민감한 분들도 부담 없이 꺼내놓고 사용할 수 있으며, 생활 공간의 품격을 한 단계 높여주는 모던한 감성을 선사합니다.' },
+    { img: '2.png', text: '디자인뿐만 아니라 살충력과 사용 편의성 또한 대폭 업그레이드되었습니다. 새로워진 파워매트S 리필은 강력한 살충 성분을 머금고 있어 전원을 켜는 순간 공기 중으로 빠르고 고르게 퍼져나가 숨어있는 모기들까지 효과적으로 차단합니다. 또한, 기존 제품들보다 매트의 지속 시간이 길어져 한 장으로 하룻밤 내내 든든하게 모기의 접근을 막아주며, 매트가 하얗게 변색되어 교체 시기를 직관적으로 알려주기 때문에 관리가 매우 편리합니다.' },
+    { img: '3.png', text: '안전성 측면에서도 유한양행의 깐깐한 품질 기준을 통과하여 믿을 수 있습니다. 인체에 미치는 영향을 최소화하면서도 모기에게만 치명적인 살충 성분을 엄선하여 배합하였으며, 훈증기 본체는 내열성이 뛰어난 안전 소재로 제작되어 장시간 꽂아두어도 과열로 인한 화재 위험을 방지합니다. 작동 중에는 은은한 LED 표시등이 점등되어 한밤중에도 작동 상태를 쉽게 확인할 수 있는 세심한 배려가 돋보입니다.' },
+    { img: '4.png', text: '가장 놀라운 점은 무려 플러그형 훈증기 2개와 리필 매트 78장이 포함된 \'압도적인 가성비 구성\'입니다. 거실과 침실 등 여러 공간에 동시에 설치하여 완벽한 방어막을 구축할 수 있으며, 78장의 넉넉한 리필 매트는 매일매일 하나씩 사용하더라도 올여름 내내 모기 걱정 없이 쾌적한 밤을 보낼 수 있게 해 줍니다. 잦은 재구매의 번거로움과 경제적인 부담을 한 번에 덜어주는 최고의 실속 패키지라 할 수 있습니다.' }
   ],
-  outro: '매년 여름마다 주방을 점령하는 초파리 군단과의 끝없는 전쟁, 이제는 대한민국 No.1 방역 전문가 세스코의 기술력으로 종지부를 찍어보세요. 무독성 유인제로 안전하게 끌어당기고, 보이지 않는 곳에 깔끔하게 포획하여 버릴 때까지 쾌적함을 유지해 주는 **세스코마이랩 플라이스틱**은 여름철 주방의 필수 평화 지킴이입니다. 스트레스 없이 깔끔하고 위생적인 우리 집을 위해 지금 바로 똑똑한 방제 솔루션을 선택해 보시길 바랍니다.',
-  summary: '지긋지긋한 초파리 완벽 퇴치! 세스코마이랩 플라이스틱 효과 분석'
+  outro: '모기와의 끝없는 전쟁 속에서 디자인과 성능, 그리고 가성비까지 모두 잡고 싶다면 정답은 하나입니다. 우리 집 인테리어를 해치지 않는 모던한 블랙 감성과 하룻밤을 거뜬하게 책임지는 강력한 파워매트S의 조합, **해피홈 블랙에디션 세트**와 함께라면 올여름 모기 스트레스는 영원히 안녕입니다. 넉넉한 구성의 2세트를 거실과 침실에 꽂아두고, 사랑하는 가족들과 함께 모기 물릴 걱정 없는 꿀잠을 예약해 보세요.',
+  summary: '여름 모기 완벽 차단! 해피홈 블랙에디션 파워매트S 세트 성분 분석'
 };
 
 function sanitizeString(str) {
@@ -48,6 +48,10 @@ for (let i = 0; i < additionalImages.length; i++) {
   const dest = path.join(publicImgDir, filename);
   fs.copyFileSync(path.join(product.sourceDir, additionalImages[i]), dest);
   additionalImageUrls.push('/images/' + filename);
+  
+  if (product.sections[i]) {
+    product.sections[i].imagePath = '/images/' + filename;
+  }
 }
 
 const stmtPost = db.prepare(`
@@ -71,12 +75,9 @@ stmtIntro.run(product.id, 0, product.intro);
 let order = 1;
 const stmtSec = db.prepare('INSERT INTO post_sections (postId, sectionOrder, image, text, createdAt, updatedAt) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
 for (const sec of product.sections) {
-  let imgPath = null;
-  const idx = additionalImages.indexOf(sec.img);
-  if (idx !== -1 && additionalImageUrls[idx]) {
-    imgPath = additionalImageUrls[idx];
+  if (sec.imagePath) {
+    stmtSec.run(product.id, order++, sec.imagePath, sec.text);
   }
-  stmtSec.run(product.id, order++, imgPath, sec.text);
 }
 
 const stmtOutro = db.prepare('INSERT INTO post_sections (postId, sectionOrder, text, createdAt, updatedAt) VALUES (?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)');
@@ -100,7 +101,7 @@ const sheet = wb.Sheets[sheetName];
 const data = xlsx.utils.sheet_to_json(sheet);
 
 for (let row of data) {
-  if (row['폴더이름'] === '세스코마이랩 플라이스틱, 2개, 84g') {
+  if (row['폴더이름'] === '해피홈 블랙에디션 파워매트S 리필 78p + 플러그형 훈증기 세트, 2세트') {
     row['작업여부'] = 'O';
     break;
   }
