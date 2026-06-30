@@ -9,4 +9,4 @@
 :HL["/images/item-meongnyang-cat-tower_2_1782817287350.jpg","image"]
 :HL["/images/item-meongnyang-cat-tower_3_1782817287351.jpg","image"]
 :HL["/images/item-meongnyang-cat-tower_thumb1782817287343.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-meongnyang-cat-tower","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Z4MGrmEaT146YKLjUyZuk"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-meongnyang-cat-tower","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Ztdr1tNojrkP4BAa98x2n"}
