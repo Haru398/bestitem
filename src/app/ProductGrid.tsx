@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import styles from "./page.module.css";
 import InlineEditor from "./components/InlineEditor";
@@ -18,6 +19,9 @@ type Post = {
 };
 
 export default function ProductGrid({ posts }: { posts: Post[] }) {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("전체");
   const [selectedSubCategory, setSelectedSubCategory] = useState("전체");
@@ -30,6 +34,17 @@ export default function ProductGrid({ posts }: { posts: Post[] }) {
   useEffect(() => {
     setIsAdmin(localStorage.getItem('isAdmin') === 'true');
   }, []);
+
+  useEffect(() => {
+    const cat = searchParams.get('category');
+    if (cat) {
+      setSelectedCategory(cat);
+      setSelectedSubCategory("전체");
+    } else {
+      setSelectedCategory("전체");
+      setSelectedSubCategory("전체");
+    }
+  }, [searchParams]);
 
   const mappedPosts = useMemo(() => {
     const CATEGORY_MAP: Record<string, string> = {
@@ -71,6 +86,13 @@ export default function ProductGrid({ posts }: { posts: Post[] }) {
   const handleCategoryClick = (cat: string) => {
     setSelectedCategory(cat);
     setSelectedSubCategory("전체");
+    
+    // URL 업데이트 (히스토리 스택 추가)
+    if (cat === "전체") {
+      router.push('/');
+    } else {
+      router.push(`/?category=${encodeURIComponent(cat)}`);
+    }
   };
 
   const filteredAndSortedPosts = useMemo(() => {

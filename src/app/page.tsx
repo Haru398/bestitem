@@ -3,6 +3,8 @@ import LoginButton from "./components/LoginButton";
 import styles from "./page.module.css";
 import db from "../lib/db";
 import Link from "next/link";
+import { Suspense } from "react";
+import GuidePreviewWidget from "./guide/components/GuidePreviewWidget";
 
 export default function Home() {
   const rawPosts = db.prepare('SELECT * FROM posts_v2 ORDER BY createdAt DESC').all() as any[];
@@ -23,9 +25,10 @@ export default function Home() {
         </div>
         <nav className={styles.nav}>
           <Link href="/">홈</Link>
-          <a href="#">가전/디지털</a>
-          <a href="#">생활용품</a>
-          <a href="#">주방가전</a>
+          <Link href="/?category=가전%2F디지털">가전/디지털</Link>
+          <Link href="/?category=생활용품">생활용품</Link>
+          <Link href="/?category=홈%2F유아">가구인테리어</Link>
+          <Link href="/guide" style={{ fontWeight: 'bold', color: '#2563eb' }}>전문가이드</Link>
         </nav>
       </header>
 
@@ -35,11 +38,20 @@ export default function Home() {
           <p>에디터가 직접 선별한 베스트 아이템을 만나보세요.</p>
         </section>
 
+        <section style={{ maxWidth: '1200px', margin: '0 auto 4rem', padding: '0 0%' }}>
+          <div className={styles.sectionHeader}>
+            <h2 style={{ fontSize: '1.5rem', color: '#1e293b' }}>📚 오늘의 전문가이드</h2>
+          </div>
+          <GuidePreviewWidget />
+        </section>
+
         <section className={styles.recentReviews}>
           <div className={styles.sectionHeader}>
             <h2>🔥 실시간 인기 특가 & 리뷰</h2>
           </div>
-          <ProductGrid posts={posts} />
+          <Suspense fallback={<div>로딩중...</div>}>
+            <ProductGrid posts={posts} />
+          </Suspense>
         </section>
       </main>
 
