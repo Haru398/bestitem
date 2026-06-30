@@ -7,4 +7,4 @@
 :HL["/images/item-cesco-fly-stick_0_1782475380762.jpg","image"]
 :HL["/images/item-cesco-fly-stick_1_1782475380764.jpg","image"]
 :HL["/images/item-cesco-fly-stick_thumb1782475380759.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-cesco-fly-stick","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DmQ9L1qqvTLTBWp6Fh49j"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-cesco-fly-stick","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Z4MGrmEaT146YKLjUyZuk"}
