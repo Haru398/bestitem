@@ -13,4 +13,4 @@
 :HL["/images/item-sidiz-t50-hda_6_1782829319548.jpg","image"]
 :HL["/images/item-sidiz-t50-hda_7_1782829319549.jpg","image"]
 :HL["/images/item-sidiz-t50-hda_thumb1782829319537.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-sidiz-t50-hda","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"UOJXLGULaJBtWtLbnhypf"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-sidiz-t50-hda","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"LgbrpLBd9iW9xxmHGfaNb"}
