@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-30T10:21:54.656Z</lastmod>
+<lastmod>2026-06-30T10:38:43.278Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -507,6 +507,12 @@
 <url>
 <loc>https://item.monster/post/item-chiefmall-driver-set</loc>
 <lastmod>2026-06-30T01:21:43.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-msi-pro-b650m</loc>
+<lastmod>2026-06-30T01:38:32.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
