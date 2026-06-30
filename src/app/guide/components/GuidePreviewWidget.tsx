@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import db from '../../../../lib/db';
+import db from '../../../lib/db';
 import styles from '../guide.module.css';
 
 export default function GuidePreviewWidget() {

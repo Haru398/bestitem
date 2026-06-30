@@ -9,4 +9,4 @@
 :HL["/images/item-ezviz-bc1c-cctv_2_1782490248218.png","image"]
 :HL["/images/item-ezviz-bc1c-cctv_3_1782490248220.jpg","image"]
 :HL["/images/item-ezviz-bc1c-cctv_thumb1782490248211.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-ezviz-bc1c-cctv","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"u1_eSYR3y_iV2vn7I029l"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-ezviz-bc1c-cctv","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"k-n_TLr71bLlLolb-M3GK"}
