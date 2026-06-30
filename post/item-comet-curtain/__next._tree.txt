@@ -1,0 +1,13 @@
+:HL["/_next/static/chunks/0jtlt-2m_-h60.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/35b2d8b7eb75s.css","style"]
+:HL["/icon.png","image"]
+:HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
+:HL["/images/item-comet-curtain_0_1782826857072.png","image"]
+:HL["/images/item-comet-curtain_1_1782826857073.png","image"]
+:HL["/images/item-comet-curtain_2_1782826857076.jpg","image"]
+:HL["/images/item-comet-curtain_3_1782826857077.jpg","image"]
+:HL["/images/item-comet-curtain_4_1782826857078.jpg","image"]
+:HL["/images/item-comet-curtain_thumb1782826857069.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-comet-curtain","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"PZAkSUN9md4MlSzSpM1hP"}
