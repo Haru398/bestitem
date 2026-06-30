@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-30T15:02:03.503Z</lastmod>
+<lastmod>2026-06-30T15:03:17.490Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -603,6 +603,12 @@
 <url>
 <loc>https://item.monster/post/item-apple-airpods-pro-3</loc>
 <lastmod>2026-06-30T06:01:56.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-apple-airpods-4-anc</loc>
+<lastmod>2026-06-30T06:03:10.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
