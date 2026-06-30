@@ -11,4 +11,4 @@
 :HL["/images/item-qcy-anc-earphone_4_1782831307105.jpg","image"]
 :HL["/images/item-qcy-anc-earphone_5_1782831307106.jpg","image"]
 :HL["/images/item-qcy-anc-earphone_thumb1782831307096.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-qcy-anc-earphone","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"S7VWeLxfhwCPmS6Abof_w"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-qcy-anc-earphone","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"dPXRISAElQw38cmGPTxah"}

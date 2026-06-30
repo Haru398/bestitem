@@ -10,4 +10,4 @@
 :HL["/images/item-amd-7800x3d_3_1782831636454.png","image"]
 :HL["/images/item-amd-7800x3d_4_1782831636455.png","image"]
 :HL["/images/item-amd-7800x3d_thumb1782831636446.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-amd-7800x3d","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"S7VWeLxfhwCPmS6Abof_w"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-amd-7800x3d","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"dPXRISAElQw38cmGPTxah"}
