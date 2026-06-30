@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-30T12:58:15.540Z</lastmod>
+<lastmod>2026-06-30T13:10:07.520Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -543,6 +543,12 @@
 <url>
 <loc>https://item.monster/post/item-puremax-kf94-mask</loc>
 <lastmod>2026-06-30T03:43:31.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-gomgom-daepae-pork</loc>
+<lastmod>2026-06-30T04:10:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
