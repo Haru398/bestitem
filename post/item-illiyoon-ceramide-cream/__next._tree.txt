@@ -16,4 +16,4 @@
 :HL["/images/item-illiyoon-ceramide-cream_9_1782830654260.jpg","image"]
 :HL["/images/item-illiyoon-ceramide-cream_10_1782830654262.jpg","image"]
 :HL["/images/item-illiyoon-ceramide-cream_thumb1782830654244.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-illiyoon-ceramide-cream","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"LgbrpLBd9iW9xxmHGfaNb"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-illiyoon-ceramide-cream","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"cgb07qvwbdQGvCkTCG8aY"}

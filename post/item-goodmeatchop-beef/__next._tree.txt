@@ -9,4 +9,4 @@
 :HL["/images/item-goodmeatchop-beef_2_1782816792086.jpg","image"]
 :HL["/images/item-goodmeatchop-beef_3_1782816792088.jpg","image"]
 :HL["/images/item-goodmeatchop-beef_thumb1782816792079.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-goodmeatchop-beef","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"LgbrpLBd9iW9xxmHGfaNb"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-goodmeatchop-beef","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"cgb07qvwbdQGvCkTCG8aY"}

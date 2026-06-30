@@ -9,4 +9,4 @@
 :HL["/images/item-beksul-canola-oil_2_1782825679340.jpg","image"]
 :HL["/images/item-beksul-canola-oil_3_1782825679341.jpg","image"]
 :HL["/images/item-beksul-canola-oil_thumb1782825679333.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-beksul-canola-oil","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"LgbrpLBd9iW9xxmHGfaNb"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-beksul-canola-oil","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"cgb07qvwbdQGvCkTCG8aY"}
