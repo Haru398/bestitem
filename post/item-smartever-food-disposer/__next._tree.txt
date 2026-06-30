@@ -9,4 +9,4 @@
 :HL["/images/item-smartever-food-disposer_2_1782478039573.png","image"]
 :HL["/images/item-smartever-food-disposer_3_1782478039575.jpg","image"]
 :HL["/images/item-smartever-food-disposer_thumb1782478039564.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-smartever-food-disposer","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"QfHGHe9hLKb6MSgR_Tpwh"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-smartever-food-disposer","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Vs4paZZAaiWSrhX9VIhUO"}
