@@ -30,6 +30,16 @@ function renderMarkdown(text: string) {
     if (line.startsWith('# ')) return <h1 key={i}>{line.replace('# ', '')}</h1>;
     if (line.startsWith('* ')) return <li key={i}>{line.replace('* ', '')}</li>;
     
+    // Image parsing: ![alt](url)
+    const imgMatch = line.match(/^!\[(.*?)\]\((.*?)\)$/);
+    if (imgMatch) {
+      return (
+        <div key={i} style={{ margin: '2rem 0', textAlign: 'center' }}>
+          <img src={imgMatch[2]} alt={imgMatch[1]} style={{ maxWidth: '100%', borderRadius: '8px' }} />
+        </div>
+      );
+    }
+    
     // Bold text parsing
     let parsedLine = line;
     const boldRegex = /\*\*(.*?)\*\*/g;

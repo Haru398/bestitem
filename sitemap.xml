@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-06-30T14:57:04.115Z</lastmod>
+<lastmod>2026-06-30T14:58:54.417Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -585,6 +585,12 @@
 <url>
 <loc>https://item.monster/post/item-wd-mypassport</loc>
 <lastmod>2026-06-30T05:56:56.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-braun-series9-pro</loc>
+<lastmod>2026-06-30T05:58:47.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
