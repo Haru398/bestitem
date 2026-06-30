@@ -8,4 +8,4 @@
 :HL["/images/item-linalucy-floral-perfume_1_1782492712448.png","image"]
 :HL["/images/item-linalucy-floral-perfume_2_1782492712449.png","image"]
 :HL["/images/item-linalucy-floral-perfume_thumb1782492712444.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-linalucy-floral-perfume","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"P-RtfnvglgdU4Vu0PqURo"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-linalucy-floral-perfume","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Hu6pb6aRqam-btLBtTgch"}
