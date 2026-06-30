@@ -9,4 +9,4 @@
 :HL["/images/item-gomgom-ham-fried-rice_2_1782822525190.jpg","image"]
 :HL["/images/item-gomgom-ham-fried-rice_3_1782822525192.jpg","image"]
 :HL["/images/item-gomgom-ham-fried-rice_thumb1782822525186.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-gomgom-ham-fried-rice","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Af_VrqytKdzT7ap7py1g7"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-gomgom-ham-fried-rice","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CGjhpdp0gtwv7xrq3BLaH"}
