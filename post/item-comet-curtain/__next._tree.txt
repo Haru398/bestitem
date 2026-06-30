@@ -10,4 +10,4 @@
 :HL["/images/item-comet-curtain_3_1782826857077.jpg","image"]
 :HL["/images/item-comet-curtain_4_1782826857078.jpg","image"]
 :HL["/images/item-comet-curtain_thumb1782826857069.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-comet-curtain","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"QgZbM7v4OvIzLPLj9iCJJ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-comet-curtain","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"UOJXLGULaJBtWtLbnhypf"}

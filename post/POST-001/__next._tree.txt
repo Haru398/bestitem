@@ -4,10 +4,5 @@
 :HL["/_next/static/chunks/35b2d8b7eb75s.css","style"]
 :HL["/icon.png","image"]
 :HL["https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90","image"]
-:HL["/images/img1.jpg","image"]
-:HL["/images/img2.jpg","image"]
-:HL["/images/img3.jpg","image"]
-:HL["/images/img4.jpg","image"]
-:HL["/images/img5.jpg","image"]
-:HL["/images/test.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"POST-001","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZaQqGItNVbfRr5iUW1-8u"}
+:HL["https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/58c3/222b9b788ccdf81862cd5d779bd44421d01bb3dc1791a03bd6b7617bba0b.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"POST-001","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"UOJXLGULaJBtWtLbnhypf"}
