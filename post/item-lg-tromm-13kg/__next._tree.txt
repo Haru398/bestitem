@@ -9,4 +9,4 @@
 :HL["/images/item-lg-tromm-13kg_2_1782485024920.jpg","image"]
 :HL["/images/item-lg-tromm-13kg_3_1782485024922.jpg","image"]
 :HL["/images/item-lg-tromm-13kg_thumb1782485024913.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-lg-tromm-13kg","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Vs4paZZAaiWSrhX9VIhUO"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-lg-tromm-13kg","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"8NTkEET87Ner4Tvna-h_M"}
