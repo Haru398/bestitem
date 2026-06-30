@@ -9,4 +9,4 @@
 :HL["/images/item-gomgom-chicken-breast_2_1782512482107.jpg","image"]
 :HL["/images/item-gomgom-chicken-breast_3_1782512482108.jpg","image"]
 :HL["/images/item-gomgom-chicken-breast_thumb1782512482102.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-gomgom-chicken-breast","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"PZAkSUN9md4MlSzSpM1hP"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-gomgom-chicken-breast","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"QgZbM7v4OvIzLPLj9iCJJ"}
