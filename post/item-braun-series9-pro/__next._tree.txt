@@ -11,4 +11,4 @@
 :HL["/images/item-braun-series9-pro_4_1782831527700.jpg","image"]
 :HL["/images/item-braun-series9-pro_5_1782831527702.jpg","image"]
 :HL["/images/item-braun-series9-pro_thumb1782831527691.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-braun-series9-pro","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CGjhpdp0gtwv7xrq3BLaH"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-braun-series9-pro","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"S7VWeLxfhwCPmS6Abof_w"}

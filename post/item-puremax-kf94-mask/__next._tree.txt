@@ -7,4 +7,4 @@
 :HL["/images/item-puremax-kf94-mask_0_1782823411750.jpg","image"]
 :HL["/images/item-puremax-kf94-mask_1_1782823411752.jpg","image"]
 :HL["/images/item-puremax-kf94-mask_thumb1782823411746.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-puremax-kf94-mask","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CGjhpdp0gtwv7xrq3BLaH"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-puremax-kf94-mask","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"S7VWeLxfhwCPmS6Abof_w"}
