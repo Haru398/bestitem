@@ -7,4 +7,4 @@
 :HL["/images/item-chiefmall-driver-set_0_1782814903875.jpg","image"]
 :HL["/images/item-chiefmall-driver-set_1_1782814903876.jpg","image"]
 :HL["/images/item-chiefmall-driver-set_thumb1782814903872.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-chiefmall-driver-set","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Or09aGAK17MUFcpvF7a_v"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-chiefmall-driver-set","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"aHmHXQSszBmFKbUqDG5LF"}
