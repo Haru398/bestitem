@@ -21,7 +21,6 @@ export default function ProductGrid({ posts }: { posts: Post[] }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("전체");
   const [selectedSubCategory, setSelectedSubCategory] = useState("전체");
-  const [sortMethod, setSortMethod] = useState("recommended");
   const [editingPost, setEditingPost] = useState<Post | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
@@ -32,15 +31,41 @@ export default function ProductGrid({ posts }: { posts: Post[] }) {
     setIsAdmin(localStorage.getItem('isAdmin') === 'true');
   }, []);
 
+  const mappedPosts = useMemo(() => {
+    const CATEGORY_MAP: Record<string, string> = {
+      "식품": "식품/건강",
+      "건강": "식품/건강",
+      "헬스/건강식품": "식품/건강",
+      "건강식품": "식품/건강",
+      "반려동물": "반려동물",
+      "반려동물용품": "반려동물",
+      "디지털": "가전/디지털",
+      "가전": "가전/디지털",
+      "가전/디지털": "가전/디지털",
+      "청소기": "가전/디지털",
+      "패션": "패션/뷰티",
+      "뷰티": "패션/뷰티",
+      "패션잡화": "패션/뷰티",
+      "뷰티/화장품": "패션/뷰티",
+      "패션/의류": "패션/뷰티",
+      "가구인테리어": "홈/유아",
+      "출산/유아동": "홈/유아",
+    };
+    return posts.map(p => ({
+      ...p,
+      category: CATEGORY_MAP[p.category] || p.category
+    }));
+  }, [posts]);
+
   // Get unique main categories from data
-  const categories = ["전체", "이벤트/특가", ...Array.from(new Set(posts.map(p => p.category))).filter(c => c !== "이벤트/특가")];
+  const categories = ["전체", "이벤트/특가", ...Array.from(new Set(mappedPosts.map(p => p.category))).filter(c => c !== "이벤트/특가")];
 
   // Get unique sub categories for the selected main category
   const subCategories = useMemo(() => {
     if (selectedCategory === "전체") return [];
-    const subs = new Set(posts.filter(p => p.category === selectedCategory && p.subCategory).map(p => p.subCategory));
+    const subs = new Set(mappedPosts.filter(p => p.category === selectedCategory && p.subCategory).map(p => p.subCategory));
     return ["전체", ...Array.from(subs)] as string[];
-  }, [posts, selectedCategory]);
+  }, [mappedPosts, selectedCategory]);
 
   // When main category changes, reset sub category to "전체"
   const handleCategoryClick = (cat: string) => {
@@ -50,7 +75,7 @@ export default function ProductGrid({ posts }: { posts: Post[] }) {
 
   const filteredAndSortedPosts = useMemo(() => {
     // 1. Filter
-    let filtered = posts.filter(post => {
+    let filtered = mappedPosts.filter(post => {
       const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
                             post.content.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCategory = selectedCategory === "전체" || post.category === selectedCategory;
@@ -58,30 +83,13 @@ export default function ProductGrid({ posts }: { posts: Post[] }) {
       return matchesSearch && matchesCategory && matchesSubCategory;
     });
 
-    // 2. Sort
-    filtered.sort((a, b) => {
-      if (sortMethod === "recommended") return 0; // Keep original order
-      
-      // Parse price strings like "98,000원" into integers
-      const priceA = parseInt((a.price || '').replace(/[^0-9]/g, '')) || 0;
-      const priceB = parseInt((b.price || '').replace(/[^0-9]/g, '')) || 0;
-
-      if (sortMethod === "price-low") {
-        return priceA - priceB;
-      }
-      if (sortMethod === "price-high") {
-        return priceB - priceA;
-      }
-      return 0;
-    });
-
     return filtered;
-  }, [posts, searchQuery, selectedCategory, selectedSubCategory, sortMethod]);
+  }, [mappedPosts, searchQuery, selectedCategory, selectedSubCategory]);
 
   // Reset to page 1 when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, selectedCategory, selectedSubCategory, sortMethod]);
+  }, [searchQuery, selectedCategory, selectedSubCategory]);
 
   const totalPages = Math.ceil(filteredAndSortedPosts.length / ITEMS_PER_PAGE);
   const paginatedPosts = filteredAndSortedPosts.slice(
@@ -140,15 +148,6 @@ export default function ProductGrid({ posts }: { posts: Post[] }) {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-          <select 
-            className={styles.sortSelect} 
-            value={sortMethod} 
-            onChange={(e) => setSortMethod(e.target.value)}
-          >
-            <option value="recommended">⭐ 추천순</option>
-            <option value="price-low">📉 낮은 가격순</option>
-            <option value="price-high">📈 높은 가격순</option>
-          </select>
         </div>
       </div>
 
