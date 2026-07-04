@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://item.monster/",
   },
+  openGraph: {
+    title: "아이템몬스터 | 세상의 모든 꿀템 리뷰 & 특가 정보",
+    description: "광고에 속지 마세요! 가전, 생활용품, 다이어트 식품 등 에디터가 직접 선별한 진짜 베스트 아이템과 실시간 쿠팡 특가 정보를 제공합니다.",
+    url: "https://item.monster",
+    siteName: "아이템몬스터",
+    type: "website",
+  },
   robots: {
     index: true,
     follow: true,
