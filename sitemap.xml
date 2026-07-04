@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-07-04T12:04:34.085Z</lastmod>
+<lastmod>2026-07-04T13:28:52.202Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -615,6 +615,12 @@
 <url>
 <loc>https://item.monster/post/item-xiaomi-67w-powerbank-20000mah</loc>
 <lastmod>2026-07-04T03:01:34.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-logitech-g-pro-x-superlight-2</loc>
+<lastmod>2026-07-04T04:28:34.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
