@@ -59,7 +59,20 @@ function pickProduct() {
   }
 
   // 랜덤 선택 (매번 다른 상품)
-  const picked = available[Math.floor(Math.random() * available.length)];
+  const pickedIndex = Math.floor(Math.random() * available.length);
+  const picked = available[pickedIndex];
+  
+  // 엑셀 원본 데이터에서 해당 상품 찾아서 추천횟수(C열) 1로 변경
+  for (let R = 1; R <= range.e.r; ++R) {
+    const nameCell = ws[XLSX.utils.encode_cell({c: 0, r: R})];
+    if (nameCell && nameCell.v === picked[0]) {
+      ws[XLSX.utils.encode_cell({c: 2, r: R})] = { t: 'n', v: 1 };
+      break;
+    }
+  }
+  XLSX.writeFile(wb, EXCEL_PATH);
+  console.log(`✅ 엑셀 데이터 업데이트 완료: ${picked[0]} (추천횟수 1로 변경)`);
+
   return {
     name: picked[0],
     iframe: picked[1] || '',
@@ -456,15 +469,7 @@ ${iframe}
 function insertGuide(guide) {
   const db = new Database(DB_PATH);
   
-  // 이미 오늘 올린 가이드가 있는지 확인
-  const todayStr = new Date().toISOString().substring(0, 10);
-  const existing = db.prepare("SELECT id FROM guides WHERE createdAt LIKE ? ORDER BY createdAt DESC LIMIT 1").get(`${todayStr}%`);
-  if (existing) {
-    console.log(`⚠️ 오늘(${todayStr}) 이미 가이드가 업로드됐습니다: ${existing.id}`);
-    console.log('중복 업로드를 방지하기 위해 종료합니다.');
-    db.close();
-    process.exit(0);
-  }
+  // 하루 여러 번 업로드를 위해 중복 체크 제거됨
 
   const allGuides = db.prepare('SELECT id FROM guides ORDER BY createdAt ASC').all();
   const relatedIds = allGuides.slice(0, 2).map(g => g.id);
@@ -510,15 +515,24 @@ console.log('='.repeat(60));
 console.log('  ITEM.MONSTER 전문가이드 자동 업로드 시작');
 console.log('='.repeat(60));
 
-const product = pickProduct();
-console.log(`\n📦 선택된 상품: ${product.name}`);
+(async () => {
+  try {
+    const product = pickProduct();
+    console.log(`\n📦 선택된 상품: ${product.name}`);
 
-const guide = generateGuideContent(product.name, product.iframe);
-console.log(`📝 생성된 가이드 ID: ${guide.guideId}`);
+    const guide = await generateGuideContent(product.name, product.iframe);
+    console.log(`📝 생성된 가이드 ID: ${guide.guideId}`);
 
-insertGuide(guide);
-buildAndDeploy();
+    insertGuide(guide);
+    
+    // Update excel using existing update_excel.js script logic if needed, but auto_guide does it in buildAndDeploy maybe? No wait.
+    
+    buildAndDeploy();
 
-console.log('\n🎉 모든 작업 완료!');
-console.log(`   ${product.name} 전문가이드가 item.monster에 업로드됐습니다.`);
-console.log('   GitHub Pages 적용까지 최대 2분 소요됩니다.');
+    console.log('\n🎉 모든 작업 완료!');
+    console.log(`   ${product.name} 전문가이드가 item.monster에 업로드됐습니다.`);
+    console.log('   GitHub Pages 적용까지 최대 2분 소요됩니다.');
+  } catch (error) {
+    console.error('❌ 스크립트 실행 중 오류:', error);
+  }
+})();
