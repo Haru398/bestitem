@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-07-04T19:53:45.837Z</lastmod>
+<lastmod>2026-07-04T20:13:21.906Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -633,6 +633,12 @@
 <url>
 <loc>https://item.monster/post/item-razer-blackshark-v2-hyperspeed</loc>
 <lastmod>2026-07-04T06:04:44.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-aire-car-vacuum-cleaner</loc>
+<lastmod>2026-07-04T11:13:13.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
