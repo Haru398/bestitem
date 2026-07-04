@@ -81,12 +81,19 @@ function renderMarkdown(text: string): React.ReactNode[] {
     // iframe 태그 처리
     if (trimmed.startsWith('<iframe')) {
       if (trimmed.includes('youtube.com')) {
-        // 유튜브 영상인 경우
-        elements.push(
-          <div key={i} style={{ margin: '2rem 0', position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '10px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
-            <div dangerouslySetInnerHTML={{ __html: trimmed.replace('<iframe', '<iframe style="position:absolute; top:0; left:0; width:100%; height:100%;"') }} />
-          </div>
-        );
+        // 유튜브 영상인 경우 (모바일 최적화 가짜 플레이어 UI)
+        const match = trimmed.match(/embed\/([^"?]+)/);
+        const videoId = match ? match[1] : '';
+        if (videoId) {
+          elements.push(
+            <a key={i} href={`https://www.youtube.com/watch?v=${videoId}`} target="_blank" rel="noopener noreferrer" style={{ display: 'block', margin: '2rem 0', position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '10px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', background: '#000', textDecoration: 'none' }}>
+              <img src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`} alt="YouTube Video" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }} />
+              <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '68px', height: '48px', background: 'rgba(255, 0, 0, 0.9)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 2px 8px rgba(0,0,0,0.3)' }}>
+                <div style={{ width: 0, height: 0, borderTop: '12px solid transparent', borderBottom: '12px solid transparent', borderLeft: '20px solid white', marginLeft: '4px' }}></div>
+              </div>
+            </a>
+          );
+        }
       } else {
         // 쿠팡 파트너스 등 기타 배너인 경우 (안내문구 박스 포함)
         elements.push(
