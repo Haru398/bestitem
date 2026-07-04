@@ -83,7 +83,7 @@ function renderMarkdown(text: string): React.ReactNode[] {
       elements.push(
         <div key={i} style={{ margin: '1.5rem 0', padding: '1.2rem', background: '#f8fafc', borderRadius: '10px', border: '1px solid #e2e8f0', display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
           <div dangerouslySetInnerHTML={{ __html: trimmed }} />
-          <p style={{ margin: 0, fontSize: '0.9rem', color: '#475569' }}>쿠팡에서 최저가로 구매하세요. 이 링크는 쿠팡 파트너스 활동의 일환으로, 수수료를 제공받을 수 있습니다.</p>
+          <p style={{ margin: 0, fontSize: '0.85rem', color: '#64748b' }}>위 상품 정보는 제조사 및 판매처에서 제공하는 공개된 정보를 바탕으로 작성되었습니다. 상표권 및 저작권 등 관련 문의는 해당 판매처로 부탁드립니다.</p>
         </div>
       );
       i++; continue;

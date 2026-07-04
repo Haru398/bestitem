@@ -13,6 +13,25 @@ const XLSX = require('xlsx');
 const Database = require('better-sqlite3');
 const { execSync } = require('child_process');
 const path = require('path');
+const https = require('https');
+
+function getYoutubeVideoId(query) {
+  return new Promise((resolve) => {
+    const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(query);
+    https.get(url, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        const match = data.match(/"videoId":"([^"]{11})"/);
+        if (match && match[1]) {
+          resolve(match[1]);
+        } else {
+          resolve('dQw4w9WgXcQ'); // fallback
+        }
+      });
+    }).on('error', () => resolve('dQw4w9WgXcQ'));
+  });
+}
 
 const EXCEL_PATH = 'D:\\아이템몬스터 쿠팡전문성글\\ITEM.MONSTER_상품DB_최종.xlsx';
 const PROJECT_DIR = 'D:\\서버구축폴더\\bestitem';
@@ -50,7 +69,7 @@ function pickProduct() {
 // ─────────────────────────────────────────────────
 // 2. 상품명 → 가이드 콘텐츠 자동 생성
 // ─────────────────────────────────────────────────
-function generateGuideContent(productName, iframe) {
+async function generateGuideContent(productName, iframe) {
   const now = new Date().toISOString().replace('T', ' ').substring(0, 19);
   const slug = productName
     .toLowerCase()
@@ -86,37 +105,37 @@ function generateGuideContent(productName, iframe) {
     summary = `${productName}의 실제 게이밍 성능, 발열, 소음을 철저히 분석했습니다. 구매 전 반드시 확인해야 할 핵심 정보를 정리했습니다.`;
     seoTitle = `${productName} 리뷰 및 구매 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 분석. 1080p/1440p 게이밍 성능, 발열 테스트, 경쟁 제품 비교까지 전문가이드로 정리했습니다.`;
-    content = buildGPUGuide(productName, iframe, imgPath);
+    content = await buildGPUGuide(productName, iframe, imgPath);
   } else if (isCPU) {
     title = `${productName} 완벽 가이드: 호환 메인보드와 성능 분석`;
     summary = `${productName} 구매 전 알아야 할 메인보드 호환성, 쿨러 선택, 실제 게이밍 성능을 상세히 정리했습니다.`;
     seoTitle = `${productName} 메인보드 호환성 및 성능 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 가이드. 호환 메인보드 추천, 내장 그래픽 유무, 실제 게임 성능 테스트 결과를 확인하세요.`;
-    content = buildCPUGuide(productName, iframe, imgPath);
+    content = await buildCPUGuide(productName, iframe, imgPath);
   } else if (isSSD) {
     title = `${productName} 구매 가이드: 발열과 성능의 모든 것`;
     summary = `${productName}의 실제 읽기/쓰기 속도, 발열 관리 방법, 메인보드 호환성까지 구매에 필요한 모든 정보를 담았습니다.`;
     seoTitle = `${productName} 리뷰 및 설치 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 분석. 실제 벤치마크 성능, 발열 대책, 호환 메인보드 목록까지 전문가이드로 정리했습니다.`;
-    content = buildSSDGuide(productName, iframe, imgPath);
+    content = await buildSSDGuide(productName, iframe, imgPath);
   } else if (isRAM) {
     title = `${productName} 구매 가이드: DDR5 호환성과 선택 기준`;
     summary = `${productName} 구매 전 확인해야 할 메인보드 호환성, 속도 설정(XMP/EXPO), 용량 선택 기준을 모두 정리했습니다.`;
     seoTitle = `${productName} 호환성 및 구매 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 구매 가이드. 메인보드별 호환 여부, XMP/EXPO 설정 방법, 적정 용량 선택 팁을 확인하세요.`;
-    content = buildRAMGuide(productName, iframe, imgPath);
+    content = await buildRAMGuide(productName, iframe, imgPath);
   } else if (isMB) {
     title = `${productName} 완벽 리뷰: 이 메인보드, 지금 사도 될까?`;
     summary = `${productName}의 전원부 품질, 확장성, 가성비를 냉정하게 평가했습니다. 어떤 CPU와 조합하면 좋을지 추천합니다.`;
     seoTitle = `${productName} 리뷰 및 호환 CPU 추천 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 리뷰. VRM 전원부 품질, M.2 슬롯 개수, 추천 CPU 조합까지 전문가이드로 분석했습니다.`;
-    content = buildMBGuide(productName, iframe, imgPath);
+    content = await buildMBGuide(productName, iframe, imgPath);
   } else {
     title = `${productName} 완벽 가이드: 구매 전 알아야 할 모든 것`;
     summary = `${productName}에 대해 구매자들이 가장 많이 묻는 질문과 핵심 선택 기준을 전문가이드로 정리했습니다.`;
     seoTitle = `${productName} 구매 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 가이드. 성능 분석, 호환성 확인, 구매 시 주의사항을 한눈에 확인하세요.`;
-    content = buildGenericGuide(productName, iframe, imgPath);
+    content = await buildGenericGuide(productName, iframe, imgPath);
   }
 
   return { guideId, title, summary, seoTitle, metaDescription, content, now };
