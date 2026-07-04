@@ -63,6 +63,7 @@ function pickProduct() {
   const picked = available[pickedIndex];
   
   // 엑셀 원본 데이터에서 해당 상품 찾아서 추천횟수(C열) 1로 변경
+  const range = XLSX.utils.decode_range(ws['!ref']);
   for (let R = 1; R <= range.e.r; ++R) {
     const nameCell = ws[XLSX.utils.encode_cell({c: 0, r: R})];
     if (nameCell && nameCell.v === picked[0]) {
