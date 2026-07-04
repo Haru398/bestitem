@@ -11,8 +11,9 @@ export function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const guide = db.prepare('SELECT seoTitle, metaDescription FROM guides WHERE id = ?').get(params.id) as any;
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const guide = db.prepare('SELECT seoTitle, metaDescription FROM guides WHERE id = ?').get(id) as any;
   if (!guide) return { title: 'Not Found' };
   
   return {
@@ -63,8 +64,9 @@ function renderMarkdown(text: string) {
   });
 }
 
-export default function GuideDetailPage({ params }: { params: { id: string } }) {
-  const guide = db.prepare('SELECT * FROM guides WHERE id = ?').get(params.id) as any;
+export default async function GuideDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const guide = db.prepare('SELECT * FROM guides WHERE id = ?').get(id) as any;
   if (!guide) {
     notFound();
   }
