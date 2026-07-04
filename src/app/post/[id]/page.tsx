@@ -18,6 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return {
     title: `${post.title} - 아이템몬스터`,
     description: post.summary,
+    alternates: {
+      canonical: `https://item.monster/post/${resolvedParams.id}`,
+    },
     openGraph: {
       title: post.title,
       description: post.summary,

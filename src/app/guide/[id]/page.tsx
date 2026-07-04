@@ -19,6 +19,9 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return {
     title: guide.seoTitle,
     description: guide.metaDescription,
+    alternates: {
+      canonical: `https://item.monster/guide/${id}`,
+    },
   };
 }
 
