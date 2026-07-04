@@ -69,6 +69,16 @@ function generateGuideContent(productName, iframe) {
   const isMB = /메인보드|B650|B760|Z790|A620|마더보드/i.test(productName);
   const isCooler = /쿨러|ARGB|수냉|공냉|팬|케이스/i.test(productName);
 
+  // SEO를 위한 고유 이미지 생성 (tech_header.png 복사)
+  const fs = require('fs');
+  const imgName = `${slug}-review.png`;
+  const imgPath = `/images/${imgName}`;
+  const sourceImg = path.join(PROJECT_DIR, 'public', 'images', 'tech_header.png');
+  const destImg = path.join(PROJECT_DIR, 'public', 'images', imgName);
+  if (fs.existsSync(sourceImg) && !fs.existsSync(destImg)) {
+    fs.copyFileSync(sourceImg, destImg);
+  }
+
   let title, summary, seoTitle, metaDescription, content;
 
   if (isGPU) {
@@ -76,37 +86,37 @@ function generateGuideContent(productName, iframe) {
     summary = `${productName}의 실제 게이밍 성능, 발열, 소음을 철저히 분석했습니다. 구매 전 반드시 확인해야 할 핵심 정보를 정리했습니다.`;
     seoTitle = `${productName} 리뷰 및 구매 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 분석. 1080p/1440p 게이밍 성능, 발열 테스트, 경쟁 제품 비교까지 전문가이드로 정리했습니다.`;
-    content = buildGPUGuide(productName, iframe);
+    content = buildGPUGuide(productName, iframe, imgPath);
   } else if (isCPU) {
     title = `${productName} 완벽 가이드: 호환 메인보드와 성능 분석`;
     summary = `${productName} 구매 전 알아야 할 메인보드 호환성, 쿨러 선택, 실제 게이밍 성능을 상세히 정리했습니다.`;
     seoTitle = `${productName} 메인보드 호환성 및 성능 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 가이드. 호환 메인보드 추천, 내장 그래픽 유무, 실제 게임 성능 테스트 결과를 확인하세요.`;
-    content = buildCPUGuide(productName, iframe);
+    content = buildCPUGuide(productName, iframe, imgPath);
   } else if (isSSD) {
     title = `${productName} 구매 가이드: 발열과 성능의 모든 것`;
     summary = `${productName}의 실제 읽기/쓰기 속도, 발열 관리 방법, 메인보드 호환성까지 구매에 필요한 모든 정보를 담았습니다.`;
     seoTitle = `${productName} 리뷰 및 설치 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 분석. 실제 벤치마크 성능, 발열 대책, 호환 메인보드 목록까지 전문가이드로 정리했습니다.`;
-    content = buildSSDGuide(productName, iframe);
+    content = buildSSDGuide(productName, iframe, imgPath);
   } else if (isRAM) {
     title = `${productName} 구매 가이드: DDR5 호환성과 선택 기준`;
     summary = `${productName} 구매 전 확인해야 할 메인보드 호환성, 속도 설정(XMP/EXPO), 용량 선택 기준을 모두 정리했습니다.`;
     seoTitle = `${productName} 호환성 및 구매 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 구매 가이드. 메인보드별 호환 여부, XMP/EXPO 설정 방법, 적정 용량 선택 팁을 확인하세요.`;
-    content = buildRAMGuide(productName, iframe);
+    content = buildRAMGuide(productName, iframe, imgPath);
   } else if (isMB) {
     title = `${productName} 완벽 리뷰: 이 메인보드, 지금 사도 될까?`;
     summary = `${productName}의 전원부 품질, 확장성, 가성비를 냉정하게 평가했습니다. 어떤 CPU와 조합하면 좋을지 추천합니다.`;
     seoTitle = `${productName} 리뷰 및 호환 CPU 추천 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 리뷰. VRM 전원부 품질, M.2 슬롯 개수, 추천 CPU 조합까지 전문가이드로 분석했습니다.`;
-    content = buildMBGuide(productName, iframe);
+    content = buildMBGuide(productName, iframe, imgPath);
   } else {
     title = `${productName} 완벽 가이드: 구매 전 알아야 할 모든 것`;
     summary = `${productName}에 대해 구매자들이 가장 많이 묻는 질문과 핵심 선택 기준을 전문가이드로 정리했습니다.`;
     seoTitle = `${productName} 구매 가이드 | 아이템몬스터`;
     metaDescription = `${productName} 완벽 가이드. 성능 분석, 호환성 확인, 구매 시 주의사항을 한눈에 확인하세요.`;
-    content = buildGenericGuide(productName, iframe);
+    content = buildGenericGuide(productName, iframe, imgPath);
   }
 
   return { guideId, title, summary, seoTitle, metaDescription, content, now };
@@ -117,6 +127,10 @@ function generateGuideContent(productName, iframe) {
 // ─────────────────────────────────────────────────
 function buildGPUGuide(name, iframe) {
   return `
+*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.*
+
+![상품 리뷰](/images/tech_header.png)
+
 **${name}**은 현재 PC 빌딩 커뮤니티에서 가장 많이 언급되는 그래픽카드 중 하나입니다. 구매를 고민 중이신 분들을 위해, 실제로 중요한 정보만 핵심적으로 정리해 드립니다.
 
 ## 1. 핵심 스펙 한눈에 보기
@@ -168,6 +182,10 @@ ${iframe}
 
 function buildCPUGuide(name, iframe) {
   return `
+*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.*
+
+![상품 리뷰](/images/tech_header.png)
+
 **${name}**은 현재 가성비 PC 빌딩 시장에서 많은 주목을 받고 있는 프로세서입니다. 구매 전 꼭 알아야 할 핵심 정보를 정리했습니다.
 
 ## 1. 소켓과 메인보드 호환성
@@ -219,6 +237,10 @@ ${iframe}
 
 function buildSSDGuide(name, iframe) {
   return `
+*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.*
+
+![상품 리뷰](/images/tech_header.png)
+
 **${name}**은 현재 NVMe SSD 시장에서 높은 인기를 자랑하는 제품입니다. 구매 전 발열과 호환성 문제를 반드시 확인하세요.
 
 ## 1. NVMe SSD 세대별 성능 차이
@@ -265,6 +287,10 @@ ${iframe}
 
 function buildRAMGuide(name, iframe) {
   return `
+*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.*
+
+![상품 리뷰](/images/tech_header.png)
+
 **${name}** 구매를 고려 중이신가요? 메모리(RAM)는 잘못 선택하면 메인보드와 호환이 안 되거나, 성능을 제대로 발휘하지 못할 수 있습니다. 핵심 체크리스트를 정리해 드립니다.
 
 ## 1. DDR4 vs DDR5: 내 메인보드는?
@@ -309,6 +335,10 @@ ${iframe}
 
 function buildMBGuide(name, iframe) {
   return `
+*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.*
+
+![상품 리뷰](/images/tech_header.png)
+
 **${name}** 구매를 검토 중이신가요? 메인보드는 PC의 핵심 뼈대로, 어떤 CPU와 부품을 사용할지에 따라 선택이 달라집니다.
 
 ## 1. 칩셋별 특징 비교
@@ -358,6 +388,10 @@ ${iframe}
 
 function buildGenericGuide(name, iframe) {
   return `
+*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.*
+
+![상품 리뷰](/images/tech_header.png)
+
 **${name}**은 현재 많은 분들이 관심을 가지는 제품입니다. 구매 전 꼭 알아야 할 핵심 정보를 정리해 드립니다.
 
 ## 1. 제품 선택 시 핵심 기준
