@@ -78,14 +78,24 @@ function renderMarkdown(text: string): React.ReactNode[] {
       i++; continue;
     }
 
-    // iframe 태그 (쿠팡 파트너스 배너)
+    // iframe 태그 처리
     if (trimmed.startsWith('<iframe')) {
-      elements.push(
-        <div key={i} style={{ margin: '1.5rem 0', padding: '1.2rem', background: '#f8fafc', borderRadius: '10px', border: '1px solid #e2e8f0', display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-          <div dangerouslySetInnerHTML={{ __html: trimmed }} />
-          <p style={{ margin: 0, fontSize: '0.85rem', color: '#64748b' }}>위 상품 정보는 제조사 및 판매처에서 제공하는 공개된 정보를 바탕으로 작성되었습니다. 상표권 및 저작권 등 관련 문의는 해당 판매처로 부탁드립니다.</p>
-        </div>
-      );
+      if (trimmed.includes('youtube.com')) {
+        // 유튜브 영상인 경우
+        elements.push(
+          <div key={i} style={{ margin: '2rem 0', position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '10px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+            <div dangerouslySetInnerHTML={{ __html: trimmed.replace('<iframe', '<iframe style="position:absolute; top:0; left:0; width:100%; height:100%;"') }} />
+          </div>
+        );
+      } else {
+        // 쿠팡 파트너스 등 기타 배너인 경우 (안내문구 박스 포함)
+        elements.push(
+          <div key={i} style={{ margin: '1.5rem 0', padding: '1.2rem', background: '#f8fafc', borderRadius: '10px', border: '1px solid #e2e8f0', display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+            <div dangerouslySetInnerHTML={{ __html: trimmed }} />
+            <p style={{ margin: 0, fontSize: '0.85rem', color: '#64748b' }}>위 상품 정보는 제조사 및 판매처에서 제공하는 공개된 정보를 바탕으로 작성되었습니다. 상표권 및 저작권 등 관련 문의는 해당 판매처로 부탁드립니다.</p>
+          </div>
+        );
+      }
       i++; continue;
     }
 
