@@ -4,4 +4,4 @@
 :HL["/_next/static/chunks/3gete-obwamf2.css","style"]
 :HL["/images/rtx5060.png","image"]
 :HL["https://img.youtube.com/vi/TXqd5MEwjVA/hqdefault.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-rtx5060-review-2025","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"FHvMPFngO3me_skblJGHI"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-rtx5060-review-2025","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ugCZxkq6_He617OIz6O8W"}
