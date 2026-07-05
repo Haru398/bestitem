@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-07-05T11:07:17.026Z</lastmod>
+<lastmod>2026-07-05T12:01:21.002Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -669,6 +669,12 @@
 <url>
 <loc>https://item.monster/post/item-mercusys-wifi7-router</loc>
 <lastmod>2026-07-05T02:07:04.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-vankyo-leisure-200</loc>
+<lastmod>2026-07-05T03:01:13.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
