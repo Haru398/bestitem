@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-07-05T17:04:43.450Z</lastmod>
+<lastmod>2026-07-05T18:03:28.500Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -699,6 +699,12 @@
 <url>
 <loc>https://item.monster/post/item-hansuwi-dehumidifier</loc>
 <lastmod>2026-07-05T08:04:35.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-comet-yoga-mat</loc>
+<lastmod>2026-07-05T09:03:21.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
