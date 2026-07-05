@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-07-05T10:30:35.280Z</lastmod>
+<lastmod>2026-07-05T10:34:33.749Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -651,6 +651,18 @@
 <url>
 <loc>https://item.monster/post/item-downy-mystique-1-05l</loc>
 <lastmod>2026-07-04T13:02:33.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-nutricore-vitamin-d-1000iu</loc>
+<lastmod>2026-07-05T01:30:39.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-apple-pencil-pro</loc>
+<lastmod>2026-07-05T01:34:23.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
