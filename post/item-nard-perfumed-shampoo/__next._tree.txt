@@ -9,4 +9,4 @@
 :HL["/images/item-nard-perfumed-shampoo_2_1783307783756.jpg","image"]
 :HL["/images/item-nard-perfumed-shampoo_3_1783307783757.jpg","image"]
 :HL["/images/item-nard-perfumed-shampoo_thumb1783307783750.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nard-perfumed-shampoo","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"NnHIkqNKQDgfO1fiNIh9T"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nard-perfumed-shampoo","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"fg7zRQWNrshArT6M8R-09"}

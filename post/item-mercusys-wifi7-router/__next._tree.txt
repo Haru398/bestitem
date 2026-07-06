@@ -11,4 +11,4 @@
 :HL["/images/item-mercusys-wifi7-router_4_1783249624196.png","image"]
 :HL["/images/item-mercusys-wifi7-router_5_1783249624197.jpg","image"]
 :HL["/images/item-mercusys-wifi7-router_thumb1783249624190.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-mercusys-wifi7-router","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"NnHIkqNKQDgfO1fiNIh9T"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-mercusys-wifi7-router","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"fg7zRQWNrshArT6M8R-09"}

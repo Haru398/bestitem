@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-07-06T03:33:01.203Z</lastmod>
+<lastmod>2026-07-06T03:49:13.640Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -777,6 +777,12 @@
 <url>
 <loc>https://item.monster/post/item-k2-safety-shoes</loc>
 <lastmod>2026-07-05T18:32:52.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-haepyo-olive-oil</loc>
+<lastmod>2026-07-05T18:49:05.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
