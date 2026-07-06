@@ -9,4 +9,4 @@
 :HL["/images/item-yoplait-protein-strawberry-banana_2_1783310731616.jpg","image"]
 :HL["/images/item-yoplait-protein-strawberry-banana_3_1783310731617.png","image"]
 :HL["/images/item-yoplait-protein-strawberry-banana_thumb1783310731611.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-yoplait-protein-strawberry-banana","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GL4u_8fjwIgWLPEFRdNy_"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-yoplait-protein-strawberry-banana","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"2D8Yl4iDw5YWODIKzDB3X"}
