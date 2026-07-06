@@ -10,4 +10,4 @@
 :HL["/images/item-nutricore-vitamin-d-1000iu_3_1783247439320.jpg","image"]
 :HL["/images/item-nutricore-vitamin-d-1000iu_4_1783247439323.jpg","image"]
 :HL["/images/item-nutricore-vitamin-d-1000iu_thumb1783247439301.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nutricore-vitamin-d-1000iu","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"HGhvLr-OzHcyuRYL18ndD"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nutricore-vitamin-d-1000iu","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZbVrCO2eN5wepS0ceDDGE"}
