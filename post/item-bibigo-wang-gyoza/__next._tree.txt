@@ -11,4 +11,4 @@
 :HL["/images/item-bibigo-wang-gyoza_4_1783305818776.jpg","image"]
 :HL["/images/item-bibigo-wang-gyoza_5_1783305818778.jpg","image"]
 :HL["/images/item-bibigo-wang-gyoza_thumb1783305818767.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-bibigo-wang-gyoza","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"BEm1sCQwmJlrBoE96QvhL"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-bibigo-wang-gyoza","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"cV4BVnCyxrnM_4BYQMNkF"}
