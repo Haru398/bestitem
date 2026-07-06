@@ -10,4 +10,4 @@
 :HL["/images/item-cool-doctor-cooling-tissue-large_3_1783314803554.jpg","image"]
 :HL["/images/item-cool-doctor-cooling-tissue-large_4_1783314803555.jpg","image"]
 :HL["/images/item-cool-doctor-cooling-tissue-large_thumb1783314803547.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-cool-doctor-cooling-tissue-large","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DQRruyWanMcpBZsDAxkV0"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-cool-doctor-cooling-tissue-large","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"muwZUCr2yjQHa-gCesdfD"}
