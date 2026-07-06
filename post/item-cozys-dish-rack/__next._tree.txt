@@ -11,4 +11,4 @@
 :HL["/images/item-cozys-dish-rack_4_1783260052113.png","image"]
 :HL["/images/item-cozys-dish-rack_5_1783260052116.jpg","image"]
 :HL["/images/item-cozys-dish-rack_thumb1783260052098.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-cozys-dish-rack","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"2D8Yl4iDw5YWODIKzDB3X"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-cozys-dish-rack","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lEQxpvjtejbw6CMDGKEAe"}

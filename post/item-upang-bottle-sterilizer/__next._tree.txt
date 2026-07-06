@@ -13,4 +13,4 @@
 :HL["/images/item-upang-bottle-sterilizer_6_1783303837168.png","image"]
 :HL["/images/item-upang-bottle-sterilizer_7_1783303837170.jpg","image"]
 :HL["/images/item-upang-bottle-sterilizer_thumb1783303837156.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-upang-bottle-sterilizer","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"2D8Yl4iDw5YWODIKzDB3X"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-upang-bottle-sterilizer","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lEQxpvjtejbw6CMDGKEAe"}

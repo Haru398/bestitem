@@ -7,4 +7,4 @@
 :HL["/images/item-k2-safety-shoes_0_1783308772195.jpg","image"]
 :HL["/images/item-k2-safety-shoes_1_1783308772197.jpg","image"]
 :HL["/images/item-k2-safety-shoes_thumb1783308772191.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-k2-safety-shoes","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"2D8Yl4iDw5YWODIKzDB3X"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-k2-safety-shoes","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lEQxpvjtejbw6CMDGKEAe"}

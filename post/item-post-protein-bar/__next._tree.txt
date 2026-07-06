@@ -10,4 +10,4 @@
 :HL["/images/item-post-protein-bar_3_1783298103298.jpg","image"]
 :HL["/images/item-post-protein-bar_4_1783298103300.jpg","image"]
 :HL["/images/item-post-protein-bar_thumb1783298103289.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-post-protein-bar","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"2D8Yl4iDw5YWODIKzDB3X"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-post-protein-bar","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lEQxpvjtejbw6CMDGKEAe"}
