@@ -12,4 +12,4 @@
 :HL["/images/item-habibi-toilet-cleaner_5_1783302850484.jpg","image"]
 :HL["/images/item-habibi-toilet-cleaner_6_1783302850485.jpg","image"]
 :HL["/images/item-habibi-toilet-cleaner_thumb1783302850471.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-habibi-toilet-cleaner","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"VbzQT_YWGSNrGHXWcAA5x"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-habibi-toilet-cleaner","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"GL4u_8fjwIgWLPEFRdNy_"}
