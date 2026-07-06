@@ -7,4 +7,4 @@
 :HL["/images/item-comet-yoga-mat_0_1783274601106.jpg","image"]
 :HL["/images/item-comet-yoga-mat_1_1783274601107.jpg","image"]
 :HL["/images/item-comet-yoga-mat_thumb1783274601103.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-comet-yoga-mat","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZbVrCO2eN5wepS0ceDDGE"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-comet-yoga-mat","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"VbzQT_YWGSNrGHXWcAA5x"}
