@@ -8,4 +8,4 @@
 :HL["/images/item-domestic-new-potato-500g_1_1783320752641.jpg","image"]
 :HL["/images/item-domestic-new-potato-500g_2_1783320752642.jpg","image"]
 :HL["/images/item-domestic-new-potato-500g_thumb1783320752637.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-new-potato-500g","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"cV4BVnCyxrnM_4BYQMNkF"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-new-potato-500g","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"BAJ4Lo2_0MgrJhhHiqgyC"}
