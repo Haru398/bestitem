@@ -3,4 +3,4 @@
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/chunks/3gete-obwamf2.css","style"]
 :HL["/images/tech_header.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-msi-456-rtx-3050-hij-2x-oc-d6-6gb-1783194813576","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"YP6hJvls3T-QrYjowFyk3"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-msi-456-rtx-3050-hij-2x-oc-d6-6gb-1783194813576","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"4MyaRb6vfK6BU0j_hk0Gu"}
