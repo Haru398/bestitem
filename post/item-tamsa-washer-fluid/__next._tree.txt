@@ -10,4 +10,4 @@
 :HL["/images/item-tamsa-washer-fluid_3_1783296957227.jpg","image"]
 :HL["/images/item-tamsa-washer-fluid_4_1783296957229.jpg","image"]
 :HL["/images/item-tamsa-washer-fluid_thumb1783296957219.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-tamsa-washer-fluid","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"_5ANfTIv15kirvwdOva51"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-tamsa-washer-fluid","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DQRruyWanMcpBZsDAxkV0"}

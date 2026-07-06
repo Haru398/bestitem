@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://item.monster</loc>
-<lastmod>2026-07-06T18:20:17.595Z</lastmod>
+<lastmod>2026-07-06T19:20:16.544Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
@@ -879,6 +879,12 @@
 <url>
 <loc>https://item.monster/post/item-boace-peltier-cooling-vest-set</loc>
 <lastmod>2026-07-06T09:20:10.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://item.monster/post/item-easyandco-ice-cool-towel-3p</loc>
+<lastmod>2026-07-06T10:20:09.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
