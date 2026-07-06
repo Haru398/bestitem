@@ -8,4 +8,4 @@
 :HL["/images/item-nivea-lip-care_1_1783306804199.jpg","image"]
 :HL["/images/item-nivea-lip-care_2_1783306804200.jpg","image"]
 :HL["/images/item-nivea-lip-care_thumb1783306804195.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nivea-lip-care","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"sWNx9hTceC6aYZXOhPmgI"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-nivea-lip-care","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DWBa1hzLhAYHRySL54hTB"}
