@@ -8,4 +8,4 @@
 :HL["/images/item-beaumonde-cooling-pad_1_1783301864763.jpg","image"]
 :HL["/images/item-beaumonde-cooling-pad_2_1783301864766.jpg","image"]
 :HL["/images/item-beaumonde-cooling-pad_thumb1783301864758.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-beaumonde-cooling-pad","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"acE-Rnxu1QP8zTaPyuMal"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-beaumonde-cooling-pad","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"t_bDn4zRKUMuzZxaEyOCA"}
