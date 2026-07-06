@@ -11,4 +11,4 @@
 :HL["/images/item-comet-ice-box_4_1783296219656.jpg","image"]
 :HL["/images/item-comet-ice-box_5_1783296219658.jpg","image"]
 :HL["/images/item-comet-ice-box_thumb1783296219639.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-comet-ice-box","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Au7_Ym3wn0Nk-HlGdkcGl"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-comet-ice-box","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"BEm1sCQwmJlrBoE96QvhL"}
