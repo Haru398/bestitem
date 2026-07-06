@@ -16,4 +16,4 @@
 :HL["/images/item-vankyo-leisure-200_9_1783252872998.jpg","image"]
 :HL["/images/item-vankyo-leisure-200_10_1783252873000.jpg","image"]
 :HL["/images/item-vankyo-leisure-200_thumb1783252872982.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-vankyo-leisure-200","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"4qNTlSlQLWm6ryrQbBK7V"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-vankyo-leisure-200","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"qLTmJ5z-5tt31xFMyBfRJ"}
