@@ -8,4 +8,4 @@
 :HL["/images/item-hansuwi-dehumidifier_1_1783271075958.jpg","image"]
 :HL["/images/item-hansuwi-dehumidifier_2_1783271075960.jpg","image"]
 :HL["/images/item-hansuwi-dehumidifier_thumb1783271075953.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-hansuwi-dehumidifier","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"FGLkAQMitSutApgan7jqW"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-hansuwi-dehumidifier","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"QyvmmGZQNouISzLmxhUyq"}
