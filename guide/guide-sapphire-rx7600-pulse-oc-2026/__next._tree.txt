@@ -4,4 +4,4 @@
 :HL["/_next/static/chunks/3gete-obwamf2.css","style"]
 :HL["/images/sapphire-rx7600-pulse-oc-review.png","image"]
 :HL["https://img.youtube.com/vi/TXqd5MEwjVA/hqdefault.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-sapphire-rx7600-pulse-oc-2026","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Csy-jqGDUyjAOZdn13JpF"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-sapphire-rx7600-pulse-oc-2026","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"9hDLHxkBloIsuyRDaOmv8"}

@@ -10,4 +10,4 @@
 :HL["/images/item-domestic-white-cucumber-2ea_3_1783353905418.jpg","image"]
 :HL["/images/item-domestic-white-cucumber-2ea_4_1783353905419.jpg","image"]
 :HL["/images/item-domestic-white-cucumber-2ea_thumb1783353905411.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-white-cucumber-2ea","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Csy-jqGDUyjAOZdn13JpF"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-white-cucumber-2ea","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"9hDLHxkBloIsuyRDaOmv8"}
