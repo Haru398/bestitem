@@ -12,4 +12,4 @@
 :HL["/images/item-aire-car-vacuum-cleaner_5_1783195993267.png","image"]
 :HL["/images/item-aire-car-vacuum-cleaner_6_1783195993270.png","image"]
 :HL["/images/item-aire-car-vacuum-cleaner_thumb1783195993247.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-aire-car-vacuum-cleaner","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"dcE13YI4PT2PA89J9eo4C"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-aire-car-vacuum-cleaner","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ElNU3Oup3g_zCQi_MS3xP"}
