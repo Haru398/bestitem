@@ -9,4 +9,4 @@
 :HL["/images/item-freshine-ugly-apple-3kg_2_1783317761622.jpg","image"]
 :HL["/images/item-freshine-ugly-apple-3kg_3_1783317761623.jpg","image"]
 :HL["/images/item-freshine-ugly-apple-3kg_thumb1783317761619.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-freshine-ugly-apple-3kg","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"eEmvkFaLyWUsb_lqEsBrA"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-freshine-ugly-apple-3kg","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lxQQ04A-xdqo9LzOnVrgl"}
