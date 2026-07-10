@@ -10,4 +10,4 @@
 :HL["/images/item-easyandco-ice-cool-towel-3p_3_1783365609285.jpg","image"]
 :HL["/images/item-easyandco-ice-cool-towel-3p_4_1783365609286.jpg","image"]
 :HL["/images/item-easyandco-ice-cool-towel-3p_thumb1783365609280.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-easyandco-ice-cool-towel-3p","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lxQQ04A-xdqo9LzOnVrgl"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-easyandco-ice-cool-towel-3p","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"nQ6XPdpMlbC_ubKQnE3cR"}

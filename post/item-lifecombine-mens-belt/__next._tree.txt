@@ -10,4 +10,4 @@
 :HL["/images/item-lifecombine-mens-belt_3_1783318760374.jpg","image"]
 :HL["/images/item-lifecombine-mens-belt_4_1783318760375.jpg","image"]
 :HL["/images/item-lifecombine-mens-belt_thumb1783318760369.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-lifecombine-mens-belt","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lxQQ04A-xdqo9LzOnVrgl"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-lifecombine-mens-belt","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"nQ6XPdpMlbC_ubKQnE3cR"}
