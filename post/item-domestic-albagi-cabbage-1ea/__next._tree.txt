@@ -10,4 +10,4 @@
 :HL["/images/item-domestic-albagi-cabbage-1ea_3_1783358415422.jpg","image"]
 :HL["/images/item-domestic-albagi-cabbage-1ea_4_1783358415423.jpg","image"]
 :HL["/images/item-domestic-albagi-cabbage-1ea_thumb1783358415418.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-albagi-cabbage-1ea","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"nQ6XPdpMlbC_ubKQnE3cR"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-domestic-albagi-cabbage-1ea","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"loFuD7ltLUG4dlRs1caNf"}
