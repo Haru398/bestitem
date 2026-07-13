@@ -21,5 +21,27 @@ function copyDirectory(source, destination) {
   }
 }
 
+const managedBuildPaths = [
+  '_next',
+  'about',
+  'articles',
+  'category',
+  'guide',
+  'post',
+  '404.html',
+  'icon.png',
+  'index.html',
+  'robots.txt',
+  'sitemap.xml',
+];
+
+for (const entry of managedBuildPaths) {
+  const target = path.resolve(root, entry);
+  if (path.dirname(target) !== root) {
+    throw new Error(`저장소 루트 밖의 경로는 정리할 수 없습니다: ${target}`);
+  }
+  fs.rmSync(target, { recursive: true, force: true });
+}
+
 copyDirectory(output, root);
-console.log('정적 빌드 결과를 저장소 루트에 복사했습니다. 기존 파일은 삭제하지 않았습니다.');
+console.log('이전 정적 페이지를 정리하고 최신 빌드 결과를 저장소 루트에 복사했습니다.');

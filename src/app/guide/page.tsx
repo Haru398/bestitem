@@ -8,7 +8,7 @@ import SiteHeader from "../components/SiteHeader";
 import styles from "../site.module.css";
 
 export const metadata: Metadata = {
-  title: "PC 부품 호환성·규격 전문 가이드",
+  title: "PC·전자제품, 사기 전에 확인할 것",
   description: "CPU·메인보드·그래픽카드의 공식 사양, BIOS 호환성, 전원과 케이스 규격처럼 구매 전에 확인할 질문을 제조사 자료로 정리합니다.",
   alternates: { canonical: "/guide/" },
 };
@@ -48,23 +48,23 @@ export default function GuideIndexPage() {
       <SiteHeader />
       <main className={styles.wideMain}>
         <header className={styles.archiveIntro}>
-          <span className={styles.eyebrow}>OFFICIAL SPECS, PRACTICAL CHECKS</span>
-          <h1 className={styles.archiveTitle}>PC 부품은 ‘호환됨’보다<br />무엇을 확인했는지가 중요합니다</h1>
-          <p>제조사 공식 사양과 지원 문서를 근거로 소켓, BIOS, 전원, 크기와 슬롯 조건을 확인합니다. 출처가 불명확한 기존 자동 생성 글은 검색에서 제외하고 다시 검수한 글만 공개합니다.</p>
+          <span className={styles.eyebrow}>PC 부품은 호환성부터</span>
+          <h1 className={styles.archiveTitle}>이름은 다 비슷한데,<br />왜 이렇게 헷갈릴까요?</h1>
+          <p>CPU 소켓부터 BIOS, 그래픽카드 길이와 파워 용량까지. 제품명만 봐서는 알기 어려운 내용을 제조사 문서까지 열어보고 쉽게 풀어 적습니다.</p>
         </header>
 
         <section className={styles.guideMethod} aria-label="전문 가이드 검수 방식">
-          <div><b>01</b><span>검색 질문 하나를 정합니다</span></div>
-          <div><b>02</b><span>제조사 사양·지원표를 대조합니다</span></div>
-          <div><b>03</b><span>이미지 권리와 출처를 기록합니다</span></div>
-          <div><b>04</b><span>확인 날짜와 예외 조건을 공개합니다</span></div>
+          <div><b>01</b><span>뭐가 헷갈리는지부터 적고</span></div>
+          <div><b>02</b><span>제조사 자료를 직접 열어보고</span></div>
+          <div><b>03</b><span>사진 출처와 사용 조건도 확인하고</span></div>
+          <div><b>04</b><span>애매한 건 애매하다고 남깁니다</span></div>
         </section>
 
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <div>
-              <span className={styles.eyebrow}>TOPIC CLUSTERS</span>
-              <h2>질문 분야별로 찾기</h2>
+              <span className={styles.eyebrow}>궁금한 부품부터</span>
+              <h2>어떤 걸 찾고 있나요?</h2>
             </div>
           </div>
           <div className={styles.topicGrid}>
@@ -72,7 +72,7 @@ export default function GuideIndexPage() {
               const topic = TOPICS[slug] || { label: "선택 가이드", description: "구매 전에 확인할 조건을 공식 자료와 함께 정리합니다." };
               return (
                 <a href={`#${slug}`} className={styles.topicCard} key={slug}>
-                  <b>{count} GUIDE{count > 1 ? "S" : ""}</b>
+                  <b>지금 읽을 글 {count}개</b>
                   <h3>{topic.label}</h3>
                   <p>{topic.description}</p>
                 </a>
@@ -84,8 +84,8 @@ export default function GuideIndexPage() {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <div>
-              <span className={styles.eyebrow}>REVIEWED GUIDES</span>
-              <h2>공식 근거를 확인한 가이드</h2>
+              <span className={styles.eyebrow}>자료를 다시 확인한 글</span>
+              <h2>최근에 정리한 내용</h2>
             </div>
           </div>
           <div className={styles.guideTopicList}>
@@ -106,7 +106,7 @@ export default function GuideIndexPage() {
                             <span className={styles.tag}>{category.shortLabel} · {topic.label}</span>
                             <h3>{guide.title}</h3>
                             <p>{guide.description}</p>
-                            <span className={styles.cardCta}>근거와 확인 순서 보기 →</span>
+                            <span className={styles.cardCta}>이어서 읽기 →</span>
                           </div>
                         </Link>
                       );

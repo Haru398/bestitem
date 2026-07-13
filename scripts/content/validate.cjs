@@ -6,6 +6,7 @@ const errors = [];
 const warnings = [];
 const slugs = new Set();
 const bannedHype = /(무조건|100%\s*(효과|차단|보장)|완벽한\s*제품|(^|[^가-힣])기적([^가-힣]|$)|끝판왕|가성비\s*갑|박살)/m;
+const roboticOpening = /^.{0,120}이 글은 .{0,80}직접 .{0,40}(후기|사용)/s;
 const validStatuses = new Set(['draft', 'legacy', 'reviewed', 'hidden']);
 const validSourceTypes = new Set(['manufacturer-spec', 'manufacturer-support', 'official-standard', 'public-agency']);
 const validMediaUsage = new Set(['original', 'licensed-manufacturer', 'authorized-affiliate']);
@@ -74,6 +75,9 @@ for (const entry of [...read('posts'), ...read('guides')]) {
     if (!item.editorial.basis || item.editorial.basis.length < 25) errors.push(`${prefix} 검증 근거가 부족합니다.`);
 
     if (item.kind === 'post') {
+      if (roboticOpening.test(String(item.intro || ''))) {
+        errors.push(`${prefix} 도입부가 자동 생성 문구처럼 시작합니다. 구체적인 사용 상황에서 자연스럽게 시작하세요.`);
+      }
       if (!item.verdict) errors.push(`${prefix} 구매 판단 요약이 없습니다.`);
       if (!item.intro || item.intro.length < 180) errors.push(`${prefix} 도입부가 짧습니다.`);
       if (!item.conclusion || item.conclusion.length < 140) errors.push(`${prefix} 결론이 짧습니다.`);

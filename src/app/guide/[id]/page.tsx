@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { getCategory } from "../../../lib/categories";
-import { formatDate, getAllGuides, getGuide, getPublicGuides } from "../../../lib/content";
+import { formatDate, getGuide, getPublicGuides } from "../../../lib/content";
 import MarkdownContent from "../../components/MarkdownContent";
 import SiteFooter from "../../components/SiteFooter";
 import SiteHeader from "../../components/SiteHeader";
@@ -13,7 +13,7 @@ import siteStyles from "../../site.module.css";
 type Props = { params: Promise<{ id: string }> };
 
 export function generateStaticParams() {
-  return getAllGuides().map((guide) => ({ id: guide.slug }));
+  return getPublicGuides().map((guide) => ({ id: guide.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -56,7 +56,7 @@ export default async function GuideDetailPage({ params }: Props) {
     datePublished: guide.publishedAt,
     dateModified: guide.updatedAt,
     mainEntityOfPage: `https://item.monster/guide/${guide.slug}/`,
-    author: { "@type": "Organization", name: "아이템몬스터 편집팀" },
+    author: { "@type": "Person", name: "아이템몬스터 운영자" },
     publisher: { "@type": "Organization", name: "아이템몬스터" },
     image: guide.heroImage ? `https://item.monster${guide.heroImage}` : undefined,
     citation: guide.sources?.map((source) => source.url),
@@ -68,14 +68,14 @@ export default async function GuideDetailPage({ params }: Props) {
       <main className={siteStyles.main}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <nav className={siteStyles.breadcrumb} aria-label="현재 위치">
-          <Link href="/">홈</Link><span>›</span><Link href="/guide/">전문 가이드</Link><span>›</span><span>{category.shortLabel}</span>
+          <Link href="/">홈</Link><span>›</span><Link href="/guide/">PC·전자제품</Link><span>›</span><span>{category.shortLabel}</span>
         </nav>
         <article>
           <header className={articleStyles.articleHead}>
             <div className={articleStyles.metaRow}>
               <span className={articleStyles.category}>{category.label}</span>
-              <span>업데이트 {formatDate(guide.updatedAt)}</span>
-              {guide.editorial.status === "legacy" ? <span>기존 글 재검수 중</span> : <span>편집 검수 완료</span>}
+              <span>{formatDate(guide.updatedAt)} 다시 확인</span>
+              {guide.editorial.status === "legacy" ? <span>예전 글 다시 보는 중</span> : <span>공식 자료 확인함</span>}
             </div>
             <h1>{guide.title}</h1>
             <p className={articleStyles.description}>{guide.description}</p>
@@ -85,20 +85,20 @@ export default async function GuideDetailPage({ params }: Props) {
               <Image src={guide.heroImage} alt={guide.heroImageAlt || guide.title} width={1600} height={900} priority />
               {heroMedia ? (
                 <figcaption>
-                  {heroMedia.caption} · 제작/제공: {heroMedia.creator}
-                  {heroMedia.sourceUrl ? <> · <a href={heroMedia.sourceUrl} target="_blank" rel="noreferrer">원본 및 이용 근거</a></> : null}
+                  {heroMedia.caption} · 만든 사람: {heroMedia.creator}
+                  {heroMedia.sourceUrl ? <> · <a href={heroMedia.sourceUrl} target="_blank" rel="noreferrer">사진 출처와 이용 조건</a></> : null}
                 </figcaption>
               ) : null}
             </figure>
           ) : null}
           {guide.editorial.status === "legacy" ? (
-            <div className={articleStyles.editorialNote}>제품별 공식 사양과 비교 근거를 새 품질 기준에 맞춰 순차 보강하고 있습니다.</div>
+            <div className={articleStyles.editorialNote}>예전에 만든 글이라 자료부터 다시 보고 있어요. 확인이 끝난 글만 검색에 나오게 해뒀습니다.</div>
           ) : null}
           <div className={articleStyles.articleBody}>
             <MarkdownContent content={guide.content.replace(/^# /gm, "## ")} />
           </div>
           <div className={articleStyles.sourceBox}>
-            <strong>자료 확인 기준</strong>
+            <strong>이 글을 쓰면서 펼쳐본 자료</strong>
             {guide.editorial.basis} {guide.editorial.caution || ""}
             {guide.sources?.length ? (
               <ul className={articleStyles.sourceList}>
@@ -114,7 +114,7 @@ export default async function GuideDetailPage({ params }: Props) {
         </article>
         {related.length ? (
           <section className={articleStyles.related}>
-            <h2>함께 보면 좋은 가이드</h2>
+            <h2>이어서 보면 좋은 글</h2>
             <div className={articleStyles.relatedGrid}>
               {related.map((item) => <Link href={`/guide/${item.slug}/`} className={articleStyles.relatedLink} key={item.slug}>{item.title}</Link>)}
             </div>

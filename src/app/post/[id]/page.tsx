@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { COUPANG_PARTNERS_DISCLOSURE } from "../../../lib/affiliate";
 import { getCategory } from "../../../lib/categories";
-import { formatDate, getAllPosts, getPost, getPublicPosts } from "../../../lib/content";
+import { formatDate, getPost, getPublicPosts } from "../../../lib/content";
 import ArticleCard from "../../components/ArticleCard";
 import MarkdownContent from "../../components/MarkdownContent";
 import SiteFooter from "../../components/SiteFooter";
@@ -15,7 +15,7 @@ import siteStyles from "../../site.module.css";
 type Props = { params: Promise<{ id: string }> };
 
 export function generateStaticParams() {
-  return getAllPosts().map((post) => ({ id: post.slug }));
+  return getPublicPosts().map((post) => ({ id: post.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.description,
     alternates: { canonical: `/post/${post.slug}/` },
-    authors: [{ name: "아이템몬스터 편집팀" }],
+    authors: [{ name: "아이템몬스터 운영자" }],
     robots:
       post.indexable && post.editorial.status === "reviewed"
         ? { index: true, follow: true }
@@ -67,7 +67,7 @@ export default async function PostPage({ params }: Props) {
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
     mainEntityOfPage: `https://item.monster/post/${post.slug}/`,
-    author: { "@type": "Organization", name: "아이템몬스터 편집팀" },
+    author: { "@type": "Person", name: "아이템몬스터 운영자" },
     publisher: {
       "@type": "Organization",
       name: "아이템몬스터",
@@ -83,15 +83,15 @@ export default async function PostPage({ params }: Props) {
         <nav className={siteStyles.breadcrumb} aria-label="현재 위치">
           <Link href="/">홈</Link><span>›</span>
           <Link href={`/category/${category.slug}/`}>{category.label}</Link><span>›</span>
-          <span>구매 체크</span>
+          <span>운영자 메모</span>
         </nav>
 
         <article>
           <header className={articleStyles.articleHead}>
             <div className={articleStyles.metaRow}>
               <span className={articleStyles.category}>{category.label}</span>
-              <span>업데이트 {formatDate(post.updatedAt)}</span>
-              {post.editorial.status === "legacy" ? <span>기존 글 재검수 중</span> : <span>편집 검수 완료</span>}
+              <span>{formatDate(post.updatedAt)} 다시 확인</span>
+              {post.editorial.status === "legacy" ? <span>예전 글 다시 보는 중</span> : <span>판매 자료 확인함</span>}
             </div>
             <h1>{post.title}</h1>
             <p className={articleStyles.description}>{post.description}</p>
@@ -114,7 +114,7 @@ export default async function PostPage({ params }: Props) {
 
           {post.verdict ? (
             <section className={articleStyles.verdict} aria-labelledby="quick-verdict">
-              <span>QUICK VERDICT</span>
+              <span>한눈에 보면</span>
               <h2 id="quick-verdict">{post.verdict.oneLine}</h2>
               <div className={articleStyles.verdictGrid}>
                 <div><strong>이런 분께</strong><ul>{post.verdict.bestFor.map((item) => <li key={item}>{item}</li>)}</ul></div>
@@ -124,7 +124,7 @@ export default async function PostPage({ params }: Props) {
             </section>
           ) : (
             <div className={articleStyles.editorialNote}>
-              이 글은 기존 자료를 새 편집 기준으로 옮긴 버전입니다. 과장 표현과 제품별 사실을 순차적으로 다시 확인하고 있습니다.
+              예전에 올린 글이라 지금 다시 읽고 있어요. 확인이 끝나지 않은 내용은 검색에 나오지 않게 해뒀습니다.
             </div>
           )}
 
@@ -151,14 +151,14 @@ export default async function PostPage({ params }: Props) {
 
             {post.conclusion ? (
               <section className={articleStyles.conclusion}>
-                <h2>그래서, 어떤 경우에 맞을까?</h2>
+                <h2>그래서 이건 누구에게 맞을까?</h2>
                 <MarkdownContent content={post.conclusion} />
               </section>
             ) : null}
 
             {post.faq?.length ? (
               <section className={articleStyles.faq}>
-                <h2>구매 전에 많이 묻는 질문</h2>
+                <h2>사기 전에 궁금했던 것</h2>
                 {post.faq.map((item) => (
                   <details key={item.question}>
                     <summary>{item.question}</summary>
@@ -171,21 +171,21 @@ export default async function PostPage({ params }: Props) {
 
           {post.affiliate.url ? (
             <aside className={articleStyles.ctaBox}>
-              <strong>현재 판매 구성과 옵션을 확인하세요</strong>
-              <p>가격과 구성은 수시로 바뀔 수 있으므로 결제 화면에서 마지막으로 확인하는 것이 안전합니다.</p>
+              <strong>지금 판매 중인 옵션 다시 보기</strong>
+              <p>제가 글을 쓴 뒤에도 가격과 구성은 바뀔 수 있어요. 결제 화면에서 수량과 옵션을 한 번 더 봐주세요.</p>
               <a
                 href={post.affiliate.url}
                 target="_blank"
                 rel="sponsored nofollow noopener noreferrer"
                 className={articleStyles.ctaButton}
               >
-                쿠팡에서 현재 구성 확인
+                쿠팡에서 옵션 확인하기
               </a>
             </aside>
           ) : null}
 
           <div className={articleStyles.sourceBox}>
-            <strong>자료 확인 기준</strong>
+            <strong>이 글을 쓰면서 확인한 것</strong>
             {post.editorial.basis}
             {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
           </div>
@@ -193,7 +193,7 @@ export default async function PostPage({ params }: Props) {
 
         {related.length ? (
           <section className={articleStyles.related}>
-            <h2>같은 기준으로 더 보기</h2>
+            <h2>비슷한 고민으로 찾아본 글</h2>
             <div className={siteStyles.cardGrid}>
               {related.map((item) => <ArticleCard post={item} key={item.slug} />)}
             </div>

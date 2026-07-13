@@ -27,7 +27,7 @@ export default function ArticleCard({ post }: { post: ArticleCardData }) {
         <span className={styles.tag}>{category.shortLabel}</span>
         <h3>{post.title}</h3>
         <p>{post.description}</p>
-        <span className={styles.cardCta}>구매 전 체크하기 →</span>
+        <span className={styles.cardCta}>이어서 읽기 →</span>
       </div>
     </Link>
   );

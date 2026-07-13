@@ -29,31 +29,31 @@ export default function Home() {
       <main className={styles.wideMain}>
         <section className={styles.hero}>
           <div>
-            <span className={styles.eyebrow}>BUYING CHECK JOURNAL</span>
+            <span className={styles.eyebrow}>아이템몬스터의 구매 메모</span>
             <h1>
-              사기 전에,
-              <br />딱 <em>3분만.</em>
+              대충 보고 샀다가
+              <br /><em>후회하기 싫어서.</em>
             </h1>
             <p className={styles.heroLead}>
-              상품을 많이 진열하는 대신, 지금 사려는 사람이 실제로 확인해야 할 구성과 사용 조건을 정리합니다.
-              장점뿐 아니라 맞지 않는 경우까지 읽고 구매 여부를 판단하세요.
+              광고 문구만 보면 다 좋아 보이잖아요. 그래서 사진 속 구성품, 설치 조건, 호환성과 추가로 드는 돈부터 찾아봅니다.
+              직접 써보지 않은 건 후기인 척 쓰지 않고요.
             </p>
             <div className={styles.buttonRow}>
               <Link href="/articles/" className={styles.primaryButton}>
-                검수 완료 가이드 보기
+                지금 읽을 만한 글
               </Link>
               <Link href="/about/" className={styles.secondaryButton}>
-                글을 만드는 기준
+                누가, 어떻게 쓰나요?
               </Link>
             </div>
           </div>
-          <aside className={styles.proofPanel} aria-label="아이템몬스터 편집 원칙">
-            <strong>공개 전에 네 가지를 확인합니다</strong>
+          <aside className={styles.proofPanel} aria-label="아이템몬스터 운영자 메모">
+            <strong>저라면 이건 꼭 보고 사요</strong>
             <ul className={styles.proofList}>
-              <li><b>01</b><span>제품 사진과 상품이 정확히 일치하는지</span></li>
-              <li><b>02</b><span>판매 자료에서 확인된 사실과 추정을 구분했는지</span></li>
-              <li><b>03</b><span>잘 맞는 사람과 사지 않는 편이 나은 사람은 누구인지</span></li>
-              <li><b>04</b><span>설치·안전·호환성과 추가 비용을 빠뜨리지 않았는지</span></li>
+              <li><b>✓</b><span>사진이 정말 같은 상품인지</span></li>
+              <li><b>✓</b><span>옵션을 바꾸면 뭐가 빠지는지</span></li>
+              <li><b>✓</b><span>우리 집이나 내 PC에 맞는지</span></li>
+              <li><b>✓</b><span>사고 나서 돈이 더 들지는 않는지</span></li>
             </ul>
           </aside>
         </section>
@@ -61,11 +61,11 @@ export default function Home() {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <div>
-              <span className={styles.eyebrow}>SEASONAL BUYING CHECK</span>
-              <h2>지금 검색이 늘어나는 여름 문제부터</h2>
-              <p>모기와 초파리처럼 해결 방식이 다른 제품을 한데 묶지 않고, 작동 방식과 설치 조건별로 나눠 확인합니다.</p>
+              <span className={styles.eyebrow}>요즘 자꾸 신경 쓰이는 것</span>
+              <h2>여름 되니까 다시 찾게 되는 제품들</h2>
+              <p>모기채와 초파리 트랩처럼 비슷해 보여도 쓰는 방식이 다른 제품부터 살펴봤어요.</p>
             </div>
-            <Link href="/articles/" className={styles.textLink}>검수 완료 글 전체보기 →</Link>
+            <Link href="/articles/" className={styles.textLink}>쓴 글 전부 보기 →</Link>
           </div>
           <div className={styles.cardGrid}>
             {featured.map((post) => (post ? <ArticleCard post={post} key={post.slug} /> : null))}
@@ -76,21 +76,21 @@ export default function Home() {
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div>
-                <span className={styles.eyebrow}>SEARCH FIRST, PRODUCT SECOND</span>
-                <h2>제품보다 먼저, 어떤 방식이 맞는지</h2>
-                <p>검색 단계에서는 유형을 비교하고, 결정 단계에서 조건에 맞는 제품 글로 이어집니다.</p>
+                <span className={styles.eyebrow}>제품명보다 먼저 볼 것</span>
+                <h2>뭘 사야 할지부터 헷갈린다면</h2>
+                <p>바로 상품부터 고르지 말고, 어떤 방식이 내 상황에 맞는지 먼저 비교해 봅니다.</p>
               </div>
-              <Link href="/guide/" className={styles.textLink}>선택 가이드 전체보기 →</Link>
+              <Link href="/guide/" className={styles.textLink}>정리한 내용 더 보기 →</Link>
             </div>
             <div className={styles.cardGrid}>
               {guides.slice(0, 3).map((guide) => (
                 <Link href={`/guide/${guide.slug}/`} className={styles.articleCard} key={guide.slug}>
                   {guide.heroImage ? <Image src={guide.heroImage} alt={guide.heroImageAlt || ""} className={styles.cardImage} width={640} height={400} /> : null}
                   <div className={styles.cardBody}>
-                    <span className={styles.tag}>{guide.category === "digital-pc" ? "공식 사양 전문 가이드" : "유형 비교 가이드"}</span>
+                    <span className={styles.tag}>{guide.category === "digital-pc" ? "제조사 자료 찾아봄" : "종류부터 비교해 봄"}</span>
                     <h3>{guide.title}</h3>
                     <p>{guide.description}</p>
-                    <span className={styles.cardCta}>먼저 선택 기준 확인하기 →</span>
+                    <span className={styles.cardCta}>이어서 읽기 →</span>
                   </div>
                 </Link>
               ))}
@@ -102,8 +102,8 @@ export default function Home() {
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div>
-                <span className={styles.eyebrow}>MORE CHECKED</span>
-                <h2>다른 검수 완료 가이드</h2>
+                <span className={styles.eyebrow}>이것도 같이 봤어요</span>
+                <h2>다른 구매 메모</h2>
               </div>
             </div>
             <div className={styles.cardGrid}>
@@ -115,10 +115,10 @@ export default function Home() {
         <section className={styles.section}>
           <div className={styles.standardBanner}>
             <div>
-              <h2>글 수보다 구매 판단에 도움 되는가를 먼저 봅니다.</h2>
-              <p>검수하지 않은 이전 글은 공개 목록과 검색 노출에서 제외하고, 근거를 확인한 글만 다시 공개합니다.</p>
+              <h2>글이 많아 보이는 것보다, 읽고 결정할 수 있는 게 더 중요하니까.</h2>
+              <p>예전에 자동으로 만든 글은 일단 숨겼습니다. 자료를 다시 보고 제 말로 고친 글만 꺼내 놓을게요.</p>
             </div>
-            <Link href="/about/" className={styles.primaryButton}>편집 원칙 읽기</Link>
+            <Link href="/about/" className={styles.primaryButton}>사이트 이야기 보기</Link>
           </div>
         </section>
       </main>

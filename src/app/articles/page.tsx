@@ -18,9 +18,9 @@ export default function ArticlesPage() {
       <SiteHeader />
       <main className={styles.wideMain}>
         <header className={styles.archiveIntro}>
-          <span className={styles.eyebrow}>ALL BUYING CHECKS</span>
-          <h1 className={styles.archiveTitle}>구매 가이드 찾기</h1>
-          <p>제품명뿐 아니라 용도와 고민을 검색해 보세요. 근거와 구매 전 확인사항을 검수한 글만 공개합니다.</p>
+          <span className={styles.eyebrow}>뭐 살지 찾는 중이라면</span>
+          <h1 className={styles.archiveTitle}>살까 말까 고민한 글 모아보기</h1>
+          <p>제품명도 좋고, 지금 겪고 있는 불편을 검색해도 됩니다. 자료를 다시 읽고 제 말로 고친 글만 모아뒀어요.</p>
         </header>
         <ArticleArchive posts={posts} />
       </main>

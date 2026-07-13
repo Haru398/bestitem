@@ -33,7 +33,7 @@ export default function ArticleArchive({ posts }: { posts: ArticleCardData[] }) 
           type="search"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="제품명이나 궁금한 점을 검색하세요"
+          placeholder="제품명이나 고민을 적어보세요"
           aria-label="가이드 검색"
         />
         <select
@@ -50,12 +50,12 @@ export default function ArticleArchive({ posts }: { posts: ArticleCardData[] }) 
           ))}
         </select>
       </div>
-      <div className={styles.resultCount}>총 {filtered.length}개의 구매 가이드</div>
+      <div className={styles.resultCount}>{filtered.length}개의 글을 찾았어요</div>
       <div className={styles.cardGrid}>
         {filtered.length ? (
           filtered.map((post) => <ArticleCard post={post} key={post.slug} />)
         ) : (
-          <div className={styles.empty}>조건에 맞는 가이드가 없습니다.</div>
+          <div className={styles.empty}>아직 이 내용으로 쓴 글이 없어요.</div>
         )}
       </div>
     </>

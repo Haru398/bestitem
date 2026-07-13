@@ -51,8 +51,8 @@
   margin-top: 5px;
   color: var(--muted);
   font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-weight: 650;
+  letter-spacing: -0.01em;
 }
 
 .nav {
@@ -92,11 +92,11 @@
   align-items: center;
   min-height: 520px;
   padding: 68px;
-  border: 1px solid #d8ded5;
-  border-radius: 34px;
+  border: 1px solid #ded9cc;
+  border-radius: 30px;
   background:
-    radial-gradient(circle at 90% 10%, rgba(240, 100, 58, 0.16), transparent 28%),
-    linear-gradient(140deg, #fffdf8 0%, #eef4eb 100%);
+    radial-gradient(circle at 92% 8%, rgba(240, 100, 58, 0.12), transparent 28%),
+    linear-gradient(145deg, #fffdf8 0%, #f2f5ec 100%);
   box-shadow: var(--shadow);
 }
 
@@ -118,17 +118,20 @@
   align-items: center;
   gap: 8px;
   margin-bottom: 19px;
-  color: var(--brand);
-  font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.11em;
+  padding: 6px 11px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: #a84225;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .eyebrow::before {
   content: "";
-  width: 23px;
-  height: 3px;
-  border-radius: 99px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
   background: var(--accent);
 }
 
@@ -142,9 +145,13 @@
 
 .hero h1 em {
   color: var(--accent);
-  font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
-  font-weight: 700;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: rgba(240, 100, 58, 0.25);
+  text-decoration-thickness: 0.18em;
+  text-underline-offset: 0.05em;
 }
 
 .heroLead {
@@ -190,11 +197,13 @@
 .proofPanel {
   position: relative;
   z-index: 1;
-  padding: 26px;
-  border-radius: 24px;
-  background: var(--brand-dark);
-  color: #fff;
-  box-shadow: 0 24px 50px rgba(23, 70, 51, 0.24);
+  padding: 28px;
+  border: 1px solid #eadba1;
+  border-radius: 18px 24px 20px 26px;
+  background: #fff8d9;
+  color: var(--ink);
+  box-shadow: 0 18px 36px rgba(78, 65, 25, 0.12);
+  transform: rotate(0.7deg);
 }
 
 .proofPanel strong {
@@ -214,13 +223,13 @@
   grid-template-columns: 30px 1fr;
   gap: 10px;
   padding: 14px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-  color: rgba(255, 255, 255, 0.82);
+  border-top: 1px solid rgba(78, 65, 25, 0.15);
+  color: #4d554e;
   font-size: 0.9rem;
 }
 
 .proofList b {
-  color: #ffb69f;
+  color: var(--accent);
 }
 
 .section {
@@ -373,9 +382,10 @@
   gap: 30px;
   align-items: center;
   padding: 38px;
-  border-radius: 26px;
-  background: #1f2b23;
-  color: #fff;
+  border: 1px solid #f1cbbf;
+  border-radius: 22px 28px 24px 30px;
+  background: var(--accent-soft);
+  color: var(--ink);
 }
 
 .standardBanner h2 {
@@ -385,7 +395,7 @@
 
 .standardBanner p {
   margin: 0;
-  color: rgba(255, 255, 255, 0.72);
+  color: #74594f;
 }
 
 .footer {
@@ -420,18 +430,25 @@
 .guideMethod {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1px;
-  overflow: hidden;
+  gap: 12px;
   margin-bottom: 42px;
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  background: var(--line);
 }
 
 .guideMethod div {
   min-height: 112px;
   padding: 21px;
+  border: 1px solid var(--line);
+  border-radius: 15px 19px 17px 21px;
   background: var(--surface);
+  box-shadow: 0 8px 22px rgba(32, 45, 36, 0.05);
+}
+
+.guideMethod div:nth-child(odd) {
+  transform: rotate(-0.35deg);
+}
+
+.guideMethod div:nth-child(even) {
+  transform: rotate(0.35deg);
 }
 
 .guideMethod b,
@@ -602,6 +619,11 @@
 
   .guideMethod {
     grid-template-columns: 1fr;
+  }
+
+  .proofPanel,
+  .guideMethod div {
+    transform: none;
   }
 
   .standardBanner {

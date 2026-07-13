@@ -4,18 +4,18 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://item.monster"),
   title: {
-    default: "아이템몬스터 | 사기 전에 확인하는 구매 가이드",
+    default: "아이템몬스터 | 사기 전에 한 번 더 찾아보는 곳",
     template: "%s | 아이템몬스터",
   },
   description:
-    "장점만 나열하지 않습니다. 사용 환경, 구성, 주의사항과 비추천 조건까지 구매 전에 확인할 내용을 정리합니다.",
+    "광고 문구만 보고 사기 찜찜할 때, 구성품·설치 조건·호환성과 추가 비용을 먼저 찾아보는 개인 구매 메모입니다.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "아이템몬스터 | 사기 전에 확인하는 구매 가이드",
+    title: "아이템몬스터 | 사기 전에 한 번 더 찾아보는 곳",
     description:
-      "제품을 사기 전 확인해야 할 조건과 주의사항을 먼저 정리하는 구매 가이드",
+      "광고보다 구성과 조건을 먼저 찾아보는 아이템몬스터 운영자의 구매 메모",
     url: "https://item.monster/",
     siteName: "아이템몬스터",
     locale: "ko_KR",
@@ -39,7 +39,7 @@ const organizationJsonLd = {
   name: "아이템몬스터",
   url: "https://item.monster/",
   logo: "https://item.monster/icon.png",
-  description: "구매 전에 확인해야 할 조건을 정리하는 상품 정보 가이드",
+  description: "사기 전에 궁금한 구성과 조건을 찾아 적는 개인 구매 메모",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

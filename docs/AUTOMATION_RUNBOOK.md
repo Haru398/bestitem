@@ -46,6 +46,8 @@ NEW → DRAFTED → REVIEWED → VALIDATED → BUILT → DEPLOYED → CONFIRMED 
 
 사이트맵은 `src/app/sitemap.ts`가 검수 완료 콘텐츠를 읽어 빌드 때 자동 생성합니다. 새 글마다 XML을 직접 편집하지 않습니다. `updatedAt`이 실제로 바뀐 글만 `lastmod`가 바뀌며 noindex·legacy·draft 글은 사이트맵에 들어가지 않습니다.
 
+정적 빌드에도 `reviewed + indexable` 글만 포함합니다. `legacy`, `draft`, `hidden` 원고는 `content/`에 보관하되 실제 사이트 페이지로 만들지 않습니다. 배포 준비 단계에서는 이전에 생성된 `post/`, `guide/` 폴더를 먼저 정리하므로, 예전 자동 생성 페이지가 서버에 남지 않습니다.
+
 ## 중단 규칙
 
 다음 중 하나라도 해당하면 자동 게시하지 않고 `DRAFTED` 상태에서 멈춥니다.

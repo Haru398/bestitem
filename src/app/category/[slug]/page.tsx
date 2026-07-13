@@ -41,7 +41,7 @@ export default async function CategoryPage({ params }: Props) {
           <Link href="/">홈</Link><span>›</span><Link href="/articles/">구매 가이드</Link><span>›</span><span>{category.label}</span>
         </nav>
         <header className={styles.archiveIntro}>
-          <span className={styles.eyebrow}>TOPIC DESK</span>
+          <span className={styles.eyebrow}>이 주제로 찾아본 글</span>
           <h1 className={styles.archiveTitle}>{category.label}</h1>
           <p>{category.description}</p>
         </header>

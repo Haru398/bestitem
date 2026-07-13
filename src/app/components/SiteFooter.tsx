@@ -7,13 +7,14 @@ export default function SiteFooter() {
       <div className={styles.footerInner}>
         <div>
           <strong>ITEM.MONSTER</strong>
-          구매 전에 확인해야 할 조건을 먼저 정리하는 상품 정보 가이드입니다.
+          뭔가 사기 전에 제가 궁금했던 것들을 하나씩 찾아 적습니다.
+          <br />써보지 않은 제품은 후기인 척하지 않고, 모르는 건 모른다고 씁니다.
           <br />© 2026 ItemMonster.
         </div>
         <div>
           <strong>쿠팡 파트너스 활동 안내</strong>
           {COUPANG_PARTNERS_DISCLOSURE}
-          링크 여부와 관계없이 확인 기준과 주의사항을 먼저 제시합니다.
+          제휴 링크가 있어도 장점만 골라 쓰지는 않습니다.
         </div>
       </div>
     </footer>
