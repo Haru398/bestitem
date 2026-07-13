@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { getCategory } from "../../../lib/categories";
 import { formatDate, getAllGuides, getGuide, getPublicGuides } from "../../../lib/content";
@@ -34,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `/guide/${guide.slug}/`,
       publishedTime: guide.publishedAt,
       modifiedTime: guide.updatedAt,
+      images: guide.heroImage ? [{ url: guide.heroImage, alt: guide.heroImageAlt || guide.title }] : undefined,
     },
   };
 }
@@ -44,6 +46,7 @@ export default async function GuideDetailPage({ params }: Props) {
   if (!guide) notFound();
   const category = getCategory(guide.category);
   const related = getPublicGuides().filter((item) => guide.related.includes(item.slug)).slice(0, 4);
+  const heroMedia = guide.media?.find((item) => item.path === guide.heroImage);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -55,6 +58,8 @@ export default async function GuideDetailPage({ params }: Props) {
     mainEntityOfPage: `https://item.monster/guide/${guide.slug}/`,
     author: { "@type": "Organization", name: "아이템몬스터 편집팀" },
     publisher: { "@type": "Organization", name: "아이템몬스터" },
+    image: guide.heroImage ? `https://item.monster${guide.heroImage}` : undefined,
+    citation: guide.sources?.map((source) => source.url),
   };
 
   return (
@@ -75,6 +80,17 @@ export default async function GuideDetailPage({ params }: Props) {
             <h1>{guide.title}</h1>
             <p className={articleStyles.description}>{guide.description}</p>
           </header>
+          {guide.heroImage ? (
+            <figure className={articleStyles.guideHero}>
+              <Image src={guide.heroImage} alt={guide.heroImageAlt || guide.title} width={1600} height={900} priority />
+              {heroMedia ? (
+                <figcaption>
+                  {heroMedia.caption} · 제작/제공: {heroMedia.creator}
+                  {heroMedia.sourceUrl ? <> · <a href={heroMedia.sourceUrl} target="_blank" rel="noreferrer">원본 및 이용 근거</a></> : null}
+                </figcaption>
+              ) : null}
+            </figure>
+          ) : null}
           {guide.editorial.status === "legacy" ? (
             <div className={articleStyles.editorialNote}>제품별 공식 사양과 비교 근거를 새 품질 기준에 맞춰 순차 보강하고 있습니다.</div>
           ) : null}
@@ -84,6 +100,16 @@ export default async function GuideDetailPage({ params }: Props) {
           <div className={articleStyles.sourceBox}>
             <strong>자료 확인 기준</strong>
             {guide.editorial.basis} {guide.editorial.caution || ""}
+            {guide.sources?.length ? (
+              <ul className={articleStyles.sourceList}>
+                {guide.sources.map((source) => (
+                  <li key={source.url}>
+                    <a href={source.url} target="_blank" rel="noreferrer">{source.publisher} — {source.title}</a>
+                    <span>확인 {formatDate(source.checkedAt)}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </div>
         </article>
         {related.length ? (

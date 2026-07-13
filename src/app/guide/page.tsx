@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { getCategory } from "../../lib/categories";
 import { getPublicGuides } from "../../lib/content";
@@ -7,37 +8,115 @@ import SiteHeader from "../components/SiteHeader";
 import styles from "../site.module.css";
 
 export const metadata: Metadata = {
-  title: "전문 가이드",
-  description: "PC 부품 호환성, 규격과 제품 선택 기준처럼 비교가 필요한 주제를 정리합니다.",
+  title: "PC 부품 호환성·규격 전문 가이드",
+  description: "CPU·메인보드·그래픽카드의 공식 사양, BIOS 호환성, 전원과 케이스 규격처럼 구매 전에 확인할 질문을 제조사 자료로 정리합니다.",
   alternates: { canonical: "/guide/" },
+};
+
+const TOPICS: Record<string, { label: string; description: string }> = {
+  "cpu-motherboard": {
+    label: "CPU · 메인보드",
+    description: "소켓만 보지 않고 칩셋, BIOS 버전, 메모리 규격과 확장 슬롯을 함께 확인합니다.",
+  },
+  "gpu-power-case": {
+    label: "그래픽카드 · 전원 · 케이스",
+    description: "카드 길이와 두께, 보조전원, 파워 정격과 케이스 장착 공간을 순서대로 확인합니다.",
+  },
+  "memory-storage": {
+    label: "메모리 · 저장장치",
+    description: "DDR 세대, 모듈 구성, M.2 규격과 슬롯 공유 조건을 제조사 표에서 확인합니다.",
+  },
+  "cooling-build": {
+    label: "쿨링 · 조립",
+    description: "소켓 브래킷, 쿨러 높이, 메모리 간섭과 팬 헤더처럼 실제 조립 조건을 다룹니다.",
+  },
+  "living-problem-solving": {
+    label: "생활 문제 해결",
+    description: "제품을 고르기 전에 작동 방식, 설치 위치와 반복 관리 비용을 비교합니다.",
+  },
 };
 
 export default function GuideIndexPage() {
   const guides = getPublicGuides();
+  const topicCounts = guides.reduce<Record<string, number>>((counts, guide) => {
+    const topic = guide.topicCluster || "living-problem-solving";
+    counts[topic] = (counts[topic] || 0) + 1;
+    return counts;
+  }, {});
   return (
     <div className={styles.shell}>
       <SiteHeader />
       <main className={styles.wideMain}>
         <header className={styles.archiveIntro}>
-          <span className={styles.eyebrow}>DEEP GUIDE</span>
-          <h1 className={styles.archiveTitle}>규격과 선택 기준을 깊게</h1>
-          <p>제품명만 바꾼 설명이 아니라 사용 조건과 비교 기준을 먼저 답하는 검수 완료 가이드입니다.</p>
+          <span className={styles.eyebrow}>OFFICIAL SPECS, PRACTICAL CHECKS</span>
+          <h1 className={styles.archiveTitle}>PC 부품은 ‘호환됨’보다<br />무엇을 확인했는지가 중요합니다</h1>
+          <p>제조사 공식 사양과 지원 문서를 근거로 소켓, BIOS, 전원, 크기와 슬롯 조건을 확인합니다. 출처가 불명확한 기존 자동 생성 글은 검색에서 제외하고 다시 검수한 글만 공개합니다.</p>
         </header>
-        <div className={styles.cardGrid}>
-          {guides.map((guide) => {
-            const category = getCategory(guide.category);
-            return (
-              <Link href={`/guide/${guide.slug}/`} className={styles.articleCard} key={guide.slug}>
-                <div className={styles.cardBody}>
-                  <span className={styles.tag}>{category.shortLabel} · 선택 가이드</span>
-                  <h3>{guide.title}</h3>
-                  <p>{guide.description}</p>
-                  <span className={styles.cardCta}>선택 기준 확인하기 →</span>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
+
+        <section className={styles.guideMethod} aria-label="전문 가이드 검수 방식">
+          <div><b>01</b><span>검색 질문 하나를 정합니다</span></div>
+          <div><b>02</b><span>제조사 사양·지원표를 대조합니다</span></div>
+          <div><b>03</b><span>이미지 권리와 출처를 기록합니다</span></div>
+          <div><b>04</b><span>확인 날짜와 예외 조건을 공개합니다</span></div>
+        </section>
+
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <div>
+              <span className={styles.eyebrow}>TOPIC CLUSTERS</span>
+              <h2>질문 분야별로 찾기</h2>
+            </div>
+          </div>
+          <div className={styles.topicGrid}>
+            {Object.entries(topicCounts).map(([slug, count]) => {
+              const topic = TOPICS[slug] || { label: "선택 가이드", description: "구매 전에 확인할 조건을 공식 자료와 함께 정리합니다." };
+              return (
+                <a href={`#${slug}`} className={styles.topicCard} key={slug}>
+                  <b>{count} GUIDE{count > 1 ? "S" : ""}</b>
+                  <h3>{topic.label}</h3>
+                  <p>{topic.description}</p>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <div>
+              <span className={styles.eyebrow}>REVIEWED GUIDES</span>
+              <h2>공식 근거를 확인한 가이드</h2>
+            </div>
+          </div>
+          <div className={styles.guideTopicList}>
+            {Object.keys(topicCounts).map((topicSlug) => {
+              const topic = TOPICS[topicSlug] || { label: "선택 가이드", description: "구매 전에 확인할 조건을 공식 자료와 함께 정리합니다." };
+              const topicGuides = guides.filter((guide) => (guide.topicCluster || "living-problem-solving") === topicSlug);
+              return (
+                <section className={styles.guideTopicSection} id={topicSlug} key={topicSlug}>
+                  <h3>{topic.label}</h3>
+                  <p>{topic.description}</p>
+                  <div className={styles.cardGrid}>
+                    {topicGuides.map((guide) => {
+                      const category = getCategory(guide.category);
+                      return (
+                        <Link href={`/guide/${guide.slug}/`} className={styles.articleCard} key={guide.slug}>
+                          {guide.heroImage ? <Image src={guide.heroImage} alt={guide.heroImageAlt || ""} className={styles.cardImage} width={640} height={400} /> : null}
+                          <div className={styles.cardBody}>
+                            <span className={styles.tag}>{category.shortLabel} · {topic.label}</span>
+                            <h3>{guide.title}</h3>
+                            <p>{guide.description}</p>
+                            <span className={styles.cardCta}>근거와 확인 순서 보기 →</span>
+                          </div>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </section>
+              );
+            })}
+          </div>
+        </section>
       </main>
       <SiteFooter />
     </div>

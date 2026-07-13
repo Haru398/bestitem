@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getPublicGuides, getPublicPosts } from "../lib/content";
 import ArticleCard from "./components/ArticleCard";
@@ -84,8 +85,9 @@ export default function Home() {
             <div className={styles.cardGrid}>
               {guides.slice(0, 3).map((guide) => (
                 <Link href={`/guide/${guide.slug}/`} className={styles.articleCard} key={guide.slug}>
+                  {guide.heroImage ? <Image src={guide.heroImage} alt={guide.heroImageAlt || ""} className={styles.cardImage} width={640} height={400} /> : null}
                   <div className={styles.cardBody}>
-                    <span className={styles.tag}>유형 비교 가이드</span>
+                    <span className={styles.tag}>{guide.category === "digital-pc" ? "공식 사양 전문 가이드" : "유형 비교 가이드"}</span>
                     <h3>{guide.title}</h3>
                     <p>{guide.description}</p>
                     <span className={styles.cardCta}>먼저 선택 기준 확인하기 →</span>

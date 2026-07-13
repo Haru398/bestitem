@@ -35,6 +35,17 @@ NEW → DRAFTED → REVIEWED → VALIDATED → BUILT → DEPLOYED → CONFIRMED 
 10. 실제 URL이 정상 응답하고 링크가 열리는지 확인합니다.
 11. 엑셀을 완료 처리하고 원본 이미지는 삭제하지 말고 날짜별 보관 폴더로 이동합니다.
 
+## PC 전문가이드 게시 순서
+
+1. 롱테일 검색 질문 한 개를 정하고 `npm run guide:new`으로 noindex 초안을 만듭니다.
+2. CPU·칩셋·보드 제조사의 공식 사양, CPU 지원표, 매뉴얼을 찾아 `sources`에 확인 날짜와 함께 기록합니다.
+3. 제조사 이미지는 미디어 키트의 이용 조건이 확인될 때만 저장합니다. 불명확하면 자체 도식을 사용합니다.
+4. 사실, 해석, 모델별 예외를 구분해 2,200자 이상 작성합니다.
+5. 사람이 공식 문서와 문장을 대조한 뒤에만 `editorial.status: reviewed`, `indexable: true`로 변경합니다.
+6. `npm run build`를 실행하면 검증, 정적 페이지 생성과 사이트맵 대조가 한 번에 수행됩니다.
+
+사이트맵은 `src/app/sitemap.ts`가 검수 완료 콘텐츠를 읽어 빌드 때 자동 생성합니다. 새 글마다 XML을 직접 편집하지 않습니다. `updatedAt`이 실제로 바뀐 글만 `lastmod`가 바뀌며 noindex·legacy·draft 글은 사이트맵에 들어가지 않습니다.
+
 ## 중단 규칙
 
 다음 중 하나라도 해당하면 자동 게시하지 않고 `DRAFTED` 상태에서 멈춥니다.

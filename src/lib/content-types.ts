@@ -1,4 +1,4 @@
-export type ContentStatus = "legacy" | "reviewed" | "hidden";
+export type ContentStatus = "draft" | "legacy" | "reviewed" | "hidden";
 
 export type ContentSection = {
   heading: string;
@@ -31,6 +31,24 @@ export type FAQItem = {
   answer: string;
 };
 
+export type GuideSource = {
+  title: string;
+  publisher: string;
+  url: string;
+  sourceType: "manufacturer-spec" | "manufacturer-support" | "official-standard" | "public-agency";
+  checkedAt: string;
+};
+
+export type GuideMedia = {
+  path: string;
+  alt: string;
+  caption: string;
+  creator: string;
+  usageBasis: "original" | "licensed-manufacturer" | "authorized-affiliate";
+  sourceUrl?: string;
+  licenseUrl?: string;
+};
+
 export type PostContent = {
   kind: "post";
   slug: string;
@@ -60,6 +78,8 @@ export type GuideContent = {
   title: string;
   description: string;
   heroImage?: string;
+  heroImageAlt?: string;
+  topicCluster?: string;
   publishedAt: string;
   updatedAt: string;
   indexable: boolean;
@@ -68,6 +88,8 @@ export type GuideContent = {
   editorial: EditorialInfo;
   content: string;
   related: string[];
+  sources?: GuideSource[];
+  media?: GuideMedia[];
 };
 
 export type SiteContent = PostContent | GuideContent;

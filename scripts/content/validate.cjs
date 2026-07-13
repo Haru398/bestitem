@@ -6,6 +6,9 @@ const errors = [];
 const warnings = [];
 const slugs = new Set();
 const bannedHype = /(무조건|100%\s*(효과|차단|보장)|완벽한\s*제품|(^|[^가-힣])기적([^가-힣]|$)|끝판왕|가성비\s*갑|박살)/m;
+const validStatuses = new Set(['draft', 'legacy', 'reviewed', 'hidden']);
+const validSourceTypes = new Set(['manufacturer-spec', 'manufacturer-support', 'official-standard', 'public-agency']);
+const validMediaUsage = new Set(['original', 'licensed-manufacturer', 'authorized-affiliate']);
 
 function read(directory) {
   const target = path.join(root, 'content', directory);
@@ -26,6 +29,15 @@ function textLength(post) {
     .length;
 }
 
+function isValidDate(value) {
+  return Boolean(value) && !Number.isNaN(new Date(value).getTime());
+}
+
+function publicFileExists(value) {
+  if (!value || !value.startsWith('/')) return false;
+  return fs.existsSync(path.join(root, 'public', value.replace(/^\/+/, '')));
+}
+
 for (const entry of [...read('posts'), ...read('guides')]) {
   const item = entry.value;
   const prefix = `${entry.filename}:`;
@@ -36,6 +48,11 @@ for (const entry of [...read('posts'), ...read('guides')]) {
 
   if (slugs.has(item.slug)) errors.push(`${prefix} 중복 slug: ${item.slug}`);
   slugs.add(item.slug);
+
+  if (!validStatuses.has(item.editorial?.status)) errors.push(`${prefix} 알 수 없는 editorial.status입니다.`);
+  if (!isValidDate(item.publishedAt) || !isValidDate(item.updatedAt)) {
+    errors.push(`${prefix} publishedAt 또는 updatedAt 날짜 형식이 잘못되었습니다.`);
+  }
 
   if (item.description && (item.description.length < 55 || item.description.length > 170)) {
     warnings.push(`${prefix} 설명 길이 ${item.description.length}자`);
@@ -67,6 +84,43 @@ for (const entry of [...read('posts'), ...read('guides')]) {
         if (!section.body || section.body.length < 180) errors.push(`${prefix} 섹션 ${index + 1} 본문이 짧습니다.`);
         if (section.image && (!section.imageAlt || section.imageAlt.length < 5)) {
           errors.push(`${prefix} 섹션 ${index + 1} 이미지 설명이 없습니다.`);
+        }
+      }
+    }
+
+    if (item.kind === 'guide') {
+      if (!item.topicCluster) errors.push(`${prefix} 검수 가이드에 topicCluster가 없습니다.`);
+
+      if (item.category === 'digital-pc') {
+        if (!Array.isArray(item.sources) || item.sources.length < 3) {
+          errors.push(`${prefix} PC 전문 가이드는 공식 출처가 3개 이상 필요합니다.`);
+        }
+
+        for (const [index, source] of (item.sources || []).entries()) {
+          if (!source.title || !source.publisher) errors.push(`${prefix} 출처 ${index + 1} 제목 또는 발행처가 없습니다.`);
+          if (!validSourceTypes.has(source.sourceType)) errors.push(`${prefix} 출처 ${index + 1} sourceType이 잘못되었습니다.`);
+          if (!String(source.url || '').startsWith('https://')) errors.push(`${prefix} 출처 ${index + 1} URL은 https 공식 문서여야 합니다.`);
+          if (!isValidDate(source.checkedAt)) errors.push(`${prefix} 출처 ${index + 1} 확인 날짜가 잘못되었습니다.`);
+        }
+      }
+
+      const mediaByPath = new Map((item.media || []).map((media) => [media.path, media]));
+      const referencedImages = [
+        item.heroImage,
+        ...[...String(item.content || '').matchAll(/!\[[^\]]*\]\((\/[^)\s]+)(?:\s+"[^"]*")?\)/g)].map((match) => match[1]),
+      ].filter(Boolean);
+
+      for (const imagePath of referencedImages) {
+        if (!publicFileExists(imagePath)) errors.push(`${prefix} 이미지 파일이 없습니다: ${imagePath}`);
+        if (!mediaByPath.has(imagePath)) errors.push(`${prefix} 이미지 출처 기록(media)이 없습니다: ${imagePath}`);
+      }
+
+      for (const [index, media] of (item.media || []).entries()) {
+        if (!validMediaUsage.has(media.usageBasis)) errors.push(`${prefix} 미디어 ${index + 1} usageBasis가 잘못되었습니다.`);
+        if (!media.alt || media.alt.length < 8) errors.push(`${prefix} 미디어 ${index + 1} 대체 텍스트가 부족합니다.`);
+        if (!media.caption || !media.creator) errors.push(`${prefix} 미디어 ${index + 1} 캡션 또는 제작자 정보가 없습니다.`);
+        if (media.usageBasis !== 'original' && (!media.sourceUrl || !media.licenseUrl)) {
+          errors.push(`${prefix} 외부 미디어 ${index + 1}에 원본 URL과 이용 근거 URL이 모두 필요합니다.`);
         }
       }
     }

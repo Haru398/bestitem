@@ -59,6 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(guide.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+      images: guide.heroImage ? [new URL(guide.heroImage, baseUrl).toString()] : undefined,
     })),
   ];
 }

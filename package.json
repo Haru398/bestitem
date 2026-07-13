@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "content:migrate": "node scripts/content/migrate-from-sqlite.cjs",
+    "guide:new": "node scripts/content/new-guide.cjs",
     "content:validate": "node scripts/content/validate.cjs",
-    "build": "npm run content:validate && next build",
+    "sitemap:verify": "node scripts/content/verify-sitemap.cjs",
+    "build": "npm run content:validate && next build && npm run sitemap:verify",
     "release:prepare": "npm run build && node scripts/deploy/copy-static-to-root.cjs",
     "start": "next start",
     "lint": "eslint src"
