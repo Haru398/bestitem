@@ -1,0 +1,58 @@
+{
+  "kind": "post",
+  "slug": "replace-with-readable-slug",
+  "category": "living-kitchen",
+  "title": "구매 질문이 드러나는 제목",
+  "description": "이 글에서 비교하고 판단할 수 있는 내용을 55자 이상 170자 이하로 요약합니다.",
+  "productName": "판매 페이지의 정확한 상품명",
+  "heroImage": "/images/example/thumbnail.png",
+  "publishedAt": "2026-07-14T09:00:00+09:00",
+  "updatedAt": "2026-07-14T09:00:00+09:00",
+  "indexable": false,
+  "searchIntent": "사용자가 무엇을 비교하고 어떤 결정을 하려는 검색인지 작성",
+  "targetQuery": "대표 검색어",
+  "editorial": {
+    "status": "legacy",
+    "basis": "확인한 판매 자료, 제조사 자료, 실측 여부와 확인하지 못한 정보를 함께 기록합니다.",
+    "lastChecked": "2026-07-14T09:00:00+09:00",
+    "caution": "가격, 옵션, 인증과 호환성은 결제 전에 다시 확인해야 합니다."
+  },
+  "verdict": {
+    "oneLine": "장점과 한계를 포함한 한 문장 판단",
+    "bestFor": ["잘 맞는 사용자"],
+    "notFor": ["맞지 않는 사용자"],
+    "checkBeforeBuy": ["결제 전 확인할 항목"]
+  },
+  "intro": "검증 범위와 사용자의 문제를 180자 이상으로 설명합니다.",
+  "sections": [
+    {
+      "heading": "첫 번째 구매 판단 기준",
+      "body": "확인된 사실, 그 사실이 사용 환경에 미치는 영향, 자료에서 알 수 없는 점을 180자 이상으로 설명합니다.",
+      "image": "/images/example/1.png",
+      "imageAlt": "사진에 보이는 제품과 기능을 구체적으로 설명"
+    },
+    {
+      "heading": "두 번째 구매 판단 기준",
+      "body": "180자 이상 본문"
+    },
+    {
+      "heading": "세 번째 구매 판단 기준",
+      "body": "180자 이상 본문"
+    },
+    {
+      "heading": "결제 전 안전·호환성 확인",
+      "body": "180자 이상 본문"
+    }
+  ],
+  "conclusion": "추천 대상과 보류 대상을 구분하고, 추가 확인 항목을 포함해 140자 이상으로 마무리합니다.",
+  "faq": [
+    {
+      "question": "결제 직전 사용자가 묻는 질문",
+      "answer": "검증 범위를 넘지 않는 직접적인 답변"
+    }
+  ],
+  "affiliate": {
+    "url": "https://link.coupang.com/...",
+    "html": ""
+  }
+}

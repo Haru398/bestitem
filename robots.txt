@@ -1,10 +1,7 @@
 User-Agent: *
 Allow: /
+Disallow: /api/
+Disallow: /preview-test/
 
-User-Agent: Yeti
-Allow: /
-
-User-Agent: Googlebot
-Allow: /
-
+Host: https://item.monster
 Sitemap: https://item.monster/sitemap.xml

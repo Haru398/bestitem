@@ -1,0 +1,52 @@
+{
+  "kind": "post",
+  "slug": "item-umbrella-1",
+  "category": "fashion-beauty",
+  "title": "가방에 쏙! 로열스테디 튼튼한 초경량 UV 자외선차단 접이식 우양산 완벽 리뷰",
+  "description": "현대인들에게 변덕스러운 날씨는 늘 골칫거리입니다. 아침에는 맑았던 하늘이 오후가 되면 갑작스럽게 어두워지며 빗방울을 뿌리기도 하고, 반대로 비가 올 줄 알고 챙겨 나갔던 우산이 오후 내내 무거운 짐으로 전락하는 경우도 비일비재합니다. 특히 여름철에는 피부 노화와 기미, 주근깨의 주범으로",
+  "productName": "가방에 쏙 로열스테디 튼튼한 초경량 UV 자외선차단 접이식 우양산 완벽 리뷰",
+  "heroImage": "/images/umbrella_1.png",
+  "publishedAt": "2026-06-13T22:37:41.853552+00:00",
+  "updatedAt": "2026-06-19T07:57:09.260Z",
+  "indexable": false,
+  "searchIntent": "제품의 구성과 구매 전 확인사항 파악",
+  "targetQuery": "",
+  "editorial": {
+    "status": "legacy",
+    "basis": "기존 게시글을 새 콘텐츠 구조로 옮긴 자료입니다. 세부 사실과 표현은 순차 검수 중입니다.",
+    "lastChecked": "2026-06-19T07:57:09.260Z",
+    "caution": "기존 콘텐츠로, 현재 품질 기준에 맞춘 재검수가 예정되어 있습니다."
+  },
+  "intro": "",
+  "sections": [
+    {
+      "heading": "구매 전 확인 포인트 1",
+      "body": "",
+      "image": "/images/umbrella_2.png",
+      "imageAlt": "가방에 쏙 로열스테디 튼튼한 초경량 UV 자외선차단 접이식 우양산 완벽 리뷰 - 구매 전 확인 포인트 1"
+    },
+    {
+      "heading": "구매 전 확인 포인트 2",
+      "body": "",
+      "image": "/images/umbrella_3.png",
+      "imageAlt": "가방에 쏙 로열스테디 튼튼한 초경량 UV 자외선차단 접이식 우양산 완벽 리뷰 - 구매 전 확인 포인트 2"
+    },
+    {
+      "heading": "구매 전 확인 포인트 3",
+      "body": "",
+      "image": "/images/umbrella_4.png",
+      "imageAlt": "가방에 쏙 로열스테디 튼튼한 초경량 UV 자외선차단 접이식 우양산 완벽 리뷰 - 구매 전 확인 포인트 3"
+    },
+    {
+      "heading": "구매 전 확인 포인트 4",
+      "body": "",
+      "image": "/images/umbrella_5.png",
+      "imageAlt": "가방에 쏙 로열스테디 튼튼한 초경량 UV 자외선차단 접이식 우양산 완벽 리뷰 - 구매 전 확인 포인트 4"
+    }
+  ],
+  "conclusion": "",
+  "affiliate": {
+    "url": "",
+    "html": "<iframe src=\"https://coupa.ng/cnpmT9\" width=\"120\" height=\"240\" frameborder=\"0\" scrolling=\"no\" referrerpolicy=\"unsafe-url\" browsingtopics></iframe>"
+  }
+}

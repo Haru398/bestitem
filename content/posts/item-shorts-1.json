@@ -1,0 +1,52 @@
+{
+  "kind": "post",
+  "slug": "item-shorts-1",
+  "category": "fashion-beauty",
+  "title": "[1+1] 버닝몬스터 데일리 무지 밴딩 반바지 하프팬츠",
+  "description": "여름철 편안함과 스타일을 동시에 잡을 수 있는 데일리 아이템을 찾고 계신가요? 최근 실사용자들 사이에서 '가성비 끝판왕'이라 불리며 압도적인 인기를 끌고 있는 제품, '1+1 버닝몬스터 데일리 무지 밴딩 반바지'를 소개합니다. 가장 먼저 눈에 띄는 것은 단연 핏 Fit 입니다. 한국인의",
+  "productName": "1+1 버닝몬스터 데일리 무지 밴딩 반바지 하프팬츠",
+  "heroImage": "/images/real_shorts_1.jpg",
+  "publishedAt": "2026-06-13T22:37:41.853552+00:00",
+  "updatedAt": "2026-06-19T07:57:09.254Z",
+  "indexable": false,
+  "searchIntent": "제품의 구성과 구매 전 확인사항 파악",
+  "targetQuery": "",
+  "editorial": {
+    "status": "legacy",
+    "basis": "기존 게시글을 새 콘텐츠 구조로 옮긴 자료입니다. 세부 사실과 표현은 순차 검수 중입니다.",
+    "lastChecked": "2026-06-19T07:57:09.254Z",
+    "caution": "기존 콘텐츠로, 현재 품질 기준에 맞춘 재검수가 예정되어 있습니다."
+  },
+  "intro": "",
+  "sections": [
+    {
+      "heading": "구매 전 확인 포인트 1",
+      "body": "",
+      "image": "/images/real_shorts_2.jpg",
+      "imageAlt": "1+1 버닝몬스터 데일리 무지 밴딩 반바지 하프팬츠 - 구매 전 확인 포인트 1"
+    },
+    {
+      "heading": "구매 전 확인 포인트 2",
+      "body": "",
+      "image": "/images/real_shorts_3.jpg",
+      "imageAlt": "1+1 버닝몬스터 데일리 무지 밴딩 반바지 하프팬츠 - 구매 전 확인 포인트 2"
+    },
+    {
+      "heading": "구매 전 확인 포인트 3",
+      "body": "",
+      "image": "/images/real_shorts_4.jpg",
+      "imageAlt": "1+1 버닝몬스터 데일리 무지 밴딩 반바지 하프팬츠 - 구매 전 확인 포인트 3"
+    },
+    {
+      "heading": "구매 전 확인 포인트 4",
+      "body": "",
+      "image": "/images/real_shorts_5.jpg",
+      "imageAlt": "1+1 버닝몬스터 데일리 무지 밴딩 반바지 하프팬츠 - 구매 전 확인 포인트 4"
+    }
+  ],
+  "conclusion": "",
+  "affiliate": {
+    "url": "",
+    "html": "<iframe src=\"https://coupa.ng/cnptap\" width=\"120\" height=\"240\" frameborder=\"0\" scrolling=\"no\" referrerpolicy=\"unsafe-url\" browsingtopics></iframe>"
+  }
+}

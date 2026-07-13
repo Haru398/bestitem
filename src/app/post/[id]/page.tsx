@@ -1,169 +1,202 @@
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
-import { marked } from 'marked';
-import db from "../../../lib/db";
-import styles from "../post.module.css";
+import { getCategory } from "../../../lib/categories";
+import { formatDate, getAllPosts, getPost } from "../../../lib/content";
+import ArticleCard from "../../components/ArticleCard";
+import MarkdownContent from "../../components/MarkdownContent";
+import SiteFooter from "../../components/SiteFooter";
+import SiteHeader from "../../components/SiteHeader";
+import articleStyles from "../../article.module.css";
+import siteStyles from "../../site.module.css";
 
-// Generate dynamic SEO metadata
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
-  const resolvedParams = await params;
-  const stmt = db.prepare('SELECT * FROM posts_v2 WHERE postId = ?');
-  const post = stmt.get(resolvedParams.id) as any;
-  
-  if (!post) {
-    return { title: 'Post Not Found' };
-  }
+type Props = { params: Promise<{ id: string }> };
+
+export function generateStaticParams() {
+  return getAllPosts().map((post) => ({ id: post.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params;
+  const post = getPost(id);
+  if (!post) return { title: "글을 찾을 수 없습니다" };
+
+  const image = post.heroImage
+    ? new URL(post.heroImage, "https://item.monster").toString()
+    : undefined;
 
   return {
-    title: `${post.title} - 아이템몬스터`,
-    description: post.summary,
-    alternates: {
-      canonical: `https://item.monster/post/${resolvedParams.id}`,
-    },
+    title: post.title,
+    description: post.description,
+    alternates: { canonical: `/post/${post.slug}/` },
+    authors: [{ name: "아이템몬스터 편집팀" }],
+    robots: post.indexable ? { index: true, follow: true } : { index: false, follow: true },
     openGraph: {
       title: post.title,
-      description: post.summary,
-      images: [post.thumbnail],
-    }
+      description: post.description,
+      type: "article",
+      url: `/post/${post.slug}/`,
+      publishedTime: post.publishedAt,
+      modifiedTime: post.updatedAt,
+      images: image ? [{ url: image }] : undefined,
+    },
   };
 }
 
-export async function generateStaticParams() {
-  const stmt = db.prepare("SELECT postId FROM posts_v2");
-  const posts = stmt.all() as { postId: string }[];
-  return posts.map((post) => ({
-    id: post.postId,
-  }));
-}
+export default async function PostPage({ params }: Props) {
+  const { id } = await params;
+  const post = getPost(id);
+  if (!post) notFound();
 
-export default async function PostPage({ params }: { params: Promise<{ id: string }> }) {
-  const resolvedParams = await params;
+  const category = getCategory(post.category);
+  const related = getAllPosts()
+    .filter((item) => item.category === post.category && item.slug !== post.slug)
+    .slice(0, 3);
 
-  // Post 정보 가져오기
-  const postStmt = db.prepare('SELECT * FROM posts_v2 WHERE postId = ?');
-  const post = postStmt.get(resolvedParams.id) as any;
-
-  if (!post) {
-    notFound();
-  }
-
-  // Sections 가져오기
-  const secStmt = db.prepare('SELECT * FROM post_sections WHERE postId = ? ORDER BY sectionOrder ASC');
-  const sections = secStmt.all(resolvedParams.id) as any[];
-
-  // V1 레거시 포스트 판단 (intro, outro가 없고 텍스트가 없는 경우)
-  const isV1Post = !post.intro && !post.outro && sections.every((s: any) => !s.text);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.description,
+    image: post.heroImage ? new URL(post.heroImage, "https://item.monster").toString() : undefined,
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt,
+    mainEntityOfPage: `https://item.monster/post/${post.slug}/`,
+    author: { "@type": "Organization", name: "아이템몬스터 편집팀" },
+    publisher: {
+      "@type": "Organization",
+      name: "아이템몬스터",
+      logo: { "@type": "ImageObject", url: "https://item.monster/icon.png" },
+    },
+  };
 
   return (
-    <div className={styles.container}>
-      <header className={styles.header}>
-        <div className={styles.logo}>
-          <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <img src="/icon.png" alt="아이템몬스터 로고" width={32} height={32} style={{ borderRadius: '50%' }} /> 아이템몬스터
-          </Link>
-        </div>
-        <nav className={styles.nav}>
-          <Link href="/">← 홈으로 돌아가기</Link>
+    <div className={siteStyles.shell}>
+      <SiteHeader />
+      <main className={siteStyles.main}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <nav className={siteStyles.breadcrumb} aria-label="현재 위치">
+          <Link href="/">홈</Link><span>›</span>
+          <Link href={`/category/${category.slug}/`}>{category.label}</Link><span>›</span>
+          <span>구매 체크</span>
         </nav>
-      </header>
 
-      <main className={styles.main}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-          <span className={styles.category}>{post.category}</span>
-        </div>
-        <h1 className={styles.title}>{post.title}</h1>
-        
-        {post.thumbnail && (
-          <div className={styles.heroImage} style={{ backgroundImage: `url(${post.thumbnail})` }}></div>
-        )}
-
-        <div className={styles.ftcAlert}>
-          이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
-        </div>
-
-        <div className={styles.adBanner}>
-          <a href="https://link.coupang.com/a/exy45HN1I4" target="_blank" rel="noreferrer" referrerPolicy="unsafe-url">
-            <img src="https://ads-partners.coupang.com/banners/996779?subId=&traceId=V0-301-879dd1202e5c73b2-I996779&w=728&h=90" alt="오늘의 쿠팡 특가는?" />
-          </a>
-        </div>
-
-        <div className={styles.content}>
-          {/* V1 레거시 데이터 호환성: V1 포스트인 경우 summary(이전 content)를 전체 텍스트로 렌더링 */}
-          {isV1Post && post.summary && (
-            <div dangerouslySetInnerHTML={{ __html: marked.parse(post.summary) }} className={styles.markdownContent} />
-          )}
-
-          {/* 도입부 */}
-          {post.intro && (
-            <div dangerouslySetInnerHTML={{ __html: marked.parse(post.intro) }} className={styles.markdownContent} />
-          )}
-
-          {/* 이미지 + 설명 섹션들 */}
-          {sections.map(sec => (
-            <div key={sec.id} style={{ marginBottom: '2rem' }}>
-              {sec.image && (
-                <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-                  <img src={sec.image} alt={sec.imageAlt || `이미지 ${sec.sectionOrder}`} style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
-                </div>
-              )}
-              {sec.text && (
-                <div dangerouslySetInnerHTML={{ __html: marked.parse(sec.text) }} className={styles.markdownContent} />
-              )}
+        <article>
+          <header className={articleStyles.articleHead}>
+            <div className={articleStyles.metaRow}>
+              <span className={articleStyles.category}>{category.label}</span>
+              <span>업데이트 {formatDate(post.updatedAt)}</span>
+              {post.editorial.status === "legacy" ? <span>기존 글 재검수 중</span> : <span>편집 검수 완료</span>}
             </div>
-          ))}
+            <h1>{post.title}</h1>
+            <p className={articleStyles.description}>{post.description}</p>
+          </header>
 
-          {/* 마무리 */}
-          {post.outro && (
-            <div dangerouslySetInnerHTML={{ __html: marked.parse(post.outro) }} className={styles.markdownContent} />
-          )}
-        </div>
+          {post.heroImage ? (
+            <Image
+              src={post.heroImage}
+              alt={`${post.productName || post.title} 대표 이미지`}
+              className={articleStyles.heroImage}
+              width={1200}
+              height={800}
+              priority
+            />
+          ) : null}
 
-        <div style={{ textAlign: 'center', margin: '30px 0' }}>
-          <a 
-            href={post.coupangLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ 
-              display: 'inline-block', padding: '16px 40px', background: '#346aff', 
-              color: 'white', fontWeight: 'bold', fontSize: '1.2rem', borderRadius: '8px',
-              textDecoration: 'none'
-            }}
-          >
-            최저가 확인하기
-          </a>
-        </div>
+          <div className={articleStyles.disclosure}>
+            이 글에는 쿠팡 파트너스 제휴 링크가 포함될 수 있으며, 구매가 발생하면 일정액의 수수료를 제공받습니다.
+          </div>
 
-        <div className={styles.linkCardWrapper}>
-          <p className={styles.linkCardHeading}>더 자세한 정보는 아래 링크를 확인하세요.</p>
-          <a 
-            href={post.coupangLink} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className={styles.linkCard}
-          >
-            {post.thumbnail && (
-              <img src={post.thumbnail} alt={post.title} className={styles.linkCardImg} />
-            )}
-            <div className={styles.linkCardInfo}>
-              <span className={styles.linkCardName}>{post.title}</span>
-              <span className={styles.linkCardBrand}>COUPANG</span>
-              <span className={styles.linkCardUrl}>link.coupang.com</span>
+          {post.verdict ? (
+            <section className={articleStyles.verdict} aria-labelledby="quick-verdict">
+              <span>QUICK VERDICT</span>
+              <h2 id="quick-verdict">{post.verdict.oneLine}</h2>
+              <div className={articleStyles.verdictGrid}>
+                <div><strong>이런 분께</strong><ul>{post.verdict.bestFor.map((item) => <li key={item}>{item}</li>)}</ul></div>
+                <div><strong>이런 경우엔 보류</strong><ul>{post.verdict.notFor.map((item) => <li key={item}>{item}</li>)}</ul></div>
+                <div><strong>결제 전 확인</strong><ul>{post.verdict.checkBeforeBuy.map((item) => <li key={item}>{item}</li>)}</ul></div>
+              </div>
+            </section>
+          ) : (
+            <div className={articleStyles.editorialNote}>
+              이 글은 기존 자료를 새 편집 기준으로 옮긴 버전입니다. 과장 표현과 제품별 사실을 순차적으로 다시 확인하고 있습니다.
             </div>
-          </a>
-        </div>
+          )}
 
-        {post.coupangHtml && (
-          <div 
-            className={styles.iframeContainer} 
-            dangerouslySetInnerHTML={{ __html: post.coupangHtml }} 
-          />
-        )}
+          <div className={articleStyles.articleBody}>
+            <MarkdownContent content={post.intro} />
+            {post.sections.map((section, index) => (
+              <section className={articleStyles.articleSection} key={`${section.heading}-${index}`}>
+                <h2>{section.heading}</h2>
+                {section.image ? (
+                  <figure className={articleStyles.figure}>
+                    <Image
+                      src={section.image}
+                      alt={section.imageAlt || `${post.title} 상세 이미지`}
+                      width={1200}
+                      height={1200}
+                      loading="lazy"
+                    />
+                    {section.imageAlt ? <figcaption>{section.imageAlt}</figcaption> : null}
+                  </figure>
+                ) : null}
+                <MarkdownContent content={section.body} />
+              </section>
+            ))}
+
+            {post.conclusion ? (
+              <section className={articleStyles.conclusion}>
+                <h2>그래서, 어떤 경우에 맞을까?</h2>
+                <MarkdownContent content={post.conclusion} />
+              </section>
+            ) : null}
+
+            {post.faq?.length ? (
+              <section className={articleStyles.faq}>
+                <h2>구매 전에 많이 묻는 질문</h2>
+                {post.faq.map((item) => (
+                  <details key={item.question}>
+                    <summary>{item.question}</summary>
+                    <p>{item.answer}</p>
+                  </details>
+                ))}
+              </section>
+            ) : null}
+          </div>
+
+          {post.affiliate.url ? (
+            <aside className={articleStyles.ctaBox}>
+              <strong>현재 판매 구성과 옵션을 확인하세요</strong>
+              <p>가격과 구성은 수시로 바뀔 수 있으므로 결제 화면에서 마지막으로 확인하는 것이 안전합니다.</p>
+              <a
+                href={post.affiliate.url}
+                target="_blank"
+                rel="sponsored nofollow noopener noreferrer"
+                className={articleStyles.ctaButton}
+              >
+                쿠팡에서 현재 구성 확인
+              </a>
+            </aside>
+          ) : null}
+
+          <div className={articleStyles.sourceBox}>
+            <strong>자료 확인 기준</strong>
+            {post.editorial.basis}
+            {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
+          </div>
+        </article>
+
+        {related.length ? (
+          <section className={articleStyles.related}>
+            <h2>같은 기준으로 더 보기</h2>
+            <div className={siteStyles.cardGrid}>
+              {related.map((item) => <ArticleCard post={item} key={item.slug} />)}
+            </div>
+          </section>
+        ) : null}
       </main>
-
-      <footer className={styles.footer}>
-        <p>© 2026 아이템몬스터(ItemMonster). All rights reserved.</p>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

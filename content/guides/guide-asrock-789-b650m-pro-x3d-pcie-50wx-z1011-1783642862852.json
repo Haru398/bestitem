@@ -1,0 +1,23 @@
+{
+  "kind": "guide",
+  "slug": "guide-asrock-789-b650m-pro-x3d-pcie-50wx-z1011-1783642862852",
+  "category": "digital-pc",
+  "title": "ASRock 애즈락 B650M Pro X3D (PCIe 5.0지원) 메인보드 MOTHERBOARD 에즈윈 완벽 리뷰: 이 메인보드, 지금 사도 될까?",
+  "description": "ASRock 애즈락 B650M Pro X3D PCIe 5.0지원 메인보드 MOTHERBOARD 에즈윈 완벽 리뷰. VRM 전원부 품질, M.2 슬롯 개수, 추천 CPU 조합까지 전문가이드로 분석했습니다.",
+  "publishedAt": "2026-07-10 00:21:02",
+  "updatedAt": "2026-07-10 00:21:02",
+  "indexable": false,
+  "searchIntent": "제품 선택 기준과 호환성 확인",
+  "targetQuery": "",
+  "editorial": {
+    "status": "legacy",
+    "basis": "기존 자동 생성 가이드를 새 구조로 옮긴 자료이며 순차적으로 출처와 제품별 정보를 보강합니다.",
+    "lastChecked": "2026-07-10 00:21:02",
+    "caution": "구매 전 제조사 공식 사양과 현재 판매 구성을 함께 확인하세요."
+  },
+  "content": "*이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.*\n\n![상품 리뷰](/images/tech_header.png)\n\n**ASRock 애즈락 B650M Pro X3D (PCIe 5.0지원) 메인보드 MOTHERBOARD 에즈윈** 구매를 검토 중이신가요? 메인보드는 PC의 핵심 뼈대로, 어떤 CPU와 부품을 사용할지에 따라 선택이 달라집니다.\n\n## 1. 칩셋별 특징 비교\n\n### 보급형 (A620 / H610)\n* 오버클럭 미지원\n* 확장 슬롯(M.2, USB) 수 적음\n* 가격 저렴, 일반 사무용 또는 조립 입문자 추천\n\n### 중급형 (B650 / B760)\n* 메모리 오버클럭 지원 (XMP/EXPO)\n* M.2 슬롯 2개 이상 제공\n* 게이밍 PC 표준 선택지\n\n### 고급형 (X670E / Z790)\n* 풀 오버클럭 지원\n* PCIe 5.0 지원\n* 확장성 최대, 가격 높음\n\n## 2. 전원부(VRM) 품질이 중요한 이유\n\n메인보드의 VRM(전압 조정 모듈)은 CPU에 안정적인 전력을 공급하는 역할을 합니다. VRM 품질이 낮으면 고부하 작업 시 CPU 성능이 저하되거나 발열 문제가 발생할 수 있습니다.\n\n**VRM 확인 포인트:**\n* 페이즈(Phase) 수: 많을수록 안정적 (최소 6+2 이상 권장)\n* 방열판 유무: 방열판이 없는 VRM은 발열에 취약\n* Dr.MOS 채용 여부: 효율적인 전력 변환\n\n## 3. 체크리스트\n\n* ✅ CPU 소켓 호환 여부 (AM4/AM5/LGA1700/LGA1851)\n* ✅ 메모리 지원 세대 (DDR4 vs DDR5)\n* ✅ M.2 슬롯 개수 및 PCIe 세대\n* ✅ USB 포트 수 및 규격 (USB 3.2 Gen2 이상 권장)\n* ✅ Wi-Fi 내장 여부 (무선 인터넷 사용 시)\n* ✅ 폼팩터 (ATX/M-ATX) - 케이스와 호환 확인\n\n## 4. 이 메인보드와 궁합 좋은 CPU\n\n메인보드 선택 후 CPU는 동일 소켓 규격의 중간 가격대 제품을 선택하는 것이 전체 시스템의 가성비를 극대화하는 방법입니다.\n\n## 실시간 최저가 확인하기\n\n<iframe src=\"https://coupa.ng/cnKBfx\" width=\"120\" height=\"240\" frameborder=\"0\" scrolling=\"no\" referrerpolicy=\"unsafe-url\" browsingtopics></iframe>",
+  "related": [
+    "guide-ryzen-7500f-motherboard",
+    "guide-rtx4060-bottleneck"
+  ]
+}

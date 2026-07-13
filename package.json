@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "content:migrate": "node scripts/content/migrate-from-sqlite.cjs",
+    "content:validate": "node scripts/content/validate.cjs",
+    "build": "npm run content:validate && next build",
+    "release:prepare": "npm run build && node scripts/deploy/copy-static-to-root.cjs",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint src"
   },
   "dependencies": {
     "@prisma/adapter-better-sqlite3": "^7.8.0",
