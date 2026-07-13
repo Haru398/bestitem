@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { COUPANG_PARTNERS_DISCLOSURE } from "../../lib/affiliate";
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 import articleStyles from "../article.module.css";
@@ -47,8 +48,8 @@ export default function AboutPage() {
         <section className={articleStyles.articleSection}>
           <h2>제휴 링크 운영 원칙</h2>
           <div className={articleStyles.markdown}>
-            <p>일부 글에는 쿠팡 파트너스 링크가 포함됩니다. 링크를 통해 구매가 발생하면 일정액의 수수료를 제공받을 수 있습니다.</p>
-            <p>제휴 관계는 글 상단과 구매 링크 주변에 표시하며, 링크가 있다는 이유만으로 장점을 과장하지 않습니다.</p>
+            <p><strong>{COUPANG_PARTNERS_DISCLOSURE}</strong></p>
+            <p>쿠팡 파트너스 활동으로 작성한 모든 상품 글의 첫부분에 위 문구를 명확하게 표시합니다. 제휴 링크가 있다는 이유만으로 장점을 과장하지 않습니다.</p>
           </div>
         </section>
 

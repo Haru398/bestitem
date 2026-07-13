@@ -1,3 +1,4 @@
+import { COUPANG_PARTNERS_DISCLOSURE } from "../../lib/affiliate";
 import styles from "../site.module.css";
 
 export default function SiteFooter() {
@@ -10,8 +11,8 @@ export default function SiteFooter() {
           <br />© 2026 ItemMonster.
         </div>
         <div>
-          <strong>제휴 링크 안내</strong>
-          일부 링크를 통해 구매가 발생하면 일정액의 수수료를 제공받을 수 있습니다.
+          <strong>쿠팡 파트너스 활동 안내</strong>
+          {COUPANG_PARTNERS_DISCLOSURE}
           링크 여부와 관계없이 확인 기준과 주의사항을 먼저 제시합니다.
         </div>
       </div>

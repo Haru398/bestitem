@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import { COUPANG_PARTNERS_DISCLOSURE } from "../../../lib/affiliate";
 import { getCategory } from "../../../lib/categories";
 import { formatDate, getAllPosts, getPost, getPublicPosts } from "../../../lib/content";
 import ArticleCard from "../../components/ArticleCard";
@@ -96,6 +97,10 @@ export default async function PostPage({ params }: Props) {
             <p className={articleStyles.description}>{post.description}</p>
           </header>
 
+          <div className={articleStyles.disclosure} role="note" aria-label="쿠팡 파트너스 활동 안내">
+            {COUPANG_PARTNERS_DISCLOSURE}
+          </div>
+
           {post.heroImage ? (
             <Image
               src={post.heroImage}
@@ -106,10 +111,6 @@ export default async function PostPage({ params }: Props) {
               priority
             />
           ) : null}
-
-          <div className={articleStyles.disclosure}>
-            이 글에는 쿠팡 파트너스 제휴 링크가 포함될 수 있으며, 구매가 발생하면 일정액의 수수료를 제공받습니다.
-          </div>
 
           {post.verdict ? (
             <section className={articleStyles.verdict} aria-labelledby="quick-verdict">
