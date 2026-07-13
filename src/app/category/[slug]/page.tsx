@@ -18,10 +18,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const category = CATEGORIES.find((item) => item.slug === slug);
   if (!category) return { title: "카테고리를 찾을 수 없습니다" };
+  const hasPublishedPosts = getPostsByCategory(category.slug).length > 0;
   return {
     title: `${category.label} 구매 가이드`,
     description: category.description,
     alternates: { canonical: `/category/${category.slug}/` },
+    robots: hasPublishedPosts ? { index: true, follow: true } : { index: false, follow: true },
   };
 }
 

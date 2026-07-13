@@ -54,7 +54,7 @@ export default function AboutPage() {
 
         <div className={articleStyles.sourceBox}>
           <strong>기존 글 개선 안내</strong>
-          2026년 7월부터 기존 게시물을 새 편집 기준으로 순차 재검수하고 있습니다. 재검수가 끝나지 않은 글에는 해당 상태를 표시합니다.
+          2026년 7월부터 기존 게시물을 새 편집 기준으로 다시 검수하고 있습니다. 검수가 끝나지 않은 글은 공개 목록과 검색엔진 색인에서 제외하며, 기준을 통과한 뒤에만 다시 공개합니다.
         </div>
       </main>
       <SiteFooter />

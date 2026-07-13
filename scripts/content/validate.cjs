@@ -5,7 +5,7 @@ const root = path.resolve(__dirname, '../..');
 const errors = [];
 const warnings = [];
 const slugs = new Set();
-const bannedHype = /(무조건|100%\s*(효과|차단|보장)|완벽한\s*제품|기적|끝판왕|가성비\s*갑|박살)/;
+const bannedHype = /(무조건|100%\s*(효과|차단|보장)|완벽한\s*제품|(^|[^가-힣])기적([^가-힣]|$)|끝판왕|가성비\s*갑|박살)/m;
 
 function read(directory) {
   const target = path.join(root, 'content', directory);

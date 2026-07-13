@@ -25,6 +25,18 @@ function readJsonDirectory<T extends SiteContent>(directory: string): T[] {
 export const getAllPosts = cache(() => readJsonDirectory<PostContent>("posts"));
 export const getAllGuides = cache(() => readJsonDirectory<GuideContent>("guides"));
 
+export const getPublicPosts = cache(() =>
+  getAllPosts().filter(
+    (post) => post.indexable && post.editorial.status === "reviewed",
+  ),
+);
+
+export const getPublicGuides = cache(() =>
+  getAllGuides().filter(
+    (guide) => guide.indexable && guide.editorial.status === "reviewed",
+  ),
+);
+
 export const getPost = cache((slug: string) =>
   getAllPosts().find((post) => post.slug === slug),
 );
@@ -34,7 +46,7 @@ export const getGuide = cache((slug: string) =>
 );
 
 export const getPostsByCategory = cache((category: string) =>
-  getAllPosts().filter((post) => post.category === category),
+  getPublicPosts().filter((post) => post.category === category),
 );
 
 export function formatDate(value: string): string {

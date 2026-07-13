@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { getCategory } from "../../../lib/categories";
-import { formatDate, getAllPosts, getPost } from "../../../lib/content";
+import { formatDate, getAllPosts, getPost, getPublicPosts } from "../../../lib/content";
 import ArticleCard from "../../components/ArticleCard";
 import MarkdownContent from "../../components/MarkdownContent";
 import SiteFooter from "../../components/SiteFooter";
@@ -31,7 +31,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: post.description,
     alternates: { canonical: `/post/${post.slug}/` },
     authors: [{ name: "아이템몬스터 편집팀" }],
-    robots: post.indexable ? { index: true, follow: true } : { index: false, follow: true },
+    robots:
+      post.indexable && post.editorial.status === "reviewed"
+        ? { index: true, follow: true }
+        : { index: false, follow: true },
     openGraph: {
       title: post.title,
       description: post.description,
@@ -50,7 +53,7 @@ export default async function PostPage({ params }: Props) {
   if (!post) notFound();
 
   const category = getCategory(post.category);
-  const related = getAllPosts()
+  const related = getPublicPosts()
     .filter((item) => item.category === post.category && item.slug !== post.slug)
     .slice(0, 3);
 

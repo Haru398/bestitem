@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getCategory } from "../../../lib/categories";
-import { formatDate, getAllGuides, getGuide } from "../../../lib/content";
+import { formatDate, getAllGuides, getGuide, getPublicGuides } from "../../../lib/content";
 import MarkdownContent from "../../components/MarkdownContent";
 import SiteFooter from "../../components/SiteFooter";
 import SiteHeader from "../../components/SiteHeader";
@@ -23,7 +23,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: guide.title,
     description: guide.description,
     alternates: { canonical: `/guide/${guide.slug}/` },
-    robots: guide.indexable ? { index: true, follow: true } : { index: false, follow: true },
+    robots:
+      guide.indexable && guide.editorial.status === "reviewed"
+        ? { index: true, follow: true }
+        : { index: false, follow: true },
     openGraph: {
       title: guide.title,
       description: guide.description,
@@ -40,7 +43,7 @@ export default async function GuideDetailPage({ params }: Props) {
   const guide = getGuide(id);
   if (!guide) notFound();
   const category = getCategory(guide.category);
-  const related = getAllGuides().filter((item) => guide.related.includes(item.slug)).slice(0, 4);
+  const related = getPublicGuides().filter((item) => guide.related.includes(item.slug)).slice(0, 4);
 
   const jsonLd = {
     "@context": "https://schema.org",

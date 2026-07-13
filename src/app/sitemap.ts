@@ -1,13 +1,14 @@
 import type { MetadataRoute } from "next";
 import { CATEGORIES } from "../lib/categories";
-import { getAllGuides, getAllPosts } from "../lib/content";
+import { getPublicGuides, getPublicPosts, getPostsByCategory } from "../lib/content";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://item.monster";
-  const posts = getAllPosts().filter((post) => post.indexable);
-  const guides = getAllGuides().filter((guide) => guide.indexable);
+  const posts = getPublicPosts();
+  const guides = getPublicGuides();
+  const categories = CATEGORIES.filter((category) => getPostsByCategory(category.slug).length > 0);
   const latest = [...posts, ...guides]
     .map((item) => item.updatedAt)
     .sort()
@@ -26,19 +27,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-    {
-      url: `${baseUrl}/guide/`,
-      lastModified: latest ? new Date(latest) : new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
+    ...(guides.length
+      ? [{
+          url: `${baseUrl}/guide/`,
+          lastModified: latest ? new Date(latest) : new Date(),
+          changeFrequency: "weekly" as const,
+          priority: 0.8,
+        }]
+      : []),
     {
       url: `${baseUrl}/about/`,
       lastModified: new Date("2026-07-14T00:00:00+09:00"),
       changeFrequency: "monthly",
       priority: 0.5,
     },
-    ...CATEGORIES.map((category) => ({
+    ...categories.map((category) => ({
       url: `${baseUrl}/category/${category.slug}/`,
       lastModified: latest ? new Date(latest) : new Date(),
       changeFrequency: "weekly" as const,

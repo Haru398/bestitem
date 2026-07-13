@@ -21,6 +21,10 @@ export default function ArticleArchive({ posts }: { posts: ArticleCardData[] }) 
     });
   }, [posts, query, category]);
 
+  const visibleCategories = CATEGORIES.filter((item) =>
+    posts.some((post) => post.category === item.slug),
+  );
+
   return (
     <>
       <div className={styles.controls}>
@@ -39,7 +43,7 @@ export default function ArticleArchive({ posts }: { posts: ArticleCardData[] }) 
           aria-label="카테고리 선택"
         >
           <option value="all">전체 카테고리</option>
-          {CATEGORIES.map((item) => (
+          {visibleCategories.map((item) => (
             <option value={item.slug} key={item.slug}>
               {item.label}
             </option>
