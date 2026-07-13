@@ -45,6 +45,7 @@ export type GuideMedia = {
   caption: string;
   creator: string;
   usageBasis: "original" | "licensed-manufacturer" | "authorized-affiliate";
+  display?: "contain" | "detail-top";
   sourceUrl?: string;
   licenseUrl?: string;
 };

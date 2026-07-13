@@ -47,6 +47,8 @@ export default async function GuideDetailPage({ params }: Props) {
   const category = getCategory(guide.category);
   const related = getPublicGuides().filter((item) => guide.related.includes(item.slug)).slice(0, 4);
   const heroMedia = guide.media?.find((item) => item.path === guide.heroImage);
+  const supportingMedia = guide.media?.filter((item) => item.path !== guide.heroImage) || [];
+  const hasAffiliateMedia = supportingMedia.some((item) => item.usageBasis === "authorized-affiliate");
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -90,6 +92,40 @@ export default async function GuideDetailPage({ params }: Props) {
                 </figcaption>
               ) : null}
             </figure>
+          ) : null}
+          {supportingMedia.length ? (
+            <section className={articleStyles.guideMediaSection} aria-labelledby="guide-product-media">
+              <div className={articleStyles.guideMediaHead}>
+                <div>
+                  <span>사진으로 모델 확인</span>
+                  <h2 id="guide-product-media">제품명만 보지 말고 보드 생김새도 같이 보세요</h2>
+                </div>
+                <p>아래 사진은 설명에 사용한 실제 제품 예시입니다. 비슷한 이름의 Wi-Fi 모델과 구성 차이를 캡션에서 구분했습니다.</p>
+              </div>
+              <div className={articleStyles.guideMediaGrid}>
+                {supportingMedia.map((media) => (
+                  <figure className={articleStyles.guideMediaCard} key={media.path}>
+                    <a className={articleStyles.guideMediaVisual} href={media.path} target="_blank" rel="noreferrer" aria-label={`${media.caption} 원본 이미지 열기`}>
+                      <Image
+                        src={media.path}
+                        alt={media.alt}
+                        width={1200}
+                        height={900}
+                        className={media.display === "detail-top" ? articleStyles.guideMediaDetailTop : articleStyles.guideMediaContain}
+                      />
+                    </a>
+                    <figcaption>
+                      <strong>{media.caption}</strong>
+                      <span>{media.creator}</span>
+                      {media.sourceUrl ? <a href={media.sourceUrl} target="_blank" rel="noreferrer">출처 페이지</a> : null}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+              {hasAffiliateMedia ? (
+                <p className={articleStyles.guideMediaDisclosure}>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+              ) : null}
+            </section>
           ) : null}
           {guide.editorial.status === "legacy" ? (
             <div className={articleStyles.editorialNote}>예전에 만든 글이라 자료부터 다시 보고 있어요. 확인이 끝난 글만 검색에 나오게 해뒀습니다.</div>

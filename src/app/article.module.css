@@ -195,6 +195,108 @@
   text-underline-offset: 3px;
 }
 
+.guideMediaSection {
+  margin: -4px 0 46px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #f5f4ee;
+}
+
+.guideMediaHead {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(240px, 0.95fr);
+  gap: 24px;
+  align-items: end;
+  margin-bottom: 22px;
+}
+
+.guideMediaHead span {
+  color: var(--brand);
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+}
+
+.guideMediaHead h2 {
+  margin: 7px 0 0;
+  color: var(--ink);
+  font-size: clamp(1.28rem, 3vw, 1.75rem);
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+
+.guideMediaHead p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.guideMediaGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.guideMediaCard {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+}
+
+.guideMediaVisual {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.guideMediaVisual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.guideMediaContain {
+  object-fit: contain;
+}
+
+.guideMediaDetailTop {
+  object-fit: cover;
+  object-position: top;
+}
+
+.guideMediaCard figcaption {
+  display: grid;
+  gap: 3px;
+  padding: 14px 15px 16px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.guideMediaCard figcaption strong {
+  color: var(--ink);
+  font-size: 0.86rem;
+}
+
+.guideMediaCard figcaption a {
+  width: fit-content;
+  margin-top: 3px;
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.guideMediaDisclosure {
+  margin: 17px 2px 0;
+  color: #69564e;
+  font-size: 0.76rem;
+}
+
 .markdown {
   color: #344138;
 }
@@ -375,8 +477,14 @@
 
 @media (max-width: 720px) {
   .verdictGrid,
-  .relatedGrid {
+  .relatedGrid,
+  .guideMediaHead,
+  .guideMediaGrid {
     grid-template-columns: 1fr;
+  }
+
+  .guideMediaSection {
+    padding: 20px;
   }
 
   .articleHead h1 {

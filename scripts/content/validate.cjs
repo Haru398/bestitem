@@ -109,10 +109,21 @@ for (const entry of [...read('posts'), ...read('guides')]) {
       }
 
       const mediaByPath = new Map((item.media || []).map((media) => [media.path, media]));
-      const referencedImages = [
+      const referencedImages = [...new Set([
         item.heroImage,
         ...[...String(item.content || '').matchAll(/!\[[^\]]*\]\((\/[^)\s]+)(?:\s+"[^"]*")?\)/g)].map((match) => match[1]),
-      ].filter(Boolean);
+        ...(item.media || []).map((media) => media.path),
+      ].filter(Boolean))];
+
+      if (item.category === 'digital-pc') {
+        const productMedia = (item.media || []).filter((media) => media.usageBasis !== 'original');
+        if (referencedImages.length < 3) {
+          errors.push(`${prefix} PC 전문 가이드는 본문 도식을 포함해 이미지가 3장 이상 필요합니다.`);
+        }
+        if (productMedia.length < 2) {
+          errors.push(`${prefix} PC 전문 가이드는 이용 근거가 확인된 실제 제품 이미지가 2장 이상 필요합니다.`);
+        }
+      }
 
       for (const imagePath of referencedImages) {
         if (!publicFileExists(imagePath)) errors.push(`${prefix} 이미지 파일이 없습니다: ${imagePath}`);
