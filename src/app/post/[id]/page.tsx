@@ -148,7 +148,7 @@ export default async function PostPage({ params }: Props) {
                 rel="sponsored nofollow noopener noreferrer"
                 className={articleStyles.ctaButton}
               >
-                쿠팡에서 LC751KRLV 옵션 확인하기
+                쿠팡에서 현재 옵션 확인하기
               </a>
             </aside>
           ) : null}
