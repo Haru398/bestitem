@@ -102,14 +102,24 @@ export default async function PostPage({ params }: Props) {
           </div>
 
           {post.heroImage ? (
-            <Image
-              src={post.heroImage}
-              alt={`${post.productName || post.title} 대표 이미지`}
-              className={articleStyles.heroImage}
-              width={1200}
-              height={800}
-              priority
-            />
+            <figure className={articleStyles.heroFigure}>
+              <Image
+                src={post.heroImage}
+                alt={post.heroImageAlt || `${post.productName || post.title} 대표 이미지`}
+                className={articleStyles.heroImage}
+                width={1200}
+                height={800}
+                priority
+              />
+              {post.heroImageCaption || post.heroImageCredit ? (
+                <figcaption>
+                  {post.heroImageCaption ? <span>{post.heroImageCaption}</span> : null}
+                  {post.heroImageCredit ? (
+                    post.heroImageSourceUrl ? <a href={post.heroImageSourceUrl} target="_blank" rel="noreferrer">출처: {post.heroImageCredit}</a> : <small>출처: {post.heroImageCredit}</small>
+                  ) : null}
+                </figcaption>
+              ) : null}
+            </figure>
           ) : null}
 
           {post.verdict ? (
@@ -128,6 +138,21 @@ export default async function PostPage({ params }: Props) {
             </div>
           )}
 
+          {post.affiliate.url ? (
+            <aside className={articleStyles.ctaBox}>
+              <strong>현재 판매 옵션과 구성 다시 보기</strong>
+              <p>판단 기준이 맞았다면 결제 화면에서 모델명, 색상, 배터리와 액세서리 구성을 한 번 더 확인하세요.</p>
+              <a
+                href={post.affiliate.url}
+                target="_blank"
+                rel="sponsored nofollow noopener noreferrer"
+                className={articleStyles.ctaButton}
+              >
+                쿠팡에서 LC751KRLV 옵션 확인하기
+              </a>
+            </aside>
+          ) : null}
+
           <div className={articleStyles.articleBody}>
             <MarkdownContent content={post.intro} />
             {post.sections.map((section, index) => (
@@ -142,7 +167,14 @@ export default async function PostPage({ params }: Props) {
                       height={1200}
                       loading="lazy"
                     />
-                    {section.imageAlt ? <figcaption>{section.imageAlt}</figcaption> : null}
+                    {section.imageCaption || section.imageAlt || section.imageCredit ? (
+                      <figcaption>
+                        <span>{section.imageCaption || section.imageAlt}</span>
+                        {section.imageCredit ? (
+                          section.imageSourceUrl ? <a href={section.imageSourceUrl} target="_blank" rel="noreferrer">출처: {section.imageCredit}</a> : <small>출처: {section.imageCredit}</small>
+                        ) : null}
+                      </figcaption>
+                    ) : null}
                   </figure>
                 ) : null}
                 <MarkdownContent content={section.body} />
@@ -188,6 +220,16 @@ export default async function PostPage({ params }: Props) {
             <strong>이 글을 쓰면서 확인한 것</strong>
             {post.editorial.basis}
             {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
+            {post.sources?.length ? (
+              <ul className={articleStyles.sourceList}>
+                {post.sources.map((source) => (
+                  <li key={source.url}>
+                    <a href={source.url} target="_blank" rel="noreferrer">{source.publisher} — {source.title}</a>
+                    <span>확인 {formatDate(source.checkedAt)}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </div>
         </article>
 

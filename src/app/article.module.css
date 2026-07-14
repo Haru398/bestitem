@@ -47,6 +47,34 @@
   box-shadow: var(--shadow);
 }
 
+.heroFigure {
+  margin: 32px 0;
+}
+
+.heroFigure .heroImage {
+  margin: 0;
+}
+
+.heroFigure figcaption,
+.figure figcaption {
+  display: grid;
+  gap: 4px;
+}
+
+.heroFigure figcaption {
+  margin-top: 9px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.heroFigure figcaption a,
+.figure figcaption a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .disclosure,
 .editorialNote {
   margin: 24px 0;

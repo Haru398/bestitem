@@ -1,3 +1,3 @@
 :HL["/_next/static/chunks/1ijny0oe0ea0v.css","style"]
-:HL["/_next/static/chunks/04jehdn2llxd1.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-homeplanet-cooling-fan","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"p583dDGlPTAPu2FOvuW3L"}
+:HL["/_next/static/chunks/1qzcip0tak-4v.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"post","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"item-homeplanet-cooling-fan","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"xmIv5PN_zB2FXbYYRNopB"}

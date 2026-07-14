@@ -5,6 +5,9 @@ export type ContentSection = {
   body: string;
   image?: string;
   imageAlt?: string;
+  imageCaption?: string;
+  imageCredit?: string;
+  imageSourceUrl?: string;
 };
 
 export type EditorialInfo = {
@@ -59,6 +62,10 @@ export type PostContent = {
   description: string;
   productName?: string;
   heroImage: string;
+  heroImageAlt?: string;
+  heroImageCaption?: string;
+  heroImageCredit?: string;
+  heroImageSourceUrl?: string;
   publishedAt: string;
   updatedAt: string;
   indexable: boolean;
@@ -71,6 +78,7 @@ export type PostContent = {
   conclusion: string;
   faq?: FAQItem[];
   affiliate: AffiliateInfo;
+  sources?: GuideSource[];
 };
 
 export type GuideContent = {
