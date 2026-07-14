@@ -30,16 +30,12 @@ const TOPICS: Record<string, { label: string; description: string }> = {
     label: "쿨링 · 조립",
     description: "소켓 브래킷, 쿨러 높이, 메모리 간섭과 팬 헤더처럼 실제 조립 조건을 다룹니다.",
   },
-  "living-problem-solving": {
-    label: "생활 문제 해결",
-    description: "제품을 고르기 전에 작동 방식, 설치 위치와 반복 관리 비용을 비교합니다.",
-  },
 };
 
 export default function GuideIndexPage() {
-  const guides = getPublicGuides();
+  const guides = getPublicGuides().filter((guide) => guide.category === "digital-pc");
   const topicCounts = guides.reduce<Record<string, number>>((counts, guide) => {
-    const topic = guide.topicCluster || "living-problem-solving";
+    const topic = guide.topicCluster || "cpu-motherboard";
     counts[topic] = (counts[topic] || 0) + 1;
     return counts;
   }, {});
@@ -91,7 +87,7 @@ export default function GuideIndexPage() {
           <div className={styles.guideTopicList}>
             {Object.keys(topicCounts).map((topicSlug) => {
               const topic = TOPICS[topicSlug] || { label: "선택 가이드", description: "구매 전에 확인할 조건을 공식 자료와 함께 정리합니다." };
-              const topicGuides = guides.filter((guide) => (guide.topicCluster || "living-problem-solving") === topicSlug);
+              const topicGuides = guides.filter((guide) => (guide.topicCluster || "cpu-motherboard") === topicSlug);
               return (
                 <section className={styles.guideTopicSection} id={topicSlug} key={topicSlug}>
                   <h3>{topic.label}</h3>

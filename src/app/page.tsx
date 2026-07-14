@@ -35,7 +35,7 @@ export default function Home() {
               <br /><em>후회하기 싫어서.</em>
             </h1>
             <p className={styles.heroLead}>
-              광고 문구만 보면 다 좋아 보이잖아요. 그래서 사진 속 구성품, 설치 조건, 호환성과 추가로 드는 돈부터 찾아봅니다.
+              광고 문구만 보면 다 좋아 보이잖아요. 그래서 사진 속 구성품, 크기, 쓰는 조건과 추가로 드는 돈부터 찾아봅니다.
               직접 써보지 않은 건 후기인 척 쓰지 않고요.
             </p>
             <div className={styles.buttonRow}>
@@ -52,7 +52,7 @@ export default function Home() {
             <ul className={styles.proofList}>
               <li><b>✓</b><span>사진이 정말 같은 상품인지</span></li>
               <li><b>✓</b><span>옵션을 바꾸면 뭐가 빠지는지</span></li>
-              <li><b>✓</b><span>우리 집이나 내 PC에 맞는지</span></li>
+              <li><b>✓</b><span>내가 쓰려는 공간과 상황에 맞는지</span></li>
               <li><b>✓</b><span>사고 나서 돈이 더 들지는 않는지</span></li>
             </ul>
           </aside>

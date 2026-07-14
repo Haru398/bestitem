@@ -10,6 +10,7 @@ const roboticOpening = /^.{0,120}이 글은 .{0,80}직접 .{0,40}(후기|사용)
 const validStatuses = new Set(['draft', 'legacy', 'reviewed', 'hidden']);
 const validSourceTypes = new Set(['manufacturer-spec', 'manufacturer-support', 'official-standard', 'public-agency']);
 const validMediaUsage = new Set(['original', 'licensed-manufacturer', 'authorized-affiliate']);
+const validMediaDisplays = new Set(['contain', 'detail-top', 'detail-upper', 'detail-middle', 'detail-lower', 'detail-bottom']);
 
 function read(directory) {
   const target = path.join(root, 'content', directory);
@@ -117,11 +118,21 @@ for (const entry of [...read('posts'), ...read('guides')]) {
 
       if (item.category === 'digital-pc') {
         const productMedia = (item.media || []).filter((media) => media.usageBasis !== 'original');
-        if (referencedImages.length < 3) {
-          errors.push(`${prefix} PC 전문 가이드는 본문 도식을 포함해 이미지가 3장 이상 필요합니다.`);
+        const bodyHeadings = new Set(
+          [...String(item.content || '').matchAll(/^## (.+)$/gm)].map((match) => match[1].trim()),
+        );
+        if ((item.media || []).length < 5) {
+          errors.push(`${prefix} PC 전문 가이드는 본문 도식을 포함해 시각 자료가 5장 이상 필요합니다.`);
         }
-        if (productMedia.length < 2) {
-          errors.push(`${prefix} PC 전문 가이드는 이용 근거가 확인된 실제 제품 이미지가 2장 이상 필요합니다.`);
+        if (productMedia.length < 4) {
+          errors.push(`${prefix} PC 전문 가이드는 이용 근거가 확인된 실제 제품 이미지가 4장 이상 필요합니다.`);
+        }
+        for (const [index, media] of productMedia.entries()) {
+          if (media.path !== item.heroImage && !media.placement) {
+            errors.push(`${prefix} 실제 제품 이미지 ${index + 1}의 본문 배치 위치(placement)가 없습니다.`);
+          } else if (media.placement && !bodyHeadings.has(media.placement)) {
+            errors.push(`${prefix} 실제 제품 이미지 ${index + 1}의 placement가 본문 소제목과 일치하지 않습니다.`);
+          }
         }
       }
 
@@ -132,6 +143,7 @@ for (const entry of [...read('posts'), ...read('guides')]) {
 
       for (const [index, media] of (item.media || []).entries()) {
         if (!validMediaUsage.has(media.usageBasis)) errors.push(`${prefix} 미디어 ${index + 1} usageBasis가 잘못되었습니다.`);
+        if (media.display && !validMediaDisplays.has(media.display)) errors.push(`${prefix} 미디어 ${index + 1} display가 잘못되었습니다.`);
         if (!media.alt || media.alt.length < 8) errors.push(`${prefix} 미디어 ${index + 1} 대체 텍스트가 부족합니다.`);
         if (!media.caption || !media.creator) errors.push(`${prefix} 미디어 ${index + 1} 캡션 또는 제작자 정보가 없습니다.`);
         if (media.usageBasis !== 'original' && (!media.sourceUrl || !media.licenseUrl)) {

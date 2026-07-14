@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | 아이템몬스터",
   },
   description:
-    "광고 문구만 보고 사기 찜찜할 때, 구성품·설치 조건·호환성과 추가 비용을 먼저 찾아보는 개인 구매 메모입니다.",
+    "광고 문구만 보고 사기 찜찜할 때, 구성품·크기·사용 조건과 추가 비용을 먼저 찾아보는 개인 구매 메모입니다.",
   alternates: {
     canonical: "/",
   },
