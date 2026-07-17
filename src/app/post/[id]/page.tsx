@@ -2,9 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { COUPANG_PARTNERS_DISCLOSURE } from "../../../lib/affiliate";
+import {
+  COUPANG_PARTNERS_DISCLOSURE,
+  getSafeCoupangAffiliateHtml,
+  getSafeCoupangAffiliateUrl,
+} from "../../../lib/affiliate";
 import { getCategory } from "../../../lib/categories";
-import { formatDate, getPost, getPublicPosts } from "../../../lib/content";
+import { formatDate, getAllPosts, getPost, getPublicPosts } from "../../../lib/content";
 import ArticleCard from "../../components/ArticleCard";
 import MarkdownContent from "../../components/MarkdownContent";
 import SiteFooter from "../../components/SiteFooter";
@@ -15,7 +19,11 @@ import siteStyles from "../../site.module.css";
 type Props = { params: Promise<{ id: string }> };
 
 export function generateStaticParams() {
-  return getPublicPosts().map((post) => ({ id: post.slug }));
+  const posts = process.env.ITEM_MONSTER_LOCAL_PREVIEW === "true"
+    ? getAllPosts()
+    : getPublicPosts();
+
+  return posts.map((post) => ({ id: post.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -57,6 +65,11 @@ export default async function PostPage({ params }: Props) {
   const related = getPublicPosts()
     .filter((item) => item.category === post.category && item.slug !== post.slug)
     .slice(0, 3);
+  const showSourceBox = post.editorial.status !== "draft" && Boolean(
+    post.editorial.basis || post.editorial.caution || post.sources?.length,
+  );
+  const affiliateUrl = getSafeCoupangAffiliateUrl(post.affiliate.url);
+  const affiliateHtml = getSafeCoupangAffiliateHtml(post.affiliate.html);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -91,15 +104,23 @@ export default async function PostPage({ params }: Props) {
             <div className={articleStyles.metaRow}>
               <span className={articleStyles.category}>{category.label}</span>
               <span>{formatDate(post.updatedAt)} 다시 확인</span>
-              {post.editorial.status === "legacy" ? <span>예전 글 다시 보는 중</span> : <span>판매 자료 확인함</span>}
+              {post.editorial.status === "draft" ? (
+                <span>검수용 미리보기 · 공개 전</span>
+              ) : post.editorial.status === "legacy" ? (
+                <span>예전 글 다시 보는 중</span>
+              ) : (
+                <span>판매 자료 확인함</span>
+              )}
             </div>
             <h1>{post.title}</h1>
             <p className={articleStyles.description}>{post.description}</p>
           </header>
 
-          <div className={articleStyles.disclosure} role="note" aria-label="쿠팡 파트너스 활동 안내">
-            {COUPANG_PARTNERS_DISCLOSURE}
-          </div>
+          {affiliateUrl || affiliateHtml ? (
+            <div className={articleStyles.disclosure} role="note" aria-label="쿠팡 파트너스 활동 안내">
+              {COUPANG_PARTNERS_DISCLOSURE}
+            </div>
+          ) : null}
 
           {post.heroImage ? (
             <figure className={articleStyles.heroFigure}>
@@ -138,18 +159,33 @@ export default async function PostPage({ params }: Props) {
             </div>
           )}
 
-          {post.affiliate.url ? (
+          {affiliateUrl ? (
             <aside className={articleStyles.ctaBox}>
               <strong>현재 판매 옵션과 구성 다시 보기</strong>
               <p>판단 기준이 맞았다면 결제 화면에서 모델명, 색상, 배터리와 액세서리 구성을 한 번 더 확인하세요.</p>
               <a
-                href={post.affiliate.url}
+                href={affiliateUrl}
                 target="_blank"
                 rel="sponsored nofollow noopener noreferrer"
                 className={articleStyles.ctaButton}
               >
                 쿠팡에서 현재 옵션 확인하기
               </a>
+              {affiliateHtml ? (
+                <div
+                  className={articleStyles.affiliateEmbed}
+                  aria-label="쿠팡 파트너스 상품 카드"
+                  dangerouslySetInnerHTML={{ __html: affiliateHtml }}
+                />
+              ) : null}
+            </aside>
+          ) : affiliateHtml ? (
+            <aside className={articleStyles.ctaBox}>
+              <div
+                className={articleStyles.affiliateEmbed}
+                aria-label="쿠팡 파트너스 상품 카드"
+                dangerouslySetInnerHTML={{ __html: affiliateHtml }}
+              />
             </aside>
           ) : null}
 
@@ -201,12 +237,12 @@ export default async function PostPage({ params }: Props) {
             ) : null}
           </div>
 
-          {post.affiliate.url ? (
+          {affiliateUrl ? (
             <aside className={articleStyles.ctaBox}>
               <strong>지금 판매 중인 옵션 다시 보기</strong>
               <p>제가 글을 쓴 뒤에도 가격과 구성은 바뀔 수 있어요. 결제 화면에서 수량과 옵션을 한 번 더 봐주세요.</p>
               <a
-                href={post.affiliate.url}
+                href={affiliateUrl}
                 target="_blank"
                 rel="sponsored nofollow noopener noreferrer"
                 className={articleStyles.ctaButton}
@@ -216,21 +252,23 @@ export default async function PostPage({ params }: Props) {
             </aside>
           ) : null}
 
-          <div className={articleStyles.sourceBox}>
-            <strong>이 글을 쓰면서 확인한 것</strong>
-            {post.editorial.basis}
-            {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
-            {post.sources?.length ? (
-              <ul className={articleStyles.sourceList}>
-                {post.sources.map((source) => (
-                  <li key={source.url}>
-                    <a href={source.url} target="_blank" rel="noreferrer">{source.publisher} — {source.title}</a>
-                    <span>확인 {formatDate(source.checkedAt)}</span>
-                  </li>
-                ))}
-              </ul>
-            ) : null}
-          </div>
+          {showSourceBox ? (
+            <div className={articleStyles.sourceBox}>
+              <strong>확인 기준과 출처</strong>
+              {post.editorial.basis}
+              {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
+              {post.sources?.length ? (
+                <ul className={articleStyles.sourceList}>
+                  {post.sources.map((source) => (
+                    <li key={source.url}>
+                      <a href={source.url} target="_blank" rel="noreferrer">{source.publisher} — {source.title}</a>
+                      <span>확인 {formatDate(source.checkedAt)}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+            </div>
+          ) : null}
         </article>
 
         {related.length ? (

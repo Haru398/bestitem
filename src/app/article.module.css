@@ -89,6 +89,19 @@
   color: #75501a;
 }
 
+.affiliateEmbed {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.affiliateEmbed iframe {
+  display: block;
+  max-width: 100%;
+  border: 0;
+  background: #fff;
+}
+
 .editorialNote {
   border: 1px solid #cfded1;
   background: #eef5ed;

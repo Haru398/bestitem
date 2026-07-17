@@ -40,6 +40,54 @@ function publicFileExists(value) {
   return fs.existsSync(path.join(root, 'public', value.replace(/^\/+/, '')));
 }
 
+function hasValidCoupangAffiliateUrl(value) {
+  try {
+    const url = new URL(String(value || ''));
+    return url.protocol === 'https:' && url.hostname === 'link.coupang.com' && url.pathname.startsWith('/a/');
+  } catch {
+    return false;
+  }
+}
+
+function hasValidCoupangAffiliateHtml(value) {
+  const html = String(value || '').trim();
+  const iframe = html.match(/^<iframe\b([^>]*)><\/iframe>$/i);
+  if (!iframe) return false;
+
+  const allowed = new Set(['src', 'width', 'height', 'frameborder', 'scrolling', 'referrerpolicy', 'browsingtopics']);
+  const attributes = new Map();
+  const text = iframe[1];
+  const pattern = /\s+([a-z][a-z0-9-]*)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'))?/gi;
+  let cursor = 0;
+  let match;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index !== cursor) return false;
+    cursor = pattern.lastIndex;
+    const name = match[1].toLowerCase();
+    if (!allowed.has(name) || attributes.has(name)) return false;
+    attributes.set(name, match[2] ?? match[3] ?? null);
+  }
+
+  if (cursor !== text.length) return false;
+  const src = attributes.get('src');
+  const width = attributes.get('width');
+  const height = attributes.get('height');
+  if (!src || !width || !height || !/^\d{1,4}$/.test(width) || !/^\d{1,4}$/.test(height)) return false;
+
+  try {
+    const url = new URL(src);
+    if (url.protocol !== 'https:' || !['coupa.ng', 'ads-partners.coupang.com'].includes(url.hostname)) return false;
+  } catch {
+    return false;
+  }
+
+  return (!attributes.has('frameborder') || attributes.get('frameborder') === '0')
+    && (!attributes.has('scrolling') || attributes.get('scrolling') === 'no')
+    && (!attributes.has('referrerpolicy') || attributes.get('referrerpolicy') === 'unsafe-url')
+    && (!attributes.has('browsingtopics') || attributes.get('browsingtopics') === null);
+}
+
 for (const entry of [...read('posts'), ...read('guides')]) {
   const item = entry.value;
   const prefix = `${entry.filename}:`;
@@ -76,6 +124,12 @@ for (const entry of [...read('posts'), ...read('guides')]) {
     if (!item.editorial.basis || item.editorial.basis.length < 25) errors.push(`${prefix} 검증 근거가 부족합니다.`);
 
     if (item.kind === 'post') {
+      if (!hasValidCoupangAffiliateUrl(item.affiliate?.url)) {
+        errors.push(`${prefix} 검수 게시글에는 엑셀의 유효한 쿠팡 제휴 링크가 필요합니다.`);
+      }
+      if (!hasValidCoupangAffiliateHtml(item.affiliate?.html)) {
+        errors.push(`${prefix} 검수 게시글에는 엑셀의 유효한 쿠팡 HTML 일반태그가 필요합니다.`);
+      }
       if (roboticOpening.test(String(item.intro || ''))) {
         errors.push(`${prefix} 도입부가 자동 생성 문구처럼 시작합니다. 구체적인 사용 상황에서 자연스럽게 시작하세요.`);
       }
