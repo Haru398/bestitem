@@ -194,7 +194,11 @@
 .figure img {
   display: block;
   width: 100%;
+  max-width: 716px;
   max-height: 680px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
   padding: 10px;
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -549,5 +553,11 @@
   .heroImage {
     margin: 24px 0;
     border-radius: 18px;
+  }
+
+  .figure img {
+    max-height: none;
+    padding: 6px;
+    border-radius: 14px;
   }
 }
