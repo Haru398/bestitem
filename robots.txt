@@ -2,6 +2,7 @@ User-Agent: *
 Allow: /
 Disallow: /api/
 Disallow: /preview-test/
+Disallow: /*__next.*.txt$
+Disallow: /_not-found/
 
-Host: https://item.monster
 Sitemap: https://item.monster/sitemap.xml

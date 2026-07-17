@@ -7,9 +7,10 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/preview-test/"],
+      // Next의 정적 내보내기가 각 페이지에 생성하는 RSC 데이터입니다.
+      // 사람과 검색 결과에 보여 줄 HTML 문서가 아니므로 크롤링 대상에서 뺍니다.
+      disallow: ["/api/", "/preview-test/", "/*__next.*.txt$", "/_not-found/"],
     },
     sitemap: "https://item.monster/sitemap.xml",
-    host: "https://item.monster",
   };
 }
