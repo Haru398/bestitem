@@ -160,6 +160,16 @@ for (const entry of [...read('posts'), ...read('guides')]) {
       if (item.cardImage && !publicFileExists(item.cardImage)) {
         errors.push(`${prefix} 카드 대표 이미지 파일이 없습니다: ${item.cardImage}`);
       }
+      const postImages = [
+        item.heroImage,
+        item.cardImage,
+        ...(item.sections || []).map((section) => section.image),
+      ].filter(Boolean);
+      for (const imagePath of postImages) {
+        if (!publicFileExists(imagePath)) {
+          errors.push(`${prefix} 게시글 이미지 파일이 없습니다: ${imagePath}`);
+        }
+      }
 
       const postSources = item.sources || [];
       if (postSources.length < 2) {
