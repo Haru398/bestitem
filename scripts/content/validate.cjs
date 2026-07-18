@@ -9,6 +9,26 @@ const bannedHype = /(무조건|100%\s*(효과|차단|보장)|완벽한\s*제품|
 const roboticOpening = /^.{0,120}이 글은 .{0,80}직접 .{0,40}(후기|사용)/s;
 const validStatuses = new Set(['draft', 'legacy', 'reviewed', 'hidden']);
 const validSourceTypes = new Set(['manufacturer-spec', 'manufacturer-support', 'official-standard', 'public-agency']);
+const validPostSourceTypes = new Set([
+  'manufacturer',
+  'manufacturer-product',
+  'manufacturer-manual',
+  'manufacturer-spec',
+  'manufacturer-support',
+  'official-standard',
+  'public-agency',
+  'authorized-affiliate',
+  'retailer',
+]);
+const officialPostSourceTypes = new Set([
+  'manufacturer',
+  'manufacturer-product',
+  'manufacturer-manual',
+  'manufacturer-spec',
+  'manufacturer-support',
+  'official-standard',
+  'public-agency',
+]);
 const validMediaUsage = new Set(['original', 'licensed-manufacturer', 'authorized-affiliate']);
 const validMediaDisplays = new Set(['contain', 'detail-top', 'detail-upper', 'detail-middle', 'detail-lower', 'detail-bottom']);
 
@@ -137,6 +157,22 @@ for (const entry of [...read('posts'), ...read('guides')]) {
       if (!item.intro || item.intro.length < 180) errors.push(`${prefix} 도입부가 짧습니다.`);
       if (!item.conclusion || item.conclusion.length < 140) errors.push(`${prefix} 결론이 짧습니다.`);
       if (!Array.isArray(item.sections) || item.sections.length < 4) errors.push(`${prefix} 본문 섹션이 4개보다 적습니다.`);
+
+      const postSources = item.sources || [];
+      if (postSources.length < 2) {
+        errors.push(`${prefix} 검증 게시글은 공식 출처가 2개 이상 필요합니다.`);
+      }
+      let officialPostSources = 0;
+      for (const [index, source] of postSources.entries()) {
+        if (!source.title || !source.publisher) errors.push(`${prefix} 출처 ${index + 1} 제목 또는 발행처가 없습니다.`);
+        if (!validPostSourceTypes.has(source.sourceType)) errors.push(`${prefix} 출처 ${index + 1} sourceType이 허용된 값이 아닙니다.`);
+        if (!String(source.url || '').startsWith('https://')) errors.push(`${prefix} 출처 ${index + 1} URL이 https가 아닙니다.`);
+        if (!isValidDate(source.checkedAt)) errors.push(`${prefix} 출처 ${index + 1} 확인 날짜가 올바르지 않습니다.`);
+        if (officialPostSourceTypes.has(source.sourceType)) officialPostSources += 1;
+      }
+      if (officialPostSources < 2) {
+        errors.push(`${prefix} 검증 게시글은 제휴 링크와 분리된 공식 출처가 2개 이상 필요합니다.`);
+      }
 
       for (const [index, section] of (item.sections || []).entries()) {
         if (!section.heading || section.heading.length < 4) errors.push(`${prefix} 섹션 ${index + 1} 제목이 없습니다.`);

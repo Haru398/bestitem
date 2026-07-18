@@ -8,11 +8,11 @@
   "heroImage": "/images/item-f-killer-light-trap_thumb1782474269667.jpg",
   "publishedAt": "2026-06-26T11:44:29+09:00",
   "updatedAt": "2026-07-14T12:00:00+09:00",
-  "indexable": true,
+  "indexable": false,
   "searchIntent": "에프킬라 라이트트랩의 유인 방식, 콘센트 설치 조건과 리필 비용을 확인해 집에 맞는 초파리 트랩인지 판단하려는 검색",
   "targetQuery": "에프킬라 라이트트랩",
   "editorial": {
-    "status": "reviewed",
+    "status": "hidden",
     "basis": "판매자가 제공한 상세 이미지에서 400~500nm UV LED, 180도 회전 플러그, 접착식 리필 카드와 손잡이 비접착 영역을 확인했습니다. 포장에는 살충 성분 0%와 리필 사용 기간이 표시되어 있으나 직접 포획 성능·소음·소비전력을 측정하지 않았습니다.",
     "lastChecked": "2026-07-14T12:00:00+09:00",
     "caution": "빛에 반응하는 벌레만 대상으로 하며 집의 밝기와 설치 위치에 따라 결과가 달라질 수 있습니다. 본체·리필 수량과 권장 교체 주기는 선택 옵션의 최신 표시를 다시 확인하세요."

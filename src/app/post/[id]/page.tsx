@@ -66,8 +66,11 @@ export default async function PostPage({ params }: Props) {
   const related = getPublicPosts()
     .filter((item) => item.category === post.category && item.slug !== post.slug)
     .slice(0, 3);
+  const officialSources = (post.sources || []).filter(
+    (source) => source.sourceType !== "authorized-affiliate" && source.sourceType !== "retailer",
+  );
   const showSourceBox = post.editorial.status !== "draft" && Boolean(
-    post.editorial.basis || post.editorial.caution || post.sources?.length,
+    post.editorial.basis || post.editorial.caution || officialSources.length,
   );
   const affiliateUrl = getSafeCoupangAffiliateUrl(post.affiliate.url);
   const affiliateHtml = getSafeCoupangAffiliateHtml(post.affiliate.html);
@@ -219,9 +222,9 @@ export default async function PostPage({ params }: Props) {
               <strong>작성 및 확인 기준</strong>
               이 글은 판매 옵션의 모델·구성, 제공 이미지의 표기, 제조사 공식 제품·지원 자료를 대조해 작성했습니다. 직접 사용하지 않은 제품은 사용 경험이나 실측 결과를 주장하지 않습니다.
               {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
-              {post.sources?.length ? (
+              {officialSources.length ? (
                 <ul className={articleStyles.sourceList}>
-                  {post.sources.map((source) => (
+                  {officialSources.map((source) => (
                     <li key={source.url}>
                       <a href={source.url} target="_blank" rel="noreferrer">{source.publisher} — {source.title}</a>
                       <span>확인 {formatDate(source.checkedAt)}</span>

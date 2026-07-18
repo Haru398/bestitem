@@ -38,7 +38,16 @@ export type GuideSource = {
   title: string;
   publisher: string;
   url: string;
-  sourceType: "manufacturer-spec" | "manufacturer-support" | "official-standard" | "public-agency";
+  sourceType:
+    | "manufacturer"
+    | "manufacturer-product"
+    | "manufacturer-manual"
+    | "manufacturer-spec"
+    | "manufacturer-support"
+    | "official-standard"
+    | "public-agency"
+    | "authorized-affiliate"
+    | "retailer";
   checkedAt: string;
 };
 
