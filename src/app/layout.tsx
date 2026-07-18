@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SITE_OPERATOR } from "../lib/site-info";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -40,6 +41,8 @@ const organizationJsonLd = {
   url: "https://item.monster/",
   logo: "https://item.monster/icon.png",
   description: "사기 전에 궁금한 구성과 조건을 찾아 적는 개인 구매 메모",
+  founder: { "@type": "Person", name: SITE_OPERATOR.name },
+  email: SITE_OPERATOR.email,
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

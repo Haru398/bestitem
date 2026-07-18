@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { COUPANG_PARTNERS_DISCLOSURE } from "../../lib/affiliate";
+import { SITE_OPERATOR } from "../../lib/site-info";
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 import articleStyles from "../article.module.css";
@@ -20,7 +22,7 @@ export default function AboutPage() {
           <span className={siteStyles.eyebrow}>이 사이트를 만든 이유</span>
           <h1>광고 문구만 믿고 사기엔<br />좀 찜찜하잖아요.</h1>
           <p className={articleStyles.description}>
-            저도 뭔가 사려면 검색창과 상품 페이지를 몇 번씩 오갑니다. 그때마다 다시 찾기 아까웠던 내용들을 한곳에 모으려고 아이템몬스터를 만들었습니다. 써보지 않은 제품은 후기처럼 포장하지 않고, 사진과 공식 자료에서 확인한 내용만 적습니다.
+            운영자 {SITE_OPERATOR.name}은 제품을 사기 전에 모델명·구성·설치 조건을 다시 확인하는 과정을 기록하려고 아이템몬스터를 만들었습니다. 써보지 않은 제품은 후기처럼 포장하지 않고, 판매 옵션과 제조사 공식 자료에서 확인한 내용만 적습니다.
           </p>
         </header>
 
@@ -34,6 +36,15 @@ export default function AboutPage() {
               <li>크기·구성·호환성처럼 결제하고 후회하기 쉬운 부분을 다시 봅니다.</li>
               <li>가격과 옵션은 바뀌니 마지막 확인은 판매 페이지에서 하도록 남겨 둡니다.</li>
             </ol>
+          </div>
+        </section>
+
+        <section className={articleStyles.articleSection}>
+          <h2>누가, 어떻게 확인하나요</h2>
+          <div className={articleStyles.markdown}>
+            <p>글의 작성·검수 책임자는 {SITE_OPERATOR.name}입니다. 판매 옵션의 모델명·색상·구성, 제공 이미지 표기, 제조사 공식 제품·지원 자료가 서로 맞는지 확인한 뒤 공개합니다.</p>
+            <p>직접 사용한 제품은 사용 환경과 기간을 함께 밝힙니다. 직접 쓰지 않은 제품은 공식 사양과 구매 전 확인 항목을 정리한 정보 글로 구분하며, 체감 성능이나 실측 결과를 만들어 내지 않습니다.</p>
+            <p>오류, 링크 불일치, 권리 관련 문의는 <Link href="/contact/">문의 및 정정 요청 페이지</Link>에서 알려주세요.</p>
           </div>
         </section>
 
@@ -54,8 +65,8 @@ export default function AboutPage() {
         </section>
 
         <div className={articleStyles.sourceBox}>
-          <strong>예전에 만든 글은 잠시 숨겨 뒀어요</strong>
-          자동으로 만들어진 티가 나거나 출처가 애매한 글은 검색에 나오지 않게 해뒀습니다. 하나씩 자료를 다시 확인하고, 사람이 읽기 편한 말로 고친 뒤에만 다시 공개합니다.
+          <strong>공개 상태 관리</strong>
+          모델·옵션·이미지·제조사 공식 자료 중 하나라도 맞지 않거나 근거가 부족한 글은 공개하지 않습니다. 이미 공개된 글도 판매 정보나 공식 자료가 달라지면 다시 확인하거나 검색 노출을 중단합니다.
         </div>
       </main>
       <SiteFooter />

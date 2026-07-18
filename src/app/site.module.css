@@ -405,7 +405,7 @@
 
 .footerInner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) minmax(150px, 0.7fr);
   gap: 40px;
   padding: 45px 0;
   color: #5f6861;
@@ -416,6 +416,24 @@
   display: block;
   margin-bottom: 8px;
   color: var(--ink);
+}
+
+.footerLinks {
+  display: grid;
+  align-content: start;
+  gap: 7px;
+}
+
+.footerLinks a {
+  width: fit-content;
+  color: #445148;
+  text-decoration: underline;
+  text-decoration-color: rgba(68, 81, 72, 0.35);
+  text-underline-offset: 3px;
+}
+
+.footerLinks a:hover {
+  color: var(--brand-dark);
 }
 
 .archiveIntro {

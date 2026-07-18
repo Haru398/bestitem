@@ -9,6 +9,7 @@ import {
 } from "../../../lib/affiliate";
 import { getCategory } from "../../../lib/categories";
 import { formatDate, getAllPosts, getPost, getPublicPosts } from "../../../lib/content";
+import { SITE_OPERATOR } from "../../../lib/site-info";
 import ArticleCard from "../../components/ArticleCard";
 import MarkdownContent from "../../components/MarkdownContent";
 import SiteFooter from "../../components/SiteFooter";
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.description,
     alternates: { canonical: `/post/${post.slug}/` },
-    authors: [{ name: "아이템몬스터 운영자" }],
+    authors: [{ name: SITE_OPERATOR.name, url: "https://item.monster/about/" }],
     robots:
       post.indexable && post.editorial.status === "reviewed"
         ? { index: true, follow: true }
@@ -80,7 +81,7 @@ export default async function PostPage({ params }: Props) {
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
     mainEntityOfPage: `https://item.monster/post/${post.slug}/`,
-    author: { "@type": "Person", name: "아이템몬스터 운영자" },
+    author: { "@type": "Person", name: SITE_OPERATOR.name, url: "https://item.monster/about/" },
     publisher: {
       "@type": "Organization",
       name: "아이템몬스터",
@@ -104,6 +105,7 @@ export default async function PostPage({ params }: Props) {
             <div className={articleStyles.metaRow}>
               <span className={articleStyles.category}>{category.label}</span>
               <span>{formatDate(post.updatedAt)} 다시 확인</span>
+              <span>작성·검수 {SITE_OPERATOR.name}</span>
               {post.editorial.status === "draft" ? (
                 <span>검수용 미리보기 · 공개 전</span>
               ) : post.editorial.status === "legacy" ? (
@@ -114,6 +116,11 @@ export default async function PostPage({ params }: Props) {
             </div>
             <h1>{post.title}</h1>
             <p className={articleStyles.description}>{post.description}</p>
+            <div className={articleStyles.authorNote}>
+              <strong>작성·검수: {SITE_OPERATOR.name}</strong>
+              <span>직접 사용하지 않은 제품은 사용 후기로 쓰지 않으며, 판매 옵션·제공 이미지·제조사 공식 자료를 대조해 구매 전 확인 항목을 정리합니다.</span>
+              <Link href="/about/">운영 기준 보기</Link>
+            </div>
           </header>
 
           {affiliateUrl || affiliateHtml ? (
@@ -158,36 +165,6 @@ export default async function PostPage({ params }: Props) {
               예전에 올린 글이라 지금 다시 읽고 있어요. 확인이 끝나지 않은 내용은 검색에 나오지 않게 해뒀습니다.
             </div>
           )}
-
-          {affiliateUrl ? (
-            <aside className={articleStyles.ctaBox}>
-              <strong>현재 판매 옵션과 구성 다시 보기</strong>
-              <p>판단 기준이 맞았다면 결제 화면에서 모델명, 색상, 배터리와 액세서리 구성을 한 번 더 확인하세요.</p>
-              <a
-                href={affiliateUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener noreferrer"
-                className={articleStyles.ctaButton}
-              >
-                쿠팡에서 현재 옵션 확인하기
-              </a>
-              {affiliateHtml ? (
-                <div
-                  className={articleStyles.affiliateEmbed}
-                  aria-label="쿠팡 파트너스 상품 카드"
-                  dangerouslySetInnerHTML={{ __html: affiliateHtml }}
-                />
-              ) : null}
-            </aside>
-          ) : affiliateHtml ? (
-            <aside className={articleStyles.ctaBox}>
-              <div
-                className={articleStyles.affiliateEmbed}
-                aria-label="쿠팡 파트너스 상품 카드"
-                dangerouslySetInnerHTML={{ __html: affiliateHtml }}
-              />
-            </aside>
-          ) : null}
 
           <div className={articleStyles.articleBody}>
             <MarkdownContent content={post.intro} />
@@ -237,25 +214,10 @@ export default async function PostPage({ params }: Props) {
             ) : null}
           </div>
 
-          {affiliateUrl ? (
-            <aside className={articleStyles.ctaBox}>
-              <strong>지금 판매 중인 옵션 다시 보기</strong>
-              <p>제가 글을 쓴 뒤에도 가격과 구성은 바뀔 수 있어요. 결제 화면에서 수량과 옵션을 한 번 더 봐주세요.</p>
-              <a
-                href={affiliateUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener noreferrer"
-                className={articleStyles.ctaButton}
-              >
-                쿠팡에서 옵션 확인하기
-              </a>
-            </aside>
-          ) : null}
-
           {showSourceBox ? (
             <div className={articleStyles.sourceBox}>
-              <strong>확인 기준과 출처</strong>
-              {post.editorial.basis}
+              <strong>작성 및 확인 기준</strong>
+              이 글은 판매 옵션의 모델·구성, 제공 이미지의 표기, 제조사 공식 제품·지원 자료를 대조해 작성했습니다. 직접 사용하지 않은 제품은 사용 경험이나 실측 결과를 주장하지 않습니다.
               {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
               {post.sources?.length ? (
                 <ul className={articleStyles.sourceList}>
@@ -268,6 +230,30 @@ export default async function PostPage({ params }: Props) {
                 </ul>
               ) : null}
             </div>
+          ) : null}
+
+          {affiliateUrl || affiliateHtml ? (
+            <aside className={articleStyles.ctaBox}>
+              <strong>판매 옵션과 구성을 마지막으로 확인하세요</strong>
+              <p>가격, 재고, 배송 조건과 구성품은 달라질 수 있습니다. 결제 전 모델명·색상·수량을 다시 확인하세요.</p>
+              {affiliateUrl ? (
+                <a
+                  href={affiliateUrl}
+                  target="_blank"
+                  rel="sponsored nofollow noopener noreferrer"
+                  className={articleStyles.ctaButton}
+                >
+                  쿠팡에서 현재 옵션 확인하기
+                </a>
+              ) : null}
+              {affiliateHtml ? (
+                <div
+                  className={articleStyles.affiliateEmbed}
+                  aria-label="쿠팡 파트너스 상품 카드"
+                  dangerouslySetInnerHTML={{ __html: affiliateHtml }}
+                />
+              ) : null}
+            </aside>
           ) : null}
         </article>
 

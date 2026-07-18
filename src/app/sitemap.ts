@@ -35,12 +35,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority: 0.8,
         }]
       : []),
-    {
-      url: `${baseUrl}/about/`,
-      lastModified: new Date("2026-07-14T00:00:00+09:00"),
-      changeFrequency: "monthly",
+    ...[
+      "/about/",
+      "/contact/",
+      "/privacy/",
+      "/terms/",
+    ].map((path) => ({
+      url: `${baseUrl}${path}`,
+      lastModified: new Date("2026-07-18T12:00:00+09:00"),
+      changeFrequency: "monthly" as const,
       priority: 0.5,
-    },
+    })),
     ...categories.map((category) => ({
       url: `${baseUrl}/category/${category.slug}/`,
       lastModified: latest ? new Date(latest) : new Date(),
