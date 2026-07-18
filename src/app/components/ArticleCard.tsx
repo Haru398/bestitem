@@ -6,7 +6,7 @@ import styles from "../site.module.css";
 
 export type ArticleCardData = Pick<
   PostContent,
-  "slug" | "category" | "title" | "description" | "heroImage" | "editorial"
+  "slug" | "category" | "title" | "description" | "heroImage" | "cardImage" | "editorial"
 >;
 
 export default function ArticleCard({ post }: { post: ArticleCardData }) {
@@ -15,9 +15,9 @@ export default function ArticleCard({ post }: { post: ArticleCardData }) {
     <Link href={`/post/${post.slug}/`} className={styles.articleCard}>
       {post.heroImage ? (
         <Image
-          src={post.heroImage}
+          src={post.cardImage || post.heroImage}
           alt={`${post.title} 대표 이미지`}
-          className={styles.cardImage}
+          className={`${styles.cardImage}${post.cardImage ? ` ${styles.cardImageCrop}` : ""}`}
           loading="lazy"
           width={640}
           height={400}

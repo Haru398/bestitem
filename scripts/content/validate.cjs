@@ -157,6 +157,9 @@ for (const entry of [...read('posts'), ...read('guides')]) {
       if (!item.intro || item.intro.length < 180) errors.push(`${prefix} 도입부가 짧습니다.`);
       if (!item.conclusion || item.conclusion.length < 140) errors.push(`${prefix} 결론이 짧습니다.`);
       if (!Array.isArray(item.sections) || item.sections.length < 4) errors.push(`${prefix} 본문 섹션이 4개보다 적습니다.`);
+      if (item.cardImage && !publicFileExists(item.cardImage)) {
+        errors.push(`${prefix} 카드 대표 이미지 파일이 없습니다: ${item.cardImage}`);
+      }
 
       const postSources = item.sources || [];
       if (postSources.length < 2) {

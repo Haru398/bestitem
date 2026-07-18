@@ -71,6 +71,7 @@ export type PostContent = {
   description: string;
   productName?: string;
   heroImage: string;
+  cardImage?: string;
   heroImageAlt?: string;
   heroImageCaption?: string;
   heroImageCredit?: string;

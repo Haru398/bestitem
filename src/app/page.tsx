@@ -6,19 +6,10 @@ import SiteFooter from "./components/SiteFooter";
 import SiteHeader from "./components/SiteHeader";
 import styles from "./site.module.css";
 
-const FEATURED_SLUGS = [
-  "item-mosquito-swatter-1",
-  "item-cesco-fly-stick",
-  "item-f-killer-light-trap",
-];
-
 export default function Home() {
   const posts = getPublicPosts();
   const guides = getPublicGuides();
-  const selected = FEATURED_SLUGS.map((slug) => posts.find((post) => post.slug === slug)).filter(
-    Boolean,
-  );
-  const featured = (selected.length ? selected : posts).slice(0, 3);
+  const featured = posts.slice(0, 3);
   const additional = posts
     .filter((post) => !featured.some((item) => item?.slug === post.slug))
     .slice(0, 3);
@@ -61,9 +52,9 @@ export default function Home() {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <div>
-              <span className={styles.eyebrow}>요즘 자꾸 신경 쓰이는 것</span>
-              <h2>여름 되니까 다시 찾게 되는 제품들</h2>
-              <p>모기채와 초파리 트랩처럼 비슷해 보여도 쓰는 방식이 다른 제품부터 살펴봤어요.</p>
+              <span className={styles.eyebrow}>최근 다시 확인한 구매 메모</span>
+              <h2>공식 자료로 다시 확인한 제품</h2>
+              <p>계절성 문구로 묶지 않고, 모델·구성·설치 조건을 다시 확인한 제품만 모았습니다.</p>
             </div>
             <Link href="/articles/" className={styles.textLink}>쓴 글 전부 보기 →</Link>
           </div>

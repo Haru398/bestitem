@@ -296,6 +296,11 @@
   background: #fff;
 }
 
+.cardImageCrop {
+  object-fit: cover;
+  padding: 0;
+}
+
 .cardBody {
   display: flex;
   flex: 1;
