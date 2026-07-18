@@ -106,10 +106,10 @@ export default function Home() {
         <section className={styles.section}>
           <div className={styles.standardBanner}>
             <div>
-              <h2>글이 많아 보이는 것보다, 읽고 결정할 수 있는 게 더 중요하니까.</h2>
-              <p>예전에 자동으로 만든 글은 일단 숨겼습니다. 자료를 다시 보고 제 말로 고친 글만 꺼내 놓을게요.</p>
+              <h2>제품을 고르기 전, 확인할 기준부터 정리합니다.</h2>
+              <p>모델·구성·설치·관리처럼 결제 전에 놓치기 쉬운 내용을 공식 자료를 바탕으로 정리합니다.</p>
             </div>
-            <Link href="/about/" className={styles.primaryButton}>사이트 이야기 보기</Link>
+            <Link href="/about/" className={styles.primaryButton}>운영 기준 보기</Link>
           </div>
         </section>
       </main>
