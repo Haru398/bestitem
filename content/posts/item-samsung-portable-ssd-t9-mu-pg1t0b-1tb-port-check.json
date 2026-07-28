@@ -1,0 +1,103 @@
+{
+  "kind": "post",
+  "slug": "item-samsung-portable-ssd-t9-mu-pg1t0b-1tb-port-check",
+  "category": "digital-pc",
+  "title": "삼성 T9 1TB MU-PG1T0B, USB 포트·케이블 확인법",
+  "description": "삼성 포터블 SSD T9 1TB 블랙 MU-PG1T0B/WW를 고를 때 USB 3.2 Gen 2x2 포트, 케이블, 기기 호환, 암호화와 보관 조건을 확인하는 구매 가이드입니다.",
+  "productName": "삼성 포터블 외장 SSD T9 USB 3.2 Gen 2x2 1TB 블랙, MU-PG1T0B/WW",
+  "heroImage": "/images/item-samsung-t9-mu-pg1t0b-1tb-api.jpg",
+  "heroImageAlt": "쿠팡 파트너스 API 제공 이미지의 삼성 포터블 SSD T9 1TB 블랙 본체",
+  "heroImageCaption": "쿠팡 파트너스 API 제공 상품 이미지 · 삼성 포터블 SSD T9 1TB 블랙",
+  "heroImageCredit": "쿠팡 파트너스 API",
+  "heroImageSourceUrl": "https://partners.coupang.com/",
+  "publishedAt": "2026-07-29T02:00:00+09:00",
+  "updatedAt": "2026-07-29T02:00:00+09:00",
+  "indexable": true,
+  "searchIntent": "삼성 T9 1TB MU-PG1T0B/WW 외장 SSD의 USB 3.2 Gen 2x2 포트와 케이블, 호환 기기, 암호화·보관 조건을 구매 전에 확인하려는 검색",
+  "targetQuery": "삼성 T9 1TB MU-PG1T0B USB 3.2 Gen 2x2 포트 확인",
+  "editorial": {
+    "status": "reviewed",
+    "basis": "쿠팡 파트너스 API의 T9 1TB 블랙 상품 정보와 Samsung 대한민국 공식 제품·지원 페이지, Samsung Semiconductor 공식 데이터시트를 대조해 작성했습니다.",
+    "lastChecked": "2026-07-29",
+    "caution": "실제 전송 속도와 호환성은 연결한 컴퓨터·모바일 기기·케이블·포트 규격·파일 환경에 따라 달라지므로 주문 전 각 기기의 사양을 다시 확인하세요."
+  },
+  "verdict": {
+    "oneLine": "T9 1TB는 용량보다 먼저 내 기기에 USB 3.2 Gen 2x2 20Gbps 포트가 있는지와 케이블·파일 관리 방식을 확인해야 하는 외장 SSD입니다.",
+    "bestFor": [
+      "MU-PG1T0B/WW 1TB 블랙 모델과 USB 3.2 Gen 2x2 연결 조건을 구분해 확인할 수 있는 경우",
+      "PC·노트북·Android 기기·콘솔·카메라 등 실제 연결 기기의 포트 사양을 알고 있는 경우",
+      "암호화와 관리 소프트웨어 사용 여부, 케이블 보관 방식을 구매 전에 정할 수 있는 경우"
+    ],
+    "notFor": [
+      "모든 USB-C 포트에서 같은 전송 환경이 나온다고 전제하는 경우",
+      "1TB 표기만 보고 실제 남는 공간과 백업 구조를 확인하지 않는 경우",
+      "기본 케이블의 단자 형태와 연결할 기기의 포트를 확인하기 어려운 경우"
+    ],
+    "checkBeforeBuy": [
+      "판매 옵션이 MU-PG1T0B/WW 1TB 블랙 본체인지",
+      "주로 쓸 기기에 USB 3.2 Gen 2x2 20Gbps 포트가 있는지",
+      "USB Type-C to C·Type-C to A 케이블 구성과 암호화·백업 계획이 맞는지"
+    ]
+  },
+  "intro": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 외장 SSD는 용량과 제품명만 맞추면 끝나는 장비가 아닙니다. 연결할 컴퓨터·노트북·모바일 기기의 포트 규격, 함께 쓸 케이블, 백업 파일의 크기와 암호화 여부가 실제 사용 조건을 바꿉니다. 이 글은 쿠팡 파트너스 API에 표시된 **삼성 포터블 외장 SSD T9 USB 3.2 Gen 2x2 1TB 블랙 MU-PG1T0B/WW**를 기준으로, 공식 사양에서 확인되는 인터페이스·용량·호환 기기·보관 조건을 정리합니다. 특정 환경에서의 실측 속도나 체감 성능을 단정하지 않고, 주문 전에 확인할 항목을 중심으로 설명합니다.",
+  "sections": [
+    {
+      "heading": "1. T9 1TB는 MU-PG1T0B/WW 모델과 용량·색상을 한 줄로 대조",
+      "body": "쿠팡 파트너스 API 결과에는 삼성 포터블 외장 SSD T9 1TB 블랙 본체가 표시됩니다. 삼성 대한민국 공식 제품 페이지는 해당 1TB 블랙 모델 코드를 `MU-PG1T0B/WW`로 안내합니다. T9은 1TB·2TB·4TB처럼 용량이 나뉘고 지역·판매 옵션에 따라 코드 끝부분이나 구성 설명이 달라질 수 있으므로, ‘T9’만으로 주문을 끝내지 않는 편이 좋습니다. 결제 화면에서 1TB, 블랙, MU-PG1T0B/WW가 함께 표시되는지 확인하고, 파우치나 케이스 같은 부가 구성은 SSD 본체 옵션과 분리해 보세요.\n\n용량 판단도 파일의 현재 크기만으로 하지 않는 편이 안전합니다. 사진·영상·프로젝트 파일은 수정본과 백업본이 함께 생기기 쉽고, 운영체제마다 파일 시스템과 포맷 방식도 달라질 수 있습니다. 1TB를 한 개의 유일한 보관 장소로 쓰기보다, 무엇을 옮기는 드라이브인지와 원본을 어디에 남길지를 먼저 정하세요. 제품명이 같은 다른 용량이나 색상, 별도 액세서리 상품을 잘못 고르면 이후 포맷·백업 계획까지 다시 세워야 할 수 있습니다."
+    },
+    {
+      "heading": "2. USB 3.2 Gen 2x2 20Gbps는 포트·케이블이 함께 맞아야 하는 조건",
+      "body": "삼성 공식 사양은 MU-PG1T0B의 인터페이스를 USB 3.2 Gen 2x2 20Gbps로 안내합니다. 이 표기는 드라이브 한쪽의 특성만 말하는 것이 아니라, 연결 경로 전체를 확인해야 하는 조건입니다. 노트북이나 데스크톱의 USB-C 모양만 보고 같은 규격이라고 판단하면 안 됩니다. 사용 중인 포트가 어떤 USB 세대를 지원하는지, Type-C 단자라도 데이터 전송 규격이 무엇인지, 중간 허브나 독을 거치는지까지 기기 제조사 사양에서 확인하세요.\n\n공식 사양에 적힌 최대 순차 읽기·쓰기 수치는 지원 환경에서의 사양입니다. 실제 파일 복사 속도를 그 숫자와 동일하다고 단정하지 않는 것이 좋습니다. 연결한 포트의 규격, 케이블, 파일 개수와 크기, 원본 저장장치 상태, 운영체제 작업 등이 결과에 영향을 줄 수 있기 때문입니다. 구매 전에는 ‘최대 수치가 얼마나 높은가’보다 현재 쓰는 장비에서 20Gbps 연결을 지원하는지, 그렇지 않더라도 필요한 이동·백업 작업을 감당할 수 있는지를 먼저 판단하세요."
+    },
+    {
+      "heading": "3. 케이블 단자와 연결 기기 목록을 실제 작업 순서에 맞춰 확인",
+      "body": "Samsung Semiconductor의 T9 데이터시트는 제품 상자에 USB Type-C to A 케이블, USB Type-C to C 케이블, 빠른 사용 설명서와 보증 안내가 포함된다고 적고 있습니다. 다만 판매 옵션의 동봉품은 주문 전에 다시 확인해야 합니다. 작업용 PC가 Type-A만 쓰는지, 노트북·태블릿이 Type-C를 쓰는지, 카메라나 게임 콘솔을 연결할 계획인지에 따라 필요한 케이블과 어댑터가 달라집니다. 케이블이 있더라도 포트 규격이나 길이가 작업대 배치에 맞지 않으면 별도 준비가 필요할 수 있습니다.\n\n삼성 공식 지원 페이지는 Windows, macOS, Android와 PC·노트북·Android 스마트폰·태블릿·게임 콘솔·스마트 TV·카메라를 호환 기기 범주로 안내합니다. 이는 모든 기기에서 모든 기능이 같다는 뜻은 아닙니다. 특히 파일 시스템 인식, 전원 공급, 녹화 포맷, 보안 소프트웨어 사용 가능 여부는 각 기기 설명서에서 확인해야 합니다. 여러 장비를 오갈 계획이라면 가장 자주 쓰는 두 기기에서 포트·파일 시스템·케이블 조합을 먼저 적어 보고, 그 다음에 보조 기기와의 연결을 점검하는 순서가 실수를 줄입니다."
+    },
+    {
+      "heading": "4. 암호화·관리 소프트웨어·휴대 조건은 백업 규칙과 함께 결정",
+      "body": "공식 지원 사양에는 AES 256비트 하드웨어 암호화와 Samsung Magician Software가 안내됩니다. 암호화를 쓸지 여부는 보안 기능의 유무보다 암호 관리와 복구 절차를 계속 지킬 수 있는지로 판단해야 합니다. 비밀번호나 복구 정보를 한 곳에만 보관하면 외장 SSD를 잃지 않아도 파일 접근에 문제가 생길 수 있습니다. 반대로 암호화가 필요 없는 공동 작업 환경이라면 누가 어떤 장비에서 접근하는지와 파일 권한을 먼저 정리하는 편이 낫습니다.\n\nT9 1TB 공식 사양에는 88×60×14mm, 122g, 최대 3m 낙하 저항 조건과 작동·비작동 온도 범위도 표시됩니다. 이 정보는 어떤 상황에서도 데이터가 보호된다는 보증이 아닙니다. 이동 중에는 케이블을 꽂은 채로 흔들리지 않도록 하고, 고온·습기·충격이 예상되는 가방이나 차량 안에 장시간 두지 않는 기본 관리가 필요합니다. 중요한 파일은 휴대용 SSD 한 대에만 남기지 말고, 별도 저장 위치와 복원 순서를 정해 두세요. 포트·케이블·백업 규칙까지 함께 확인하면 T9 1TB가 내 작업 흐름에 맞는지 더 명확히 판단할 수 있습니다."
+    }
+  ],
+  "conclusion": "삼성 T9 1TB MU-PG1T0B/WW는 USB 3.2 Gen 2x2 20Gbps 인터페이스, 1TB 용량, 연결 케이블과 관리 조건을 한꺼번에 확인해야 하는 외장 SSD입니다. 주문 전에는 모델 코드와 용량·색상, 주 연결 기기의 포트 규격, Type-C·Type-A 케이블, 파일 시스템과 백업 위치를 차례로 대조하세요. 제품 사양의 최대 수치나 낙하 조건을 실제 환경의 보장으로 해석하지 않는 것이 중요합니다. 다른 PC·전자제품 구매 확인 기준은 [전체 구매 가이드](/articles/)에서 비교할 수 있습니다.",
+  "faq": [
+    {
+      "question": "삼성 T9 1TB 블랙의 공식 모델 코드는 무엇인가요?",
+      "answer": "삼성 대한민국 공식 제품 페이지는 외장 SSD T9 USB 3.2 Gen 2x2 1TB 블랙을 MU-PG1T0B/WW로 안내합니다. 주문 화면의 모델 코드와 함께 확인하세요."
+    },
+    {
+      "question": "USB-C 포트면 T9의 USB 3.2 Gen 2x2 조건이 모두 충족되나요?",
+      "answer": "아닙니다. USB-C는 단자 형태이므로 데이터 전송 규격을 뜻하지 않습니다. 사용 기기·허브·케이블의 USB 규격을 제조사 사양에서 각각 확인해야 합니다."
+    },
+    {
+      "question": "T9 1TB에 중요한 파일만 보관해도 되나요?",
+      "answer": "외장 SSD 한 대를 유일한 보관 장소로 쓰기보다 별도 저장 위치와 복원 절차를 마련하는 편이 안전합니다. 암호화를 사용할 경우에는 비밀번호·복구 정보 관리도 함께 계획하세요."
+    }
+  ],
+  "affiliate": {
+    "url": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7701711535&itemId=20622412250&vendorItemId=87732559062&traceid=V0-153-4d7e51cc9a7db051&clickBeacon=01d952e0-8aa6-11f1-b074-17d5563e1e9b%7E3&requestid=20260729020142460085424489&token=31850C%7CMIXED",
+    "html": ""
+  },
+  "sources": [
+    {
+      "title": "외장 SSD T9 USB 3.2 Gen 2x2 1 TB 블랙 MU-PG1T0B/WW",
+      "publisher": "Samsung 대한민국",
+      "url": "https://www.samsung.com/sec/memory-storage/protable-ssd-t9-black/MU-PG1T0B/WW/",
+      "sourceType": "manufacturer-product",
+      "checkedAt": "2026-07-29"
+    },
+    {
+      "title": "MU-PG1T0B 지원 및 스펙",
+      "publisher": "Samsung 대한민국",
+      "url": "https://www.samsung.com/sec/support/model/MU-PG1T0B/WW/",
+      "sourceType": "manufacturer-support",
+      "checkedAt": "2026-07-29"
+    },
+    {
+      "title": "Samsung Portable SSD T9 데이터시트",
+      "publisher": "Samsung Semiconductor",
+      "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_portable_ssd_t9_datasheet_rev1_0.pdf",
+      "sourceType": "manufacturer-spec",
+      "checkedAt": "2026-07-29"
+    }
+  ]
+}
