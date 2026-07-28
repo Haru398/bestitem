@@ -63,7 +63,9 @@ function publicFileExists(value) {
 function hasValidCoupangAffiliateUrl(value) {
   try {
     const url = new URL(String(value || ''));
-    return url.protocol === 'https:' && url.hostname === 'link.coupang.com' && url.pathname.startsWith('/a/');
+    const isLegacyLink = url.pathname.startsWith('/a/');
+    const isApiProductLink = url.pathname === '/re/AFFSDP' && url.searchParams.has('lptag') && url.searchParams.has('pageKey');
+    return url.protocol === 'https:' && url.hostname === 'link.coupang.com' && (isLegacyLink || isApiProductLink);
   } catch {
     return false;
   }
@@ -147,7 +149,7 @@ for (const entry of [...read('posts'), ...read('guides')]) {
       if (!hasValidCoupangAffiliateUrl(item.affiliate?.url)) {
         errors.push(`${prefix} 검수 게시글에는 엑셀의 유효한 쿠팡 제휴 링크가 필요합니다.`);
       }
-      if (!hasValidCoupangAffiliateHtml(item.affiliate?.html)) {
+      if (item.affiliate?.html && !hasValidCoupangAffiliateHtml(item.affiliate.html)) {
         errors.push(`${prefix} 검수 게시글에는 엑셀의 유효한 쿠팡 HTML 일반태그가 필요합니다.`);
       }
       if (roboticOpening.test(String(item.intro || ''))) {

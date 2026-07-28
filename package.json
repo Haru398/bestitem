@@ -10,6 +10,9 @@
     "sitemap:verify": "node scripts/content/verify-sitemap.cjs",
     "build": "npm run content:validate && next build && npm run sitemap:verify",
     "release:prepare": "npm run build && node scripts/deploy/copy-static-to-root.cjs",
+    "coupang:credentials:check": "node scripts/coupang-local-credentials.cjs",
+    "coupang:api": "node scripts/coupang-partners-api.cjs",
+    "coupang:api:check": "node scripts/coupang-partners-api.cjs check",
     "start": "next start",
     "lint": "eslint src"
   },

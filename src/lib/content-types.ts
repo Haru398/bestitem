@@ -19,6 +19,7 @@ export type EditorialInfo = {
 
 export type AffiliateInfo = {
   url?: string;
+  /** New posts use an API-generated deep-link CTA; a legacy widget is optional. */
   html?: string;
 };
 

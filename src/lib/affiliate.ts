@@ -25,7 +25,9 @@ function parseHttpsUrl(value: string): URL | null {
 export function getSafeCoupangAffiliateUrl(value?: string): string | null {
   if (!value) return null;
   const url = parseHttpsUrl(value);
-  if (!url || url.hostname !== COUPANG_AFFILIATE_HOST || !url.pathname.startsWith("/a/")) {
+  const isLegacyLink = url?.pathname.startsWith("/a/");
+  const isApiProductLink = url?.pathname === "/re/AFFSDP" && url.searchParams.has("lptag") && url.searchParams.has("pageKey");
+  if (!url || url.hostname !== COUPANG_AFFILIATE_HOST || (!isLegacyLink && !isApiProductLink)) {
     return null;
   }
   return url.toString();
