@@ -12,11 +12,11 @@
   "heroImageSourceUrl": "https://partners.coupang.com/",
   "publishedAt": "2026-07-29T09:00:00+09:00",
   "updatedAt": "2026-07-29T09:00:00+09:00",
-  "indexable": true,
+  "indexable": false,
   "searchIntent": "필립스 소닉케어 HX9911/73 화이트의 충전 사양, 칫솔모 교체 방식, Bluetooth 및 앱 호환 조건을 구매 전에 확인하려는 검색",
   "targetQuery": "필립스 소닉케어 HX9911/73 화이트 충전 칫솔모 앱 호환",
   "editorial": {
-    "status": "reviewed",
+    "status": "hidden",
     "basis": "쿠팡 파트너스 API의 HX9911/73 화이트 본체 상품 정보와 필립스 공식 제품·지원·앱 안내 자료를 대조해 작성했습니다.",
     "lastChecked": "2026-07-29",
     "caution": "충전 주기와 앱 사용 가능 여부는 사용 습관, 배터리 상태, 모바일 기기와 운영체제 환경에 따라 달라질 수 있으므로 공식 설명서와 지원 페이지를 우선 확인해야 합니다."
