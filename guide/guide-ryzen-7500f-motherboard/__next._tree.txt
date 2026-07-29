@@ -1,3 +1,3 @@
 :HL["/_next/static/chunks/1ijny0oe0ea0v.css","style"]
 :HL["/_next/static/chunks/1atzweo_rn87g.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-ryzen-7500f-motherboard","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"e-1vIsUB76SFAIl9gvxAT"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"guide","param":null,"prefetchHints":0,"slots":{"children":{"name":"id","param":{"type":"d","key":"guide-ryzen-7500f-motherboard","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"MsKOpMdo3gS-iJPKEVCaF"}
