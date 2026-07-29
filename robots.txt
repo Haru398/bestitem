@@ -1,4 +1,8 @@
 User-Agent: *
 Allow: /
+Disallow: /api/
+Disallow: /preview-test/
+Disallow: /*__next.*.txt$
+Disallow: /_not-found/
 
 Sitemap: https://item.monster/sitemap.xml
