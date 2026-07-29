@@ -1,5 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const { imageSize } = require('image-size');
 
 const root = path.resolve(__dirname, '../..');
 const errors = [];
@@ -58,6 +59,16 @@ function isValidDate(value) {
 function publicFileExists(value) {
   if (!value || !value.startsWith('/')) return false;
   return fs.existsSync(path.join(root, 'public', value.replace(/^\/+/, '')));
+}
+
+function publicImageDimensions(value) {
+  if (!publicFileExists(value)) return null;
+
+  try {
+    return imageSize(fs.readFileSync(path.join(root, 'public', value.replace(/^\/+/, ''))));
+  } catch {
+    return null;
+  }
 }
 
 function hasValidCoupangAffiliateUrl(value) {
@@ -168,6 +179,18 @@ for (const entry of [...read('posts'), ...read('guides')]) {
         ...(item.sections || []).map((section) => section.image),
       ].filter(Boolean);
       for (const imagePath of postImages) {
+        if (publicFileExists(imagePath)) {
+          const dimensions = publicImageDimensions(imagePath);
+          const ratio = dimensions?.width && dimensions?.height
+            ? dimensions.width / dimensions.height
+            : null;
+
+          if (!ratio) {
+            errors.push(`${prefix} cannot inspect published image dimensions: ${imagePath}`);
+          } else if (ratio > 2 && dimensions.height < 160) {
+            errors.push(`${prefix} published image is too short and wide for a product photo (${dimensions.width}x${dimensions.height}): ${imagePath}`);
+          }
+        }
         if (!publicFileExists(imagePath)) {
           errors.push(`${prefix} 게시글 이미지 파일이 없습니다: ${imagePath}`);
         }
