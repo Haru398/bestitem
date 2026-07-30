@@ -14,8 +14,9 @@ export default function SiteHeader() {
           </span>
         </Link>
         <nav className={styles.nav} aria-label="주요 메뉴">
-          <Link href="/articles/">살까 말까</Link>
-          <Link href="/guide/">PC·전자제품</Link>
+          <Link href="/articles/">전체 글</Link>
+          <Link href="/category/digital-pc/">PC·전자제품</Link>
+          <Link href="/category/home-appliances/">생활가전</Link>
           <Link href="/about/">이 사이트 소개</Link>
         </nav>
       </div>
