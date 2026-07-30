@@ -79,6 +79,15 @@
 <priority>0.7</priority>
 </url>
 <url>
+<loc>https://item.monster/post/item-sony-wh-1000xm6-black-charge-connect-check/</loc>
+<image:image>
+<image:loc>https://item.monster/images/item-sony-wh-1000xm6-black-api.jpg</image:loc>
+</image:image>
+<lastmod>2026-07-30T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
 <loc>https://item.monster/post/item-samsung-ax100db900edd-filter-space-check/</loc>
 <image:image>
 <image:loc>https://item.monster/images/item-samsung-ax100db900edd-api.jpg</image:loc>
