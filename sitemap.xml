@@ -106,6 +106,15 @@
 <priority>0.7</priority>
 </url>
 <url>
+<loc>https://item.monster/post/item-ninja-bn500kr-container-blade-safety-check/</loc>
+<image:image>
+<image:loc>https://item.monster/images/item-ninja-bn500kr-api.jpg</image:loc>
+</image:image>
+<lastmod>2026-07-30T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
 <loc>https://item.monster/post/item-ninja-crispi-fn100kr-mint-container-safety-check/</loc>
 <image:image>
 <image:loc>https://item.monster/images/item-ninja-crispi-fn100kr-mint-api.jpg</image:loc>
