@@ -29,6 +29,18 @@ export default function Home() {
               광고 문구만 보면 다 좋아 보이잖아요. 그래서 사진 속 구성품, 크기, 쓰는 조건과 추가로 드는 돈부터 찾아봅니다.
               직접 써보지 않은 건 후기인 척 쓰지 않고요.
             </p>
+            <form className={styles.heroSearch} action="/articles/" method="get" role="search">
+              <input
+                className={styles.heroSearchInput}
+                type="search"
+                name="q"
+                placeholder="모델명·제품 종류·구매 조건으로 찾아보세요"
+                aria-label="글 검색"
+              />
+              <button className={styles.heroSearchButton} type="submit">
+                검색
+              </button>
+            </form>
             <div className={styles.buttonRow}>
               <Link href="/articles/" className={styles.primaryButton}>
                 지금 읽을 만한 글
