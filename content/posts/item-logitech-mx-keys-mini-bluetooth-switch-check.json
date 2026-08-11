@@ -1,0 +1,107 @@
+{
+  "kind": "post",
+  "slug": "item-logitech-mx-keys-mini-bluetooth-switch-check",
+  "category": "digital-pc",
+  "title": "로지텍 MX Keys Mini 구매 전: 3대 전환·한글 배열·수신기 확인",
+  "description": "로지텍 MX Keys Mini의 블루투스 3대 전환, 한글 배열, USB-C 충전과 Logi Bolt 수신기 포함 여부를 주문 전에 확인하는 방법을 정리했습니다.",
+  "productName": "로지텍 MX KEYS MINI 블루투스 무선 텐키리스 키보드",
+  "heroImage": "/images/item-logitech-mx-keys-mini-rose-api.jpg",
+  "heroImageAlt": "쿠팡 파트너스 API 제공 이미지의 로즈 색상 한글 배열 로지텍 MX Keys Mini 키보드",
+  "heroImageCaption": "API 이미지에서 확인되는 로즈 색상·한글 배열 MX Keys Mini",
+  "heroImageCredit": "쿠팡 파트너스 API 제공 이미지",
+  "heroImageSourceUrl": "https://partners.coupang.com/",
+  "publishedAt": "2026-08-11T02:03:54+09:00",
+  "updatedAt": "2026-08-11T02:03:54+09:00",
+  "indexable": true,
+  "searchIntent": "로지텍 MX Keys Mini를 사기 전에 블루투스 3대 전환 방식, 한글 배열과 색상, Logi Bolt 수신기 포함 여부, USB-C 충전 조건을 확인하려는 검색",
+  "targetQuery": "로지텍 MX Keys Mini 한글 배열 블루투스 3대 Logi Bolt 수신기",
+  "editorial": {
+    "status": "reviewed",
+    "basis": "쿠팡 파트너스 API의 상품명·상품 이미지·연결 URL과 Logitech 공식 시작 안내, 설정 가이드, Logi Bolt 기술 안내를 서로 대조해 작성했습니다.",
+    "lastChecked": "2026-08-11",
+    "caution": "API 상품명에는 색상·부품번호·수신기 포함 여부가 표시되지 않습니다. 실제 주문 옵션의 색상, 한글 배열, 본체 단품 여부와 구성품은 결제 직전 판매 페이지에서 다시 확인해야 합니다."
+  },
+  "verdict": {
+    "oneLine": "노트북·태블릿 등 최대 3대 사이를 키 하나로 바꾸며 숫자 키패드 없이 책상을 간결하게 쓰려는 사람에게 맞지만, 수신기 포함이 필수라면 구성부터 확인해야 하는 키보드입니다.",
+    "bestFor": [
+      "노트북과 태블릿 등 2~3대의 Bluetooth 기기를 번갈아 쓰는 경우",
+      "한글 각인이 있는 작은 텐키리스 키보드를 찾는 경우",
+      "USB-C 충전과 백라이트가 필요한 문서 작업 환경"
+    ],
+    "notFor": [
+      "숫자 입력이 많아 독립 숫자 키패드가 꼭 필요한 경우",
+      "Bluetooth 사용이 제한된 회사 PC에서 USB 수신기 포함이 확인되지 않은 경우",
+      "기존 Logitech Unifying 수신기에 바로 연결할 생각인 경우"
+    ],
+    "checkBeforeBuy": [
+      "주문 옵션이 원하는 색상과 한글 배열인지",
+      "Logi Bolt 수신기가 실제 구성품에 포함되는지",
+      "사용할 기기의 Bluetooth 지원 여부와 충전용 USB-C 케이블 구성"
+    ]
+  },
+  "intro": "노트북에서는 보고서를 쓰고, 태블릿에서는 메신저에 답하는 사람이라면 키보드 한 대를 여러 기기에 연결하는 기능이 꽤 유용합니다. 다만 `MX Keys Mini`라는 이름만 보고 주문하면 이미지의 색상과 실제 선택 옵션이 같은지, 한글 각인이 맞는지, USB 수신기가 들어 있는지를 놓치기 쉽습니다. 이 글은 직접 사용했다는 체험담이 아니라, 쿠팡 파트너스 API에서 확인한 상품과 Logitech 공식 문서를 대조한 구매 전 점검표입니다. 현재 API 이미지에는 로즈 색상과 한글 배열이 보이지만 API 상품명에는 색상과 구성품이 적혀 있지 않으므로, 보이는 사진만으로 주문 옵션을 단정하지 않습니다. 다른 디지털 기기의 확인 기준은 [디지털·PC 구매 가이드](/category/digital-pc/)와 [전체 구매 가이드](/articles/)에서도 이어서 볼 수 있습니다.",
+  "sections": [
+    {
+      "heading": "1. 상품명보다 주문 옵션과 이미지의 차이부터 확인",
+      "body": "이번 쿠팡 파트너스 API 응답의 상품명은 `로지텍 MX KEYS MINI 블루투스 무선 텐키리스 키보드`입니다. 본체 키보드 상품이라는 점은 확인되지만 색상, 부품번호, 수신기 포함 여부는 상품명에 없습니다. API가 제공한 이미지는 로즈 계열 색상에 한글 각인이 있는 배열로 보입니다. 그렇다고 장바구니에서 자동으로 같은 옵션이 선택된다고 볼 수는 없습니다. 판매자가 옵션을 합치거나 대표 이미지를 공용으로 쓰면 결제 화면의 선택값이 달라질 수 있기 때문입니다. 주문 전에는 상품 제목보다 옵션 영역에서 `색상`, `한글 배열`, `본체 단품`, `구성품`을 차례로 확인하는 편이 안전합니다. 특히 영문 배열이나 다른 색상이 함께 판매되는 페이지라면 선택한 옵션명이 이미지와 일치하는지 한 번 더 보세요. 이 글의 사진은 상품 식별을 돕기 위한 API 이미지이며, 사진에 보이지 않는 구성품까지 포함된다는 뜻은 아닙니다."
+    },
+    {
+      "heading": "2. Easy-Switch 3대 연결은 동시 입력이 아니라 채널 전환",
+      "body": "Logitech 공식 시작 안내에 따르면 MX Keys Mini는 Bluetooth로 연결하고 Easy-Switch 키에 최대 3대의 컴퓨터를 등록할 수 있습니다. 첫 기기에서는 원하는 Easy-Switch 키를 약 3초 동안 눌러 표시등이 빠르게 깜박이게 한 뒤, 컴퓨터나 태블릿의 Bluetooth 목록에서 키보드를 선택해 페어링합니다. 두 번째와 세 번째 기기도 다른 채널에 같은 과정을 반복합니다. 여기서 `3대 연결`은 세 기기에 동시에 글자가 입력된다는 뜻이 아닙니다. 작업할 때 Easy-Switch 1·2·3 중 하나를 눌러 현재 입력을 받을 기기로 바꾸는 방식입니다. 구매 전에는 실제로 연결하려는 기기가 몇 개인지, 각 기기에서 Bluetooth를 켤 수 있는지부터 적어보세요. 회사 PC처럼 Bluetooth 사용이 정책으로 막혀 있거나 로그인 전 연결이 중요한 환경이라면, Bluetooth만으로 충분한지 별도 수신기가 필요한지도 함께 판단해야 합니다."
+    },
+    {
+      "heading": "3. Logi Bolt와 Unifying은 같은 수신기가 아니다",
+      "body": "USB 수신기를 쓰려는 사람에게 가장 중요한 구분은 `Logi Bolt`와 예전 `Unifying`입니다. Logitech의 Logi Bolt 공식 안내는 Bolt 제품이 다른 Logitech USB 수신기와 페어링되지 않으며, Unifying 제품과도 호환되지 않는다고 설명합니다. 따라서 집에 주황색 별 모양 로고의 Unifying 수신기가 남아 있어도 MX Keys Mini에 그대로 쓸 수 있다고 가정하면 안 됩니다. 또 공식 안내에는 Bolt와 호환되는 제품이라도 모든 판매 구성에 Bolt 수신기가 포함되는 것은 아니며, 제품 바닥의 Bolt 로고와 실제 패키지 구성을 확인하라고 되어 있습니다. 이번 API 상품명과 이미지에서는 수신기 포함을 확인할 근거가 없으므로 이 글도 포함이라고 쓰지 않습니다. Bluetooth 사용이 어려워 Bolt가 반드시 필요하다면 판매 페이지의 구성품 표기나 판매자 답변에서 수신기 포함 여부를 확인하고, 별도 구매가 필요할 때는 PC의 USB-A·USB-C 포트 형태까지 맞춰야 합니다."
+    },
+    {
+      "heading": "4. 한글 각인과 다중 운영체제 키 표시는 따로 살펴보기",
+      "body": "공식 지원 문서는 MX Keys Mini가 Windows, macOS, iOS·iPadOS, Linux, ChromeOS, Android 등 여러 운영체제에서 연결될 수 있다고 안내합니다. 다중 운영체제를 지원한다는 말과 내가 익숙한 키 배열이라는 말은 같지 않습니다. 작은 키보드에서는 Windows용 `Alt`, macOS용 `Option·Command`, 화면 캡처와 마이크 음소거 같은 기능 키가 한 자리에 함께 표시될 수 있어 처음에는 위치를 다시 익혀야 합니다. 한글 입력이 중요하다면 대표 사진의 한글 각인만 보지 말고 선택 옵션에도 한글 배열이 적혀 있는지 확인하세요. 기능 키의 동작은 운영체제와 앱, Logi Options+ 설정에 따라 달라질 수 있으므로 특정 단축키가 업무에 필수라면 공식 지원 페이지에서 해당 운영체제 지원 여부를 먼저 보는 편이 좋습니다. 숫자 입력이 많은 회계·재고 작업이라면 Mini의 작은 폭보다 독립 숫자 키패드가 없는 불편이 더 클 수 있다는 점도 함께 계산해야 합니다."
+    },
+    {
+      "heading": "5. USB-C는 충전용이며 백라이트 사용 조건도 점검",
+      "body": "Logitech 공식 시작 안내에는 MX Keys Mini를 USB-C 케이블로 충전하고, 충전 중에도 입력할 수 있다고 나옵니다. 이 설명은 USB-C 케이블을 꽂으면 유선 키보드처럼 모든 환경에서 데이터 입력이 된다는 의미로 확대해서 읽지 않는 것이 좋습니다. 기본 연결 계획은 Bluetooth 또는 확인된 Logi Bolt 방식으로 잡고, USB-C는 충전 경로로 생각하는 편이 혼동이 적습니다. 공식 문서는 주변 밝기와 손 접근을 감지해 백라이트를 조절하는 동작도 안내합니다. 백라이트 밝기, 사용 시간, 대기 상태에 따라 충전 주기는 달라질 수 있으므로 특정 배터리 지속 시간을 자신의 사용 환경에 그대로 적용하지 않았습니다. 구매 전에는 책상에서 충전 포트까지 케이블이 닿는지, 충전 중에도 계속 쓸 자리인지, 백라이트가 꼭 필요한지를 확인하세요. 휴대가 목적이라면 키보드 본체뿐 아니라 충전 케이블과 필요할 수 있는 수신기까지 함께 보관할 공간도 고려해야 합니다."
+    }
+  ],
+  "conclusion": "MX Keys Mini를 고를 때 핵심은 작은 크기 자체보다 연결 계획입니다. Bluetooth 기기 최대 3대를 Easy-Switch 채널에 등록해 바꿔 쓰려는지, 회사 PC 때문에 Logi Bolt가 필요한지, 숫자 키패드 없는 한글 배열이 실제 작업에 맞는지를 먼저 정하세요. 이번 API 이미지에서는 로즈 색상과 한글 각인을 확인할 수 있지만 상품명에는 색상과 구성품이 없으므로 결제 직전 옵션을 다시 봐야 합니다. 특히 수신기는 이미지에 없고 포함 여부도 확인되지 않았으니, 기존 Unifying 수신기를 재사용할 생각으로 주문하지 않는 것이 좋습니다. 이 조건을 모두 확인한 뒤에도 여러 기기 전환과 작은 책상 구성이 우선이라면 후보로 비교할 근거가 충분합니다.",
+  "faq": [
+    {
+      "question": "MX Keys Mini는 기기 3대에 동시에 입력되나요?",
+      "answer": "아닙니다. Logitech 공식 안내의 최대 3대는 Easy-Switch 채널에 세 기기를 등록할 수 있다는 뜻입니다. 입력할 때는 1·2·3 키 중 하나를 눌러 현재 사용할 기기로 전환합니다."
+    },
+    {
+      "question": "이 쿠팡 상품에 Logi Bolt 수신기가 포함되나요?",
+      "answer": "이번 API 상품명과 이미지로는 포함 여부를 확인할 수 없습니다. Bolt 호환과 수신기 동봉은 다른 문제이므로 판매 페이지의 구성품 표기나 판매자 안내를 결제 전에 확인해야 합니다."
+    },
+    {
+      "question": "API 이미지처럼 로즈 색상과 한글 배열로 주문되나요?",
+      "answer": "API 이미지에서는 로즈 계열 색상과 한글 각인이 보이지만 상품명에는 색상이 없습니다. 대표 이미지와 실제 선택 옵션이 다를 수 있으니 주문 화면의 색상·배열 옵션을 기준으로 확인하세요."
+    }
+  ],
+  "affiliate": {
+    "url": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7297813658&itemId=18667350847&vendorItemId=88672718304&traceid=V0-153-6254ddc400a33153&requestid=20260811015324738010336286&token=31850C%7CMIXED",
+    "html": ""
+  },
+  "sources": [
+    {
+      "title": "MX Keys Mini 시작하기",
+      "publisher": "Logitech Support",
+      "url": "https://support.logi.com/hc/ko/articles/4409084730775-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-MX-Keys-Mini",
+      "sourceType": "manufacturer-support",
+      "checkedAt": "2026-08-11"
+    },
+    {
+      "title": "MX Keys Mini 설정 가이드",
+      "publisher": "Logitech",
+      "url": "https://ko.hub.sync.logitech.com/mx-keys-mini/post/mx-keys-mini---setup-guide-Kv045sbpYX9gMaV",
+      "sourceType": "manufacturer-support",
+      "checkedAt": "2026-08-11"
+    },
+    {
+      "title": "Logi Bolt 무선 기술 안내",
+      "publisher": "Logitech",
+      "url": "https://www.logitech.com/ko-kr/business/work-setups/logi-bolt-wireless-technology.html",
+      "sourceType": "manufacturer-support",
+      "checkedAt": "2026-08-11"
+    }
+  ]
+}
