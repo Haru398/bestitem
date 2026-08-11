@@ -121,7 +121,7 @@ export default async function PostPage({ params }: Props) {
             <p className={articleStyles.description}>{post.description}</p>
             <div className={articleStyles.authorNote}>
               <strong>작성·검수: {SITE_OPERATOR.name}</strong>
-              <span>직접 사용하지 않은 제품은 사용 후기로 쓰지 않으며, 판매 옵션·제공 이미지·공개된 공식 자료를 대조해 구매 전 확인 항목을 정리합니다.</span>
+              <span>판매 옵션·제공 이미지·공개된 공식 자료를 대조해 구매 전 확인 항목을 정리합니다.</span>
               <Link href="/about/">운영 기준 보기</Link>
             </div>
           </header>
@@ -220,7 +220,7 @@ export default async function PostPage({ params }: Props) {
           {showSourceBox ? (
             <div className={articleStyles.sourceBox}>
               <strong>작성 및 확인 기준</strong>
-              이 글은 판매 옵션의 모델·구성, 제공 이미지의 표기, 공개된 공식 제품·지원·인증 자료를 대조해 작성했습니다. 직접 사용하지 않은 제품은 사용 경험이나 실측 결과를 주장하지 않습니다.
+              이 글은 판매 옵션의 모델·구성, 제공 이미지의 표기, 공개된 공식 제품·지원·인증 자료를 대조해 작성했습니다.
               {post.editorial.caution ? ` ${post.editorial.caution}` : ""}
               {officialSources.length ? (
                 <ul className={articleStyles.sourceList}>
