@@ -169,6 +169,30 @@ export default async function PostPage({ params }: Props) {
             </div>
           )}
 
+          {affiliateUrl || affiliateHtml ? (
+            <aside className={articleStyles.ctaBox}>
+              <strong>판매 옵션과 구성을 마지막으로 확인하세요</strong>
+              <p>가격, 재고, 배송 조건과 구성품은 달라질 수 있습니다. 결제 전 모델명·색상·수량을 다시 확인하세요.</p>
+              {affiliateUrl ? (
+                <a
+                  href={affiliateUrl}
+                  target="_blank"
+                  rel="sponsored nofollow noopener noreferrer"
+                  className={articleStyles.ctaButton}
+                >
+                  쿠팡에서 현재 옵션 확인하기
+                </a>
+              ) : null}
+              {affiliateHtml ? (
+                <div
+                  className={articleStyles.affiliateEmbed}
+                  aria-label="쿠팡 파트너스 상품 카드"
+                  dangerouslySetInnerHTML={{ __html: affiliateHtml }}
+                />
+              ) : null}
+            </aside>
+          ) : null}
+
           <div className={articleStyles.articleBody}>
             <MarkdownContent content={post.intro} />
             {post.sections.map((section, index) => (
@@ -235,29 +259,6 @@ export default async function PostPage({ params }: Props) {
             </div>
           ) : null}
 
-          {affiliateUrl || affiliateHtml ? (
-            <aside className={articleStyles.ctaBox}>
-              <strong>판매 옵션과 구성을 마지막으로 확인하세요</strong>
-              <p>가격, 재고, 배송 조건과 구성품은 달라질 수 있습니다. 결제 전 모델명·색상·수량을 다시 확인하세요.</p>
-              {affiliateUrl ? (
-                <a
-                  href={affiliateUrl}
-                  target="_blank"
-                  rel="sponsored nofollow noopener noreferrer"
-                  className={articleStyles.ctaButton}
-                >
-                  쿠팡에서 현재 옵션 확인하기
-                </a>
-              ) : null}
-              {affiliateHtml ? (
-                <div
-                  className={articleStyles.affiliateEmbed}
-                  aria-label="쿠팡 파트너스 상품 카드"
-                  dangerouslySetInnerHTML={{ __html: affiliateHtml }}
-                />
-              ) : null}
-            </aside>
-          ) : null}
         </article>
 
         {related.length ? (
