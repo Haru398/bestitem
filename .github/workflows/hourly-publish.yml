@@ -29,6 +29,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      PUPPETEER_SKIP_DOWNLOAD: 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
