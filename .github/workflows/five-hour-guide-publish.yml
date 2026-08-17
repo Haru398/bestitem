@@ -64,7 +64,39 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'check' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PUPPETEER_SKIP_DOWNLOAD: 'true'
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Validate the complete guide queue
+        run: node scripts/schedule/validate-guide-queue.cjs --count=$(node -p "require('./content/scheduled-guides/queue.json').items.length")
+
+      - name: Reject near-duplicate reserved guides
+        run: npm run guide-schedule:similarity
+
+      - name: Check next guide without publishing
+        run: npm run guide-schedule:dry-run
+
   publish:
+    if: ${{ github.event_name == 'schedule' || inputs.mode == 'publish' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -94,13 +126,8 @@ jobs:
       - name: Reject near-duplicate reserved guides
         run: npm run guide-schedule:similarity
 
-      - name: Check next guide without publishing
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'check' }}
-        run: npm run guide-schedule:dry-run
-
       - name: Release exactly one guide
         id: release
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'publish' }}
         run: npm run guide-schedule:publish
 
       - name: Validate public content
