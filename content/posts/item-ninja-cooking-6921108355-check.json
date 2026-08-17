@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 3,
   "productId": "6921108355",
   "slug": "item-ninja-cooking-6921108355-check",
   "category": "living-kitchen",
@@ -94,5 +93,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T01:25:00+09:00",
+  "updatedAt": "2026-08-18T01:25:00+09:00"
 }

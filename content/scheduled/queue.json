@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 3,
-      "slug": "item-ninja-cooking-6921108355-check",
-      "productId": "6921108355",
-      "title": "닌자 푸디 듀얼존 에어프라이어 구매 전: 용량·열원·세척 구조·구성품",
-      "category": "living-kitchen"
-    },
-    {
       "order": 4,
       "slug": "item-dyson-haircare-8358307401-check",
       "productId": "8358307401",
@@ -747,7 +740,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 106,
+  "remaining": 105,
   "history": [
     {
       "order": 1,
@@ -758,6 +751,11 @@
       "order": 2,
       "slug": "item-samsung-ai-7989878606-check",
       "publishedAt": "2026-08-17T23:25:18+09:00"
+    },
+    {
+      "order": 3,
+      "slug": "item-ninja-cooking-6921108355-check",
+      "publishedAt": "2026-08-18T01:25:00+09:00"
     }
   ]
 }
