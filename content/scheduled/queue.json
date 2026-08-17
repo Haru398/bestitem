@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 5,
-      "slug": "item-garmin-970-8786998691-check",
-      "productId": "8786998691",
-      "title": "가민 포러너 970 구매 전: 케이스 크기·휴대폰 호환·배터리 조건",
-      "category": "outdoor-auto"
-    },
-    {
       "order": 6,
       "slug": "item-babybrezza-sterilizer-8350819178-check",
       "productId": "8350819178",
@@ -733,7 +726,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 104,
+  "remaining": 103,
   "history": [
     {
       "order": 1,
@@ -754,6 +747,11 @@
       "order": 4,
       "slug": "item-dyson-haircare-8358307401-check",
       "publishedAt": "2026-08-18T02:25:38+09:00"
+    },
+    {
+      "order": 5,
+      "slug": "item-garmin-970-8786998691-check",
+      "publishedAt": "2026-08-18T03:31:46+09:00"
     }
   ]
 }

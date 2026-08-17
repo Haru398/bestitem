@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 5,
   "productId": "8786998691",
   "slug": "item-garmin-970-8786998691-check",
   "category": "outdoor-auto",
@@ -94,5 +93,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T03:31:46+09:00",
+  "updatedAt": "2026-08-18T03:31:46+09:00"
 }
