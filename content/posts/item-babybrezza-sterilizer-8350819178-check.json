@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 6,
   "productId": "8350819178",
   "slug": "item-babybrezza-sterilizer-8350819178-check",
   "category": "pet-family",
@@ -94,5 +93,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T03:36:07+09:00",
+  "updatedAt": "2026-08-18T03:36:07+09:00"
 }

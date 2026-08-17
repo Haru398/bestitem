@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 6,
-      "slug": "item-babybrezza-sterilizer-8350819178-check",
-      "productId": "8350819178",
-      "title": "베이비브레짜 젖병 세척기 구매 전: 수납 용량·세척 방식·설치·소모품",
-      "category": "pet-family"
-    },
-    {
       "order": 7,
       "slug": "item-samsung-s26-9440658564-check",
       "productId": "9440658564",
@@ -726,7 +719,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 103,
+  "remaining": 102,
   "history": [
     {
       "order": 1,
@@ -752,6 +745,11 @@
       "order": 5,
       "slug": "item-garmin-970-8786998691-check",
       "publishedAt": "2026-08-18T03:31:46+09:00"
+    },
+    {
+      "order": 6,
+      "slug": "item-babybrezza-sterilizer-8350819178-check",
+      "publishedAt": "2026-08-18T03:36:07+09:00"
     }
   ]
 }
