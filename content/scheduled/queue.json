@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 11,
-      "slug": "item-garmin-570-8786991956-check",
-      "productId": "8786991956",
-      "title": "가민 포러너 570 구매 전: 케이스 크기·휴대폰 호환·배터리 조건",
-      "category": "outdoor-auto"
-    },
-    {
       "order": 12,
       "slug": "item-samsung-s26-9440658767-check",
       "productId": "9440658767",
@@ -691,7 +684,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 98,
+  "remaining": 97,
   "history": [
     {
       "order": 1,
@@ -742,6 +735,11 @@
       "order": 10,
       "slug": "item-dyson-haircare-8051503105-check",
       "publishedAt": "2026-08-18T06:24:20+09:00"
+    },
+    {
+      "order": 11,
+      "slug": "item-garmin-570-8786991956-check",
+      "publishedAt": "2026-08-18T07:22:09+09:00"
     }
   ]
 }

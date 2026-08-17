@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 11,
   "productId": "8786991956",
   "slug": "item-garmin-570-8786991956-check",
   "category": "outdoor-auto",
@@ -102,5 +101,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T07:22:09+09:00",
+  "updatedAt": "2026-08-18T07:22:09+09:00"
 }
