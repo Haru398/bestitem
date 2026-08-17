@@ -1,0 +1,159 @@
+name: Publish one official-source guide every five hours
+
+on:
+  schedule:
+    - cron: '0 5 18 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 10 18 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 15 18 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 20 18 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 1 19 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 6 19 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 11 19 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 16 19 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 21 19 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 2 20 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 7 20 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 12 20 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 17 20 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 22 20 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 3 21 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 8 21 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 13 21 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 18 21 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 23 21 8 *'
+      timezone: 'Asia/Seoul'
+    - cron: '0 4 22 8 *'
+      timezone: 'Asia/Seoul'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'check는 큐만 확인하고 publish는 가이드 1개를 즉시 공개합니다.'
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - publish
+
+permissions:
+  actions: write
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: item-monster-publishing
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PUPPETEER_SKIP_DOWNLOAD: 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Validate the complete guide queue
+        run: node scripts/schedule/validate-guide-queue.cjs --count=$(node -p "require('./content/scheduled-guides/queue.json').items.length")
+
+      - name: Reject near-duplicate reserved guides
+        run: npm run guide-schedule:similarity
+
+      - name: Check next guide without publishing
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'check' }}
+        run: npm run guide-schedule:dry-run
+
+      - name: Release exactly one guide
+        id: release
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'publish' }}
+        run: npm run guide-schedule:publish
+
+      - name: Validate public content
+        if: ${{ steps.release.outputs.released == 'true' }}
+        run: npm run content:validate
+
+      - name: Build static site
+        if: ${{ steps.release.outputs.released == 'true' }}
+        run: npx next build --webpack
+
+      - name: Verify sitemap
+        if: ${{ steps.release.outputs.released == 'true' }}
+        run: npm run sitemap:verify
+
+      - name: Verify latest-content RSS
+        if: ${{ steps.release.outputs.released == 'true' }}
+        run: npm run rss:verify
+
+      - name: Commit actual publication time and remaining queue
+        if: ${{ steps.release.outputs.released == 'true' }}
+        env:
+          RELEASED_SLUG: ${{ steps.release.outputs.slug }}
+          RELEASED_AT: ${{ steps.release.outputs.published_at }}
+        run: |
+          git config user.name "item-monster-publisher[bot]"
+          git config user.email "item-monster-publisher[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Publish scheduled official-source guide: ${RELEASED_SLUG} at ${RELEASED_AT}"
+          git push origin HEAD:main
+
+      - name: Configure GitHub Pages
+        if: ${{ steps.release.outputs.released == 'true' }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload static Pages artifact
+        if: ${{ steps.release.outputs.released == 'true' }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: out
+
+      - name: Deploy the same verified artifact
+        if: ${{ steps.release.outputs.released == 'true' }}
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Disable this guide workflow after the final reserved guide
+        if: ${{ steps.release.outputs.released == 'true' && steps.release.outputs.remaining == '0' }}
+        uses: actions/github-script@v8
+        with:
+          script: |
+            await github.rest.actions.disableWorkflow({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'five-hour-guide-publish.yml'
+            })

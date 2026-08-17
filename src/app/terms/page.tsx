@@ -21,7 +21,7 @@ export default function TermsPage() {
         <header className={articleStyles.articleHead}>
           <span className={siteStyles.eyebrow}>사이트 이용 안내</span>
           <h1>이용약관</h1>
-          <p className={articleStyles.description}>시행일: 2026년 7월 18일 · 운영자: {SITE_OPERATOR.name}</p>
+          <p className={articleStyles.description}>시행일: 2026년 7월 18일 · 최종 수정: 2026년 8월 18일 · 운영자: {SITE_OPERATOR.name}</p>
         </header>
 
         <section className={articleStyles.articleSection}>
@@ -44,6 +44,7 @@ export default function TermsPage() {
           <h2>콘텐츠 이용과 정정 요청</h2>
           <div className={articleStyles.markdown}>
             <p>본문·사진·상표 등 각 권리의 귀속은 해당 권리자에게 있을 수 있습니다. 출처나 권리 관련 문제가 있거나 정보가 달라졌다면 <Link href="/contact/">문의 및 정정 요청</Link>으로 알려주세요. 확인 후 수정, 비공개 또는 필요한 조치를 검토합니다.</p>
+            <p>선택 가이드의 설명 도식은 운영자가 직접 제작합니다. 제휴 상품 글에서 제공 이미지를 사용하는 경우에는 이미지 제공 경로와 출처를 표시하고, 허용 근거를 확인할 수 없는 이미지는 새 글에 사용하지 않습니다.</p>
             <p>이용자는 사이트의 정상적인 운영을 방해하거나 타인의 권리를 침해하는 방식으로 콘텐츠를 이용해서는 안 됩니다.</p>
           </div>
         </section>

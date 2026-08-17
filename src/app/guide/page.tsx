@@ -8,12 +8,36 @@ import SiteHeader from "../components/SiteHeader";
 import styles from "../site.module.css";
 
 export const metadata: Metadata = {
-  title: "PC·전자제품, 사기 전에 확인할 것",
-  description: "CPU·메인보드·그래픽카드의 공식 사양, BIOS 호환성, 전원과 케이스 규격처럼 구매 전에 확인할 질문을 제조사 자료로 정리합니다.",
+  title: "제품 고르기 전 확인할 기준",
+  description: "생활가전부터 PC·전자제품까지 크기, 호환성, 설치와 관리 조건처럼 구매 전에 확인할 질문을 제조사·공공기관 자료로 정리합니다.",
   alternates: { canonical: "/guide/" },
 };
 
 const TOPICS: Record<string, { label: string; description: string }> = {
+  "air-quality": {
+    label: "공기질 · 습도 관리",
+    description: "사용면적, 필터와 제습량처럼 방 크기와 반복 관리에 직접 영향을 주는 조건을 확인합니다.",
+  },
+  "personal-care": {
+    label: "개인 관리 가전",
+    description: "피부에 닿는 부품, 세척 방식과 교체 비용을 공식 설명서와 소모품 정보에서 확인합니다.",
+  },
+  cleaning: {
+    label: "청소 가전",
+    description: "사용시간, 문턱, 도크와 소모품처럼 집 구조와 관리 동선에 맞춰야 하는 조건을 다룹니다.",
+  },
+  "cooking-appliances": {
+    label: "주방 가전",
+    description: "실사용 용량, 열원, 세척 가능한 부품과 안전 주의사항을 제품 설명서에서 찾아봅니다.",
+  },
+  installation: {
+    label: "대형가전 설치",
+    description: "제품 크기뿐 아니라 문폭, 반입 통로, 급배수와 방열 공간까지 설치 전에 재는 순서를 정리합니다.",
+  },
+  "mobile-power": {
+    label: "모바일 전원",
+    description: "Wh 환산, 포트별 출력과 운송 제한처럼 용량 숫자만으로 판단하기 어려운 항목을 확인합니다.",
+  },
   "cpu-motherboard": {
     label: "CPU · 메인보드",
     description: "소켓만 보지 않고 칩셋, BIOS 버전, 메모리 규격과 확장 슬롯을 함께 확인합니다.",
@@ -24,16 +48,44 @@ const TOPICS: Record<string, { label: string; description: string }> = {
   },
   "memory-storage": {
     label: "메모리 · 저장장치",
-    description: "DDR 세대, 모듈 구성, M.2 규격과 슬롯 공유 조건을 제조사 표에서 확인합니다.",
+    description: "DDR 세대, M.2와 USB 규격, 실제 백업 방식처럼 연결과 보관 조건을 제조사 표에서 확인합니다.",
+  },
+  "audio-connectivity": {
+    label: "오디오 · 연결",
+    description: "착용 방식, 지원 코덱과 멀티포인트처럼 휴대폰·PC 조합에 따라 달라지는 기능을 구분합니다.",
+  },
+  "input-devices": {
+    label: "입력장치",
+    description: "손 크기와 그립, 무게, 수신기와 전환 방식처럼 매일 체감하는 조건을 먼저 확인합니다.",
+  },
+  "display-setup": {
+    label: "화면 · 투사 환경",
+    description: "화면 크기, 입력 단자, 스탠드와 투사거리처럼 책상과 방에 맞춰야 할 조건을 정리합니다.",
   },
   "cooling-build": {
     label: "쿨링 · 조립",
     description: "소켓 브래킷, 쿨러 높이, 메모리 간섭과 팬 헤더처럼 실제 조립 조건을 다룹니다.",
   },
+  "camera-storage": {
+    label: "카메라 · 저장",
+    description: "메모리카드 규격, 방수 조건, 전원과 촬영 전 준비사항을 공식 지원 문서에서 확인합니다.",
+  },
+  "network-security": {
+    label: "홈캠 · 네트워크",
+    description: "전원과 Wi-Fi 환경, 저장 위치, 계정 보안과 촬영 범위를 설치 전에 점검합니다.",
+  },
+  "office-furniture": {
+    label: "책상 · 의자",
+    description: "좌판과 팔걸이 범위, 틸트, 책상 높이처럼 몸과 공간에 맞춰야 하는 치수를 확인합니다.",
+  },
+  "living-problem-solving": {
+    label: "생활 문제 해결",
+    description: "제품보다 사용 환경과 관리 방법을 먼저 점검해 불필요한 구매를 줄이는 기준을 모았습니다.",
+  },
 };
 
 export default function GuideIndexPage() {
-  const guides = getPublicGuides().filter((guide) => guide.category === "digital-pc");
+  const guides = getPublicGuides();
   const topicCounts = guides.reduce<Record<string, number>>((counts, guide) => {
     const topic = guide.topicCluster || "cpu-motherboard";
     counts[topic] = (counts[topic] || 0) + 1;
@@ -44,9 +96,9 @@ export default function GuideIndexPage() {
       <SiteHeader />
       <main className={styles.wideMain}>
         <header className={styles.archiveIntro}>
-          <span className={styles.eyebrow}>PC 부품은 호환성부터</span>
-          <h1 className={styles.archiveTitle}>이름은 다 비슷한데,<br />왜 이렇게 헷갈릴까요?</h1>
-          <p>CPU 소켓부터 BIOS, 그래픽카드 길이와 파워 용량까지. 제품명만 봐서는 알기 어려운 내용을 제조사 문서까지 열어보고 쉽게 풀어 적습니다.</p>
+          <span className={styles.eyebrow}>제품명보다 먼저 볼 것</span>
+          <h1 className={styles.archiveTitle}>뭘 사야 할지부터<br />헷갈린다면</h1>
+          <p>방 크기와 설치 공간부터 포트, 소모품, 호환성까지. 제품명만 봐서는 알기 어려운 조건을 제조사와 공공기관 문서까지 열어보고 쉽게 풀어 적습니다.</p>
         </header>
 
         <section className={styles.guideMethod} aria-label="전문 가이드 검수 방식">

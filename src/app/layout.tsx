@@ -35,6 +35,9 @@ export const metadata: Metadata = {
       "naver-site-verification": "e8c86e95433d2791ada1d1475101e508e62e1743",
     },
   },
+  other: {
+    "google-adsense-account": "ca-pub-3712006421889269",
+  },
 };
 
 const organizationJsonLd = {
@@ -51,6 +54,13 @@ const organizationJsonLd = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ko">
+      <head>
+        <script
+          async
+          crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3712006421889269"
+        />
+      </head>
       <body>
         <script
           type="application/ld+json"

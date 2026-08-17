@@ -19,7 +19,7 @@ export default function PrivacyPage() {
         <header className={articleStyles.articleHead}>
           <span className={siteStyles.eyebrow}>개인정보 보호</span>
           <h1>개인정보처리방침</h1>
-          <p className={articleStyles.description}>시행일: 2026년 7월 18일 · 운영자: {SITE_OPERATOR.name}</p>
+          <p className={articleStyles.description}>시행일: 2026년 7월 18일 · 최종 수정: 2026년 8월 18일 · 운영자: {SITE_OPERATOR.name}</p>
         </header>
 
         <section className={articleStyles.articleSection}>
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
           <h2>쿠키와 제3자 광고</h2>
           <div className={articleStyles.markdown}>
             <p>광고 서비스가 제공되는 경우 Google을 포함한 제3자가 쿠키, 웹 비콘, IP 주소 또는 유사 기술을 사용해 광고를 제공하고 측정할 수 있습니다. 이 정보는 관심 기반 광고, 광고 빈도 관리, 성과 측정에 사용될 수 있습니다.</p>
-            <p>브라우저 설정에서 쿠키를 제한하거나 삭제할 수 있습니다. 쿠키를 제한하면 일부 기능이나 광고 개인화 방식이 달라질 수 있습니다. Google의 데이터 사용 방식은 Google의 파트너 사이트·앱 데이터 안내에서 확인할 수 있습니다.</p>
+            <p>브라우저 설정에서 쿠키를 제한하거나 삭제할 수 있습니다. 쿠키를 제한하면 일부 기능이나 광고 개인화 방식이 달라질 수 있습니다. Google의 데이터 사용 방식은 <a href="https://policies.google.com/technologies/partner-sites?hl=ko" target="_blank" rel="noreferrer">Google 파트너 사이트·앱 데이터 안내</a>에서, 광고 개인화 설정은 <a href="https://adssettings.google.com/" target="_blank" rel="noreferrer">Google 광고 설정</a>에서 확인하거나 변경할 수 있습니다.</p>
           </div>
         </section>
 

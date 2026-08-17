@@ -5,6 +5,7 @@ import Link from "next/link";
 import { getCategory } from "../../../lib/categories";
 import { formatDate, getGuide, getPublicGuides } from "../../../lib/content";
 import type { GuideMedia } from "../../../lib/content-types";
+import { SITE_OPERATOR } from "../../../lib/site-info";
 import MarkdownContent from "../../components/MarkdownContent";
 import SiteFooter from "../../components/SiteFooter";
 import SiteHeader from "../../components/SiteHeader";
@@ -71,7 +72,6 @@ export default async function GuideDetailPage({ params }: Props) {
   const supportingMedia = guide.media?.filter((item) => item.path !== guide.heroImage) || [];
   const hasAffiliateMedia = supportingMedia.some((item) => item.usageBasis === "authorized-affiliate");
   const contentSections = splitGuideSections(guide.content);
-  const isPcGuide = guide.category === "digital-pc";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -81,7 +81,7 @@ export default async function GuideDetailPage({ params }: Props) {
     datePublished: guide.publishedAt,
     dateModified: guide.updatedAt,
     mainEntityOfPage: `https://item.monster/guide/${guide.slug}/`,
-    author: { "@type": "Person", name: "아이템몬스터 운영자" },
+    author: { "@type": "Person", name: SITE_OPERATOR.name },
     publisher: { "@type": "Organization", name: "아이템몬스터" },
     image: guide.heroImage ? `https://item.monster${guide.heroImage}` : undefined,
     citation: guide.sources?.map((source) => source.url),
@@ -94,7 +94,7 @@ export default async function GuideDetailPage({ params }: Props) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <nav className={siteStyles.breadcrumb} aria-label="현재 위치">
           <Link href="/">홈</Link><span>›</span>
-          {isPcGuide ? <Link href="/guide/">PC·전자제품</Link> : <Link href="/articles/">생활용품 구매 메모</Link>}
+          <Link href="/guide/">선택 가이드</Link>
           <span>›</span><span>{category.shortLabel}</span>
         </nav>
         <article>
@@ -102,6 +102,7 @@ export default async function GuideDetailPage({ params }: Props) {
             <div className={articleStyles.metaRow}>
               <span className={articleStyles.category}>{category.label}</span>
               <span>{formatDate(guide.updatedAt)} 다시 확인</span>
+              <span>작성·검수 {SITE_OPERATOR.name}</span>
               {guide.editorial.status === "legacy" ? <span>예전 글 다시 보는 중</span> : <span>공식 자료 확인함</span>}
             </div>
             <h1>{guide.title}</h1>
@@ -145,7 +146,7 @@ export default async function GuideDetailPage({ params }: Props) {
                       </a>
                       <figcaption>
                         <div>
-                          <span>사진에서 볼 것</span>
+                          <span>도식에서 확인할 것</span>
                           <strong>{media.caption}</strong>
                         </div>
                         <div className={articleStyles.guideMediaCredit}>
