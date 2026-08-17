@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 10,
-      "slug": "item-dyson-haircare-8051503105-check",
-      "productId": "8051503105",
-      "title": "다이슨 에어스트레이트 구매 전: 전압·소비전력·노즐 구성·보관 공간",
-      "category": "fashion-beauty"
-    },
-    {
       "order": 11,
       "slug": "item-garmin-570-8786991956-check",
       "productId": "8786991956",
@@ -698,7 +691,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 99,
+  "remaining": 98,
   "history": [
     {
       "order": 1,
@@ -744,6 +737,11 @@
       "order": 9,
       "slug": "item-ninja-cooking-9535512844-check",
       "publishedAt": "2026-08-18T05:24:44+09:00"
+    },
+    {
+      "order": 10,
+      "slug": "item-dyson-haircare-8051503105-check",
+      "publishedAt": "2026-08-18T06:24:20+09:00"
     }
   ]
 }

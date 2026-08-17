@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 10,
   "productId": "8051503105",
   "slug": "item-dyson-haircare-8051503105-check",
   "category": "fashion-beauty",
@@ -102,5 +101,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T06:24:20+09:00",
+  "updatedAt": "2026-08-18T06:24:20+09:00"
 }
