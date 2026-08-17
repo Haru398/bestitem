@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 7,
-      "slug": "item-samsung-s26-9440658564-check",
-      "productId": "9440658564",
-      "title": "삼성 갤럭시 S26 플러스 구매 전: 저장용량·통신 호환·구성품",
-      "category": "digital-pc"
-    },
-    {
       "order": 8,
       "slug": "item-roborock-qrevo-edge-8936511061-check",
       "productId": "8936511061",
@@ -719,7 +712,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 102,
+  "remaining": 101,
   "history": [
     {
       "order": 1,
@@ -750,6 +743,11 @@
       "order": 6,
       "slug": "item-babybrezza-sterilizer-8350819178-check",
       "publishedAt": "2026-08-18T03:36:07+09:00"
+    },
+    {
+      "order": 7,
+      "slug": "item-samsung-s26-9440658564-check",
+      "publishedAt": "2026-08-18T04:01:13+09:00"
     }
   ]
 }
