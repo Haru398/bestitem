@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 1,
   "productId": "9309948201",
   "slug": "item-samsung-s26-9309948201-check",
   "category": "digital-pc",
@@ -94,5 +93,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-17T22:38:01+09:00",
+  "updatedAt": "2026-08-17T22:38:01+09:00"
 }

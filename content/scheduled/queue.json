@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 1,
-      "slug": "item-samsung-s26-9309948201-check",
-      "productId": "9309948201",
-      "title": "삼성 갤럭시 S26 구매 전: 저장용량·통신 호환·구성품",
-      "category": "digital-pc"
-    },
-    {
       "order": 2,
       "slug": "item-samsung-ai-7989878606-check",
       "productId": "7989878606",
@@ -759,6 +752,14 @@
       "productId": "9602303293",
       "title": "GoPro HERO13 Black 크리에이터 에디션 구매 전: 촬영 방식·저장 매체·배터리·방수",
       "category": "digital-pc"
+    }
+  ],
+  "remaining": 107,
+  "history": [
+    {
+      "order": 1,
+      "slug": "item-samsung-s26-9309948201-check",
+      "publishedAt": "2026-08-17T22:38:01+09:00"
     }
   ]
 }
