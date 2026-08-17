@@ -12,6 +12,7 @@
     "schedule:collect": "node scripts/schedule/collect-candidates.cjs",
     "schedule:supplement": "node scripts/schedule/append-candidates.cjs",
     "schedule:prepare": "node scripts/schedule/prepare-queue.cjs",
+    "schedule:diagrams": "node scripts/schedule/apply-post-diagrams.cjs",
     "schedule:validate": "node scripts/schedule/validate-queue.cjs",
     "schedule:check": "node scripts/schedule/release-next.cjs --dry-run",
     "schedule:similarity": "node scripts/schedule/audit-similarity.cjs",

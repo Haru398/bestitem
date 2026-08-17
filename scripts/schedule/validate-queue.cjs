@@ -60,6 +60,23 @@ if (!fs.existsSync(postsDir) || !fs.existsSync(imagesDir) || !fs.existsSync(queu
     if (post.description.length < 55 || post.description.length > 170) errors.push(`${prefix} 설명 길이 ${post.description.length}`);
     if (bodyLength(post) < 2200) errors.push(`${prefix} 본문이 2,200자보다 짧습니다.`);
     if (!Array.isArray(post.sections) || post.sections.length < 5 || post.sections.some((section) => !section.body || section.body.length < 180)) errors.push(`${prefix} 본문 섹션이 부족합니다.`);
+    const sectionImages = (post.sections || []).filter((section) => section.image);
+    if (sectionImages.length < 2) errors.push(`${prefix} 본문 중간 원본 도식이 2장보다 적습니다.`);
+    for (const [index, section] of sectionImages.entries()) {
+      if (!section.imageAlt || section.imageAlt.length < 8 || !section.imageCaption || section.imageCredit !== '아이템몬스터 직접 제작') {
+        errors.push(`${prefix} 본문 도식 ${index + 1}의 대체 텍스트·캡션·제작자 정보가 부족합니다.`);
+      }
+      const sectionImageFile = path.join(imagesDir, path.basename(section.image));
+      if (!fs.existsSync(sectionImageFile)) errors.push(`${prefix} 본문 도식 파일이 없습니다: ${section.image}`);
+      else {
+        try {
+          const size = imageSize(fs.readFileSync(sectionImageFile));
+          if (size.width !== 1600 || size.height !== 900) errors.push(`${prefix} 본문 도식 크기는 1600x900이어야 합니다: ${section.image}`);
+        } catch {
+          errors.push(`${prefix} 본문 도식 형식을 읽을 수 없습니다: ${section.image}`);
+        }
+      }
+    }
     if (!post.intro || post.intro.length < 180 || !post.conclusion || post.conclusion.length < 140) errors.push(`${prefix} 도입부 또는 결론이 짧습니다.`);
     if (bannedHype.test(JSON.stringify(post))) errors.push(`${prefix} 과장 표현이 있습니다.`);
     if (!Array.isArray(post.sources) || post.sources.length < 2 || post.sources.some((source) => !source.url?.startsWith('https://') || !source.sourceType?.startsWith('manufacturer'))) errors.push(`${prefix} 제조사 공식 출처가 부족합니다.`);

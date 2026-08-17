@@ -21,9 +21,12 @@ function cdata(value: string): string {
 function postHtml(post: PostContent): string {
   const paragraphs = [
     `<p>${escapeXml(plainText(post.intro))}</p>`,
-    ...post.sections.map((section) =>
-      `<h2>${escapeXml(plainText(section.heading))}</h2><p>${escapeXml(plainText(section.body))}</p>`,
-    ),
+    ...post.sections.map((section) => {
+      const figure = section.image
+        ? `<figure><img src="${escapeXml(new URL(section.image, BASE_URL).toString())}" alt="${escapeXml(section.imageAlt || section.heading)}" />${section.imageCaption ? `<figcaption>${escapeXml(section.imageCaption)}</figcaption>` : ""}</figure>`
+        : "";
+      return `<h2>${escapeXml(plainText(section.heading))}</h2>${figure}<p>${escapeXml(plainText(section.body))}</p>`;
+    }),
     `<p>${escapeXml(plainText(post.conclusion))}</p>`,
   ];
   return paragraphs.join("");

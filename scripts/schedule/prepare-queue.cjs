@@ -3,6 +3,7 @@ const path = require('node:path');
 const { imageSize } = require('image-size');
 const sourceProfiles = require('./source-profiles.cjs');
 const { guideFor } = require('./type-guides.cjs');
+const { attachPostDiagrams } = require('./post-diagrams.cjs');
 
 const root = path.resolve(__dirname, '../..');
 const scheduledRoot = path.join(root, 'content', 'scheduled');
@@ -254,6 +255,7 @@ async function main() {
     const slug = slugFor(item);
     const imagePath = await downloadImage(item, slug);
     const post = makePost(item, order, imagePath);
+    await attachPostDiagrams(post, imagesDir);
     const filename = `${String(order).padStart(3, '0')}-${slug}.json`;
     fs.writeFileSync(path.join(postsDir, filename), `${JSON.stringify(post, null, 2)}\n`, 'utf8');
     queue.push({ order, slug, productId: post.productId, title: post.title, category: post.category });

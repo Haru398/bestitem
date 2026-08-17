@@ -57,7 +57,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(post.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.7,
-      images: post.heroImage ? [new URL(post.heroImage, baseUrl).toString()] : undefined,
+      images: [...new Set([
+        post.heroImage,
+        ...post.sections.map((section) => section.image),
+      ].filter((image): image is string => Boolean(image)))]
+        .map((image) => new URL(image, baseUrl).toString()),
     })),
     ...guides.map((guide) => ({
       url: `${baseUrl}/guide/${guide.slug}/`,

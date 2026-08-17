@@ -37,18 +37,26 @@ function main() {
   }
   const sourcePostPath = path.join(postsDir, files[0]);
   const post = JSON.parse(fs.readFileSync(sourcePostPath, 'utf8'));
-  const sourceImagePath = path.join(imagesDir, path.basename(post.heroImage));
+  const imageNames = [...new Set([
+    post.heroImage,
+    ...(post.sections || []).map((section) => section.image),
+  ].filter(Boolean).map((imagePath) => path.basename(imagePath)))];
+  const sourceImagePaths = imageNames.map((name) => path.join(imagesDir, name));
   const livePostPath = path.join(livePostsDir, `${post.slug}.json`);
-  const liveImagePath = path.join(publicImagesDir, path.basename(post.heroImage));
-  for (const [base, target] of [[postsDir, sourcePostPath], [imagesDir, sourceImagePath], [livePostsDir, livePostPath], [publicImagesDir, liveImagePath]]) ensureInside(base, target);
-  if (!fs.existsSync(sourceImagePath)) throw new Error(`Missing scheduled image: ${sourceImagePath}`);
-  if (fs.existsSync(livePostPath) || fs.existsSync(liveImagePath)) throw new Error(`Live target already exists for ${post.slug}`);
+  const liveImagePaths = imageNames.map((name) => path.join(publicImagesDir, name));
+  for (const [base, target] of [[postsDir, sourcePostPath], [livePostsDir, livePostPath]]) ensureInside(base, target);
+  for (const sourceImagePath of sourceImagePaths) ensureInside(imagesDir, sourceImagePath);
+  for (const liveImagePath of liveImagePaths) ensureInside(publicImagesDir, liveImagePath);
+  for (const sourceImagePath of sourceImagePaths) {
+    if (!fs.existsSync(sourceImagePath)) throw new Error(`Missing scheduled image: ${sourceImagePath}`);
+  }
+  if (fs.existsSync(livePostPath) || liveImagePaths.some((target) => fs.existsSync(target))) throw new Error(`Live target already exists for ${post.slug}`);
 
   const actualPublishedAt = kstIso();
   const released = { ...post, publishedAt: actualPublishedAt, updatedAt: actualPublishedAt };
   delete released.queueOrder;
   if (dryRun) {
-    console.log(JSON.stringify({ dryRun: true, slug: post.slug, actualPublishedAt, remaining: files.length }, null, 2));
+    console.log(JSON.stringify({ dryRun: true, slug: post.slug, actualPublishedAt, remaining: files.length, assets: imageNames.length }, null, 2));
     githubOutput('released', 'false');
     return;
   }
@@ -56,9 +64,9 @@ function main() {
   fs.mkdirSync(livePostsDir, { recursive: true });
   fs.mkdirSync(publicImagesDir, { recursive: true });
   fs.writeFileSync(livePostPath, `${JSON.stringify(released, null, 2)}\n`, 'utf8');
-  fs.copyFileSync(sourceImagePath, liveImagePath);
+  for (let index = 0; index < sourceImagePaths.length; index += 1) fs.copyFileSync(sourceImagePaths[index], liveImagePaths[index]);
   fs.unlinkSync(sourcePostPath);
-  fs.unlinkSync(sourceImagePath);
+  for (const sourceImagePath of sourceImagePaths) fs.unlinkSync(sourceImagePath);
 
   const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
   queue.items = (queue.items || []).filter((item) => item.slug !== post.slug);
