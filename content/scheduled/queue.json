@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 9,
-      "slug": "item-ninja-cooking-9535512844-check",
-      "productId": "9535512844",
-      "title": "닌자 크리스피 에어프라이어 구매 전: 용량·열원·세척 구조·구성품",
-      "category": "living-kitchen"
-    },
-    {
       "order": 10,
       "slug": "item-dyson-haircare-8051503105-check",
       "productId": "8051503105",
@@ -705,7 +698,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 100,
+  "remaining": 99,
   "history": [
     {
       "order": 1,
@@ -746,6 +739,11 @@
       "order": 8,
       "slug": "item-roborock-qrevo-edge-8936511061-check",
       "publishedAt": "2026-08-18T04:26:30+09:00"
+    },
+    {
+      "order": 9,
+      "slug": "item-ninja-cooking-9535512844-check",
+      "publishedAt": "2026-08-18T05:24:44+09:00"
     }
   ]
 }
