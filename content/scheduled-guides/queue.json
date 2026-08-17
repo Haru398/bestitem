@@ -5,12 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 1,
-      "slug": "guide-air-purifier-room-size-filter-sensor",
-      "title": "공기청정기 평형 고르는 법: 표준사용면적·필터·센서 순서",
-      "category": "home-appliances"
-    },
-    {
       "order": 2,
       "slug": "guide-electric-shaver-head-cleaning-station",
       "title": "전기면도기 고르는 법: 날망·세척 스테이션·교체 비용",
@@ -123,6 +117,14 @@
       "slug": "guide-office-chair-seat-armrest-tilt",
       "title": "사무용 의자 고르는 법: 좌판·팔걸이·틸트·책상 높이",
       "category": "living-kitchen"
+    }
+  ],
+  "remaining": 19,
+  "history": [
+    {
+      "order": 1,
+      "slug": "guide-air-purifier-room-size-filter-sensor",
+      "publishedAt": "2026-08-18T05:32:34+09:00"
     }
   ]
 }

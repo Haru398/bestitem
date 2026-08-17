@@ -1,6 +1,5 @@
 {
   "kind": "guide",
-  "queueOrder": 1,
   "slug": "guide-air-purifier-room-size-filter-sensor",
   "category": "home-appliances",
   "topicCluster": "air-quality",
@@ -119,5 +118,7 @@
       "display": "detail-bottom",
       "placement": "흡입구와 토출구를 막지 않을 자리를 잡습니다"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T05:32:34+09:00",
+  "updatedAt": "2026-08-18T05:32:34+09:00"
 }
