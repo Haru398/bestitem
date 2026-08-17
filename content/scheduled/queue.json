@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 12,
-      "slug": "item-samsung-s26-9440658767-check",
-      "productId": "9440658767",
-      "title": "삼성 갤럭시 S26 울트라 구매 전: 저장용량·통신 호환·구성품",
-      "category": "digital-pc"
-    },
-    {
       "order": 13,
       "slug": "item-dreame-x50-8585044754-check",
       "productId": "8585044754",
@@ -684,7 +677,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 97,
+  "remaining": 96,
   "history": [
     {
       "order": 1,
@@ -740,6 +733,11 @@
       "order": 11,
       "slug": "item-garmin-570-8786991956-check",
       "publishedAt": "2026-08-18T07:22:09+09:00"
+    },
+    {
+      "order": 12,
+      "slug": "item-samsung-s26-9440658767-check",
+      "publishedAt": "2026-08-18T08:20:45+09:00"
     }
   ]
 }
