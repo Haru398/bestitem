@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "광고 문구만 보고 사기 찜찜할 때, 구성품·크기·사용 조건과 추가 비용을 먼저 찾아보는 개인 구매 메모입니다.",
   alternates: {
     canonical: "/",
+    types: {
+      "application/rss+xml": "https://item.monster/rss.xml",
+    },
   },
   openGraph: {
     title: "아이템몬스터 | 사기 전에 한 번 더 찾아보는 곳",

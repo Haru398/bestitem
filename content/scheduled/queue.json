@@ -1,0 +1,764 @@
+{
+  "createdAt": "2026-08-17T12:01:53.854Z",
+  "total": 108,
+  "cadence": "one per hour",
+  "timezone": "Asia/Seoul",
+  "items": [
+    {
+      "order": 1,
+      "slug": "item-samsung-s26-9309948201-check",
+      "productId": "9309948201",
+      "title": "삼성 갤럭시 S26 구매 전: 저장용량·통신 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 2,
+      "slug": "item-samsung-ai-7989878606-check",
+      "productId": "7989878606",
+      "title": "삼성 비스포크 AI 스팀 로봇청소기 구매 전: 문턱·가구·도크 공간·소모품·앱",
+      "category": "home-appliances"
+    },
+    {
+      "order": 3,
+      "slug": "item-ninja-cooking-6921108355-check",
+      "productId": "6921108355",
+      "title": "닌자 푸디 듀얼존 에어프라이어 구매 전: 용량·열원·세척 구조·구성품",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 4,
+      "slug": "item-dyson-haircare-8358307401-check",
+      "productId": "8358307401",
+      "title": "다이슨 슈퍼소닉 뉴럴 구매 전: 전압·소비전력·노즐 구성·보관 공간",
+      "category": "fashion-beauty"
+    },
+    {
+      "order": 5,
+      "slug": "item-garmin-970-8786998691-check",
+      "productId": "8786998691",
+      "title": "가민 포러너 970 구매 전: 케이스 크기·휴대폰 호환·배터리 조건",
+      "category": "outdoor-auto"
+    },
+    {
+      "order": 6,
+      "slug": "item-babybrezza-sterilizer-8350819178-check",
+      "productId": "8350819178",
+      "title": "베이비브레짜 젖병 세척기 구매 전: 수납 용량·세척 방식·설치·소모품",
+      "category": "pet-family"
+    },
+    {
+      "order": 7,
+      "slug": "item-samsung-s26-9440658564-check",
+      "productId": "9440658564",
+      "title": "삼성 갤럭시 S26 플러스 구매 전: 저장용량·통신 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 8,
+      "slug": "item-roborock-qrevo-edge-8936511061-check",
+      "productId": "8936511061",
+      "title": "로보락 Qrevo Edge 구매 전: 문턱·가구·도크 공간·소모품·앱",
+      "category": "home-appliances"
+    },
+    {
+      "order": 9,
+      "slug": "item-ninja-cooking-9535512844-check",
+      "productId": "9535512844",
+      "title": "닌자 크리스피 에어프라이어 구매 전: 용량·열원·세척 구조·구성품",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 10,
+      "slug": "item-dyson-haircare-8051503105-check",
+      "productId": "8051503105",
+      "title": "다이슨 에어스트레이트 구매 전: 전압·소비전력·노즐 구성·보관 공간",
+      "category": "fashion-beauty"
+    },
+    {
+      "order": 11,
+      "slug": "item-garmin-570-8786991956-check",
+      "productId": "8786991956",
+      "title": "가민 포러너 570 구매 전: 케이스 크기·휴대폰 호환·배터리 조건",
+      "category": "outdoor-auto"
+    },
+    {
+      "order": 12,
+      "slug": "item-samsung-s26-9440658767-check",
+      "productId": "9440658767",
+      "title": "삼성 갤럭시 S26 울트라 구매 전: 저장용량·통신 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 13,
+      "slug": "item-dreame-x50-8585044754-check",
+      "productId": "8585044754",
+      "title": "드리미 X50 Ultra 구매 전: 문턱·가구·도크 공간·소모품·앱",
+      "category": "home-appliances"
+    },
+    {
+      "order": 14,
+      "slug": "item-ninja-cooking-8462762881-check",
+      "productId": "8462762881",
+      "title": "닌자 콤비 멀티쿠커 구매 전: 용량·열원·세척 구조·구성품",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 15,
+      "slug": "item-braun-8-6722881281-check",
+      "productId": "6722881281",
+      "title": "브라운 시리즈8 전기면도기 구매 전: 면도 방식·세척 구성·날망 비용",
+      "category": "fashion-beauty"
+    },
+    {
+      "order": 16,
+      "slug": "item-ecoflow-3-9378871548-check",
+      "productId": "9378871548",
+      "title": "에코플로우 델타3 플러스 구매 전: 정격 출력·배터리 용량·충전 방식",
+      "category": "outdoor-auto"
+    },
+    {
+      "order": 17,
+      "slug": "item-samsung-s11-9040078527-check",
+      "productId": "9040078527",
+      "title": "삼성 갤럭시탭 S11 울트라 구매 전: 화면·저장용량·펜·키보드 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 18,
+      "slug": "item-lg-lg-360-8603929492-check",
+      "productId": "8603929492",
+      "title": "LG 퓨리케어 360 공기청정기 구매 전: 사용 면적·필터 비용·설치 위치",
+      "category": "home-appliances"
+    },
+    {
+      "order": 19,
+      "slug": "item-philips-5000-9684763642-check",
+      "productId": "9684763642",
+      "title": "필립스 에어프라이어 5000 시리즈 구매 전: 용량·열원·세척 구조·구성품",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 20,
+      "slug": "item-panasonic-haircare-6782092623-check",
+      "productId": "6782092623",
+      "title": "파나소닉 나노케어 드라이어 구매 전: 전압·소비전력·노즐 구성·보관 공간",
+      "category": "fashion-beauty"
+    },
+    {
+      "order": 21,
+      "slug": "item-bluetti-bluetti-ac180-9367084816-check",
+      "productId": "9367084816",
+      "title": "블루에티 AC180 파워뱅크 구매 전: 정격 출력·배터리 용량·충전 방식",
+      "category": "outdoor-auto"
+    },
+    {
+      "order": 22,
+      "slug": "item-samsung-s10-fe-8686514016-check",
+      "productId": "8686514016",
+      "title": "삼성 갤럭시탭 S10 FE 구매 전: 화면·저장용량·펜·키보드 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 23,
+      "slug": "item-lg-lg-8711706139-check",
+      "productId": "8711706139",
+      "title": "LG 퓨리케어 에어로퍼니처 구매 전: 사용 면적·필터 비용·설치 위치",
+      "category": "home-appliances"
+    },
+    {
+      "order": 24,
+      "slug": "item-philips-5500-9574860487-check",
+      "productId": "9574860487",
+      "title": "필립스 라떼고 5500 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 25,
+      "slug": "item-panasonic-shaver-8984964117-check",
+      "productId": "8984964117",
+      "title": "파나소닉 람대쉬 프로 전기면도기 구매 전: 면도 방식·세척 구성·날망 비용",
+      "category": "fashion-beauty"
+    },
+    {
+      "order": 26,
+      "slug": "item-xiaomi-caraccessory-9011242876-check",
+      "productId": "9011242876",
+      "title": "샤오미 휴대용 에어펌프 2 프로 구매 전: 지원 압력·전원·배터리·밸브 구성",
+      "category": "outdoor-auto"
+    },
+    {
+      "order": 27,
+      "slug": "item-samsung-8-8847516889-check",
+      "productId": "8847516889",
+      "title": "삼성 갤럭시 워치8 클래식 구매 전: 케이스 크기·휴대폰 호환·배터리 조건",
+      "category": "digital-pc"
+    },
+    {
+      "order": 28,
+      "slug": "item-lg-lg-1298242799-check",
+      "productId": "1298242799",
+      "title": "LG 휘센 듀얼 인버터 제습기 구매 전: 제습 용량·물통·배수·소음·이동",
+      "category": "home-appliances"
+    },
+    {
+      "order": 29,
+      "slug": "item-philips-coffee-8976011739-check",
+      "productId": "8976011739",
+      "title": "필립스 바리스티나 에스프레소 머신 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 30,
+      "slug": "item-panasonic-oralcare-9186035033-check",
+      "productId": "9186035033",
+      "title": "파나소닉 제트워셔 구강세정기 구매 전: 헤드·노즐·강도 모드·소모품 비용",
+      "category": "fashion-beauty"
+    },
+    {
+      "order": 31,
+      "slug": "item-samsung-4-9309807813-check",
+      "productId": "9309807813",
+      "title": "삼성 갤럭시 버즈4 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 32,
+      "slug": "item-samsung-aircare-8707431315-check",
+      "productId": "8707431315",
+      "title": "삼성 블루스카이 공기청정기 구매 전: 사용 면적·필터 비용·설치 위치",
+      "category": "home-appliances"
+    },
+    {
+      "order": 33,
+      "slug": "item-philips-kettle-7823326036-check",
+      "productId": "7823326036",
+      "title": "필립스 무선 전기주전자 구매 전: 용량·소비전력·세척·보온",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 34,
+      "slug": "item-philips-9900-6074029272-check",
+      "productId": "6074029272",
+      "title": "필립스 소닉케어 9900 프레스티지 구매 전: 헤드·노즐·강도 모드·소모품 비용",
+      "category": "fashion-beauty"
+    },
+    {
+      "order": 35,
+      "slug": "item-samsung-3-fe-9019055318-check",
+      "productId": "9019055318",
+      "title": "삼성 갤럭시 버즈3 FE 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 36,
+      "slug": "item-samsung-dehumidifier-9398164042-check",
+      "productId": "9398164042",
+      "title": "삼성 인버터 제습기 구매 전: 제습 용량·물통·배수·소음·이동",
+      "category": "home-appliances"
+    },
+    {
+      "order": 37,
+      "slug": "item-nespresso-coffee-9232877864-check",
+      "productId": "9232877864",
+      "title": "네스프레소 버츄오 팝 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 38,
+      "slug": "item-samsung-5-8524610232-check",
+      "productId": "8524610232",
+      "title": "삼성 갤럭시북5 프로 구매 전: 프로세서·메모리·포트·충전·운영체제",
+      "category": "digital-pc"
+    },
+    {
+      "order": 39,
+      "slug": "item-winix-dehumidifier-9520221290-check",
+      "productId": "9520221290",
+      "title": "위닉스 뽀송 인버터 제습기 구매 전: 제습 용량·물통·배수·소음·이동",
+      "category": "home-appliances"
+    },
+    {
+      "order": 40,
+      "slug": "item-nespresso-coffee-5170625575-check",
+      "productId": "5170625575",
+      "title": "네스프레소 버츄오 플러스 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 41,
+      "slug": "item-apple-apple-17-9024167492-check",
+      "productId": "9024167492",
+      "title": "애플 아이폰 17 구매 전: 저장용량·통신 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 42,
+      "slug": "item-coway-aircare-9581692262-check",
+      "productId": "9581692262",
+      "title": "코웨이 노블 공기청정기2 구매 전: 사용 면적·필터 비용·설치 위치",
+      "category": "home-appliances"
+    },
+    {
+      "order": 43,
+      "slug": "item-nespresso-coffee-8262881871-check",
+      "productId": "8262881871",
+      "title": "네스프레소 에센자 미니 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 44,
+      "slug": "item-apple-apple-17-pro-9024167576-check",
+      "productId": "9024167576",
+      "title": "애플 아이폰 17 프로 구매 전: 저장용량·통신 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 45,
+      "slug": "item-blueair-aircare-7750584765-check",
+      "productId": "7750584765",
+      "title": "블루에어 헬스프로텍트 공기청정기 구매 전: 사용 면적·필터 비용·설치 위치",
+      "category": "home-appliances"
+    },
+    {
+      "order": 46,
+      "slug": "item-nespresso-coffee-7837888911-check",
+      "productId": "7837888911",
+      "title": "네스프레소 시티즈 플래티넘 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 47,
+      "slug": "item-apple-apple-17-pro-max-9024167604-check",
+      "productId": "9024167604",
+      "title": "애플 아이폰 17 프로 맥스 구매 전: 저장용량·통신 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 48,
+      "slug": "item-lg-lg-8934085038-check",
+      "productId": "8934085038",
+      "title": "LG 워시타워 AI 구매 전: 설치 치수·전기·배수·코스·용량",
+      "category": "home-appliances"
+    },
+    {
+      "order": 49,
+      "slug": "item-delonghi-coffee-6410633360-check",
+      "productId": "6410633360",
+      "title": "드롱기 디나미카 플러스 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 50,
+      "slug": "item-lg-lg-9334050312-check",
+      "productId": "9334050312",
+      "title": "LG 그램 2026 노트북 구매 전: 프로세서·메모리·포트·충전·운영체제",
+      "category": "digital-pc"
+    },
+    {
+      "order": 51,
+      "slug": "item-samsung-ai-9050676118-check",
+      "productId": "9050676118",
+      "title": "삼성 비스포크 AI 원바디 구매 전: 설치 치수·전기·배수·코스·용량",
+      "category": "home-appliances"
+    },
+    {
+      "order": 52,
+      "slug": "item-delonghi-coffee-8815997870-check",
+      "productId": "8815997870",
+      "title": "드롱기 라스페셜리스타 아르떼 구매 전: 캡슐·원두 방식·우유 메뉴·세척 비용",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 53,
+      "slug": "item-lg-lg-16-9447581024-check",
+      "productId": "9447581024",
+      "title": "LG 그램 프로 16 2026 구매 전: 프로세서·메모리·포트·충전·운영체제",
+      "category": "digital-pc"
+    },
+    {
+      "order": 54,
+      "slug": "item-lg-lg-14-9286302555-check",
+      "productId": "9286302555",
+      "title": "LG 디오스 오브제컬렉션 식기세척기 14인용 구매 전: 장 규격·급배수·전기·식기 수납",
+      "category": "home-appliances"
+    },
+    {
+      "order": 55,
+      "slug": "item-cuckoo-ricecooker-9695802161-check",
+      "productId": "9695802161",
+      "title": "쿠쿠 마스터셰프 사일런스 밥솥 구매 전: 인용 수·압력 방식·내솥·패킹",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 56,
+      "slug": "item-lg-lg-32gs95ue-9332610530-check",
+      "productId": "9332610530",
+      "title": "LG 울트라기어 OLED 32GS95UE 구매 전: 화면 크기·입력 단자·스탠드 공간",
+      "category": "digital-pc"
+    },
+    {
+      "order": 57,
+      "slug": "item-samsung-14-9595290602-check",
+      "productId": "9595290602",
+      "title": "삼성 비스포크 AI 식기세척기 14인용 구매 전: 장 규격·급배수·전기·식기 수납",
+      "category": "home-appliances"
+    },
+    {
+      "order": 58,
+      "slug": "item-tefal-cooking-8971282403-check",
+      "productId": "8971282403",
+      "title": "테팔 원픽냄비팬 구매 전: 용량·열원·세척 구조·구성품",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 59,
+      "slug": "item-lg-lg-45gx950a-8935737065-check",
+      "productId": "8935737065",
+      "title": "LG 울트라기어 OLED 45GX950A 구매 전: 화면 크기·입력 단자·스탠드 공간",
+      "category": "digital-pc"
+    },
+    {
+      "order": 60,
+      "slug": "item-samsung-refrigerator-8701026607-check",
+      "productId": "8701026607",
+      "title": "삼성 비스포크 AI 하이브리드 냉장고 구매 전: 문 열림 공간·반입 동선·용량·수납",
+      "category": "home-appliances"
+    },
+    {
+      "order": 61,
+      "slug": "item-locknlock-storagekitchen-7357491003-check",
+      "productId": "7357491003",
+      "title": "락앤락 메트로 킹 텀블러 구매 전: 실사용 용량·밀폐 구조·세척·재질",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 62,
+      "slug": "item-lg-lg-myview-8413307341-check",
+      "productId": "8413307341",
+      "title": "LG 스마트모니터 MyView 구매 전: 화면 크기·입력 단자·스탠드 공간",
+      "category": "digital-pc"
+    },
+    {
+      "order": 63,
+      "slug": "item-locknlock-storagekitchen-1976146772-check",
+      "productId": "1976146772",
+      "title": "락앤락 바로한끼 도자기 밥용기 구매 전: 실사용 용량·밀폐 구조·세척·재질",
+      "category": "living-kitchen"
+    },
+    {
+      "order": 64,
+      "slug": "item-lg-lg-9357893347-check",
+      "productId": "9357893347",
+      "title": "LG 시네빔 큐브 구매 전: 투사 거리·밝기 조건·입력·소리",
+      "category": "digital-pc"
+    },
+    {
+      "order": 65,
+      "slug": "item-samsung-m9-8869156815-check",
+      "productId": "8869156815",
+      "title": "삼성 스마트 모니터 M9 구매 전: 화면 크기·입력 단자·스탠드 공간",
+      "category": "digital-pc"
+    },
+    {
+      "order": 66,
+      "slug": "item-samsung-g8-8826388871-check",
+      "productId": "8826388871",
+      "title": "삼성 오디세이 OLED G8 구매 전: 화면 크기·입력 단자·스탠드 공간",
+      "category": "digital-pc"
+    },
+    {
+      "order": 67,
+      "slug": "item-samsung-g7-9058075075-check",
+      "productId": "9058075075",
+      "title": "삼성 오디세이 G7 구매 전: 화면 크기·입력 단자·스탠드 공간",
+      "category": "digital-pc"
+    },
+    {
+      "order": 68,
+      "slug": "item-samsung-s9-8274871386-check",
+      "productId": "8274871386",
+      "title": "삼성 뷰피니티 S9 구매 전: 화면 크기·입력 단자·스탠드 공간",
+      "category": "digital-pc"
+    },
+    {
+      "order": 69,
+      "slug": "item-samsung-t9-8501988779-check",
+      "productId": "8501988779",
+      "title": "삼성 포터블 SSD T9 구매 전: 용량 표기·연결 규격·백업 계획",
+      "category": "digital-pc"
+    },
+    {
+      "order": 70,
+      "slug": "item-samsung-990-pro-7325472822-check",
+      "productId": "7325472822",
+      "title": "삼성 SSD 990 PRO 구매 전: 용량 표기·연결 규격·백업 계획",
+      "category": "digital-pc"
+    },
+    {
+      "order": 71,
+      "slug": "item-samsung-9100-pro-8673237499-check",
+      "productId": "8673237499",
+      "title": "삼성 SSD 9100 PRO 구매 전: 용량 표기·연결 규격·백업 계획",
+      "category": "digital-pc"
+    },
+    {
+      "order": 72,
+      "slug": "item-sandisk-storage-5125756453-check",
+      "productId": "5125756453",
+      "title": "샌디스크 익스트림 프로 포터블 SSD 구매 전: 용량 표기·연결 규격·백업 계획",
+      "category": "digital-pc"
+    },
+    {
+      "order": 73,
+      "slug": "item-sandisk-storage-9005862833-check",
+      "productId": "9005862833",
+      "title": "샌디스크 크리에이터 폰 SSD 구매 전: 용량 표기·연결 규격·백업 계획",
+      "category": "digital-pc"
+    },
+    {
+      "order": 74,
+      "slug": "item-western-digital-wd-my-passport-7553606294-check",
+      "productId": "7553606294",
+      "title": "WD 마이 패스포트 외장하드 5TB 구매 전: 용량 표기·연결 규격·백업 계획",
+      "category": "digital-pc"
+    },
+    {
+      "order": 75,
+      "slug": "item-logitech-mx-master-4-9101803314-check",
+      "productId": "9101803314",
+      "title": "로지텍 MX Master 4 구매 전: 배열·크기·연결 방식·운영체제 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 76,
+      "slug": "item-logitech-lift-9693928776-check",
+      "productId": "9693928776",
+      "title": "로지텍 Lift 버티컬 마우스 구매 전: 배열·크기·연결 방식·운영체제 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 77,
+      "slug": "item-logitech-g502-x-7692093578-check",
+      "productId": "7692093578",
+      "title": "로지텍 G502 X PLUS 구매 전: 배열·크기·연결 방식·운영체제 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 78,
+      "slug": "item-logitech-g515-8234105719-check",
+      "productId": "8234105719",
+      "title": "로지텍 G515 TKL 구매 전: 배열·크기·연결 방식·운영체제 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 79,
+      "slug": "item-logitech-g915-x-8428274604-check",
+      "productId": "8428274604",
+      "title": "로지텍 G915 X LIGHTSPEED 구매 전: 배열·크기·연결 방식·운영체제 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 80,
+      "slug": "item-logitech-mx-mechanical-7297881242-check",
+      "productId": "7297881242",
+      "title": "로지텍 MX Mechanical Mini 구매 전: 배열·크기·연결 방식·운영체제 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 81,
+      "slug": "item-logitech-brio-9023719946-check",
+      "productId": "9023719946",
+      "title": "로지텍 MX Brio 4K 웹캠 구매 전: 해상도 조건·USB 연결·회의 앱 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 82,
+      "slug": "item-logitech-zone-wireless-2-8049324763-check",
+      "productId": "8049324763",
+      "title": "로지텍 Zone Wireless 2 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 83,
+      "slug": "item-logitech-pebble-2-7703777476-check",
+      "productId": "7703777476",
+      "title": "로지텍 Pebble 2 Combo 구매 전: 배열·크기·연결 방식·운영체제 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 84,
+      "slug": "item-anker-anker-prime-27650-8351903779-check",
+      "productId": "8351903779",
+      "title": "앤커 프라임 27650mAh 보조배터리 구매 전: 출력 분배·포트 규격·케이블 구성",
+      "category": "digital-pc"
+    },
+    {
+      "order": 85,
+      "slug": "item-nintendo-2-8915336552-check",
+      "productId": "8915336552",
+      "title": "닌텐도 스위치2 구매 전: 디스크·저장공간·화면 호환·별매품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 86,
+      "slug": "item-nintendo-oled-6111001286-check",
+      "productId": "6111001286",
+      "title": "닌텐도 스위치 OLED 구매 전: 디스크·저장공간·화면 호환·별매품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 87,
+      "slug": "item-microsoft-xbox-series-x-5659284003-check",
+      "productId": "5659284003",
+      "title": "엑스박스 시리즈 X 구매 전: 디스크·저장공간·화면 호환·별매품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 88,
+      "slug": "item-sony-wf-1000xm5-8051760807-check",
+      "productId": "8051760807",
+      "title": "소니 WF-1000XM5 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 89,
+      "slug": "item-sony-ult-wear-8493526497-check",
+      "productId": "8493526497",
+      "title": "소니 ULT WEAR 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 90,
+      "slug": "item-sony-linkbuds-fit-8464979286-check",
+      "productId": "8464979286",
+      "title": "소니 LinkBuds Fit 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 91,
+      "slug": "item-bose-bose-qc-8903883649-check",
+      "productId": "8903883649",
+      "title": "보스 QC 울트라 이어버드 2세대 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 92,
+      "slug": "item-bose-bose-soundlink-max-8178606771-check",
+      "productId": "8178606771",
+      "title": "보스 사운드링크 맥스 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 93,
+      "slug": "item-jbl-jbl-flip-7-8790132833-check",
+      "productId": "8790132833",
+      "title": "JBL 플립 7 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 94,
+      "slug": "item-marshall-3-9225565445-check",
+      "productId": "9225565445",
+      "title": "마샬 액톤3 블루투스 스피커 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 95,
+      "slug": "item-marshall-3-9225565449-check",
+      "productId": "9225565449",
+      "title": "마샬 엠버튼3 블루투스 스피커 구매 전: 착용·크기·연결 기기·충전·코덱",
+      "category": "digital-pc"
+    },
+    {
+      "order": 96,
+      "slug": "item-samsung-qn900f-8893916348-check",
+      "productId": "8893916348",
+      "title": "삼성 Neo QLED 8K QN900F 구매 전: 화면 크기·설치 방식·입력·주사율",
+      "category": "digital-pc"
+    },
+    {
+      "order": 97,
+      "slug": "item-samsung-tv-8966166107-check",
+      "productId": "8966166107",
+      "title": "삼성 더 프레임 프로 TV 구매 전: 화면 크기·설치 방식·입력·주사율",
+      "category": "digital-pc"
+    },
+    {
+      "order": 98,
+      "slug": "item-samsung-projector-7912148052-check",
+      "productId": "7912148052",
+      "title": "삼성 더 프리스타일 2세대 구매 전: 투사 거리·밝기 조건·입력·소리",
+      "category": "digital-pc"
+    },
+    {
+      "order": 99,
+      "slug": "item-lg-lg-oled-g5-9387620630-check",
+      "productId": "9387620630",
+      "title": "LG OLED evo G5 TV 구매 전: 화면 크기·설치 방식·입력·주사율",
+      "category": "digital-pc"
+    },
+    {
+      "order": 100,
+      "slug": "item-lg-lg-oled-c5-9387639252-check",
+      "productId": "9387639252",
+      "title": "LG OLED evo C5 TV 구매 전: 화면 크기·설치 방식·입력·주사율",
+      "category": "digital-pc"
+    },
+    {
+      "order": 101,
+      "slug": "item-dji-dji-osmo-360-8882483043-check",
+      "productId": "8882483043",
+      "title": "DJI Osmo 360 구매 전: 촬영 방식·저장 매체·배터리·방수",
+      "category": "digital-pc"
+    },
+    {
+      "order": 102,
+      "slug": "item-dji-dji-flip-8514047827-check",
+      "productId": "8514047827",
+      "title": "DJI Flip 드론 구매 전: 비행 규정·조종·전송·배터리 구성",
+      "category": "digital-pc"
+    },
+    {
+      "order": 103,
+      "slug": "item-insta360-360-go-3s-8209591684-check",
+      "productId": "8209591684",
+      "title": "인스타360 GO 3S 구매 전: 촬영 방식·저장 매체·배터리·방수",
+      "category": "digital-pc"
+    },
+    {
+      "order": 104,
+      "slug": "item-insta360-360-flow-2-pro-8700850284-check",
+      "productId": "8700850284",
+      "title": "인스타360 Flow 2 Pro 구매 전: 휴대폰 크기·추적 기능·앱 호환",
+      "category": "digital-pc"
+    },
+    {
+      "order": 105,
+      "slug": "item-samsung-a57-128gb-9557909195-check",
+      "productId": "9557909195",
+      "title": "삼성 갤럭시 A57 128GB 듀얼심 구매 전: 저장용량·통신 호환·구성품",
+      "category": "digital-pc"
+    },
+    {
+      "order": 106,
+      "slug": "item-western-digital-wd-sn850x-1tb-9683298057-check",
+      "productId": "9683298057",
+      "title": "WD BLACK SN850X 1TB SSD 구매 전: 용량 표기·연결 규격·백업 계획",
+      "category": "digital-pc"
+    },
+    {
+      "order": 107,
+      "slug": "item-dji-dji-neo-8298492675-check",
+      "productId": "8298492675",
+      "title": "DJI Neo 드론 구매 전: 비행 규정·조종·전송·배터리 구성",
+      "category": "digital-pc"
+    },
+    {
+      "order": 108,
+      "slug": "item-gopro-gopro-hero13-9602303293-check",
+      "productId": "9602303293",
+      "title": "GoPro HERO13 Black 크리에이터 에디션 구매 전: 촬영 방식·저장 매체·배터리·방수",
+      "category": "digital-pc"
+    }
+  ]
+}

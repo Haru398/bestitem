@@ -10,7 +10,7 @@ export default function SiteFooter() {
         <div>
           <strong>ITEM.MONSTER</strong>
           운영자 {SITE_OPERATOR.name}이 제품의 모델·구성·사용 조건을 확인해 적는 구매 전 정보 사이트입니다.
-          <br />써보지 않은 제품은 후기인 척하지 않고, 확인하지 못한 내용은 단정하지 않습니다.
+          <br />판매 옵션과 공개된 공식 자료를 대조하고, 확인하지 못한 내용은 단정하지 않습니다.
           <br />© 2026 ItemMonster.
         </div>
         <div>
@@ -24,6 +24,7 @@ export default function SiteFooter() {
           <Link href="/contact/">문의 및 정정 요청</Link>
           <Link href="/privacy/">개인정보처리방침</Link>
           <Link href="/terms/">이용약관</Link>
+          <a href="/rss.xml">최신 글 RSS</a>
           <a href={SITE_OPERATOR.contactHref}>운영자 이메일</a>
         </div>
       </div>

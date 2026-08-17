@@ -1,0 +1,3376 @@
+{
+  "generatedAt": "2026-08-17T11:25:06.582Z",
+  "requestedCount": 168,
+  "selectedCount": 108,
+  "selected": [
+    {
+      "order": 1,
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 S26 자급제",
+      "required": [
+        "삼성",
+        "S26"
+      ],
+      "productId": 9309948201,
+      "productName": "삼성전자 갤럭시 S26 자급제 SM-S942N",
+      "productPrice": 1416500,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9309948201&itemId=27585748923&vendorItemId=94549347714&traceid=V0-153-9ad9bae6015dfb02&requestid=20260817202353013282025413&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/kxhG87ghOpQo5iDYkz93blgNSpdhB_3I7K1h5ZFaqRGWR5hQJDTg-8WXDHWGMqq2Kyqhf4blHZZBvr_27zTtz_ydCrMtUlYR7AakKHXUEPgGfo_q-ceUu41azQgoDTTwiQeANwR4223gKALEiyMayJQ0T3A9agoaABXiUpeSXLFIKtWez1hQ6YBSnJge6t0NzwTC6LdLtk6OJht6TMXV9axJQ_dCMiE72douCPQEk1hxoivFJNKlWEkKCxYBibV_kMPL0fuv3RGmlRNcIBRKsUuUFXDjfpuUwBRM_uMPIMhEAEW3",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 2,
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 S26 플러스 자급제",
+      "required": [
+        "삼성",
+        "S26",
+        "플러스"
+      ],
+      "productId": 9440658564,
+      "productName": "(삼성전자) 삼성 공식 갤럭시 S26 플러스 (256GB) (SM-S947N) (자급제폰) (코발트 바이올렛)",
+      "productPrice": 1433320,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9440658564&itemId=28078763385&vendorItemId=95035253056&traceid=V0-153-2616d41d6f5f5afb&requestid=20260817202353361121699934&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/9a2sGul3YnEn6-LM9ZD3GtPOhW4H2HBKI43gUKTwjApup5ec2Ri0cO27tOnX8tp9pVzCGbu4qZs3AYRvfSr6kVpK8xI9pYeU60h1KR8yz1CrgugmJXBcOdgrbbXhZFT0caltBBTc2h4QO7X9kcwC6fEBKttdj-BBsGCnToIgkogUHioTXPk3jESw0hwpui_MBroc-jTkIeg04WjPFJvcyLcoBcTFXVD9n7R3JyGCqQ6pj8mk88tmJMpFj9_OoCzTY4231m4RYLVQ32dmesIhL3EjDwhboXldqCFkTgo-6LW9dLZJrV9GZ8BMl7cQ2Y65-ae6uA==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 3,
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 S26 울트라 자급제",
+      "required": [
+        "삼성",
+        "S26",
+        "울트라"
+      ],
+      "productId": 9440658767,
+      "productName": "(삼성전자) (정식런칭) 삼성 공식 갤럭시 S26 울트라 (256GB) (SM-S948N) (자급제폰) (코발트 바이올렛)",
+      "productPrice": 1775050,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9440658767&itemId=28078764450&vendorItemId=95035253753&traceid=V0-153-913af0b5fa22e60c&requestid=20260817202353757165228180&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/l9Qy9L01pYZwiVfklwiUEdaDZ482QDsIHk_GjZ1B0KJp1g4YtgajpaA1GDVc79E1b0h3BQlJeRCyJchl2KLstQMdMKo_WKD-jJKLwe2ZSQPF7x6TCvvkSvmgRDm0n9A0HmqOfe_Pt82yzmgWyWsjwuY8wsP92dGvuTTP6a2bLOtzqiat90C_WI9s9Blz9_E8HDBqBJs-lFrvVcJi7OuH5WS7xOQAi20wNMKlnma6XWpFgfqLoEsPWxB5aGhYfln7QxXWOkBLVtp60yUglu_59T0LcuR2cyNqKQWT8PBvR_ujcMlE1CDi8zDWZoJgSjBEN9Wv3pY=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 4,
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "samsung",
+      "query": "삼성 갤럭시탭 S11 울트라",
+      "required": [
+        "삼성",
+        "S11",
+        "울트라"
+      ],
+      "productId": 9040078527,
+      "productName": "삼성전자 갤럭시탭 S11 울트라",
+      "productPrice": 1629000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9040078527&itemId=26523837624&vendorItemId=93446880883&traceid=V0-153-3d5a63ccadb1a0a3&requestid=20260817202354904043221046&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/SVkQv7KI85jx2C3LSasfYOi9d-CpLOW0z5HnWoS47nipjZ_bDO2mBL69jAxJQXM7bGVSOVjT7E33fGZV6EwQWX4Fjx-rAfhlpl4un__gV0sxvSmMn7CN2-CgIAbb4Qr1Xi-YudFD8riWXXfhDH6BpzynKUYuyO4my1TcSHl8cy7QqCUb_eitFhQqOW_TTKhoagJmE9-fHxV-PxkBgPgdc-JgkK-KJZrl5uG_fp3g4Oc4dsScAtaxywg76odX2ojZyU8vaFlJqebRYq3KpkrSVy2g12gp8I0JA--tHyn_58UP9UdVTZEwche1Chqq1hhRk4XRLg==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 5,
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "samsung",
+      "query": "삼성 갤럭시탭 S10 FE",
+      "required": [
+        "삼성",
+        "S10",
+        "FE"
+      ],
+      "productId": 8686514016,
+      "productName": "삼성전자 갤럭시탭 S10 FE, Wi-Fi, 128GB, 그레이",
+      "productPrice": 729000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8686514016&itemId=25217539489&vendorItemId=92213953219&traceid=V0-153-b7e955a3c1f39798&clickBeacon=221f5d50-9a2e-11f1-b953-7ce0766a6972%7E3&requestid=20260817202355666008166101&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/pgV5qpe-OGOIKJWUpsCUgIoVa9Xtx7gkPsYVwqfhzlRz-xo3CaGN208xpXPNUL6swnR6fpfBxAHaOImmzoXoaDz_ih6ihlxu4ReKF1qa_wFIwdZ47yN0VGsxfxuawCaOavEN0E75SIQdYqKZqZeZd_JOqT_cfmMfNnUWmXCHF8QlxeK_0kNhMw0uITMgoRZjiLEaxDrfbixAefmiY7dx1L_pt7wk2UwU6ZgKK5kKoCtY_JGYrrM6YF5Pocs4cB2a9J6I-Z8LUXO0fKoWEZfAwD95z5S9OjkKtnIhXfveoYsVexjdIFGOMupG",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 6,
+      "category": "digital-pc",
+      "type": "smartwatch",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 워치8 클래식",
+      "required": [
+        "삼성",
+        "워치8",
+        "클래식"
+      ],
+      "productId": 8847516889,
+      "productName": "삼성전자 갤럭시워치 8 클래식 스마트워치 SM-L500N",
+      "productPrice": 498000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8847516889&itemId=25789644946&vendorItemId=92777426247&traceid=V0-153-1c24c0160222c121&requestid=20260817202356046323550211&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/KKwe9Lbqvgsu_UjjKKM7Dtk6XAaW5a032jTHw1UQKXESX6LUpd9U2re_Uhyg0ulKSY9RIuDDsfYIhMbL7uu7zgxKXawfwjnEsfxCCO24TcYKUqSBtFwnaEzgccKBSNjbBMCYgfFqQytusPSPp5FPNY90D_gKZDw3mFvomLALUv35wP7Wwgsv0sfwNEKmHK4wIrJ4DXGhlNsqLaVqs3osHZvAY0ssqdAppq3LmoeoWuD3zi5iItEl9bqhafiPVMITPv7CX3hi9VhdFvYD8twzD6JZcSnEtlYIn3icGBPZErpzN-l9",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 7,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 버즈4",
+      "required": [
+        "삼성",
+        "버즈4"
+      ],
+      "productId": 9309807813,
+      "productName": "삼성전자 갤럭시 버즈4",
+      "productPrice": 250000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9309807813&itemId=27585107822&vendorItemId=94548723291&traceid=V0-153-2e7cd668ebe88b03&requestid=20260817202356709008166423&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/qfyPWLcTsHq1C06rqRAnIO5BiMt8DtTVUUyOBpU9E1QtzQSkqpFn305oZzJTsQc7gwyuPm7m2KDMlB8oS9KG5D-gnK0LNTtsl6kNAq50Ljp5A_OYqhTYkaQ_CKcQa-TRo34Zhwi5dP7wNpxojrNZ8vZrzBhPBOsFYxIvkctj06LChvl2MefyuPEdZDVqrob24bNpRT6rkO4IAMieEoJtgI5H1L9Slt51ZEDKiQyMvwJpATLRTAZICEl4lNcIEcyKqi9vdK8tWLwpDECFAZ_gJ9-XYHX9bt9mc6jQU0VCkKZE5zUeng==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 8,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 버즈3 FE",
+      "required": [
+        "삼성",
+        "버즈3",
+        "FE"
+      ],
+      "productId": 9019055318,
+      "productName": "삼성전자 갤럭시 버즈3 FE 블루투스 이어폰",
+      "productPrice": 133720,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9019055318&itemId=26442741419&vendorItemId=93418323317&traceid=V0-153-1ffb8e6cf2c2ae7c&requestid=20260817202357080043221750&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/1l1wLvwUYcm5GKcn1txws111swJPB6H4PDFS_u0BF7rYYBKu8uA1uWBhokrjt-JA9CnjFv9pGIQ7FP0YqVn4y7PurV9vhJZS8rWzleSrp4c9LHYWSbY90hM1KXPO0vMJGzC-SqMqQeenJ3g6NylPYTvJaHbXK4_mfFMcBCE4g0DGObFnxzwBMjStE3yclLxmcmjiw1CCTJZHdMuq-5FF9Y2vnfRQQcgDEpdDh57Njfk1lhd3mgebjJyBV4Kp-6-K-UKYWkB02Yi-UHQw0DxTuOlEKN0FAUtyGRDBq9GsPqLelJK8",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 9,
+      "category": "digital-pc",
+      "type": "laptop",
+      "profile": "samsung",
+      "query": "삼성 갤럭시북5 프로",
+      "required": [
+        "삼성",
+        "갤럭시북5",
+        "프로"
+      ],
+      "productId": 8524610232,
+      "productName": "삼성전자 갤럭시북5 프로 NT960XHA-K71A 인텔 울트라7 16인치 고해상도 AI 코파일럿+ 윈도우11 터치 스크린 직장인 대학생 노트북, NT960XHA-K71A, WIN11 Home, 16GB, 1TB, 그레이",
+      "productPrice": 2949000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8524610232&itemId=25325894640&vendorItemId=94112243243&traceid=V0-153-59873d5649e2e5c4&clickBeacon=236b3e40-9a2e-11f1-9ba8-53f009bd9864%7E3&requestid=20260817202357776000548461&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/CFexdskHUul5wd3VCEHUpSbNwdGRDxm8XgpX0OURT7JSzr_15q-Sx0z0V16YcTRpEao1FSoKLqQ_q-y38H41qL7LY4xcV3IZrRrZUriyNYo5yXgTv91II-1YoQ4-pt4PDTKtGfAH3-Q1iuXsrQQ1VaaaNjYJ9xmR_JlOoUgMKcTwTWCxYbQkV-FB1azyN1RQkbd1PskAgGsGlKQ_M6aZgCOAah0QUtM0Ct0MRrYftMeMN4sT9oZ266qJGeX8Ikbn8g3LJxm4bj9wAWlb3FORwp73HJQioRcfeQ0aCXg_JOVYE6_Qtrittei0",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 10,
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "apple",
+      "query": "애플 아이폰 17 자급제",
+      "required": [
+        "Apple",
+        "아이폰 17"
+      ],
+      "productId": 9024167492,
+      "productName": "Apple 아이폰 17 자급제",
+      "productPrice": 1251300,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9024167492&itemId=26462329860&vendorItemId=93437609240&traceid=V0-153-96f1bb4c89dba906&requestid=20260817202358462008166886&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/deUQOLqY-LbSON_BdX_V9iExopuNdeMk6SEyVq2EDDN-3wU0dBP-uwXAsjD0Qih60mbm5LzqVJ5p6oiOrrSG5PjeNd0ytJ3QAAv3XJbS60wVaq5jPnKzyFn67CzXpQKauw6sXuyCPkYZBUkN8Rmn05OidkWTrjWkJ0bHR4MPq9f2ocCejV9gL-O0hxGxa1El5tMWnyUW-m58SveMowxolo4iCydBJoFAa7ieQ5wpsRPYGzMlfzr2dwygQkoETidlBf4V4yeneYZnJfAdAV9nBXb5OBxfO2sqkaDmkZw-w5df8OM=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 11,
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "apple",
+      "query": "애플 아이폰 17 프로 자급제",
+      "required": [
+        "Apple",
+        "17 Pro"
+      ],
+      "productId": 9024167576,
+      "productName": "Apple 아이폰 17 Pro 자급제",
+      "productPrice": 1736300,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9024167576&itemId=26462330287&vendorItemId=93437609640&traceid=V0-153-81d4af092486a31f&requestid=20260817202358781099323766&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/Y85J34ndpgbkkhHMY5EQWrEpvOEL05m2UhX_9O-MSTiEaLtYVQNKQxY4VhUR8tQUtgjWjxJm6pCyXLW6XrtwVfSWM3o3MhVYFhyTzhi4PJ7bCxjeskYSkS0TyeSmW4YX6_owFRfBxfnEcFM_skZePSEJ4RR7okO9p_pCjWDGENrQPN-B9QHra9I-AEjaGUDFU1xoCn-2iZkXt8FIZYvBdEC4QgksqS1IS3-ior4fsK2DVuBAS2A0Qt5jeTHJLYgQDDY79LH8C9Yubex33_njX_Tcjf5HFYYQRdhqfMgKJv3hYaw=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 12,
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "apple",
+      "query": "애플 아이폰 17 프로 맥스 자급제",
+      "required": [
+        "Apple",
+        "17 Pro Max"
+      ],
+      "productId": 9024167604,
+      "productName": "Apple 아이폰 17 Pro Max 자급제",
+      "productPrice": 3190000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9024167604&itemId=26462330401&vendorItemId=93437609851&traceid=V0-153-e96b31a39c3d7ad0&requestid=20260817202359145323551016&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/Jq8SibPtabsHqz0MJk6hConYL0jckAAAC02FlSydIfCGNaKCUcHW67idwQruuuKTfWJQs-f_Q3aRKElV9BnHACj_ed1yUghvvv_MJzSK3-4G1OKXMdZL3bGOLCo1XXGRQM0vMyYv-L0Hvz9bgdW8K9foTO1-XjuPZ-eVZ2l9HxPwsAaiGQC4RPFcDbTHPW_0GYVIBVL85ExdsIFeVAEkRnvPkN1K1F6NkTfLN_5ALQy--B6EB6YupD3gPB9fEUY58Ej9xPNqaQxl0-m2iBvANH16aqbaGd3x8rvE8n_Ej96gZXmA",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 13,
+      "category": "digital-pc",
+      "type": "laptop",
+      "profile": "lg",
+      "query": "LG 그램 2026 노트북",
+      "required": [
+        "LG",
+        "그램"
+      ],
+      "productId": 9334050312,
+      "productName": "LG전자 2026 LG그램북 인텔 14세대 메테오 레이크 Ultra5 가성비 사무용 업무용 인강용 노트북, 15UD50U, WIN11 Pro, 8GB, 2TB, 타이탄 블랙",
+      "productPrice": 1399000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9334050312&itemId=27676617095&vendorItemId=94638693418&traceid=V0-153-f140e8047f9149de&clickBeacon=27f225f0-9a2e-11f1-bff1-2ae31ef6675b%7E3&requestid=20260817202405400282028812&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/Zon8vtzh2hgBPWzzZsjbz1yhp4sehn7IlX-zzb-bCxjObtJkKHhVn5Lh_yJZRoa5quX5Vx25K7N8SEbWF2LgQEV9eQlzBxCHy2XodgiWS6CQp4yxcbvXzf66AhxTgs18cuzo8sT-gfyBxVOEZKsegqr21yEAM15Le_tmDQoDxY8-K9ToQlf56ZW5R9r4kw_XpumC5sSY1x0ZJKmlr9zaLQa2oAE5dMe4za64pIxul9kZH38fGjM7EiATu-4FtjCkEmpL5GCtzODH6YKudP_vlbD2LHgzAaJSZdNg2v9jiTwq2LwkMQOnCNA=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 14,
+      "category": "digital-pc",
+      "type": "laptop",
+      "profile": "lg",
+      "query": "LG 그램 프로 16 2026",
+      "required": [
+        "LG",
+        "그램 프로",
+        "16"
+      ],
+      "productId": 9447581024,
+      "productName": "LG전자 2026 그램 프로 AI 16 코어Ultra5",
+      "productPrice": 1840000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9447581024&itemId=27647305841&vendorItemId=94609829786&traceid=V0-153-a40a22c176a9eb2c&requestid=20260817202405841000540688&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/zfu18JgtDzXR1bdJzVIb76o4c7L4Dhp-ItQ3IE_vedy6-1n0ig2yg-9bhfM4zmRLkXzYwBHeTa2hFNz6AjcsjFSsGARXTEF2J634mD-6lqXQYaj-Mk1XiM9ahTW22FemIuAKlfOMB9Kw8a-a6XAw659Fz6d0kgDstx_DKfeLek4H4LTiIcS-xM8gc23MMMOlgOlJOZV9Cpwl9_MmI5vfMnYzpkVnqZZ5MYLuvbjxuq-Az-VHPHHLT6YY1F4UKhElQAgoO6HVmujxd9X5iHRdjluo3hhk5DLMGujXgo0pxYkTHLmY",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 15,
+      "category": "digital-pc",
+      "type": "display",
+      "profile": "lg",
+      "query": "LG 울트라기어 OLED 32GS95UE",
+      "required": [
+        "LG",
+        "32GS95UE"
+      ],
+      "productId": 9332610530,
+      "productName": "LG 32GS95UE 32인치 울트라기어 OLED 게이밍 모니터 UHD 240Hz 0.03ms 디스플레이HDR 트루 블랙 400 AMD 프리싱크 프리미엄 프로 NVIDIA G-",
+      "productPrice": 1982300,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9332610530&itemId=27671350765&vendorItemId=95624350600&traceid=V0-153-585b09eb0dec8969&requestid=20260817202406297158299888&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/cMIcuLfJX9z-NwgtcGkpz7NTfk6EnRiCqjeLIRde1mmjo_9WKggs85ECOawE0Wx5JWqfKFpGVxfW_H1L0K2D8xnnCWjoVF19iwL-b5dAvBY7lVJ7OkvJOFWSZjoqxnxYmfpOsl3zIsG6PF0DGK5FKbQgDAXr6yMM1OZ0XNzaMZTe8u6TUCZkrGxkLkkpsZaFBJ7WZK7kHsWo1A1HCpRbqIuZ_rHZ7iGZJlul6DimyNCz3P-eRucM8wFHnVLhhU5doArJzCbUIMJoh6lZhtqB1nmjNP37EIpcNvnjBjEMZSXO_j1SkTBf64PNOYuKS_96eGg9JJJZ",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 16,
+      "category": "digital-pc",
+      "type": "display",
+      "profile": "lg",
+      "query": "LG 울트라기어 OLED 45GX950A",
+      "required": [
+        "LG",
+        "45GX950A"
+      ],
+      "productId": 8935737065,
+      "productName": "LG OLED 45GX950A-B 165HzWFHD 330Hz0.03msDCI-P3 2.1DisplayPort 2.1(DP 2.1)10W x2 게이밍 모니터",
+      "productPrice": 2538400,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8935737065&itemId=26125406963&vendorItemId=94553438348&traceid=V0-153-d4ee7bc26941c929&requestid=20260817202406658311848367&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/nF2WH34aakeaO4panHG6tDKxq244j6mi67v15tv4AUFLA_banVFcjkAFzIgjIhhlOVhTdNJBdPAM903eEtR1dmdga-KmR7DeLvole5j0iIi-u6ENlPhecMHydgrXM5FWjYsq0-GddYXzUP0jfzWc-mNlisCg2WpaaaRG2Nweu6zNUgg8NkGkZHJKid5Fp3IbdVKGKA51GsFYCvQdMMtHEVk4K_Aud-3i9YIioj70O3t-HBA3bGjoqd3zj5cwKzlzVB-V3Y8M9Rfb-4mZr3xQfMgrZsn3sIRmNhxwyLmAu-6X-CjcMKgGe1-OAyj904FryyxUDw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 17,
+      "category": "digital-pc",
+      "type": "display",
+      "profile": "lg",
+      "query": "LG 스마트모니터 MyView",
+      "required": [
+        "LG",
+        "MyView"
+      ],
+      "productId": 8413307341,
+      "productName": "LG전자 WQHD MyView 스마트 모니터 방문설치",
+      "productPrice": 812360,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8413307341&itemId=24327646144&vendorItemId=92845814378&traceid=V0-153-a453c47916b6cfa2&requestid=20260817202406974323553165&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/E-LwyGWIkA9wTk8NE1TkcNNcTrizcjc0DbEUC-MvYVua9bJr9Yul6u1FLfWxCSO5AzTUicw3ykoR1RPOsJtusVqSIL2Y9BTc_eNRqEWhjXbR4Vsbc7eFxg594TvU2IhrqkjTCX-YrP2mlkewqsIK9gxP-lFKezGCAuPmWokJwAU48ljUUc-RjwRD-i2r9UQUlJ5wtaFtB3njmkR2xdrDN5lv5TGx_vpgolwD3MdbDee00P8-edgKivPIbddgu9MwP78zx0AtjbvhGM-H0xQ3gvOV_4SPpRFOc1nISxyieGMGE3_iCXlFhHPiXPg15kYG65Lc4qg=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 18,
+      "category": "digital-pc",
+      "type": "projector",
+      "profile": "lg",
+      "query": "LG 시네빔 큐브",
+      "required": [
+        "LG",
+        "시네빔"
+      ],
+      "productId": 9357893347,
+      "productName": "LG전자 시네빔 큐브 4K UHD 빔프로젝터 방문설치",
+      "productPrice": 1200000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9357893347&itemId=27764200188&vendorItemId=95920987500&traceid=V0-153-2611e9690973fadb&requestid=20260817202407376099326179&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/6WExo410R1oMQj286QZ3Q2CPkJ1Upt_aqeZawWGrdouh5ElBViPcVqvWwp6_kegCuEsxhdmmqOu4kTYXcowv_i9hLTbQ-BoAahw5iGZXzo8sNuUIIa-9SUi34G3kkYPFcG2lmWc8a1WT6jmBSryXJYF20fQXoFgiG7Mxh6ah4pO2PrCAhLEjm81roonrdWT8SXR8smIzOktHQvG6vejoM6O1fGZceqY2jOkbdCJt42uNQATd9rSTxT303UcXDLxY9hIq-JL0GQPXeoNkiGLIg2xcvnI3DYEbNn5egLgI8dDiRs5f-sh7uNqklOHnoN-AOaZF4qI=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 19,
+      "category": "digital-pc",
+      "type": "display",
+      "profile": "samsung",
+      "query": "삼성 스마트 모니터 M9",
+      "required": [
+        "삼성",
+        "M9"
+      ],
+      "productId": 8869156815,
+      "productName": "삼성전자 스마트모니터 OLED M9 LS32FM900 80cm(32인치) UHD 4K 165Hz",
+      "productPrice": 1807550,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8869156815&itemId=25872439294&vendorItemId=95683010903&traceid=V0-153-afa9cb8e2cd1f579&requestid=20260817202407767165222043&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/jMJN8b8wpZB09GLMjLGno9McCYyKP4TXvrpkLDmicwZeUqycf22zMaRSTnkHTvwMGtXXzP64komIqvOdAQW4vcuF1oHXcS7yompRUkBHA3-mB8TvzxWpEaVC6AwiJE1uKpzd-22YQS2KtpjGHtOO7C04PKEqTGqOFfxiKyj2GkLFz6U4YMt5RNYT-G0633emZNa0KPEcUYOzMjV0dBzjR8U8maK_ZRY2L-dar7Ry1c-uxmN9yutVptL--e9Qygml2Y-4-D3I_2-Paaip4Ry98joF3B8wtnkOb4osIS6idvPLP7PmSg3o5zedlCzqdQ0W__LvMg==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 20,
+      "category": "digital-pc",
+      "type": "display",
+      "profile": "samsung",
+      "query": "삼성 오디세이 OLED G8",
+      "required": [
+        "삼성",
+        "오디세이",
+        "G8"
+      ],
+      "productId": 8826388871,
+      "productName": "(삼성전자) 오디세이 OLED  모니터 G8 LS27FG810",
+      "productPrice": 1300000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8826388871&itemId=25720539426&vendorItemId=93005104172&traceid=V0-153-7e78b72f72d763ba&requestid=20260817202408157165222102&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/yzUt3aHBHk44wlFpy_UchFC08S4zITc65gHGe5WSazEt-CazD8nAiI0uKTQX6x8TJY89kHAczllFGVYUfGn1mob1lF4kgo7MJmqo9HmE1y-WXvO_m4Lhb1TxCn6kH04XvUIlYSnE1NDWkH8VFky_XVkSlagYLxHBci4D7tZb43pA_TQbHRWqiybSmrFDwEhFYDVo7L3rPTUdNKQZ1xygF9rq3U8Za-jN8dghuFdOA5U50VKd_08EmM0hk-8eGVZUaNffJU_x2p72ZyDfrgvFusD7c4cq1zBNTMGgRqd6svcEwttNndpy0nkszyJPAH5n4HGnWDQ=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 21,
+      "category": "digital-pc",
+      "type": "display",
+      "profile": "samsung",
+      "query": "삼성 오디세이 G7",
+      "required": [
+        "삼성",
+        "오디세이",
+        "G7"
+      ],
+      "productId": 9058075075,
+      "productName": "삼성전자 삼성전자 오디세이 G7 G75F LS40FG750",
+      "productPrice": 1189000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9058075075&itemId=26591495640&vendorItemId=93803609643&traceid=V0-153-c85edae6c77124ef&requestid=20260817202408503158290526&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/D90BPEZVjUVKOy3BDy9p9NNFz4Llo5wmxW69kQ_e5tDSBswrxoP10IYfT4XmFoc6lcC8dCFZTg6MYMZUkhB5KFLkSOTOtkI6e3dXWdV3o_JpX6ntj2w929BxaJeGo3v6shIcNxxgfBP6ugy9oqOD8vj1WU77cHKdbuC6pLXUQOzgFvgj44PV8DO3c5j4Ng2LjnS6bY5WuEdP0hKRkk2nzG9L_vq9EdB2tgEYOUzFoIVxh_bixrMv0O58k9AqGM9d_jou-_o4s8mBQ59zUaRDlBd7biQ3lQYtYsR8g-dOWI_Gzn3b2SehS-I1jA-SB3u_WBIP2NQ=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 22,
+      "category": "digital-pc",
+      "type": "display",
+      "profile": "samsung",
+      "query": "삼성 뷰피니티 S9",
+      "required": [
+        "삼성",
+        "S9"
+      ],
+      "productId": 8274871386,
+      "productName": "삼성 뷰피니티 S9 LS27C900PAKFKR S27C900 IPS 5K모니터 맥모니터 썬더볼트",
+      "productPrice": 1499000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8274871386&itemId=23851653699&vendorItemId=88420258680&traceid=V0-153-4d15d87082a7a255&requestid=20260817202408814323553693&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/j8uZymdBKLcaxNrDjyYn2CXWtqBJs_bq4tgDaHwg033zfkdQlbHJJytGt-97pz0uSg31RHmzSek8IPUmu8RzVMTJ4aRAgYzss_6S6TThF_58sg6BsjQNtLK1WF_oVoYbfoX9yYPeeur9FUus0Nr-TFqC-_HJfKMraazwqFCBKPZvj1Q22BhUG61Y2Az2Xl_bDTDvzlNnotL2NW4hYqkxxabayvFtPhqWLBtiMVI_YE0RICyYDqKFHGKQPcKfjAnI_goZzJv7KjDXaSHBU3S0VfQeIrARtk6areVNEVlYTbDCayuwGP3ZYbfY592oCL5-E2EuMQ==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 23,
+      "category": "digital-pc",
+      "type": "storage",
+      "profile": "samsung",
+      "query": "삼성 포터블 SSD T9",
+      "required": [
+        "삼성",
+        "T9"
+      ],
+      "productId": 8501988779,
+      "productName": "삼성전자 포터블 외장 SSD T9",
+      "productPrice": 1670000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8501988779&itemId=24611972820&vendorItemId=93942751926&traceid=V0-153-2a7b363e2801fea7&requestid=20260817202409210165222460&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/MCLrmqf86HIBDW2ZMOjqSZb9ph-QB4OFC-4OYDDcQMZFvWCx0Ch1ae_UXcn_PoLdg-jbF-J2GcQKaF8_Ic84a8A4cSKVq9fCr2-Bc7P4EAFVW3SQ1B8l99gPimnXduVksUrnyBLNMJPyZdizxUKIveo6WfJ8NtlkSLKKPFiWO1lpvqftrkL3CoDRfWIeCTR80XwqFsOGK9tEns0qUJ8SUZWpR_RW8BQuBqlSp3VxpKpTeZ02PgwyPasheSmswgubvLMV_AWEqfobFm-J8PH0xONHRgINuOYnCHoNcFohW9r9nkaB1yJ-dnwC9-iDPeFqT8dSkQ==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 24,
+      "category": "digital-pc",
+      "type": "storage",
+      "profile": "samsung",
+      "query": "삼성 SSD 990 PRO",
+      "required": [
+        "삼성",
+        "990 PRO"
+      ],
+      "productId": 7325472822,
+      "productName": "삼성전자 990 PRO PCie 4.0 M.2 NVME SSD",
+      "productPrice": 1739000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7325472822&itemId=24252025496&vendorItemId=88036639816&traceid=V0-153-c66df0eecdc68ecd&requestid=20260817202409676114711884&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/nMJ-M_Gd1LvtwZpBnFBntmhqMd21mqcy5qF0UqAdb-peMy8XgDImFpbJYIWrK0_oP1YY8dh1Vh64oKSOW59kdWRzxy6GJIXL3n6J6S32vAaphQOzTqLamq2hoP2erhnAwsRkVklFlo6expj2zM__Bk1XR_Onnu9lLkleZgENmJcXkIsHpwYU2rF_k2jirX9FIPP3ffTlcPmGoh0z72wKERmU_Mkf9PereJ1gKLDeYuSpUsLvY_xm7-Kl-vc3PLDodG_r59TaXtUzPZ4r4-KkVhVfYpx2z1CMf7LnHNTUWrwo07XcwrStgg9BkljDQaVjJOT_XA==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 25,
+      "category": "digital-pc",
+      "type": "storage",
+      "profile": "samsung",
+      "query": "삼성 SSD 9100 PRO",
+      "required": [
+        "삼성",
+        "9100 PRO"
+      ],
+      "productId": 8673237499,
+      "productName": "삼성전자 SSD 9100 PRO PCIe 5.0 Gen5 NVMe M.2",
+      "productPrice": 2181000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8673237499&itemId=25177886574&vendorItemId=92165976810&traceid=V0-153-aac819756a738a04&requestid=20260817202410265118283417&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/zgQ_gc5j3ttVw97UzipVo9fcNtr53FzIeSHvLYXYdsy7seO-TiGh2p4lpE0BDDhVpPytDIyY3D9Tzr_W3yECCIP9SLr8Qw8qiH4fgqBKmCJWpCq2ulCup1XimMq_MTBWd21l4fP-5b1ZB_h7L00N62yo7MOzl-Pfvl4ZxjZl-obhkZrm7xZep_d1eAs4QzfBtE_WFQEEOggqGMo-341X3wIPSHD-JhZNkzmfuHLL-1_n25UUiRCepiaK0_KoxPYdXQv3q5mfRK9iJq0CAPENc3leQr1Kf1D-PdGuUGn6hpglB4GBa1bCOFtfpw6ZnDwlymg=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 26,
+      "category": "digital-pc",
+      "type": "storage",
+      "profile": "sandisk",
+      "query": "샌디스크 익스트림 프로 포터블 SSD",
+      "required": [
+        "샌디스크",
+        "익스트림 프로"
+      ],
+      "productId": 5125756453,
+      "productName": "샌디스크 익스트림 프로 포터블 SSD SDSSDE81",
+      "productPrice": 388500,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=5125756453&itemId=24001821718&vendorItemId=86713534600&traceid=V0-153-e0b6df66977a0082&requestid=20260817202410602326627472&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/XYxiRPRBCKWuRYT2XZr8r5L3pFfSMMHCuYnVobxioWAUKYG13WhhiY6izSpVOSGcJ3VY_KY8ilNCpMpRoZltInusbTr77TFZyDxLHn7u_XcK_GejK3_O_6fBoCi8124erNDQkYDmM9Kq7SdPphzEIED-SbgkYNdOypDB_Yx3K9EDSMXehb_NbVm7BQhROXVbGFPWF-LlOWh-ohzzOFJjBD-DoMbZSipC_rmy0nDLiMjSNji8dVnwR9fDOYVZvXClDAMiBYAEKhMTvWjvUrSJoeLTJnPv1bs2OqB2vO0b8qKIpHXW8oWKKdExc5YS4Vd0UxNUX8o=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 27,
+      "category": "digital-pc",
+      "type": "storage",
+      "profile": "sandisk",
+      "query": "샌디스크 크리에이터 폰 SSD",
+      "required": [
+        "샌디스크",
+        "크리에이터"
+      ],
+      "productId": 9005862833,
+      "productName": "샌디스크 외장SSD 크리에이터 맥세이프 SSDE62 대용량 고성능",
+      "productPrice": 380000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9005862833&itemId=26394288777&vendorItemId=93428425009&traceid=V0-153-35b8f3222fea07f4&requestid=20260817202410988290092096&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/E_zcPNvDCkfLftnFE5c0mDPruL7rsXcsqLw53oV6r7inNhWGNEe8Jb0SOlHm2LIyAnojXbxRtb6iwgdKmCVXAbaDtcJjZXr2djLdceXLAsRTzAgwy6oQF1UIGE1GNjThdJ-88k-1vrmnnUXCFqbUqOy1KXZfczSlf2pP_JO2CsPS9FqlLaaJV69-igw3IrcfCMcZmLbVmEdAUA2cqAX9C_vkGQ3VWbkuqVJFe4r0WNxa8J7WdgnXeKwLt2QJKkJT5TL63zbi1KixZyqQG9KMhalwaZ2vPTEWrB9PSjZ5_6lz27SITtLRVd0EsKntTJGySP01bKI=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 28,
+      "category": "digital-pc",
+      "type": "storage",
+      "profile": "western-digital",
+      "query": "WD 마이 패스포트 외장하드 5TB",
+      "required": [
+        "WD",
+        "My Passport"
+      ],
+      "productId": 7553606294,
+      "productName": "WD My Passport Ultra Gen4 외장하드 5TB",
+      "productPrice": 339000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7553606294&itemId=19884610805&vendorItemId=78393024676&traceid=V0-153-03ab3e253f5fced9&requestid=20260817202411323290092192&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/9yXhyTJA00byp7Hw9_Rt_oDJsahvo2sF-HtufikP32ju6grL1Gby5lu4GEZt8CT91VZFWYPG5EVqUQlHAUI-EpoAsyWoQKnUi2ccNxBqesU7tLWSyLPLPze7ROSUmx9Q-YU2bGAi0C1WWW0mGfRR1-suyrpoGXUsYSCmGSBiExKIDALrhdPUASdosDI1jEWFnS1elZDTIR8XfPqfEM7WwWw8k2FXbNbwRzAEXnLX5mVynxUbwo_SIVReeThLmAkJobJXWFjzClwfpVZzQ9rOkEHN-V81hHSSElY3gyBDrvj9q7fnThzp6FJ5agVxRtKw6LZ3NA==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 29,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 MX Master 4",
+      "required": [
+        "로지텍",
+        "MX Master 4"
+      ],
+      "productId": 9101803314,
+      "productName": "로지텍 MX MASTER 4 무선 마우스",
+      "productPrice": 170050,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9101803314&itemId=26756813984&vendorItemId=93727761192&traceid=V0-153-7679ef5efcbcbd97&requestid=20260817202412221000542518&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/_ttWz26eTAL0Dx0g_s-LYfmAGABWGNJjiaTJynQk9Yq02Q-frsLqiKBEPyPqWNrpDBnGhxuWQIYitdavQBCfKYZPc7OjPYpwy0aFsN9HLTJyt4AuvFKmkXIvetU6MwGRbM6R4j4X2Jyks8so76UDgz06htkanLEZitIRUh6sdt9qTtAa30-BAktFhzQ6_39LO-VGG6kzwUkaXtxqgBjslqD3CmN07FQ8jRBp7IFo-OroM_V3g5e1uBftrGo8s_HdqK_8vlXCxh6_otZkLTnKOHkIys3NnY5hty9Fy6ntx2Vf7pVZ",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 30,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 Lift 버티컬 마우스",
+      "required": [
+        "로지텍",
+        "Lift"
+      ],
+      "productId": 9693928776,
+      "productName": "로지텍코리아 정품 LIFT 리프트 버티컬 인체공학 아시안핏 작은손 멀티페어링 무소음 무선 블루투스 마우스",
+      "productPrice": 89900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9693928776&itemId=28994214428&vendorItemId=95670929033&traceid=V0-153-469ac6eb8ba65e2f&requestid=20260817202412558037035591&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/941VCEajTRNE-hN89w1ZaMuxsa6x-TXVxmFEJDOw1t7_uns-nSiYgwnIwBkuMgH566y4LDwXa7K8VdE-B4wJkmnlJ2wREuofI3iE4VA-HUlX4XrQfT4y02h3BerWr4nU3Qh4rkKNYkhLv8HyJLRc7oWORIGv8aXQUZnETLbYv4M0yQd7Jf8MyRGtr8ErKf0S73u-Ni_TugN0KeXcmac2gdOoGDOZ9yNIpnWVYz_AVN6fa71vf9F_v7XykdmILK_xpLWKhPPAFA7B4V-CehRdEsIeM3YFFHXXo6gXIQihXI9aAjgn8j_ZjN5rgr18JM9szUcKPg==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 31,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 G502 X PLUS",
+      "required": [
+        "로지텍",
+        "G502 X"
+      ],
+      "productId": 7692093578,
+      "productName": "로지텍 G502 X PLUS 무선 게이밍 마우스",
+      "productPrice": 154900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7692093578&itemId=19952540283&vendorItemId=86829731540&traceid=V0-153-5772016544fea9a7&requestid=20260817202413254323348564&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/3QPbd4fvlAI3vGMK3aTo6xhrfhO2YeXj3hkomiVVSaVPFTo-GvoIjM-kJqulO9-Wua3FWJOkky7FiY59bmHqKI2dsDkli9XKWdUoVvJYur6FGpCsDTbQ4B_D_RUJHPMJkSzeuP_j6cyi43xqyOgrL7Idw8r01z8k5FSlcMpiU6w_u_DNXBG1MfwfvBF9kw11br6S1BgiytXzvjA-oI5TdvrNIOylpnVupUIPezpc5Nkofvb0Q7Vmi3A4T7v4IBZel9OdhQZVJWtWNc8mKE3n1-_UhlOpVyFBSdEWEJnx7zs3LjH_5zI=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 32,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 G515 TKL",
+      "required": [
+        "로지텍",
+        "G515"
+      ],
+      "productId": 8234105719,
+      "productName": "로지텍 G515 LIGHTSPEED TKL 무선 게이밍 키보드",
+      "productPrice": 199000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8234105719&itemId=23701717074&vendorItemId=91031552763&traceid=V0-153-70114d0e21a11248&requestid=20260817202413552275953325&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/v-HMFSJmMBWXX08Rv9453ti8nO0zyBmFd6sV8GqKjBG83X3HhIY1ikJGwdWhVv4hXh5v6oVFhhtAKOvsc8cNh2S36M_P0ecYz7nwo7UJ9q3RvNr1iGpYAOn58XrkHxXuNfAJcgCu4iYhwU1jnewCM_vVFjIcfSXyUfST8YqcAEcdgB6PHu1TgKrYHQnF1cY8bNU9BxIrNRHpvXK6lYSF0G0By7MEoml0n_GgJZlkRfVRYlRocAc76clTbbCJ5n0LUzn7udrjTmNbvYMTbxCMnI_S1iKmI67ZMGEjq5wMxqywHwGehHdWgveWDMI-9IR8tI7kVfk=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 33,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 G915 X LIGHTSPEED",
+      "required": [
+        "로지텍",
+        "G915 X"
+      ],
+      "productId": 8428274604,
+      "productName": "로지텍 G915 X LIGHTSPEED 키보드",
+      "productPrice": 273000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8428274604&itemId=24381407741&vendorItemId=91396496016&traceid=V0-153-eed21310f9deb3b8&requestid=20260817202413907114713174&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/DgVBmCVPk0RqaFNWDlT2xkQpixSvfq-MdDMbgMD5i80pi2P-59tqYaJ8zkUf60xXN5buh6l3OKJo238XpgDzkCCbEzxLlP51YvvrAeLSQ5u_hISx_N3keHscUVbvE4067hG6hS2aR16CQGzK7RSXKyM-lOgDirZdiDVKEcT70dLZnoeBtZPr16Y28nWzdafxnAQWhvkUfyhvwnkGWQYUxJJuKzlkH8iS1So0QQTDGvlad-HmPk_YSQCudmFNSUzwXNRbh9qDH6LoMWm2s4XUQkhJT9nupdstBmwaevbqHhsBNQQLLmU=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 34,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 MX Mechanical Mini",
+      "required": [
+        "로지텍",
+        "MX Mechanical"
+      ],
+      "productId": 7297881242,
+      "productName": "로지텍 MX MECHANICAL MINI FOR MAC 무선 기계식 텐키리스 키보드",
+      "productPrice": 148080,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7297881242&itemId=18667700665&vendorItemId=85802130630&traceid=V0-153-e14236151303af55&requestid=20260817202414295099327985&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/KQj1wH1fs2edC5ePKXipsqiLBQ9jQr9tmZNVdUt1krSk8vcGPxFZZ9MtdmZlY2mSr2Yi8LPkcUlVF1khbtIUjHAwc4FMSMZDxUYm1hCWK5h1oyljJxEy3cJ4yWXBnHBtM7mi4J_zvdmeUHC3bnXDC3iPfLOXEp1gTdEFl3CA8-N9qFsIcu4tgQci0EclxjYXDkYXOB0uImRr35ZwU-94bHF67a2KdCxmwSIeSzsHoPlo2a50nD2MCKGl-qdS6Kc-ChE1ixGUawBdxcYgZCk4NgMgG0M1pCzqc9y8ZvoIgI5svvv-gA==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 35,
+      "category": "digital-pc",
+      "type": "webcam",
+      "profile": "logitech",
+      "query": "로지텍 MX Brio 4K 웹캠",
+      "required": [
+        "로지텍",
+        "Brio"
+      ],
+      "productId": 9023719946,
+      "productName": "로지텍코리아 BRIO 4K Ultra HD 화상회의 웹캠/30FPS 4K/프라이버시 셔터/USB-C타입",
+      "productPrice": 329000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9023719946&itemId=26460350645&vendorItemId=93435665786&traceid=V0-153-19a44d854edcf5d0&requestid=20260817202414638121695952&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/zdMntdG133SPcvjYzbBNwOFOWMJ1t8VNci9vBh01NaJWEchNFZ8nwZwPP5sq-2rksdRLfsi6jsQBAn4Ch6yiRYADghKR3KUddT7MdFyPQItQ1Dwzr8m6FYS-Mscc4KsRRf3Bc5djoanEOB39Zi92c2EqpLkt1OgqKsc9li7N38NptVLy54JPHXvwUFf6flSQtgTkA6LtlNcc7XcgvFgxag15kW2KpHvGk54i7hN8mOtGdE9YQA3Xh7q5KmWUAuxYzbqTkULzHhZEieNMjoNmR-DiRyEDqlfqJ_-v3579-CzgwNrt2AyNxi6vBwlowl94JTY=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 36,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "logitech",
+      "query": "로지텍 Zone Wireless 2",
+      "required": [
+        "로지텍",
+        "Zone Wireless 2"
+      ],
+      "productId": 8049324763,
+      "productName": "로지텍 헤드폰 ZONE WIRELESS 2 블랙 Teams Version",
+      "productPrice": 403110,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8049324763&itemId=22568709184&vendorItemId=89610573100&traceid=V0-153-af9b6ca5c80ba09e&requestid=20260817202414973300052500&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/IbQpmJLzCI-GGBtpIZXCVJS6PWGlM3QQJb5dwJTolb984thTAISIKOHmw2UnmYlCQMihBomOPupe6S7YGe3NViAzN_7S_R0A6dLPBCpg40G_2705BhLaN6MzgVQd-5kThYAcaGgEChrIINAZeiEfIF27dIkwPqHNx27vWrZPuynWZiUjmJ7UtxGmYsTO31cKD-k7vzmq_X_JDz_djPTJ2F5g53h09vSeEm4FCZ5-ZD7DLMC33DF-HLLoo5BZlCPbx8lt1aun7grlJbFtn17bNQ_ohqDVgGcd2muozwZtMcE_6-ps0bhwO8P9fOBPSpub75JNkw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": false
+    },
+    {
+      "order": 37,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 Pebble 2 Combo",
+      "required": [
+        "로지텍",
+        "Pebble 2"
+      ],
+      "productId": 7703777476,
+      "productName": "로지텍 PEBBLE 2 COMBO 키보드 마우스 세트",
+      "productPrice": 54170,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7703777476&itemId=20632955753&vendorItemId=87867785672&traceid=V0-153-966a3b3bcdd02b6f&requestid=20260817202415332173859706&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/2UKPVIMbbSf26ADI2QS6pJID2W8ACdMulndjnaDYEFkIt7FfOQkgsz9NZMUCJfsnITd3LHWJthW9qqYEY5JVmj1ZriZ-bzDEPNOcRuIRvKrN7yAO5cWZ9CHTagsob1_BR6hYFg8jvc0ilkxQ_wEy9n-ZwzVppQM6eSTmjkkzYmkmGXrJn4GoNpbRAvH2vwp9fgaUWa8UzeLxmamvp9yFYTj4kS-7i1N4aoPmVlpNWRqdn8ARqIH0m27NTFyA99GcutE79t1BIYD1Dk2pYXfH0Htcu7iCKVepXYPSRfy7FNP9y_q6GaiN8BwlD8uwyxq7QnSeIA==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 38,
+      "category": "digital-pc",
+      "type": "charger",
+      "profile": "anker",
+      "query": "앤커 프라임 27650mAh 보조배터리",
+      "required": [
+        "Anker",
+        "Prime",
+        "27650"
+      ],
+      "productId": 8351903779,
+      "productName": "Anker Prime 27650mAh 보조베터리(250W) 3포트 보조베터리 스마트 앱 제",
+      "productPrice": 320860,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8351903779&itemId=24129691610&vendorItemId=91786582937&traceid=V0-153-35cc5846e345ae3a&requestid=20260817202416364221798411&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/VFEwtvg99QDjNTDNVP_ipmuab7iQAwhHigk_Gm7bdRra73jBofX6VrCn-m-aU_r-0kElT7CraZVhTIwkzjwZHFU5W7gwCDDlLTbmLAmUbCsj9F0-pYIpZxtdahSQHZz5hMGgOhZZ3DYuk5m1G_C1TRP_liNPlaT3h2DQocJqA420zPr9T8VoaUZJ_XevwZwd9v4ODzl6tlHbxMcG1eE_te0oLOCVt2ZzABusPi4IjGn81HxO_l4m1_nCICP4_sIDhEupaOCfs0hiKa8ulGIbhx6JQRzWw6bue23DtBxfU5dnyjmp0TwH2RGsOq9ibtmA_Cg-TtSU",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 39,
+      "category": "digital-pc",
+      "type": "console",
+      "profile": "nintendo",
+      "query": "닌텐도 스위치2",
+      "required": [
+        "닌텐도",
+        "스위치2"
+      ],
+      "productId": 8915336552,
+      "productName": "닌텐도 스위치2 본체 BEE-001",
+      "productPrice": 761750,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8915336552&itemId=25966035145&vendorItemId=92878395305&traceid=V0-153-2e512fccc1252bff&requestid=20260817202419116176422919&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/sUo2sHm6M8xeDsGVsTRmUOMSU53w9EDH00uozyshS6WJKotR6sszhIEbVNcx_bwHX-wFp3DDaTCpsIg6QrnzWi508clNxAq0CgngzwryS0q-Ri57WwV8IV6LeWjw3APtvllnU5STpa-CJci3lU47uuXaQGq4NvBVB8ay6vwdOBiB93lXISybBCEOEWY167ShipNZ_LDrWpz1NaNGJy2-OuxkBZWxpnkwvNNySSDPPxyBCXheRJABrw5rayGYmf5P-f4LC6Pj_2h54RWMxjSYd6YpUduLWjZPD5SCyRZEZa8ijGpEPw==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 40,
+      "category": "digital-pc",
+      "type": "console",
+      "profile": "nintendo",
+      "query": "닌텐도 스위치 OLED",
+      "required": [
+        "닌텐도",
+        "OLED"
+      ],
+      "productId": 6111001286,
+      "productName": "닌텐도 스위치 OLED",
+      "productPrice": 417700,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=6111001286&itemId=11517294974&vendorItemId=78624476476&traceid=V0-153-e3463a00ede89ff0&requestid=20260817202419388173851052&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/Rqiz1jqPvBC39DRFRnz7fV40Elom_S0wSV8XI5hRsgdmGl0x4ewKlmNvXfWywpKe7dOi6DrnA4Q5YPtSIuBC_8CVwJSglLHYia3t2hlCHW6RMrMNXLbQJ1vIYFHkjVsCkZrFK-yFzzopSfjYnUfkWksFU-DVeh2O8W3NHcdbJkxTol8fnYcjLDK0pg6DaIBo_BahG0fSsR9kz9bNedNMVzFcNdAhck07I157pmM6vfdpKCJ4ySH5fVd0qMYPlACtDOUMFaZwG1vjkUumPJCz5B_I3lOKn5IfPZxHQhCXz755_a0O",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 41,
+      "category": "digital-pc",
+      "type": "console",
+      "profile": "microsoft",
+      "query": "엑스박스 시리즈 X",
+      "required": [
+        "Xbox",
+        "Series X"
+      ],
+      "productId": 5659284003,
+      "productName": "마이크로소프트 Xbox Series X 1TB 스텐다드",
+      "productPrice": 1359000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=5659284003&itemId=24077770025&vendorItemId=91097404954&traceid=V0-153-8e6e5e9fcadbecc2&requestid=20260817202420011310292361&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/WjFEW3_W0OZuArwkWq2JSJMQg8VsPdtZY_mOoLzDe0HZLa3vzIX0m2aIYZZH5LvfRBks9ZkUylH_BzqCOExI2CI22-rU511hLwmi_Ch_MwH6_M_jiCxEdsCwJq_IRm3z0fbtbS6SJO9n3NRBDcKHGIx7F2N9-owVS2PHgYcrdRdiLzfd-qsfGDao1R6QvXKtfojgZ1NnLKZAcy-e_n9AkgaN7bEleTu5Pe6CHnra0iEq5ZjIenIdeb9ZOw8qnrOAhJsvnWJt002KNadgSmIsDs0Jp0M97Pt7HfQYHpxiVjGB0GT2TMdoknXNxgaTIBW4y3unG8Y=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 42,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "sony",
+      "query": "소니 WF-1000XM5",
+      "required": [
+        "소니",
+        "WF-1000XM5"
+      ],
+      "productId": 8051760807,
+      "productName": "소니 WF-1000XM5 듀얼 코어 노이즈 캔슬링 플래그십 리얼 무선 이어폰",
+      "productPrice": 225980,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8051760807&itemId=22584362430&vendorItemId=95458399285&traceid=V0-153-8425b17580496a9d&requestid=20260817202420535165225763&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/B8lOpwClwIReRbzaB3NPx6OKyuCV1o7L54qPALT2FZjBgKF7Tm5DWXEEj7ZAmQw7HRkjZjri0NoPgfx6Nk72--wk9YVoEFdnPFU-LUoRTXlmEfH-5mJ8PYCiHH-T0QCedcOLFMPnm_KdngUA5kD0TmCqhksQwe-C5HtXcM7l-U_G-XC0xasa3koojUyDJ5Jsdo8IW8IpZa4FM9y15f1iPYIcUVKBTEhmCiNHnVL0dGlWttM8aOAMvEmx-PM8YVZibBlnOEBR16WJnXsC2eDvNrijTGEtbH_uuxjIOFf4UkhcLn_DSHWr_HE0-Ri9EvLPtNebheo=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 43,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "sony",
+      "query": "소니 ULT WEAR",
+      "required": [
+        "소니",
+        "ULT WEAR"
+      ],
+      "productId": 8493526497,
+      "productName": "소니 ULT WEAR  노이즈캔슬링 블루투스 헤드셋",
+      "productPrice": 200050,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8493526497&itemId=22423796543&vendorItemId=89468520352&traceid=V0-153-af57e4ea12b0b2c0&requestid=20260817202420967118286449&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/GP31uc9SoqcZAPaLGPlUTCXpUSJRa1qFJT3Jd0MqDL5WooQKm1zmFCiHiELtXEu7mzL7QZkML7SXxGftrP3x7-A7sQ7N1yHB8F_7be4wOmucIxOSiVVZkLmMGwxFM5nTcnLZ4eoFdqZXG3fHSWKRpRlRZNqCx0SjAzD7eB-fRTYl8f7xhtUAoSqDCcpW-9L2Dilvqz4bRelKbRhF-0GoOY5p86pEV2aBoODg2fbUfbrCnpgpnVMIPAGXFdCuIaAXA9AemFpUeW0WTcosn9jxn_Eb9bitf5Os4Js6PZXV51QxE0Jg",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 44,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "sony",
+      "query": "소니 LinkBuds Fit",
+      "required": [
+        "소니",
+        "LinkBuds Fit"
+      ],
+      "productId": 8464979286,
+      "productName": "소니 LinkBuds Fit 링크버즈 핏 노이즈캔슬링 블루투스 이어폰, WF-LS910N, 바이올렛, 30시간, 방수가능",
+      "productPrice": 189000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8464979286&itemId=24491383524&vendorItemId=91504617761&traceid=V0-153-91b608035f064f98&requestid=20260817202421280311842438&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/gHY3vj-LnyW8Y73AgMr2tMgUH6vmHXQwh1wPIRHQclgxK-qXQ1Ym8CCbWMWwiHfhSBvb2ze3tb10fOP2w7u6z5FFQIKwat-lbsOmkq6yl7AV5JiQ9QgIbMqtpR4fSwb3hjsxgTS_JQISbJfLec5apZcJOl4rWMvj96LB4zrVY_iQ1HhqoI8wUEsZWhe4BDeH0GZWXGOrdqbqkciG82gCBlLnFKQ5OvwGxiouDdOnKIJETmB2ngHHeV4UznCOmLcaEfR21TggQ1sbHsCLQcBnCdilTSbBtovedNR2bY_C8e8kJEV4giw=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 45,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "bose",
+      "query": "보스 QC 울트라 이어버드 2세대",
+      "required": [
+        "BOSE",
+        "QC 울트라",
+        "이어버드"
+      ],
+      "productId": 8903883649,
+      "productName": "보스 QC 울트라 이어버드 2세대 데저트골드 BOSE QC ULTRA EARBUDS 2Gen DESERT GOLD",
+      "productPrice": 309000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8903883649&itemId=27744728248&vendorItemId=95091422207&traceid=V0-153-3f23f8a1dc89e10d&requestid=20260817202422022300054165&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/8kEPAOoZp8qZoNt08mtcl5iCb7CtW7_top0ucnyg33qLPxhJ9Cr0TFQ2ImWJoUDA3dA4-U9_mpCwlNeXjrRPU7dgje_umPf84LGwBYgv6T6BCZCQOqon2HOm5phrQJR70Hes5a_529HJHakeJYJK0pk8KYJ7QVmuacNHe31nAgAp_qWhiMV7pOGQltaMEnyylYpbrBxUndfhNaYz4Sxap_BeIpmMqIEHUUJchm-HlkdzpC7gzA-to7InbAIMho385KiVWXzx6gWfvRVF3cklJv3-iCvsqASv9JNzSyaciULz7g_gZIDVdvGP5cZkATBmEGI=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 46,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "bose",
+      "query": "보스 사운드링크 맥스",
+      "required": [
+        "BOSE",
+        "SoundLink Max"
+      ],
+      "productId": 8178606771,
+      "productName": "보스 사운드링크 맥스 포터블 스피커 Bose SoundLink Max",
+      "productPrice": 459000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8178606771&itemId=23377860741&vendorItemId=94697265437&traceid=V0-153-97ad2b3c5902f79a&requestid=20260817202422301290095419&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/uU455ODRogNtylEGuUbUVkR7GXAUF7vMLDH9_NCyuJHT8tfARJSM0p27bwXYCUA2aitelE1KynDoJPzqicZ11nSjiShUMWiZ6h8dGYYt7xbolpcqUBZ4iK8XkJJuH5ot7SwKJyT_8tEw7SxK248JcGgyPhN8RoG2zBgzPOZjimiKV0A8wnn2YrjaMOurOGc7x68zg9D_bHcQGzR-9HJhQ-U4c3dfxc5sxk3AzpWBqIJulRnqlUJ56LUrWWmFM2gDQQJB74gwEJbAFbAG0BwPKA_2qUT4NhJHkYZ0vVi0GSYrTUqfptAUqT3IUpY4T4vnC8RStQ==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 47,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "jbl",
+      "query": "JBL 플립 7",
+      "required": [
+        "JBL",
+        "FLIP 7"
+      ],
+      "productId": 8790132833,
+      "productName": "삼성공식파트너 JBL FLIP7 휴대용 캠핑 피크닉 무선 블루투스 스피커",
+      "productPrice": 139900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8790132833&itemId=25583561941&vendorItemId=92574467650&traceid=V0-153-81fdd28a657191fb&requestid=20260817202424005282024082&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/L5bVypFhlA339PtML52Es6D_c6dB36gB6Y8XfTJI-qHUbLSauCQ1O_t5I6-cScQyXzMp0wWcpE9SvgvWwCdFNj_YSBfrIUPdhuZdde2m9_qJRdOm4fmeFUnWBB4DVpm5kJBg-BVqwMdhW45ZErYnQh4A2th1cN2mRdxJze-MHlBmIKLfNQX02O6GveIEmpmOMF1t4vQMjcd6WS6jh_SRCu5-HKoVcYnCbkU2VKB635yb6RfZtuErdB9sTOjMFOLXk4oe5p08zqloHkE-WGyLzJVEBXtsldbeAizvl_zdm5Gojc2Aqz4ixvMp4cBwLIcUlxQ=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 48,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "marshall",
+      "query": "마샬 액톤3 블루투스 스피커",
+      "required": [
+        "마샬",
+        "액톤3"
+      ],
+      "productId": 9225565445,
+      "productName": "마샬 액톤3 스피커",
+      "productPrice": 331550,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9225565445&itemId=27736049765&vendorItemId=94697235859&traceid=V0-153-137d6acd0d35bf65&requestid=20260817202424346173852395&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/CTjYhaxxt9gBZLXGCfzh499GP7ElL1Nh2y0NKdWSPAHqdzBF5dhskT2l4-QtBSLElQ_gys8q_6yoxm9cIugEQhjMxCyJJNkQBRSuE5qizILYr2jdSbQmaL74BzkZSnHVgYhRfIq5a8dtDgegBcwnwmqEs9ATkI3EGMVncQKmtG2glWfZY3ukQKZmswj1t7-Iw2nGFsKRx6bhZThvy4f5v6_VliuDFDg6IKLq9uhYVGaOHS_nFZnfYKuj6IJQGosAIroOY83P_PXeV2QS18gkjmZWWDYAVvUgM250yR7O0s5GDpcuUw==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 49,
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "marshall",
+      "query": "마샬 엠버튼3 블루투스 스피커",
+      "required": [
+        "마샬",
+        "엠버튼3"
+      ],
+      "productId": 9225565449,
+      "productName": "마샬 엠버튼3 블루투스 스피커",
+      "productPrice": 265880,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9225565449&itemId=27752791663&vendorItemId=94713676855&traceid=V0-153-88f3440ef9f1cd40&requestid=20260817202424610125853439&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/Oi5jFhqPOEGNKG23OpkHFwDVjqWfLTtMzAoczKMwigxCMIvTgYE1Vdf5NNMf1YQLJlwKqW6V_lxOCwN2JRYAZ8MMBw150PDquVoKfv3Fs2kzW9Y4_bWImRiWdexXAuBLBO-B2o6gFbHljlvhSrU5rVB8WnQMQZuiUMdBFp_1bMf0v5LeZKzN9rDTPRJo5nckb5wXoGRtOGTnpvyQR-3xjpaSZFOBwrDCO_0Yi7SwO4ShByjfV6lRkFcLqEXzb_U5l8H6Hk8zk5pw-coEnLG4sHVzFh1Oh09KcjMJccRsRv0ZlCHotw==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 50,
+      "category": "digital-pc",
+      "type": "tv",
+      "profile": "samsung",
+      "query": "삼성 Neo QLED 8K QN900F",
+      "required": [
+        "삼성",
+        "QN900F"
+      ],
+      "productId": 8893916348,
+      "productName": "삼성 85인치 클래스 Neo QLED QN900F 8K 미니 LED 스마트 TV 2025년형 AI 업스케일링, 메탈 프레임 디자인, 눈부심 방지 Q 시리즈 사운드바 HWQS70",
+      "productPrice": 12312200,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8893916348&itemId=25965813940&vendorItemId=92948490376&traceid=V0-153-559ef3067632e603&requestid=20260817202425273311843464&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/UPAYUkq9Fd8CDFulUOhpiwRzkPASwmmcrgtj15-oSB0Fl22eT7CQCResClCq9dytiYi9wKMI1GZs_-ROr1rnb6KjWMxNkcdahFCi2SSV8lKbegGWTaLtcEgov8jp6I1adpvkPDxYpdzVb_DFgsHB6VHDt5QCz7QV_2zrY0Rl8n31ycI-SwBaDsKQWzsmsn6T4YVTww2HOTGp7p7WgGww8DeYTULsnSbPYrEWJZm6vHIrQ6dY5QbAp5P_1-9dSvtvoO3uv5F49vNUCe-E7MGzS9LjKZY89INdLzQmoXK0y6rruk-tnxYjjsNStJPY6-fXbYSpwuI=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 51,
+      "category": "digital-pc",
+      "type": "tv",
+      "profile": "samsung",
+      "query": "삼성 더 프레임 프로 TV",
+      "required": [
+        "삼성",
+        "더 프레임"
+      ],
+      "productId": 8966166107,
+      "productName": "삼성 65인치 클래스 더 프레임 프로 LS03FW 4K 네오 QLED 미니 LED 스마트 TV2025년형 무선 원 커넥트 NQ4 AI 3세대 프로세서 아트 모드 삼성 비전 AI",
+      "productPrice": 4106700,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8966166107&itemId=26239510835&vendorItemId=93218229171&traceid=V0-153-bb964b70549b5bb4&requestid=20260817202425618008164813&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/PmNGuS7tUdPDa2zbPsGEEVCNGEzor5yc6YwaS7p1w-pJtUbLlRv6rCydimOc86t6BV-AASYaipxJHczucvaijbITFTLcSgxHljJFUHGrcG4cgtftY-Pp7fnm2MsxFjs-5RofUx22SvcBtjISDaJFnwIw3fiamOQho-dIPLWEi7YNQnd4lvZBwgNfxaG22SlK7_3tlZL1tc85jweDEDR5KLWLz3UGOpUtIyZLlFpNpt0QEnD_af0XJQWVQhoPu_VQxhOu8qfCSYZfYML5YJQqPTdsLqbMJ9K8C1zitUr5TIwHaxlvrs-FUwNy_BwuuHVZ3fCHUU0=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 52,
+      "category": "digital-pc",
+      "type": "projector",
+      "profile": "samsung",
+      "query": "삼성 더 프리스타일 2세대",
+      "required": [
+        "삼성",
+        "프리스타일"
+      ],
+      "productId": 7912148052,
+      "productName": "삼성 30인치 - 100인치 더 프리스타일 2세대 게이밍 허브 스마트 포터블 프로젝터, FHD, HDR, 대형 스크린 홈 시어터 경험, 360 사운드, SP-LFF3CLAXXZA,",
+      "productPrice": 839600,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7912148052&itemId=21713716520&vendorItemId=95035658508&traceid=V0-153-63e5be7cc818564e&requestid=20260817202425972068723291&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/28mwmWKlW8jSZvb82xv_OQp8idtn-SW7wS8A3e0wGiyUZuFg_mRhXegd5UZc6xd0lSD5zsdBiNBj81k54DEV-kR3VwoGbNc8GErbT_0v9roREM2SvohspTXH8U4j-ZtMxzz1krLDltFgNE3ot3hQUK8JRCSWaGwgTjOGGb-5zYOw9nMyYc7pxnM76VJcMM-DtdNmlQFPJIFBjuhjyG4_bkYZITYNUx6zxRYTuGISh5yL9OuLQZFqXSXE4XoKdWv01ZQydicjR2CVzFrGFPBsfEiHlD2iE9IYq1SrvL2iWVRTzfpFC3v42BjtkJ_6AZ2Q6zEZzzo=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 53,
+      "category": "digital-pc",
+      "type": "tv",
+      "profile": "lg",
+      "query": "LG OLED evo G5 TV",
+      "required": [
+        "LG",
+        "OLED",
+        "G5"
+      ],
+      "productId": 9387620630,
+      "productName": "LG전자 UHD 4K OLED Evo AI TV 에보 갤러리 77인치(194cm) OLED77G5, 방문설치, 벽걸이형, OLED77G5, 77인치(194cm)",
+      "productPrice": 4949000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9387620630&itemId=27875047653&vendorItemId=94834305936&traceid=V0-153-c1ff7726f406ef59&clickBeacon=3469fb50-9a2e-11f1-9df0-55330cb2e3de%7E3&requestid=20260817202426311008165033&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/CaZukc79ZOBE4x0JCfZFK4JPAY9wcCE_hQwoaXz-hjJDbjjtsnuWuK618Ly4nmIji3vc8bkGfUZ3HKmJY-pjkTVdZNTzmnMRRpYteSOHnFD9Jgo80f0L4FSFFfASkebmNuD1E00Ze8gEYHksF083zVkuate5Zbsja3hld3s8BqaRpWdYnKb6VPTF_7r_0UO0BO4XvjxELZ_sKK_aAllABG_6KhOhR4qp0_d-VqmIM0kQZ04sSFjZXAe-AtlRNiy3vj_ZSBWZINdMJTu-Lg5ft5TDnTZng3lZkDdriTxvt5VKHXITx1A0JzpZiQ==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 54,
+      "category": "digital-pc",
+      "type": "tv",
+      "profile": "lg",
+      "query": "LG OLED evo C5 TV",
+      "required": [
+        "LG",
+        "OLED",
+        "C5"
+      ],
+      "productId": 9387639252,
+      "productName": "LG전자 UHD 4K OLED Evo TV 에보 AI 77인치(194cm) OLED77C5, 고객직접설치, 스탠드형, OLED77C5, 77인치(194cm)",
+      "productPrice": 5505100,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9387639252&itemId=27875117343&vendorItemId=94834270200&traceid=V0-153-21a0a2654b6a0a21&clickBeacon=349ddc90-9a2e-11f1-8bbd-537186822714%7E3&requestid=20260817202426650070603347&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/MX7p-4YstRzyMYC2MTulZvPYjzBsoNmenCJLVCzGw9wDom6UqUOag-DTVyFHs6zkDOv22zndYCBhPY6OtSGf4yQoPOeofYGvlx9hbGBzs2dRD5WD3VgksIjVnDLZimqKXuvMAKH5sFM2I-wV40JpppjfdnmhCQ3mDxZ69i3A6CuqVkCXdxz3w07nCJUiwe8uWpFQF_o3yhURwLwCEswv6aWdxHHalWrzw9oKLUKL0tZi5g5QGYT4iMjEc2CjicMpIG0UXT9leGgLBmNpLyZnQ6Qe8KaPF-TXqK3X4F7IPpm4_ThaAdApef5d",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 55,
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "dji",
+      "query": "DJI Osmo 360",
+      "required": [
+        "DJI",
+        "Osmo 360"
+      ],
+      "productId": 8882483043,
+      "productName": "DJI Osmo 360 스탠더드 콤보",
+      "productPrice": 513120,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8882483043&itemId=25924255345&vendorItemId=92909690960&traceid=V0-153-9070c96c84c9e73c&requestid=20260817202428092300056044&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/jAiSi10olkvczN05jBSaryu9MzeIFYZ5N8DbydVXibwFALWBjWbaaFX7ADCssmEK6xx5-RkC34eN5fl6ctUo0T7q71ari0pYw6b24AhVxdgvtT4gsRxROgW8YHGjwvgvkLHA23nvtwN7M1rpmz6gy3zQOVw9-iNnb7ZSJzPqUe15zFqEXXY8eL4w0A_yXJjEb_wnndsidzA1QY0TflG-F58UxdKMyRvkzWjntYD9CqpSp3FPDMixfk4aZOdNnVrYNN_gHIkPZk8S3BrNPyhco7dYXEZ4Pa1r0e-BZBKAe6CholB-",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 56,
+      "category": "digital-pc",
+      "type": "drone",
+      "profile": "dji",
+      "query": "DJI Flip 드론",
+      "required": [
+        "DJI",
+        "Flip"
+      ],
+      "productId": 8514047827,
+      "productName": "DJI Flip 드론",
+      "productPrice": 426000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8514047827&itemId=24646847020&vendorItemId=91657530104&traceid=V0-153-ae1e59713bb4f494&requestid=20260817202429394037030206&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/_SoxlethK9Nlt0mD_XGPd-hbONr2INpu-9WqErKZOrdVPSJ8kEMD6spxYDlFDm3An7qYK9I1dQDqc0qAyzoqZlWKrrIE7lONNR31VlrZeNTCm8ofjFaS54hg7fLAL_rj2FgSLoRNAFTNWo0iF1wqx4uLc0pt7Jk8IMe1FR7UOYInRUjPXyZ_75M-58RUEuB7P5RAK1_a4NbN8uZlqtlGvtKy5TwwameDK_Qd7olwffyzu1HsGRvV2HheIMYNyflc0RcHA8uciEPxUATeWN6cL2WLBMGtVp4efKYBtGMYowObA2OM",
+      "categoryName": "완구/취미",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 57,
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "insta360",
+      "query": "인스타360 GO 3S",
+      "required": [
+        "인스타360",
+        "GO 3S"
+      ],
+      "productId": 8209591684,
+      "productName": "인스타360 GO 3S 패밀리 번들 액션캠 128GB",
+      "productPrice": 1238840,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8209591684&itemId=23559787946&vendorItemId=90721039943&traceid=V0-153-fe32b9f3010fdc46&requestid=20260817202430380311844995&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/z8fonHEmDfOhI0YEzy-N1iePRMap4EvTqUdhJJ__2bW9qPCyKN261RQ-kZa3OvVQcb832TJgv4LAZ-qbHinYdn97NRpk0tRKaCF808is4pbk1VeMR9D_5vDbR3SYz9CSRFEbGM5Mui9jtpA67Asl0Ks4xHOV3XCehkq7YG6AQq1LKAXI1E8m8gKlA3AA5w0Yn4uvvkOs67svpDxiCWfG6Sca6C2kikg8FQHlMYCfjQFudGFQ5u6gOH3fszM9gI0q-TeTbaj2mMUW5eurJ8i4avYVCY0uK2Jo__IlylPnKC7YL-Xyaw==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 58,
+      "category": "digital-pc",
+      "type": "gimbal",
+      "profile": "insta360",
+      "query": "인스타360 Flow 2 Pro",
+      "required": [
+        "인스타360",
+        "Flow 2 Pro"
+      ],
+      "productId": 8700850284,
+      "productName": "인스타360 Flow 2 Pro AI 트래커 번들 스마트폰 짐벌, CNSABQB, 그레이, 1개",
+      "productPrice": 229440,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8700850284&itemId=25809085636&vendorItemId=92796367174&traceid=V0-153-446a5670f80c35d6&clickBeacon=37108a40-9a2e-11f1-8022-85c6c73467fa%7E3&requestid=20260817202430763165228574&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/vTvW_k34GgYR3-78vXTf9w2FSVT1f7xndCbioPAZAZbPXkny6Nu3rwpPkqWuA1pWDy1XjyzQugOfUmQZ-cMrr8ETeGcmp5Qx3i1OJbvfhIP8TCClrnIxEdAGsWzZyuTttWnJnB686LG7IWD-YC3EzK4kph_PDf1FteaegRVN95GiPkSNu73yofpKpFPHTyGUBs6jQdbNPxk7AdBLyzMVBdnDaxmfz0ME4dIrrF3bNI9Nk_HWkJlsYy_vN-Sf59OU3PO8r44dOjY2GHvNgYqiLonA1_Cn809s",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 59,
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "samsung",
+      "query": "삼성 비스포크 AI 스팀 로봇청소기",
+      "required": [
+        "삼성",
+        "AI 스팀"
+      ],
+      "productId": 7989878606,
+      "productName": "삼성전자 BESPOKE AI 스팀 9700 로봇청소기 방문설치",
+      "productPrice": 1354000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7989878606&itemId=22212808581&vendorItemId=89258830122&traceid=V0-153-3261e97808e8de1e&requestid=20260817202434000008167513&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/GeDrdWVN5ySBEpizGTqAQyAPDNY2NXJIW6GQ1zDs_ARkXqPi8LTlRGRl43Mjq8vBaEBJD-1IPJNc51XeFyRqJG_FR-t9IumH1ru2Nqm_eOmshJQ8wUHv3HYzo4kn7SzQcG-ypNkS31Ejz0LmgQQOODI0OqhRAqDJ3wJ6ZaL2zu8YHWGo0U3GtEsDrFIQNFpFam__r7iH48-V5GoMEU_tb9ejZQbm9irapnYkixQdeW7Br5iyy9rw052UN0yukpEj7dm6OiQF17Uf399N0BmkkAJAn1URjMBPlK2gq0ZSAk6oxSiUcw==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": true
+    },
+    {
+      "order": 60,
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "roborock",
+      "query": "로보락 Qrevo Edge",
+      "required": [
+        "로보락",
+        "Qrevo Edge"
+      ],
+      "productId": 8936511061,
+      "productName": "로보락 로봇청소기 Qrevo EdgeC",
+      "productPrice": 898000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8936511061&itemId=25078202708&vendorItemId=92082164204&traceid=V0-153-66eb3188b4aeaec9&requestid=20260817202435685300058097&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/Lkyq6Jwjx6B5VXiLLtyphAobW9PWUTbpEygxQQW6NywHQOezm0qClSbczwQBdxZhRkdESHCpsITqO-KLuPunOTxQWHsaqlHoa79fkFJtWmT5D5b9Tl4rNhxswOyzboC3s3nsYv3LLsUX7tfgwODSFp9DAykxYyj61Do70F3hEK3Km5ROIg-AnF1iVAFD52f-dsdMeofOI_6efPp3N3PhXjuhn85Nq_TEAoJq_5GrW4wnCiRlFL7sGjVC-9GUGyaYxuYxbZ9w1k-WiUX5w6D1B-GnOjNsP9lG68BW9CA5czq8ns7m",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 61,
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "dreame",
+      "query": "드리미 X50 Ultra",
+      "required": [
+        "드리미",
+        "X50"
+      ],
+      "productId": 8585044754,
+      "productName": "드리미 X50 Ultra 올인원 로봇청소기",
+      "productPrice": 1698000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8585044754&itemId=27096592115&vendorItemId=94852557909&traceid=V0-153-c48073dff6fdbe49&requestid=20260817202437197037032389&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/WCs3CNkWMhMB9CKnWO0x3fVW7m6BiyyWRvcXmfu06idd5fOdjv1qnIY6JH7-cvXzhklZNkbRm05mibAGTzxM63LCuygsC76srWsLDG4skvLTRY9otY3uOfTbQ9pwehgBWGEZBsYPSOkJ878XJzEc7-RZXEK1XN71NzfKyNC1jPl66l90kIcnKRAbKzJn1Z1VcLpFSRBhwO0PUgQtlHXRIutucRgpZmcQ8w4DiEC7_1gazHU8AiHdWTVlPhuNCjt2uTRP-iER8mgo3IMUri4Uvu10Qk2p_4G687QRyWjY0ULS__GQsDTlLZSLxSUQyFn6rUYqVnw=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 62,
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "lg",
+      "query": "LG 퓨리케어 360 공기청정기",
+      "required": [
+        "LG",
+        "퓨리케어",
+        "360"
+      ],
+      "productId": 8603929492,
+      "productName": "LG전자 퓨리케어 360도 오브제컬렉션 플러스 공기청정기 100㎡ 방문설치",
+      "productPrice": 706280,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8603929492&itemId=24949570681&vendorItemId=91960066542&traceid=V0-153-24cb32713a8f7224&requestid=20260817202439458290090215&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/JjPvAr_7Vm-k7-uKJiJ9vrUaZyiC28NeRXGMc9wMTp1MxE3Gab59CH1hfYvFSfj1OQFpsZbFLt5gyolJOWzoZXDny-1xsNBJooPQyN-F2zmZSpr66IRzJxyJCahfv0YmaSS00zM2LjTLqZq-oBHkWLhn3SVNoI4IgDIgcYRa-sIuMB7-ceDq1Rbbv_RmIFJBn8wvJcyS2w8_J7Y2ngDfmTMIe6M4pM1ZYWe72kpbKnpTJdIigRZQVg8mnfAiZONSpdqnqLXuczbcEJhX79mXfvrLkKeBpFyOJ2gq4IZczsoHDEMMGWg=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": true
+    },
+    {
+      "order": 63,
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "lg",
+      "query": "LG 퓨리케어 에어로퍼니처",
+      "required": [
+        "LG",
+        "에어로퍼니처"
+      ],
+      "productId": 8711706139,
+      "productName": "LG전자 퓨리케어 오브제컬렉션 에어로퍼니처 19.8㎡ 방문설치",
+      "productPrice": 452000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8711706139&itemId=25300383886&vendorItemId=92295631117&traceid=V0-153-a1d47bf4d483cf3e&requestid=20260817202439823282028487&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/jj9ZeUlSdQvqDDxKjqX6ii8RkZl07E1iXJEACUuMpqC2qMX5oNWHQkkWuRzbmr1GdL_X97jVjAdBiVw9fNxiPk_dy4OOk_wTTBmyQHiDG-5JoRvoVnIuMrd8a2hUMc2YN0vEsKmKI2gBTdDrNuIbMYjTDDD74K_ELe1HHjSMlmmVM8HIERSbLvcOglYEclOD40B7iRkLmBqSQm6KyoHjeCNEL1UlgXMXei3z2BblQ8PPBj403EptEdRJN4K2I2I7vYQkcxrFoHb_nv5pReCnXz4qKVwy2CtQPNIBwR-Ws-T0_5aTuw==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": true
+    },
+    {
+      "order": 64,
+      "category": "home-appliances",
+      "type": "dehumidifier",
+      "profile": "lg",
+      "query": "LG 휘센 듀얼 인버터 제습기",
+      "required": [
+        "LG",
+        "휘센",
+        "제습기"
+      ],
+      "productId": 1298242799,
+      "productName": "LG전자 휘센 듀얼 인버터 제습기 20L DQ200PBBC",
+      "productPrice": 450000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=1298242799&itemId=2311275267&vendorItemId=89512893551&traceid=V0-153-e99c011a7bf53077&requestid=20260817202440122121692992&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/vSLmRqqn6C_fDVgpvSTGuRseAZI8U18nYGIXzZxLIcq35Jt7TDYo6KWD-lhvtG1EpMRC3GdHjnOIwnay4iPuqODz2tRes_QM-Z9kMqqZA5xVJY8daLflvJZBoPNPUnqxp_eYAy_mEV0tqAInhyJ99Zq2PoMthze5HTK5QwBCJoqy5An7ddDBy7eW59dLYQv4mzbauDF5bxxAZNICtjRigZiDPap14SMZoyekTd7hEWpzURqgFip9PijBTJDqr39PPlNodLLS-ZjjWWH1b0K3NtkQIKnbMqFPdG9frJawkB5CFKyrHa_XDGHHE2VxI4FhJ7M65w-4",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 65,
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "samsung",
+      "query": "삼성 블루스카이 공기청정기",
+      "required": [
+        "삼성",
+        "블루스카이"
+      ],
+      "productId": 8707431315,
+      "productName": "삼성전자 블루스카이 3100 공기청정기 33.1㎡",
+      "productPrice": 200000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8707431315&itemId=25287307866&vendorItemId=92282812506&traceid=V0-153-e98fa729c4a2c40a&requestid=20260817202440487282028741&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/OsHi_sYKmSCOshywOo1f8vKaLyvIdwbm9fUzH5Blq4Z0uCUQcys00B38kfcIaNy7hAHsLQGFXT5vjc-NCy0LjGIupx4M_K67qqnk1aX57egx5W3pbCfWArO-09CBerQIngt-Jjl7bRI1akF4sHg2OYj5e8rkATi1oO87xQReTUDRuLF-FO3AIAD8ivnQ1UZFv0_dSGEbvG5YK1j417gOHDtnmzo_1gy1dgZ1yTAHcHKiTx4VNXQ4Fb4LxRR-taCBFBSdf826I8BXegxWtEbwLTNGI7v2zooGeha5yRkjQ6kee4r7",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 66,
+      "category": "home-appliances",
+      "type": "dehumidifier",
+      "profile": "samsung",
+      "query": "삼성 인버터 제습기",
+      "required": [
+        "삼성",
+        "제습기"
+      ],
+      "productId": 9398164042,
+      "productName": "삼성전자 인버터 제습기 18L",
+      "productPrice": 458890,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9398164042&itemId=27913834829&vendorItemId=94872476374&traceid=V0-153-5027b1a8b1e8ff2d&requestid=20260817202440867323346080&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/xJKIiRbCiyAXPO9vxK-H8NOsrdWjt2FEotUGeIuTTGt1m8RdVOP7FicrrOzFByAmoPdpha3bwrpSRx2wT77q-V1Rgfgm7XXF0vZeAVLtd3GCm4x6bK3zdMqzQIpU2fMQydry9cD23iJfZIRhEZyxNMkVI32xjib5jMGesFO_bZEBBQ_tbhAX0Mk_qrIgDUL4E718Pk4jWBN30fKx9lX52WzXQbPoOFV_sYjhnPT9-G7TfELHbcqf-qNCRCnPbBWFoslE4pSgL7E_VAsHliQyTB5B9Nzy3owzbdSTQvhaQb1zrWw=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 67,
+      "category": "home-appliances",
+      "type": "dehumidifier",
+      "profile": "winix",
+      "query": "위닉스 뽀송 인버터 제습기",
+      "required": [
+        "위닉스",
+        "뽀송"
+      ],
+      "productId": 9520221290,
+      "productName": "위닉스 뽀송 인버터 제습기 20L",
+      "productPrice": 402980,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9520221290&itemId=28379422438&vendorItemId=92121128175&traceid=V0-153-13b613264b31460c&requestid=20260817202441489323552768&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/XvddLA1Eis-rOWKOXveCrqyS1AHtwzvcVkQTKNT49iTeiLtjS2o-aeG5sr-VdSJin5bMYColAQCta2TkOPLccSbEYJXMTE3bjcxO-KeRHVVhta6wh4Y9YEMvFBG-RH2AOFHNaQ2eFtTNXp7s6k7dfWbdxDksmGkUGqE7l8gYOgO0l4jWID-jB43Q8ceRrXKY-oKOPeyayEtBGbdoxoV_6-HbsTcSaCrfUzxSpWyI1T89P2vm0SjoaMvmmTDk8CTp-rm1rKw406qsEKMjl50Pz931RT3wIWKDZ2FRtEqZRGp6D1ec",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 68,
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "coway",
+      "query": "코웨이 노블 공기청정기2",
+      "required": [
+        "코웨이",
+        "노블"
+      ],
+      "productId": 9581692262,
+      "productName": "코웨이 노블 공기청정기2(67㎡) AP-2023K무료방문설치1년무상관리",
+      "productPrice": 1210000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9581692262&itemId=28601622837&vendorItemId=94531740662&traceid=V0-153-2fe8c48a5cda5d49&requestid=20260817202441789165221583&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/4r51xGCr2DnXGk_d4l7amRF94uPV5GnGPit_dYIlWIU9dROPl4mxF-Eg5QNu5W8YPROMiyfSLYMxKUXhNckz7WgZhknVdueRXujkkZ7jekXGsjV3_J9njIxSVD4F3JUrw8SxR6P_QL3XQ3Gyz22wuz1uyTHI_lbd95sLB8njPUn53FG6-x5yUzxUcVPdPhNsQ55FDv0Fg249D74nFM1v4JgionTncG9nDpoQh_dfcRN7OePAo-YeRNU9kPdYlYFZweTRvLVdKAlV8_oehZJf80h0akri5nGLGDRSqCa-rsKx9YfEAhkETxati-7zQ7wVnmf3EKA=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 69,
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "blueair",
+      "query": "블루에어 헬스프로텍트 공기청정기",
+      "required": [
+        "블루에어",
+        "헬스프로텍트"
+      ],
+      "productId": 7750584765,
+      "productName": "블루에어 헬스 프로텍트 7740i 스웨덴 공기청정기",
+      "productPrice": 1490000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7750584765&itemId=20875791013&vendorItemId=88421894001&traceid=V0-153-38f431aa791fb89a&requestid=20260817202442181326626673&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/nTMFb53v8zOWRNPQnVYn8B5n0Dp2iQzHMuMJy6MZe4qc2L2NGqG9Ei78tAT0ZjY_UvM9c6NpqL569vJmhAq-DayMKL-AMXeuIGB3mwf-je_gQztsTXx51OgpceStHARArXbrZ6KOWd1NrA-KzID1GGxtNPM51AbBW44lelkUueSeGxFC88gpBV3fsUykC1bhwxXvrwjxaERznyY6vvoNAdfpHXEPnk9l1AzB-D6rrZ4LYjIFLbUtAdN2udZLlrAIF6jOi9zlwVJUaxoDs7VWy18LTuacDXaybnj1Z47vKM9tEDVSItjNL1VsXwvFyAUBg7x_pQ==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 70,
+      "category": "home-appliances",
+      "type": "laundry",
+      "profile": "lg",
+      "query": "LG 워시타워 AI",
+      "required": [
+        "LG",
+        "워시타워"
+      ],
+      "productId": 8934085038,
+      "productName": "LG 트롬 AI 오브제컬렉션 워시타워 25+25kg 1등급",
+      "productPrice": 3940850,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8934085038&itemId=26119373479&vendorItemId=93988975183&traceid=V0-153-6fef3f6f23715a05&requestid=20260817202442960121693813&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/FQ_xMSXeGV2ebAkLFRmzyBHQo35_3B9hVYUhu3VAzXjFG7FVfJyuAOU4rwuO3M-wCzsdIWcOZCu7wxpQqynmPvkG9AaL7rItqgBIwGl0Oqwryc234w9p_rZX3iRU8-piGAnH9daNM1VufrVMg8wDLRDhYEHLr0O63wIeIoYOFeuIpqZqq47ExHZTWxdj2ISYt4wgqdx8wylDyPPqls8Rbtt_fYPg6dBiTPsdFo1jJmlULC_XAwOufp4825sMfW3OqDctprzxD7_-BgjMfBxrabdA7gPK05pSRaf5CgleliSEAN1jm65NPYxVL0WLZ77pFbwP5EA=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 71,
+      "category": "home-appliances",
+      "type": "laundry",
+      "profile": "samsung",
+      "query": "삼성 비스포크 AI 원바디",
+      "required": [
+        "삼성",
+        "AI 원바디"
+      ],
+      "productId": 9050676118,
+      "productName": "삼성전자 비스포크 AI 원바디 세탁 건조기 WH90F2520BBHT",
+      "productPrice": 2771310,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9050676118&itemId=26563311476&vendorItemId=95108292174&traceid=V0-153-3bd5d07e8a678fb1&requestid=20260817202444170000541237&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/SSg_Kf9BszLgZq4xSYSGu1_rFlnxWlC6uitvLUVqC2jlzr_80Qgc1MaXxzaT0XrJqp6Fg3Ar0nZA3sJ93Py9a-5xpcpEk4mYxAVOTbJjVAQQGXdounhGUrqCcdM_FqimcvtT1TmJGThLRyohl-WBx7dfVwJFdv9KoG6u_9_rqyJ4aIVouoJUqlrvy_sGyn-Ja-k0cQRAIge4nEXalT8mYdb_bp5047jKOMeJlzyemH7tpCXTa10nWY4czvU0GK3ceJh8x-gXfuocfvy5DIZhpoptNnnqHj-gz3doNGzXD9DP9EKDhbDNUHD42nw88ZK59Xuk",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 72,
+      "category": "home-appliances",
+      "type": "dishwasher",
+      "profile": "lg",
+      "query": "LG 디오스 오브제컬렉션 식기세척기 14인용",
+      "required": [
+        "LG",
+        "식기세척기",
+        "14"
+      ],
+      "productId": 9286302555,
+      "productName": "(LG전자) DIOS(디오스) 오브제컬렉션 식기세척기(14인용) + 전기레인지 인덕션(3구) 세트 (5BG1E-QKHE)",
+      "productPrice": 2034070,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9286302555&itemId=27498599008&vendorItemId=94463687614&traceid=V0-153-c7a1730568e82960&requestid=20260817202444560173858349&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/VjYQtHtlOHioKDTEVqeWjcWtlsJYeq0c5jUYz8RK5TUDRZFy_EcX5TGYoCn1UZ4MzPn_SCbWwTKnjFzQxkYp984E2MgJJ-02mRidYTyopFL0VgbUq2bYD8qrAyETY7RgYzeErbTXKOtLcrfYHO3xD9F_kF3InzdUxxcFi7NaU-TJ1gYPBLcb-95lcVZF5ScjAMlTItx0GQFrUAB1RPMbmcsDwzG9SoPlcfzKjEep7FNUkmv4y9uOADmog75uCRAnSrglq5hRZaguc0jvqJoGV9gGlOkLj9AirgbIWt6M51_idkDEP63VnfX0i_EpxB5Ppw5E9Pg=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 73,
+      "category": "home-appliances",
+      "type": "dishwasher",
+      "profile": "samsung",
+      "query": "삼성 비스포크 AI 식기세척기 14인용",
+      "required": [
+        "삼성",
+        "식기세척기",
+        "14"
+      ],
+      "productId": 9595290602,
+      "productName": "삼성전자 1등급 AI 비스포크 식기세척기 DW80F73X1UEW 14인용 열풍건조",
+      "productPrice": 1344000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9595290602&itemId=28643905167&vendorItemId=95586561699&traceid=V0-153-c70b20a19bbe9f03&requestid=20260817202444962043225278&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/Cf6yMHTBV8BjR6V5CZi-dYyb5uzJwOR9Zs2846MfRvgi1d00XzdniZh04K6OSkgkZbSkPqQWZuO_7NeOPmI8zlwZpadYmjRrcyTz7xYTIWJ52l3jb2nFRp9RCsHHAo55k1t3aLnSPlwlqj7_ZcC1sXKsJSXTu7pOf8XgkCFdMuIMoD4n5vU3lDqLK-14GoXHFS8rNTrmKTBSeHuXUmSkQJ1nmym7aNequYZpEjkoKVTZTsjFSulcDfBpQDWkKO1c0uvgVM8lVlhccUZJr-VtgqGEVMHMi3d36YZFSAzVWk_pegTIROeWRQi2f-IDBd2EvPjoww==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 74,
+      "category": "home-appliances",
+      "type": "refrigerator",
+      "profile": "samsung",
+      "query": "삼성 비스포크 AI 하이브리드 냉장고",
+      "required": [
+        "삼성",
+        "하이브리드",
+        "냉장고"
+      ],
+      "productId": 8701026607,
+      "productName": "삼성전자 비스포크 AI 하이브리드 901L 4도어 냉장고 방문설치",
+      "productPrice": 2899000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8701026607&itemId=25850962907&vendorItemId=93290818431&traceid=V0-153-52dbe7ea971faa3d&requestid=20260817202445565008161096&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/3tGPW2S015f-IYEB3jmc2iGQCQ_53vr5_Nxz1BIDRdhKKYs2Ou0J2cDXvXa_WIEuub5KV7u1uUdVOJuk5JEEBtbL6AGqBsUM7vHAtv6Ow0M8ov8fFc5kh8WWDvNCwSYNhBS6ffxWw914Sfyig31NufiaEUw0v9F47mIWZNVix9RNshdgRnSNF52g3sHMAqaR-RmLBM_9G6WP8SZ33cJc98QFXbRwXREGR7FJSgJVsQ4x6j6URLageEWPz_PheGfCRGwvsAZTOQ129vjn17NfghrT54PziGjuEhtb3p_feLVJNuoYulk0_chk1i86rrKF2DjJhbY=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 75,
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "ninja",
+      "query": "닌자 푸디 듀얼존 에어프라이어",
+      "required": [
+        "닌자",
+        "듀얼존"
+      ],
+      "productId": 6921108355,
+      "productName": "닌자 푸디 듀얼 존 에어프라이어",
+      "productPrice": 620900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=6921108355&itemId=19155973403&vendorItemId=95139738371&traceid=V0-153-3ca3fd69c0258ce5&requestid=20260817202445892070608607&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/x7y62R4Rb70NGf9-x3AqRhLjbbqcqqdK5_j2g8Zcj_KpZkKGaOvxM4O_cn4B4oBfhA2hyQAidzhrDOMOEdkNf2jcUFjGD0pOXGTKt1Ox1avH0gws7RmUJQn8z2-IBBCh408zZjHnjz6Z_xk0m9SHbx83hCo5n6w69niAYgzsREqwBKSj8nI8DXENL-eVsdLivR2a0Pm5zz3Dst999BKxtrWHQeV9tTvOegy25zS3en0K4vqK3SbcKJig_EjV7XbaXgNav3v9jixleJJ7QWAnLkfh6Zdg9x4YK5gx00FXp6okWRhiuFt9EqrPB58miqG9Kd5wNw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 76,
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "ninja",
+      "query": "닌자 크리스피 에어프라이어",
+      "required": [
+        "닌자",
+        "크리스피"
+      ],
+      "productId": 9535512844,
+      "productName": "닌자 크리스피 올인원 유리 멀티 에어프라이어 3.8L + 1.4L 세트",
+      "productPrice": 208990,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9535512844&itemId=28601376836&vendorItemId=95544976451&traceid=V0-153-5454e6439fcfa865&requestid=20260817202447506173859163&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/aEhKiCLilqoKBIZGaHy8vpVI5cxQiYxj1vwYAo39P4WYsmLruVKUHK2PrQN0gG32G7TqKS9j5AZoTXGiO-HROPdwZdnIg62-78_Yf2W25-JFwnOjylTxxMmjyHDEdc6HDbmL8kQd6_gzuovCkDS2kEtcD3ECFJzpZiLrSPBpJAZB79s1T0uU5SQ86Qpfej9yUuPVJB0_Wv1N8R4E2n8xBBv5sLFCVfCEP7bTK8LUzZiDmub2vVGDbxVWfS08USDHqNyDMZobHR5qsb_Av562oyg6MrIWi6LpRUiENe_KMDuhrZiJ",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 77,
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "ninja",
+      "query": "닌자 콤비 멀티쿠커",
+      "required": [
+        "닌자",
+        "콤비"
+      ],
+      "productId": 8462762881,
+      "productName": "닌자 콤비 올인원 멀티쿠커, SFP701KR",
+      "productPrice": 304900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8462762881&itemId=24851120231&vendorItemId=91496547891&traceid=V0-153-a0868d454c789f87&clickBeacon=413aed30-9a2e-11f1-843c-956e7a1084bb%7E3&requestid=20260817202447803323348056&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/USF9UhhmiSD502QkUU7fXM4PDhM-PARJ5oIplcMcse93cv6odnx-Sq86aEfAlXFxiHWCMrFr3AHUKygRAyjSz7NTgFamucnANm570zjyEsDW-iAFsVO8KhdQNQMtoyaZhYJc7KY9vyvSHamFPnhu9SJMW4QBgOq_BvPKw3cWOLCxnRWeT8Ozz8ZPB4AvyiwZwg82wfICA-Xn12w4EWVk0De_aOyudbHLQHcpP9kEMhmuaKXkKmsUYt3kiszFiV5GocHMjSRQ_jxaFmP_YQczWPj_yDkd_vBasKoSwPSSqsDkVPut3Ip5J6w=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 78,
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "philips",
+      "query": "필립스 에어프라이어 5000 시리즈",
+      "required": [
+        "필립스",
+        "5000"
+      ],
+      "productId": 9684763642,
+      "productName": "필립스 5000시리즈 레일형 스팀앤크리스피 에어프라이어 7.2L",
+      "productPrice": 298000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9684763642&itemId=28962052553&vendorItemId=95892169577&traceid=V0-153-8030faad3c01a03e&requestid=20260817202448268008161883&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/xT48YiEVqhpxlNKjxTnOPDC3FVGv3mq4wiDP9U25cw6UCBiQR8sFetR0Cc5x8uhaNpDDd-hUlZ05GhV9HFbAclHWuu9alMZNGGMgqazUBUMyqRyhUm4sHSWGpJ19YjEQyfJ62Z3rps3P2IGk5S7ju1LOgSyZaO933jZlYSg6a2Ak0QgmkyOAfmxToUzU-ukHM1sl-qOK_KH26F4iWK7iKTyLPXb3NJB1rJ03UAP3QuSTD5bZyy_q7VX1xDQadNvdKXEBELvf8reFvMxh6hfkD0nwvWksf0x6_dmtJ8xnuDin6g9SrQ==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 79,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "philips",
+      "query": "필립스 라떼고 5500",
+      "required": [
+        "필립스",
+        "라떼고",
+        "5500"
+      ],
+      "productId": 9574860487,
+      "productName": "필립스 라떼고 5500 전자동 에스프레소 커피머신",
+      "productPrice": 1464500,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9574860487&itemId=27766918092&vendorItemId=94431808882&traceid=V0-153-f2de0f0785fdde9d&requestid=20260817202448832176421016&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/sHuPKZbmMtC_8u9qsFyUdEnXEvJ7-ma1vMm6LmTWvBfmQgDEH3q1_CVIZWGIwJVuf9GzGaDNn9ykuRMpRu0ukKh8j-U4I3LehEJSc1s2tNcGm49_Ef6CEzE0-6bHPvgQC_oWT-aJKGxZZtSrVrU0WWGuq_KII9Q783SpTP5s24VFOyHn9A2BKljE_8oiIjYgh125O6Lo6ZpfU4f8wUOcmgFBkB9TaPDEbu2vYL5YLSTl3NRjb-uwWhR-DjTSjOysT4no_J_43IToIsBQS9Wmf_tvhVR1QSLAY-zQ3fp9gjnzpO7r837uYuOjznEwjGvNL2LoDAs=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 80,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "philips",
+      "query": "필립스 바리스티나 에스프레소 머신",
+      "required": [
+        "필립스",
+        "바리스티나"
+      ],
+      "productId": 8976011739,
+      "productName": "필립스 바리스티나 클래식 우드&메탈 에스프레소 전자동 커피머신",
+      "productPrice": 459600,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8976011739&itemId=26275453216&vendorItemId=93253560389&traceid=V0-153-3a1ceb8af0e45d07&requestid=20260817202449127300051741&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/IPuBMLpQ1fdUrNDxIEl_s1bp20BCTADd24ZZGhJhPhDU8YVXq1WE8QvObySLtJ8kAk_6VQgV5VjROszg1grSgmnG0FnbfQboG-mGytXaau-cLkbXzXixS_tv3GBR5LuEt7slobbh9wx3n5uB1PsZ8lQ25DPpJ_CgihAmoXdVxX12lErCFFVHdxWa_AoxwSNskpW6NmWk9VRX7BvC3AYbGnEjC_-02kQ4a3mkeKYXnV3qZDfzJn_JHZV1mkC0gbz1BJMWdo3ZxgCWVZaoenW8EUf_N3wZhfEg845GwIpWdcYjrjtGZA==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 81,
+      "category": "living-kitchen",
+      "type": "kettle",
+      "profile": "philips",
+      "query": "필립스 무선 전기주전자",
+      "required": [
+        "필립스",
+        "전기주전자"
+      ],
+      "productId": 7823326036,
+      "productName": "필립스 전기주전자 커피포트 HD9355 무선주전자 보온기능 1.7L HD9355/92",
+      "productPrice": 58000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7823326036&itemId=21256388396&vendorItemId=95815385078&traceid=V0-153-cb01cad8795e98b2&requestid=20260817202449861221797618&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/S3tpipMbBpM7C-U-S7ys6SUfLJ9QTe1_i4_cUXJtOB_GzIlYM_6Hl7LIUI_Z3wvCFua_fB1ThqCvIFW8_qc7fI5a3wdPndoT9vESrZQ5qI7BvVvlrKj5zi4wjlm-ZrMy4kG3nRQIbzf3NozhjwMoyywGyr6nhM6pXSOS54XO7MVJWbm0D02SjmeUQGrh1YH9xUcPHmJX0WYpMbNfYAsxWDedBzW0DYeIQORmkww2otQet3IazSenD_V8QA_C4IaMKxvJ2Md0__-BiC0lpJ4Da8CQYkX1bSjLLsvPp75d7wtGAKliKZhTDo0mrxFYFPrmlcPGMA==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 82,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "nespresso",
+      "query": "네스프레소 버츄오 팝",
+      "required": [
+        "네스프레소",
+        "버츄오 팝"
+      ],
+      "productId": 9232877864,
+      "productName": "네스프레소 버츄오 팝 플러스 커피머신",
+      "productPrice": 103680,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9232877864&itemId=27856558644&vendorItemId=94284032072&traceid=V0-153-fd2ed9256dcb37a0&requestid=20260817202450634008162564&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/POwGdn1rYNK0s5s5PF__a6wK0ugUmhSgJHjxVMQYuWhwC_eo6yEMpkBEbWAGAZswaxUGfAzCVo0pzc9O1Roa9MRrumtv9iVmVlJk4SjJocY05KkAN8sosEq8J8NG8E3De9p3rOCkaSYoPWFqEnEM5hzmpXKE9YlTbkWppVdxIV-4bZtNYNb7ktxKrKgXhyWFMhaGFFXTDIXv-WqqXs14vDRzCd0vsCoNR39URfIHBsKL1PKLMQtmjZOAt0FsiXizMPogHOFjBsprK9ccs4NqXpfa5riHhNYz0tZgWNgjSMr1EbzgCA==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 83,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "nespresso",
+      "query": "네스프레소 버츄오 플러스",
+      "required": [
+        "네스프레소",
+        "버츄오 플러스"
+      ],
+      "productId": 5170625575,
+      "productName": "네스프레소 버츄오 플러스 캡슐커피머신",
+      "productPrice": 389000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=5170625575&itemId=7133297796&vendorItemId=95582497677&traceid=V0-153-d4c04b0cc125f6cb&requestid=20260817202450936124958012&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/x_kjOszmXvp6gf2xxy_D9NRJ4ZvdcdIL-rZGzCdJ7YNA30Y0NAkf9bp-ihN_G3uziJZ6wLld21DmPK5uBCm3MwbDsVdPpYxI3rg1rtaYmBqsMrMFg0GslE2wxqd6L5l36al-uOnD0N-sE8YjZoTL1AHVDxG6TvJfekumNVJPDhoKc_TEHIqTqyplHnmTHkn4U_gjSN1z_msikJUTvzMSHOOZoJLw6Vrm29HlgFxXRZRcgZg9A0kZJT0BO669uc32MxbHWH-5Po_Kjd-Sq8iBdVEeJjSOkBa4SAeZv2W1PhbYrMuxuLIo8wukbEcC5iSJ7vPGh78=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 84,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "nespresso",
+      "query": "네스프레소 에센자 미니",
+      "required": [
+        "네스프레소",
+        "에센자 미니"
+      ],
+      "productId": 8262881871,
+      "productName": "네스프레소 에센자 미니 캡슐커피머신",
+      "productPrice": 175000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8262881871&itemId=23805464352&vendorItemId=3213380305&traceid=V0-153-1f1cf414b55869b2&requestid=20260817202451482176421674&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/C0snpJvsZUw7v7khC3bRFZ9gCQlwNd0n2UO1ovu3AVYtSXeadx8n4r6Zc7KNZhgyiBbMMuKX8IG3bOaLindJr_2Di2mIWTipmkrkKX7ox-GdGL2fJQRpEvwZ_4BZCQagFaHddfuDQ05jmgI_nsf7nDzn-XWWwto2N_SHj5okB4w7T6QTgwpD1eCzXOH7S4sJZ56HRgexPkiKnGBFm2xIdgY7x5kX1NIEjyFiTyzpLRZBvniZl0gnNqVXHqKhekavpjuEZpdqoYr_6PbhfOdtnDiLFHZFNqCQmHO_EXPOCDsDaPE=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 85,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "nespresso",
+      "query": "네스프레소 시티즈 플래티넘",
+      "required": [
+        "네스프레소",
+        "시티즈"
+      ],
+      "productId": 7837888911,
+      "productName": "네스프레소 시티즈 플래티넘 캡슐커피머신 스테인리스 스틸",
+      "productPrice": 272680,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7837888911&itemId=21329034351&vendorItemId=89440313280&traceid=V0-153-77979758b592b38f&requestid=20260817202451783118284970&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/z7u9XmOcJObFgiqHz6jOv_Fdbuw4uvA-GaB_Rz6WS6veXQHpe9gC3NCNplugrWBD-WWoMG2a3s5DCE2t035fYfDfxbpGF1p4E7tSqM4ihs8vs5TweQKr8QUK0POaAAxRNhHA1a3zJmzRVdy1ndeYPHq1YEU0GasGdKNaA6hVHV4wKt3VlvJNYW_EAVpemwTNWqhR9fqXMU5HQy8F7-fd3SuhypQ1Dxbwfjd1wWvvoG_Oqy1Lxq30-ILKX96Y56kRlW7dOJlEgvDewfwGmnAqVI64dISM-SfQ8VFwJcT97fKbOJwvbOs=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 86,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "delonghi",
+      "query": "드롱기 디나미카 플러스",
+      "required": [
+        "드롱기",
+        "디나미카"
+      ],
+      "productId": 6410633360,
+      "productName": "[드롱기] 디나미카플러스 풀컬러 한글 디스플레이 전자동 커피머신 KRECAM370.95.T",
+      "productPrice": 1963130,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=6410633360&itemId=13746540989&vendorItemId=93231212274&traceid=V0-153-5ec0ed7e3b39a5d2&requestid=20260817202452552121696337&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/zu2iFCuMsBc3O6dWzpQOHgDSsHbFODp68hdgaFgglnf7HiCCqt2ZzSE7jjUwPduLZyoXQtzxlUeulVORBsEwQxlt8r0VboZvrrCxYv5n1NH0k5eHcpv-cyMJ-cyUaxX75qZOFjUiEgCSdLdpLvg3bAhXtn_u5zCL8x8MGvWIoRBl_vmuEzolOTbwEpMdGab-sYKgwLJRjaWRBSoDOdAMr8dYiTON9Z5aItWVfIXy4DG5zEkKXMMLzrllbumj0-P_DLAv86mUu4feZNKI6RZzQI7jmjySFzWlkyU8GSs1ki5SkenWSBf-0MHQwxtEpFcug3Nyrw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 87,
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "delonghi",
+      "query": "드롱기 라스페셜리스타 아르떼",
+      "required": [
+        "드롱기",
+        "라스페셜리스타"
+      ],
+      "productId": 8815997870,
+      "productName": "드롱기 라 스페셜리스타 아르떼 커피머신",
+      "productPrice": 699740,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8815997870&itemId=19791333459&vendorItemId=86893920999&traceid=V0-153-94aa1a0dbc35f76e&requestid=20260817202452854323349555&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/a-4RComroIl3tNN0a-qDTgKmExONGNXGbblLpWO3-UjzjH5bGlq62nLqOdQLQfZQ_0ImaO1mZn8iSowvV5iWEqodBSO0bb5xPcrXKWYBEPqz9GnIyK0VVtCQM-yahE6cOoBAdfagSo7JOJbRk2OA7sr-aYS99Us4qJnEpluC6hhxzpw03IS-nwuiX9ciqocCgAR6W63IS-u69lReAXAHoCPxaWeLClGRYIQOHMH8TzbwJvb2NQBMLEpBTYcnUNseMb4dhYRQSHkbK-BlQnnZR26bPNkpP-QvoMiVFKgwM4Nuinyt",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 88,
+      "category": "living-kitchen",
+      "type": "riceCooker",
+      "profile": "cuckoo",
+      "query": "쿠쿠 마스터셰프 사일런스 밥솥",
+      "required": [
+        "쿠쿠",
+        "마스터셰프"
+      ],
+      "productId": 9695802161,
+      "productName": "쿠쿠 IH전기압력밥솥 CRP-OHTR0610FGW / 6인용 / 트윈프레셔 마스터셰프 사일런스 오브제",
+      "productPrice": 635000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9695802161&itemId=29001159585&vendorItemId=95929622983&traceid=V0-153-fdd4ab2ef89cc91e&requestid=20260817202453417323556156&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/8E1_h15VXVgUt3k88JrWQOC6VVn7UdSaUEBCgoaWPNjn5MP9pB4A9dHHpSozccnnHPhJ3Zra7Wrlu-MqPq4OpL_4I39kYmAXfYEZLlQu6zJJaM-yb2CD59xGku-o7czRokIlEC6T4pdhFD8lO295ug_63RgzOezMgRzH9oPyV6ilmif27pUL1__Lm2PdLd3ejRSnx19BkFgG9AlP-szWwTCyGPFKQnP-HPdrwlfci_XJNqXm7HNWAfQrEZam0kiGx_OP-I79kpihimos6y79fvOA_I3weBjX2UFwiAmU0L5jvEDU_Q9em9HZ1vJFrghJNUxfpw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 89,
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "tefal",
+      "query": "테팔 원픽냄비팬",
+      "required": [
+        "테팔",
+        "원픽"
+      ],
+      "productId": 8971282403,
+      "productName": "테팔 인덕션 티타늄 원픽냄비팬",
+      "productPrice": 79600,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8971282403&itemId=23625415872&vendorItemId=90650944839&traceid=V0-153-386123b5e791f2ae&requestid=20260817202454831176422708&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/pWPU1DGZJeE0TWD6pa-w5pbGXkim_BWeAFnZDAM10llkz8A3GlrZfDtHiG53OsCku5BDa_xTTBuuwf9bXT7AHBPBnPnLXKQRofXFDHewxhiwuB_u0k3vdpC19skINbPcr8bo18eKNYNMCNtrlwS3iSYbrpBmybBBFz_LyKsbKHe7KoM5eTaMiQW2BHUw7036u2_gBcL_QhUbU8woZYgBQUEBFp_7BC6wa9X2GQpT2518sBqPdavLyLxk46oclfkXBzMByfv0xT0lTyqyey_z1I9Rq7EkK07R43dCJcOtGRePs1K3tppn6zCIwY7DC9vGXpjxPQ==",
+      "categoryName": "주방용품",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 90,
+      "category": "living-kitchen",
+      "type": "storageKitchen",
+      "profile": "locknlock",
+      "query": "락앤락 메트로 킹 텀블러",
+      "required": [
+        "락앤락",
+        "메트로 킹"
+      ],
+      "productId": 7357491003,
+      "productName": "락앤락 메트로 킹 텀블러",
+      "productPrice": 26400,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7357491003&itemId=18948062342&vendorItemId=86074391524&traceid=V0-153-b59d04eefe34b775&requestid=20260817202455435311841974&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/YZcNTxopR1FXds88YVB3TSn19nxS-HLZGmsc3586e3JYtN-3sWvraNoKc7NCGz_rJtGl8NBJarJMuVaveYs4NcXkUheh6T0P6Ld9bi86xfL5m2d1OIKx2Ic4SJdaFbu9Po-Oqb55y7suqoo1lZkCEyIjYd8m1eqQugCzP1PxyNfsIDbcorWcmKEfA3S_OIC4F6jtbgiy2EsoQTyr699mlcoKrUvpJFHJ44nHiuWh4vrIZZ5dWANnFz4plAF_m0DwesAY9BzDtRxWZT77HsQRiX50Zni4wKwvE_U-X7lTx8IT7ME=",
+      "categoryName": "주방용품",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 91,
+      "category": "living-kitchen",
+      "type": "storageKitchen",
+      "profile": "locknlock",
+      "query": "락앤락 바로한끼 도자기 밥용기",
+      "required": [
+        "락앤락",
+        "바로한끼"
+      ],
+      "productId": 1976146772,
+      "productName": "락앤락 바로 한끼 도자기 밥 용기",
+      "productPrice": 28280,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=1976146772&itemId=22729564156&vendorItemId=89764906055&traceid=V0-153-1587c0e2a0bea55e&requestid=20260817202455818118285877&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/NQgEc95jgGCBR4dwNe48cZs-20fHqSuP8baFWisumhGUorJI83OSSX0n33WASmu3xp4xl6HVOM_JrUI5T-pG236VMocC2SM-ZpQ8zWWi0pockLn6JOTj0K4SfiY6gtSqhSDG3ZRMo4Eu5RVGeiP_jS1d_yQkmpJFAGfhRMKgqBH_O3D1MP5syC5N13uIYZg6n4_Yd7MO54DZGegIVnm8DN_PycFgUeY00nQTZUJkRlcjmyP4iA3zMZnlt-xyqsVDBuFOkxLF7x5g6C-qToJyn4udJypKQ2HWTxK7x70EkfmibxVRKx0=",
+      "categoryName": "주방용품",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 92,
+      "category": "fashion-beauty",
+      "type": "hairCare",
+      "profile": "dyson",
+      "query": "다이슨 슈퍼소닉 뉴럴",
+      "required": [
+        "다이슨",
+        "뉴럴"
+      ],
+      "productId": 8358307401,
+      "productName": "다이슨 슈퍼소닉 뉴럴 헤어 드라이어",
+      "productPrice": 489000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8358307401&itemId=28337987141&vendorItemId=95290254064&traceid=V0-153-f88e83b944796f28&requestid=20260817202456508037038041&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/fv8w62NVjKREeOIwfpfgZq6slcgAU-_Yplr-mzHrCBIdNFFPfH4GzYP8R5WImlPCTUjZb_tmnvg_YhBUFLarl4lwMfHJDOWcHs53ZBgso3QUzYVrpFph-CbkuvCf1Mz-CuSFRaOL9aS4PZHPtlP2GA7kU00MEPt58shmVhDCOKkGQz6cAVBloq8Olyd_ot7eb6WeeS57Vc9Rs9rjKmpxm9eKF7RO2s-l_QWGKPnEG_lKdQFhT5UqtJKRxZMXbZNYhD7pxxetsQK-hwokw7C5obJLH9h10AN0DtQ0U_q-i77jp-1A",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 93,
+      "category": "fashion-beauty",
+      "type": "hairCare",
+      "profile": "dyson",
+      "query": "다이슨 에어스트레이트",
+      "required": [
+        "다이슨",
+        "에어스트레이트"
+      ],
+      "productId": 8051503105,
+      "productName": "다이슨 에어스트레이트 매직기",
+      "productPrice": 425000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8051503105&itemId=22583342040&vendorItemId=95631928360&traceid=V0-153-de49bd817ad572f6&requestid=20260817202456788057068440&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/xiI1UvyupshOzi9VxqeklPfVW5U7uinb__bwqhJr1G8qitR9aqPuh97cVhJZNZxdQ2zJh3QvLgJ20ouYa8-cOnqwDJQJElmUMelqcRI98kaEbOgOF7nd_i08xqqqiGT00ve9pisyaAGOQZjZdLjjTrPI3NdL8zkkUd0KNF9SGWJRlrAQhBMsmLrxqhse0zks0Axad84182V6h_KWia7FppiLBnAE0UcPRcWqZckgsr48xw2dvNvCiJQXIuCicSBkVrvRykgUL4MYWC7mgtTSQiuJ660Jgg9oxgfkDvDGXwLEWNsS",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 94,
+      "category": "fashion-beauty",
+      "type": "shaver",
+      "profile": "braun",
+      "query": "브라운 시리즈8 전기면도기",
+      "required": [
+        "브라운",
+        "시리즈8"
+      ],
+      "productId": 6722881281,
+      "productName": "브라운 전기면도기 시리즈 8 Sonic 8450cc 남자 면도기 세척충전 풀세트 + 정품 세정액 8개 1박스  남자선물",
+      "productPrice": 269000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=6722881281&itemId=15639671316&vendorItemId=87575177489&traceid=V0-153-fa896054e657b4f0&requestid=20260817202457487290095414&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/VXAhY1xpXY9x1tZIVSfn5TeH9NAXP2zj_1XL45l7vfGiTJlUao8Rk5Xw2EpxaT8BB3lYec9gm2CmCo9PbSMN1TXb36j16CJ-PVoTyYrzJ9B_OrfhTPHp65aQhpTnrLniSbtRLFPUD0nky28TsgT_qorYUpTxrorwLN1TvJJFlQFpSUdex8AA2eVl9MX2NEFQ8FE2CG6ibibeu5qkzKgQ7h2fDQD2BfzPDF8aVrfnYsub1ArcUGrbNBP0ZIdIT3f7-ExBV3MLH5KM3jgc6x-WMHUVBPIpxwA-8vr4ikeBaDlQxhIqIj9xC8sJ_XBVu2eThaC5BdE=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": false
+    },
+    {
+      "order": 95,
+      "category": "fashion-beauty",
+      "type": "hairCare",
+      "profile": "panasonic",
+      "query": "파나소닉 나노케어 드라이어",
+      "required": [
+        "파나소닉",
+        "나노케어"
+      ],
+      "productId": 6782092623,
+      "productName": "파나소닉 헤어드라이어 나노케어 [나노이]&미네랄 탑재 골드 EH-NA9G-N",
+      "productPrice": 226510,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=6782092623&itemId=15952972002&vendorItemId=95458803939&traceid=V0-153-5ef755250b7f4866&requestid=20260817202459684165226942&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/VbTlTb-tzZB0bI4vVbLTySC1UaNel_atGwVf8cEuIfY2kL4tcs7C2DgeUR89tjwyc3h4Is1M0XDIPPdgXpjoon2mHSecUw8Q-0BlYUSwRAzjFOG9usZ4kP7TsDOASUZaUNeUiRWxoeg7zAKEgH5GXogg3Au8qnGc0kVVhzb6qfHdaX8nFxJOF_AaCOzaplwlLM4nDacNQNRJroL7NF9McAYDrs2tIQD8C3lubzmUShCyAaXuCqydt186Gm2ZRSBJjZfqw78U3jYqMxEKT0TlOwhIvJM1zAiMUefC3s-YV011vU5vcrCb3L-XokdOmR_7A7KeJotK",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 96,
+      "category": "fashion-beauty",
+      "type": "shaver",
+      "profile": "panasonic",
+      "query": "파나소닉 람대쉬 프로 전기면도기",
+      "required": [
+        "파나소닉",
+        "람대쉬"
+      ],
+      "productId": 8984964117,
+      "productName": "파나소닉 람대쉬 PRO 5중날 전기 면도기 ES-L550U, 1개, 블랙",
+      "productPrice": 269000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8984964117&itemId=26311730831&vendorItemId=93244193053&traceid=V0-153-7781ba7fcab18917&clickBeacon=488820d0-9a2e-11f1-bd58-41a6818eee07%7E3&requestid=20260817202500052275956742&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/pCXa776njbE5aQ_vpIlkqYz4iPjkAzqNhRsR8IO0ueTYqLFdC2g6_1sXZU0p2FRzuG8_TgxoPE_82JdTUAD5QlXillvdjTmq_1t8dknUvldS-dsGNMtL9z0yeZx09P-QQzSxxu3WhKPUJ4iR6riRmsYLxGRdlprGQcJFiiAhjMEmMYFm_BST_fiYKcUCR4kiyEskyksBNhT0HxaVamDbmbl7OBodfAien1bwBPng02qvUmPAHlK5Z_m1oH0-nbzOcvneOwsMn0_ZD_NCuEaVfjIySe7ssL8nIAE0ezwcfxlF3Ffen2ShTtyprNC0bQCLbWR78fM5aaXHTTQMigXGgRnOwCuKuxbocRCm",
+      "categoryName": "생활용품",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 97,
+      "category": "fashion-beauty",
+      "type": "oralCare",
+      "profile": "panasonic",
+      "query": "파나소닉 제트워셔 구강세정기",
+      "required": [
+        "파나소닉",
+        "제트워셔"
+      ],
+      "productId": 9186035033,
+      "productName": "파나소닉 나노 제트워셔 플러스 구강세정기 물치실 치아 플라그 치석제거 고속충전, 화이트, EW-NJ8A",
+      "productPrice": 296010,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9186035033&itemId=27098110571&vendorItemId=94066285030&traceid=V0-153-7740b4ba4fc87a1a&clickBeacon=48c35510-9a2e-11f1-b791-3a8d9149f242%7E3&requestid=20260817202500452300054913&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/GsR2pTXpdKD52nnEGidpnbMe4iR9NHMrP6Sk0D1_HwZQzpj3BJeHkH-OoHzcu9_zoZQnwu2-JN_Zcvwr68S7Er2NUcdjpMkgrxLWFfgQUsa5kvohVFKH1T6TC31WVx4g5z5FjV2HuaK3SG1u_vpcRpwO-c4OKCXdlcHbApTplUTgO7CsSjrnfsdDkOdI9FkLHHDgnxtsJ0qMsgILLhR2xnYs0RwaQJDdLgr6LHDXnpuYvI7OPCrLnEz7w0mGtpT1zEvV5ZJAZ-DsFjAkKlqPbByJ9WU8OzGDql1DJSoOvl_Mqze0Y7I09nk=",
+      "categoryName": "헬스/건강식품",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 98,
+      "category": "fashion-beauty",
+      "type": "oralCare",
+      "profile": "philips",
+      "query": "필립스 소닉케어 9900 프레스티지",
+      "required": [
+        "필립스",
+        "9900"
+      ],
+      "productId": 6074029272,
+      "productName": "필립스 소닉케어 9900 프레스티지 전동칫솔",
+      "productPrice": 358900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=6074029272&itemId=28203238848&vendorItemId=95157416085&traceid=V0-153-eb8a493b31221f7e&requestid=20260817202501196008165286&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/A9xTkQbraC6z50H-A7egTN1_p8EjrG7gcHG5yuZa99YIz72LsoQMI-8oaYMx8k8wmocrdnlcUIJYdIS8KYOHUxwWUZ20fO2rl-RRZekLViddGlUUApVbNRTP-GqeYRX1uL2LKWjTI_3PS2Psm5yxy_ae57MK2pg_GIcu0gYqtyiXBT3nIIzBR3wrsWDJ7Lc4YLmGod7ZSOpw7VXmwm3P7h3Smrgzarh-XbIj1Pu2z40QgIIC1GPl0ywcCsG27SEvbbTAV3nA_dPgW2Lvv8B5kvStQvyFvIXp0dHJQf39RXpOVXRCpw==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 99,
+      "category": "outdoor-auto",
+      "type": "smartwatch",
+      "profile": "garmin",
+      "query": "가민 포러너 970",
+      "required": [
+        "가민",
+        "포러너 970"
+      ],
+      "productId": 8786998691,
+      "productName": "가민 러닝 GPS 스마트워치 포러너 970",
+      "productPrice": 1039000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8786998691&itemId=25571781061&vendorItemId=92609150847&traceid=V0-153-ff35ec9bc724e2b0&requestid=20260817202501537229480298&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/SuxhW4pyOGLcSiV6Spo3qB4zwwY4EPRjqRCS1p-RKNhAVkwPtquwIDM57d7tUcxi54JYNu-f_h2TckQc0yGfYjRULHhUBJR3HsiX4n7TXn9B53MBMV2JT_UtAZI02mg59ZEMn4vG938vgwrb2cmGSLnIuB-j2bReu4DnycVTKw2tXgAED5jufctBNKjTdFwZrCjSbM8fBFaSeCnuz_DdR0XNYA1vWMDxM303mQLZ4SJjEiyA5GIwwVOHSn_O81i80dZ_Yo-xgGzP_W0OXAd5uhxKhNCeZY7a_teUFsrdoVQoGSnN9Q==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 100,
+      "category": "outdoor-auto",
+      "type": "smartwatch",
+      "profile": "garmin",
+      "query": "가민 포러너 570",
+      "required": [
+        "가민",
+        "포러너 570"
+      ],
+      "productId": 8786991956,
+      "productName": "가민 러닝 GPS 스마트워치 47mm 포러너 570",
+      "productPrice": 799000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8786991956&itemId=25571753391&vendorItemId=92609611909&traceid=V0-153-1b78f130fae03328&requestid=20260817202501802037039506&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/H4HoSgZafLI4QW1THw9I7UfdO7z5AG48nn0RG7YJdfHxVkK27NW26J71RvLZ2rPnZ_O1AQonKw3AXcE6jWgeM5To44I7nSJcAUDIqz-ffhYi58eQ7X3ApxQNfQoQJUlj_Tgx5iu7Sq9YkD0oZQfUzC5kg6oAHxhKEEX3878ULDi47V11W0geTUaMB42IP5cY47B1CybnKRqp1rkV0oiBci1ExY-iEFm1Kq_4izL2j28wu_ELx9DdGUUb6s4oViwAZweAk5lKKyHM6MmNIpTi52mOW935ITUlrGZp_0czB44jaj50",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 101,
+      "category": "outdoor-auto",
+      "type": "outdoorPower",
+      "profile": "ecoflow",
+      "query": "에코플로우 델타3 플러스",
+      "required": [
+        "에코플로우",
+        "델타3"
+      ],
+      "productId": 9378871548,
+      "productName": "에코플로우 델타3 플러스 파워뱅크 캠핑 올인원 배터리 220V  한국형 차박 비상전원",
+      "productPrice": 1126000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9378871548&itemId=27823912113&vendorItemId=94783584737&traceid=V0-153-db8352c7a65550d0&requestid=20260817202502562300055351&token=31850C%7CGM",
+      "productImage": "https://ads-partners.coupang.com/image1/9y_rKTNrCJKmMh8B9yPC-axmsaWMcYofBnWB3poneGUUBJf05p5rOL365-ddp0jKMx3r5AhQKqnTMJFewOuushWW_gccuWpB20v612cBzablaAIUTJUk--KWgOowmjpggAPr7eTq9oXu_6ajNfynmzhkc7pC1gs5_88hXJPkYBo9EhPtinWnlxvhjqUgq69r7CfmP8UJUsHDEHz_hl-013DM8AQA63UjKfNVKG_BJTbA_jtF-OmNMw88wfDY0oMVm1MUaIoplSP6sm_hOtneBQvPUPOiQcf4Eu7ZnHTprLwKwGP9gSspnh2VxDqY_9gi9WILvu8=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 102,
+      "category": "outdoor-auto",
+      "type": "outdoorPower",
+      "profile": "bluetti",
+      "query": "블루에티 AC180 파워뱅크",
+      "required": [
+        "BLUETTI",
+        "AC180"
+      ],
+      "productId": 9367084816,
+      "productName": "BLUETTI 블루에티AC180P 올인원 인산철 파워뱅크1800W 1440Wh+PV350 350W 접이식 태양광패널",
+      "productPrice": 2308000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9367084816&itemId=27797466690&vendorItemId=93445164802&traceid=V0-153-2e303e0c5fcc4f75&clickBeacon=4aac3950-9a2e-11f1-9133-e255da839374%7E3&requestid=20260817202503658124951404&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/dhp8Th-L3Fat6-sUdr_tFJ3gfohgRAVl80qeSF14kzPnEsX906Pc8XWbTreMgJdYTpAsGVOeIH0D-3ci_kSJ2qWIipUEJ_KisbosVLGJFwmHm20mlToOR-boHP1uDLa-vmXdM_tyHGB9LGlL7D5O1TsartciTr9NeMqhm6AQMDXEaZeS4CDntITXyplSE4Wu_CXODADwpKszcYkGWpfS8Y_VJH5FZV2kI135U5YQDP6Z-VI5ODkUj45bY9c372NVOkhCbtoBLhO8sIIUkRInXWTztvMJgo5T-7CHs8WpIIjOzrllZe-qpwub",
+      "categoryName": "스포츠/레저",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 103,
+      "category": "outdoor-auto",
+      "type": "carAccessory",
+      "profile": "xiaomi",
+      "query": "샤오미 휴대용 에어펌프 2 프로",
+      "required": [
+        "샤오미",
+        "에어펌프"
+      ],
+      "productId": 9011242876,
+      "productName": "샤오미 미지아 에어 펌프 2 프로 휴대용 전기 팽창 펌프 디지털 디스플레이 팽창기 최대 농구 타이어 2500m",
+      "productPrice": 97900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9011242876&itemId=26414564364&vendorItemId=95684678328&traceid=V0-153-0c4faf589a7abaf2&requestid=20260817202504443300055876&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/vJm5PPhyfwwPskSFvHkSMFY4kPgk3OEnQexDop_G0hZvhVRyXn6s1ItIKX-iY4Dxw5BDo8kwnNTbl65r04lobEuAF3LCnkGt5SXghkKWwvHL12yQfQTuXLUSfzmF2zqtHryGN8HUb00CthOv9kuihnALBp8h1O91S3JnEN9XXPh0mW5tVOiuhJ7Zzz_621J10XsLR62WaFqVtY82uKCuoeLZ0nQZaQ3ZyV4-L8kNzT2sOQpqsi1gTtABPB6_CKPL9fqywkerIrKAGNXdm1lgv0NkJBAlWvqbYLtJIl0ryp4y4nC2MtRWVxk5-B6bPHSzGfyFHtQ=",
+      "categoryName": "생활용품",
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "order": 104,
+      "category": "pet-family",
+      "type": "sterilizer",
+      "profile": "babybrezza",
+      "query": "베이비브레짜 젖병 세척기",
+      "required": [
+        "베이비브레짜",
+        "세척기"
+      ],
+      "productId": 8350819178,
+      "productName": "베이비브레짜 원스텝 젖병 세척기 BRZ0103",
+      "productPrice": 389000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8350819178&itemId=24125436657&vendorItemId=91144563187&traceid=V0-153-eb21ba99162acf0b&requestid=20260817202506370323343422&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/sUelwHnQH3s_g1mZsbghrJkRPRLZJjAcDU8cXg9h1PCe3EPpsv0lBE61veMr9kXM5i0hoOgdn_0omDnLJ4cPubjTGFgfZiqfscdUzkLGOR8QnoT9scMKITjt9JKgs8KiwIyGl7XewKpjzQ23Qa6_nLqSCTNeatUorDuzqVrI5u9s14c9EiW14yabigDtUvGnsMTLi4yl1dRJIETUcue3UR8BvZDdqhnTBzUYCdUHH8A6_Avx9584nHsZfvOcWF0XaYrILKwJPmI0HYdbpYWa0W-51ZRVobndqzfu10fpZ0Cj31A=",
+      "categoryName": "출산/유아",
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "order": 105,
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 A57 128GB 듀얼심 자급제",
+      "required": [
+        "삼성",
+        "A57",
+        "128GB",
+        "듀얼심"
+      ],
+      "productId": 9557909195,
+      "productName": "삼성 갤럭시A57 128GB 8램 그레이 듀얼심+E심 5G 관세포함 자급제폰",
+      "productPrice": 537800,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9557909195&itemId=28520837804&vendorItemId=95281685611&traceid=V0-153-91ea711fe622d76b&requestid=20260817202354522230834079&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/tTOr8LES8Sv-X8hstYZaE2LfPqy4iYf1S4BLG9Dm7MWJX3tGHWV7jo3Sm5SbieFamYYDTkeR_5aT9-0pJcH_II5zBhh5MyfadLhBfl11gH5tXWsmadvzfCgXxeDOd3-TmnFjHTSAiPHGhhA0Cxud-FDO0qsKRhsxcooWRw8rsU6CvOeHluxSiuClv0k_SiYPyIy8I9XeEQQBEa-sTA7seWfes7MlCCvzWjJLoaNr0ObN7rleF6cjwm8wMZSZkVILZZgXPgwgBOQc-R05sTsZGeS62dkLZ88GCT0N6BPUckG-3yHHiupaZCjS1jkioM7tFndYrko=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "forbidden": []
+    },
+    {
+      "order": 106,
+      "category": "digital-pc",
+      "type": "storage",
+      "profile": "western-digital",
+      "query": "WD BLACK SN850X 1TB SSD",
+      "required": [
+        "WD",
+        "SN850X",
+        "1TB"
+      ],
+      "productId": 9683298057,
+      "productName": "WD BLACK SN850X 1TB M.2 NVMe SSD (GEN4/PS5 호환)",
+      "productPrice": 402500,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9683298057&itemId=28956709778&vendorItemId=86479010974&traceid=V0-153-903771167879fe1f&requestid=20260817202411865057065640&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/LPm_DMxMLMCnfp9OLLzlM67dB03W7kvUV5FXfm4U9LFFzzx32mcyRMu5QlyeJjWjCFEvo6NpXDWwfHngfhT_aMJesEC3JW1brsfneA2sEgjOY5Aewzjb0OUpF5fKE-SUk-lxpa2lEF-qcJUeAov0jPA4O935Ss-gJzTn3MWOUSPGBOo9FL5cwOkpkcIxonXz3uJ5GH0RG3IooIezK3j1oHaUHVRCrI0SOsG7kQKCgzEVaVQRGkec0O6y7MxO2CaADguRImU_RAvqoebglwmnF1q-X9H4D_WfitsIsHoleKhRm9TxSpdOZkxW24et7wEOxCkEGpw=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "forbidden": []
+    },
+    {
+      "order": 107,
+      "category": "digital-pc",
+      "type": "drone",
+      "profile": "dji",
+      "query": "DJI Neo 드론",
+      "required": [
+        "DJI",
+        "Neo"
+      ],
+      "productId": 8298492675,
+      "productName": "DJI Neo 드론",
+      "productPrice": 174000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8298492675&itemId=23937211278&vendorItemId=90959128811&traceid=V0-153-116c357be6996609&requestid=20260817202429793070604246&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/KblF9CSnDN4oxwb3Kav8hyh__51Tr0iVSIPutIGRjFxNCJmC_RG7tSVjJOgsiDYXqZLrIxvcOBCvw5WwkmL4PF2fBIqok-GBh_KlM0MRrSGD9V6jGXyeNZcq0h7hBaZlCu_EiH89CioUId8ChtoKXV27czXWkCsZ0b9GF0DQwFztPQd_Hp6V0XEK9C0QcQwQxE9ZKQLilyPmXi4X3GyiMGm4R7gRKfeWf8wXaCX3SgrdQatnjF3tPBiSwDyceqAA2HwKgUpqKmsLU1Ag8Ane7Ip41M0Xjdnw_CqOiO__KkyNRnTh",
+      "categoryName": "완구/취미",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "forbidden": []
+    },
+    {
+      "order": 108,
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "gopro",
+      "query": "GoPro HERO13 Black 크리에이터 에디션",
+      "required": [
+        "GoPro",
+        "HERO13",
+        "크리에이터"
+      ],
+      "productId": 9602303293,
+      "productName": "GoPro 스토어 한정 GoPro HERO13 Black 크리에이터 에디션 비매품 일본어 설명서",
+      "productPrice": 975260,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9602303293&itemId=28665153520&vendorItemId=95607232002&traceid=V0-153-cf32b418bfaebb12&requestid=20260817202431340275958534&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/MjjvvlBPwxh-TeQqMnp7pF-YiJ7FezwxoWV6PeD1VMpHHWt8YdmbDhisZEDnXd_FwHf08rG7xP0fLTGwFH75eoHmO7GI8X9pSkezS2HqUwZyzhwCYwdBBM1TCps8ISQuAevWtzOO_TOpY8ZG84L_g2Qrxk0_59MrgGrLJptx3f_2uF7qXydV0IK-Ocv7z5g5xqm8wNTVNfDMUxBD8HJ9Pv8zlJzH2_f6PbmoZaqAZtIOhnTPNmc82aRubWRXBuLRTEIiOjfdGCAycXImAEj1GraPmO_zJcihv-hjw7bx1Wf6Ayk7gTwF7ZSq9dpSXPry-0lzSw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "forbidden": []
+    }
+  ],
+  "rejected": [
+    {
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 Z 플립8 자급제",
+      "required": [
+        "삼성",
+        "플립8"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "samsung",
+      "query": "삼성 갤럭시탭 S11 울트라",
+      "required": [
+        "삼성",
+        "S11",
+        "울트라"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "smartwatch",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 워치8 클래식",
+      "required": [
+        "삼성",
+        "워치8",
+        "클래식"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "apple",
+      "query": "애플 아이폰 에어 자급제",
+      "required": [
+        "Apple",
+        "iPhone Air"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "smartphone",
+      "profile": "apple",
+      "query": "애플 아이폰 16e 자급제",
+      "required": [
+        "Apple",
+        "16e"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "apple",
+      "query": "애플 아이패드 A16",
+      "required": [
+        "Apple",
+        "iPad",
+        "A16"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "apple",
+      "query": "애플 아이패드 에어 M3 11",
+      "required": [
+        "Apple",
+        "iPad Air",
+        "M3"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "apple",
+      "query": "애플 아이패드 에어 M3 13",
+      "required": [
+        "Apple",
+        "iPad Air",
+        "M3",
+        "13"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "apple",
+      "query": "애플 아이패드 프로 M5 11",
+      "required": [
+        "Apple",
+        "iPad Pro",
+        "M5"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tablet",
+      "profile": "apple",
+      "query": "애플 아이패드 프로 M5 13",
+      "required": [
+        "Apple",
+        "iPad Pro",
+        "M5",
+        "13"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "laptop",
+      "profile": "apple",
+      "query": "애플 맥북에어 M4 13",
+      "required": [
+        "Apple",
+        "MacBook Air",
+        "M4"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "laptop",
+      "profile": "apple",
+      "query": "애플 맥북에어 M4 15",
+      "required": [
+        "Apple",
+        "MacBook Air",
+        "M4",
+        "15"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "laptop",
+      "profile": "apple",
+      "query": "애플 맥북프로 M5 14",
+      "required": [
+        "Apple",
+        "MacBook Pro",
+        "M5"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "smartwatch",
+      "profile": "apple",
+      "query": "애플워치 시리즈 11",
+      "required": [
+        "Apple",
+        "Watch Series 11"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "smartwatch",
+      "profile": "apple",
+      "query": "애플워치 울트라 3",
+      "required": [
+        "Apple",
+        "Watch Ultra 3"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "smartwatch",
+      "profile": "apple",
+      "query": "애플워치 SE 3",
+      "required": [
+        "Apple",
+        "Watch SE 3"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "apple",
+      "query": "애플 에어팟 4 액티브 노이즈 캔슬링",
+      "required": [
+        "Apple",
+        "AirPods 4"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tracker",
+      "profile": "apple",
+      "query": "애플 에어태그 2",
+      "required": [
+        "Apple",
+        "AirTag"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "charger",
+      "profile": "anker",
+      "query": "앤커 프라임 250W 충전기",
+      "required": [
+        "Anker",
+        "Prime",
+        "250W"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "charger",
+      "profile": "anker",
+      "query": "앤커 나노 100W 충전기",
+      "required": [
+        "Anker",
+        "Nano",
+        "100W"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "charger",
+      "profile": "anker",
+      "query": "앤커 맥고 Qi2 보조배터리",
+      "required": [
+        "Anker",
+        "MagGo"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "anker",
+      "query": "앤커 사운드코어 리버티 5",
+      "required": [
+        "soundcore",
+        "Liberty 5"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "console",
+      "profile": "sony",
+      "query": "소니 플레이스테이션5 슬림 디스크",
+      "required": [
+        "플레이스테이션5",
+        "슬림"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "sony",
+      "query": "소니 WH-1000XM6",
+      "required": [
+        "소니",
+        "WH-1000XM6"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "bose",
+      "query": "보스 QC 울트라 헤드폰 2세대",
+      "required": [
+        "BOSE",
+        "QC 울트라"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "bose",
+      "query": "보스 사운드링크 플렉스 2세대",
+      "required": [
+        "BOSE",
+        "SoundLink Flex"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "jbl",
+      "query": "JBL 투어 프로 3",
+      "required": [
+        "JBL",
+        "TOUR PRO 3"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "audio",
+      "profile": "jbl",
+      "query": "JBL 차지 6",
+      "required": [
+        "JBL",
+        "CHARGE 6"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tv",
+      "profile": "samsung",
+      "query": "삼성 OLED TV S95F",
+      "required": [
+        "삼성",
+        "S95F"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "tv",
+      "profile": "sony",
+      "query": "소니 브라비아 8 II OLED TV",
+      "required": [
+        "소니",
+        "BRAVIA 8"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "sony",
+      "query": "소니 알파 A7C II",
+      "required": [
+        "소니",
+        "A7C II"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "sony",
+      "query": "소니 ZV-E10 II",
+      "required": [
+        "소니",
+        "ZV-E10 II"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "sony",
+      "query": "소니 FE 24-70mm F2.8 GM II",
+      "required": [
+        "소니",
+        "24-70",
+        "GM II"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "dji",
+      "query": "DJI Mic Mini",
+      "required": [
+        "DJI",
+        "Mic Mini"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "dji",
+      "query": "DJI Mic 2",
+      "required": [
+        "DJI",
+        "Mic 2"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "insta360",
+      "query": "인스타360 Ace Pro 2",
+      "required": [
+        "인스타360",
+        "Ace Pro 2"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "digital-pc",
+      "type": "webcam",
+      "profile": "insta360",
+      "query": "인스타360 Link 2 웹캠",
+      "required": [
+        "인스타360",
+        "Link 2"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "digital-pc",
+      "type": "camera",
+      "profile": "gopro",
+      "query": "고프로 MAX 2",
+      "required": [
+        "GoPro",
+        "MAX 2"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "vacuum",
+      "profile": "dyson",
+      "query": "다이슨 V12 Detect Slim",
+      "required": [
+        "다이슨",
+        "V12"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "wetCleaner",
+      "profile": "dyson",
+      "query": "다이슨 WashG1",
+      "required": [
+        "다이슨",
+        "WashG1"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "home-appliances",
+      "type": "vacuum",
+      "profile": "lg",
+      "query": "LG 코드제로 A9 AI",
+      "required": [
+        "LG",
+        "코드제로",
+        "A9"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "vacuum",
+      "profile": "samsung",
+      "query": "삼성 비스포크 AI 제트 울트라",
+      "required": [
+        "삼성",
+        "AI 제트"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "roborock",
+      "query": "로보락 Saros 10",
+      "required": [
+        "로보락",
+        "Saros 10"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "roborock",
+      "query": "로보락 Saros 10R",
+      "required": [
+        "로보락",
+        "Saros 10R"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "roborock",
+      "query": "로보락 S9 MaxV Ultra",
+      "required": [
+        "로보락",
+        "S9 MaxV"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "roborock",
+      "query": "로보락 Qrevo Curv",
+      "required": [
+        "로보락",
+        "Qrevo Curv"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "vacuum",
+      "profile": "roborock",
+      "query": "로보락 H60 Ultra",
+      "required": [
+        "로보락",
+        "H60"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "dreame",
+      "query": "드리미 L50 Pro Ultra",
+      "required": [
+        "드리미",
+        "L50"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "home-appliances",
+      "type": "wetCleaner",
+      "profile": "dreame",
+      "query": "드리미 H15 Pro Heat",
+      "required": [
+        "드리미",
+        "H15"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "home-appliances",
+      "type": "vacuum",
+      "profile": "dreame",
+      "query": "드리미 Z30",
+      "required": [
+        "드리미",
+        "Z30"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "dyson",
+      "query": "다이슨 빅앤콰이엇 공기청정기",
+      "required": [
+        "다이슨",
+        "빅앤콰이엇"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "dyson",
+      "query": "다이슨 핫앤쿨 HP2",
+      "required": [
+        "다이슨",
+        "HP2"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "laundry",
+      "profile": "lg",
+      "query": "LG 스타일러 5벌",
+      "required": [
+        "LG",
+        "스타일러"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "laundry",
+      "profile": "samsung",
+      "query": "삼성 비스포크 AI 콤보",
+      "required": [
+        "삼성",
+        "AI 콤보"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "home-appliances",
+      "type": "refrigerator",
+      "profile": "lg",
+      "query": "LG 디오스 오브제컬렉션 냉장고",
+      "required": [
+        "LG",
+        "디오스",
+        "냉장고"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "blender",
+      "profile": "ninja",
+      "query": "닌자 디텍트 파워 블렌더 프로",
+      "required": [
+        "닌자",
+        "디텍트"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "beverage",
+      "profile": "ninja",
+      "query": "닌자 슬러시 프로즌 드링크 메이커",
+      "required": [
+        "닌자",
+        "슬러시"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "blender",
+      "profile": "ninja",
+      "query": "닌자 블라스트 휴대용 블렌더",
+      "required": [
+        "닌자",
+        "블라스트"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "philips",
+      "query": "필립스 에어프라이어 7000 시리즈",
+      "required": [
+        "필립스",
+        "7000"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "philips",
+      "query": "필립스 올인원 쿠커",
+      "required": [
+        "필립스",
+        "올인원"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "nespresso",
+      "query": "네스프레소 버츄오 크리아티스타",
+      "required": [
+        "네스프레소",
+        "크리아티스타"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "delonghi",
+      "query": "드롱기 리벨리아 전자동 커피머신",
+      "required": [
+        "드롱기",
+        "리벨리아"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "delonghi",
+      "query": "드롱기 마그니피카 에보",
+      "required": [
+        "드롱기",
+        "마그니피카 에보"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "coffee",
+      "profile": "delonghi",
+      "query": "드롱기 데디카 커피머신",
+      "required": [
+        "드롱기",
+        "데디카"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "riceCooker",
+      "profile": "cuckoo",
+      "query": "쿠쿠 트윈프레셔 밥솥",
+      "required": [
+        "쿠쿠",
+        "트윈프레셔"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "riceCooker",
+      "profile": "cuchen",
+      "query": "쿠첸 브레인 밥솥",
+      "required": [
+        "쿠첸",
+        "브레인"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "riceCooker",
+      "profile": "cuchen",
+      "query": "쿠첸 121 플러스 밥솥",
+      "required": [
+        "쿠첸",
+        "121"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "living-kitchen",
+      "type": "cooking",
+      "profile": "tefal",
+      "query": "테팔 매직핸즈 인덕션",
+      "required": [
+        "테팔",
+        "매직핸즈"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "fashion-beauty",
+      "type": "hairCare",
+      "profile": "dyson",
+      "query": "다이슨 에어랩 i.d.",
+      "required": [
+        "다이슨",
+        "에어랩"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "fashion-beauty",
+      "type": "shaver",
+      "profile": "braun",
+      "query": "브라운 시리즈7 전기면도기",
+      "required": [
+        "브라운",
+        "시리즈7"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "fashion-beauty",
+      "type": "beautyDevice",
+      "profile": "braun",
+      "query": "브라운 스킨아이엑스퍼트 IPL",
+      "required": [
+        "브라운",
+        "스킨아이엑스퍼트"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "fashion-beauty",
+      "type": "shaver",
+      "profile": "philips",
+      "query": "필립스 S9000 프레스티지 면도기",
+      "required": [
+        "필립스",
+        "S9000"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "fashion-beauty",
+      "type": "shaver",
+      "profile": "philips",
+      "query": "필립스 원블레이드 프로 360",
+      "required": [
+        "필립스",
+        "원블레이드"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "fashion-beauty",
+      "type": "beautyDevice",
+      "profile": "philips",
+      "query": "필립스 루메아 IPL",
+      "required": [
+        "필립스",
+        "루메아"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "fashion-beauty",
+      "type": "hairCare",
+      "profile": "jmw",
+      "query": "JMW 에어스톰 드라이기",
+      "required": [
+        "JMW",
+        "에어스톰"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "outdoor-auto",
+      "type": "smartwatch",
+      "profile": "garmin",
+      "query": "가민 피닉스 8",
+      "required": [
+        "가민",
+        "피닉스 8"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "outdoor-auto",
+      "type": "bikeComputer",
+      "profile": "garmin",
+      "query": "가민 엣지 1050",
+      "required": [
+        "가민",
+        "엣지 1050"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "outdoor-auto",
+      "type": "outdoorPower",
+      "profile": "jackery",
+      "query": "재키리 익스플로러 1000 뉴",
+      "required": [
+        "Jackery",
+        "1000"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "pet-family",
+      "type": "petFeeder",
+      "profile": "petlibro",
+      "query": "펫리브로 그라나리 자동급식기",
+      "required": [
+        "PETLIBRO",
+        "Granary"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "pet-family",
+      "type": "petFountain",
+      "profile": "petlibro",
+      "query": "펫리브로 도크스트림 고양이 정수기",
+      "required": [
+        "PETLIBRO",
+        "Dockstream"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "category": "pet-family",
+      "type": "petFountain",
+      "profile": "xiaomi",
+      "query": "샤오미 스마트 펫 정수기 2",
+      "required": [
+        "샤오미",
+        "펫 정수기"
+      ],
+      "reason": "일치하는 본품 API 결과 없음"
+    },
+    {
+      "category": "pet-family",
+      "type": "babyMonitor",
+      "profile": "philips",
+      "query": "필립스 아벤트 비디오 베이비 모니터",
+      "required": [
+        "필립스",
+        "아벤트"
+      ],
+      "reason": "Coupang Partners API 403: 검색 API의 시간당 사용 횟수 (API 가이드 - 문서 참고) 를 초과했습니다. 2026-08-18T20:24:19.748636525 이후에 다시 시도해 주시기 바랍니다. 총 3회 초과시 파트너스 이용이 제한됩니다. (현재 *2*회 초과)"
+    },
+    {
+      "order": 10,
+      "category": "digital-pc",
+      "type": "smartwatch",
+      "profile": "samsung",
+      "query": "삼성 갤럭시 링",
+      "required": [
+        "삼성",
+        "갤럭시",
+        "링"
+      ],
+      "productId": 8959671238,
+      "productName": "삼성 정품 갤럭시 워치8 메탈 밴드 with 베젤링 스티커, 실버, 1개",
+      "productPrice": 50000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8959671238&itemId=26216537409&vendorItemId=95199796009&traceid=V0-153-a5ddf03e36378aa2&clickBeacon=2339a6f0-9a2e-11f1-ae63-347c649cd16e%7E3&requestid=20260817202357418070605478&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/I_uZU9vS91vVPxhVI0eV7l6NrUtLK01qK0mNk8t_xIgXVQ7yka4jhGa6pyqraxkn3sH36LTFa7S0YwgIHJw1n2ITPqT8wzQW6l_Zn8jKMWGHnz19y1-gV9goTTA0Dv2Bfhr1R73SAXVsFDOJyIfpH4WWotvCNPrmmiEOjJBUKTJcMZrh7izYTHPbUWfz9EiHHbH3YLltHnhZHSD7FwTtGX7upuXCTjHPVOo80cxG0NfoCGlSLhLcXf4FU6WDEjKFKCmsOp6zpcKdY2CBefoLCyP2OnsIixF-EU7-YDAofe2adVBxYaM3bWkQ",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 12,
+      "category": "digital-pc",
+      "type": "laptop",
+      "profile": "samsung",
+      "query": "삼성 갤럭시북5 프로 360",
+      "required": [
+        "삼성",
+        "갤럭시북5",
+        "360"
+      ],
+      "productId": 9350884610,
+      "productName": "삼성 갤럭시북5 4 3 프로 360 16인치 키스킨 NT960HXA NT960XHZ NT965XHD NT965XHW NT960QHA NT750XHD NT750XHW NT960XGQ, 1개, 블랙(한영인쇄)",
+      "productPrice": 12500,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9350884610&itemId=27671355795&vendorItemId=94633508682&traceid=V0-153-6414fef917ac7059&clickBeacon=239e8340-9a2e-11f1-abb0-6461a20d8e77%7E3&requestid=20260817202358119125855801&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/c28_HSpynvXGNPGNc4XRtkDU1begJwyX__JBGlE0G1E1OGqjNtgvPv8q3fkn-TD64xMGNwNU1nm4daTPg826SfGGLgf9M5ZCjentRBgrAluGhzUyBmu1jESJAO1ZL2EWffhJonb3GdWgA-OE0o0CKVSB5lVLgVMNyOoSqlo_5u9uB3yLnd0X19Wbt8kLOzrwxenlPyqbstbOE-r2eQti5XzpaSXupWXVo8qQcNKWkicO7PwzbwXSQ3d98X2MmD1nrhaX5iEgLUApK7VNQCQOPQXLS9ttNpATHg0rq_3z2APQL7D-BpG-cGe8",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 35,
+      "category": "digital-pc",
+      "type": "input",
+      "profile": "logitech",
+      "query": "로지텍 G PRO X2 SUPERSTRIKE",
+      "required": [
+        "로지텍",
+        "PRO X2"
+      ],
+      "productId": 8479513862,
+      "productName": "시카이 로지텍 PRO X2 SUPERSTRIKE / G 프로 X 슈퍼라이트 2 2SE 호환 마우스 피트 알루미나 세라믹 스케이트 게이밍 액세서리 e스포츠 등급",
+      "productPrice": 13450,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8479513862&itemId=24537136466&vendorItemId=91549662570&traceid=V0-153-3875bc9c9f37ce07&requestid=20260817202412927084836850&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/5tzPi1vMobXND4-25oamuF49d4X-WK4rI6qybREkmeRhq1vO6a7y4yFefoXn9khbndwmsS5IgPYPAq3zuQW2Pk8h0sQFiykKzi6SABqkr8v1E3OcqlpAInPGunUl_i3GD-tYcN069As5HnlNfurKHg2gEsvzsRixawRqjLrqcvg6vFEoRoXqrT4T3Nn3omFkVXxJPzbBnX4zQU-8WeQsZqRba3P9JWa1CbA3s_kP4xZ7rzMTEwDwJ-GbHyBdFjanYN1vh0nLPhg1QNnVxQh20Sg6knkSNmpkKA-ViQMVbt5SNcfIMW-m3Cp_yyF_svmMAVKF3w==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 44,
+      "category": "digital-pc",
+      "type": "console",
+      "profile": "sony",
+      "query": "소니 플레이스테이션 포털 리모트 플레이어",
+      "required": [
+        "플레이스테이션",
+        "포털"
+      ],
+      "productId": 9694760531,
+      "productName": "소니 PS5 CFI-Y1001 휴대용 LCD 디스플레이 스크린 디지타이저 5 플레이스테이션 포털 리모트 플레이어용)",
+      "productPrice": 120600,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9694760531&itemId=28997185339&vendorItemId=95925731559&traceid=V0-153-82cb8ae7ad1d2746&requestid=20260817202418415037037221&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/4UnkfZK0xnKzC9Rh4biCeZb3Vx3cBc8xabZaptkGR-7WJlKmEI-biReJInmkhW_5_QmMecc1sG49oc-zcirbMd3H1LbizFVeO5jjIw-SQeABuxkl612xKERgkdmxUz1MJKRVaZONEFEs5Idkyz7ubfIjmTPKIGD6TfQ5LNh15taNgsBF-2DIBAtlfpqNUFGfVFao6eh--Il7Yt79OK-VNxaRNUPbLJHkPIXvXhlmJE_2sC8v8EE3fsn-NAR3-Ffz2cvFV8BulP-mkSG-VhCaVtJeDudSqidko_m2adq13pIeris5PXTgBIgdGLT4j8VqNG7go0o=",
+      "categoryName": "완구/취미",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 45,
+      "category": "digital-pc",
+      "type": "console",
+      "profile": "sony",
+      "query": "소니 듀얼센스 엣지",
+      "required": [
+        "듀얼센스",
+        "엣지"
+      ],
+      "productId": 9120335978,
+      "productName": "소니 PS5 플레이스테이션용 충전 배터리 듀얼 센스 엣지 무선 게임 컨트롤러 충전동 3000mAh",
+      "productPrice": 39400,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9120335978&itemId=26827326022&vendorItemId=95925497701&traceid=V0-153-523b0eb5f1d5d03e&requestid=20260817202418768068721199&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/vcapmjSXg8juyUE4vfJd4cnMm5YKJS5WlksZ3dO7i6OLJlWEQhVNPN3_qRf9mal63MXixwY2YEamuV5i-Lp61ZMBG6E9-L2KZlKlRoM42DjmPIPS3FVxqdHIVN8N3HnK34yJdAosNXekYYQ9JHH7rT0kXUCVu9yJV6-XfAdxtAtASVCrjWAewb72CRjb9ElnnrTAdLBhBCRonyh41QSikN-so_hPeAejXTJzsC89fNIxcGvzuNzMjKudksfh9uCQEMl5VMYm3UQXwd7XAGPqwRpBAm_NbVTXCnT0OjWAL4GJwvfayKrCHhJOZ_rO0l0hdxRYaA==",
+      "categoryName": "생활용품",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 63,
+      "category": "digital-pc",
+      "type": "drone",
+      "profile": "dji",
+      "query": "DJI Mini 4 Pro",
+      "required": [
+        "DJI",
+        "Mini 4 Pro"
+      ],
+      "productId": 7622733928,
+      "productName": "Card DJI Care Refresh 1-Year Plan(DJI Mini 4 Pro)",
+      "productPrice": 173090,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=7622733928&itemId=20638597474&vendorItemId=95100845195&traceid=V0-153-e1fda64d4c0dfb10&clickBeacon=36122d10-9a2e-11f1-aa17-de446c70cc41%7E3&requestid=20260817202429114037030133&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/b7BzBOMDVZ512GuGb_xHLtpz7_g9SGGBN3XSAq_7bU-MJnB7vNHbvba_XqSGuMxBiB5y7DnabIuVznlDfUJ_6C_52pTWuFwXVqFqCL0eC1hN8yV4VYO10Py0O8uGrGQFvG4r552PgM3pW6PFB-BxKfOamTjGPYui2ZqQMZxo-hRdhct0Zjos6y1AdnNcUosyp_00lmXZKRQ-6mVeNdQjmnqNVruVHxKir_qqYXkb35bf5oA7kfBQstrC4iky1U3QD1YATNyhaREpxS1uaSL9Qx9O_2ZqB-G-N8FIfvcWt-UmYPOunBBqx3C1",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 69,
+      "category": "home-appliances",
+      "type": "vacuum",
+      "profile": "dyson",
+      "query": "다이슨 V16 Piston Animal",
+      "required": [
+        "다이슨",
+        "V16"
+      ],
+      "productId": 9696172603,
+      "productName": "다이슨 V16 Piston 필터 교체용 진공청소기 HEPA SV53 DS60 Animal 호환",
+      "productPrice": 32000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9696172603&itemId=29002469806&vendorItemId=95930899874&traceid=V0-153-2cf130240650d22c&requestid=20260817202432161118289438&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/3-qzIkj2g3SHjFfl31DW92C-FTTbAcoCBA-EhfAmwxFKN85X7YEdZMaoxoBIK6FQGEA-InuOAzEBUMRmGrhKWZFW1MFNVsq6Xkfc0nKk5Mcj3Qxi1s2EDHmAD47QHunBiKi1N7EIk69jyztS1bsE-OKZiOi--3HM7dXvkz-9zadDSfo8UJVTkQDTRe8BVgCe5MhXXyPCbY4hCfluvs6N9-AgIwt22rZVRKweYj2Sl6Yb_8JMVW6NT0QSvMwXKyLUIsM7pGZIB-tw8Am-V6mwW0Qak0qJYB0S3hhICa6gjJhe4Fum64AToEEQuDN2cqRzh4CvB5o=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 70,
+      "category": "home-appliances",
+      "type": "vacuum",
+      "profile": "dyson",
+      "query": "다이슨 Gen5 Detect",
+      "required": [
+        "다이슨",
+        "Gen5"
+      ],
+      "productId": 9696178299,
+      "productName": "다이슨 Gen5detect Absolute 필터 반복사용 Absolute 카트리지 Gen5outsize 호환",
+      "productPrice": 28800,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9696178299&itemId=29002487026&vendorItemId=95930916921&traceid=V0-153-0ad8c3f6df1f6e2b&requestid=20260817202432531037031105&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/EV05a5j3JFG38bEiEUduNOZsuuCxX6ksvi1QVOIGIBeaDiVp6CM4awnkReozsPZJ-VMhKmhBztkBfTaIuTm7ImaoeQ80aOBFfM1ucIG7YBgQwpXR0vSEABopjhEwaYfgo6tUI_dr1HZt9UJO0d_XFsFyki54yhZrmJqLkZaTju12cQjbZIH7PJ-ESz77myxwkmDT3CUrt7a8QFi6jLfrsDzaEpRysYnjI219FrdZqGNoEd2rhdAujeYGFzF1s67XO_weiKOtI-FXMNgaw_EkBHVq2bw3nH8i8-VpNYZ7vNRP9OdeMa3vM643z2CPfF34fXRyAw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 71,
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "lg",
+      "query": "LG 로보킹 AI 올인원",
+      "required": [
+        "LG",
+        "로보킹"
+      ],
+      "productId": 8601125542,
+      "productName": "퓨어퍼스트 LG 코드제로 로보킹 AI 올인원 물걸레 호환, 6개, EBZ64750501",
+      "productPrice": 13200,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8601125542&itemId=24940474498&vendorItemId=91946494700&traceid=V0-153-4025c93eee9581d5&clickBeacon=38ab2770-9a2e-11f1-9ec9-d8444a2c9b9d%7E3&requestid=20260817202433415282026630&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/6g4t4t6xh1M7VdyM6hfY0daOLnG8HOIOqhwSRn8ZBNzu-nQXwCuzuSVsYMTTN_pmuRgSwXzW9gzyhiGYVWXQOZR1lZwG8_hqg-QqJSl9b1vkQn8aJGnuYB4wMiY4bctO8wEDCKJzdpmq0nuiDyLOihPzd6z9DX9FDy0Kl_bHzCYuA5ajdt5pkGnWB_DtMe2gZXeI-ZGLpRzptImg83NBianUMqunOCzvNWcbnHVsANLkd6vgEvIggoqV2L24nWFCzi1puPFGuSTeiAjQANZv34RVYHqHfoiudQ9BjlNfn_aR2ky4ouTARQ==",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 74,
+      "category": "home-appliances",
+      "type": "wetCleaner",
+      "profile": "roborock",
+      "query": "로보락 Flexi Pro",
+      "required": [
+        "로보락",
+        "Flexi Pro"
+      ],
+      "productId": 8846997891,
+      "productName": "퓨어퍼스트 로보락 Flexi Pro 롤러브러쉬 필터 호환",
+      "productPrice": 10900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8846997891&itemId=25787413547&vendorItemId=92775250663&traceid=V0-153-2bac4b1930faf7de&requestid=20260817202436099275959979&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/QKIJGfSZuYrwKiJVQA7qIOgECbCNiHPjHqDhgayUdVL7-676a6ZL_XY17cOtqB-NDHg9QjhUk6Yu4pynqmmO6bcWASMP60zDK3zZaxlgnSHmIErSt9pCL09eZMCNn--SqcJOPVit_sk0Ae8iqV32bXMT1wkxcDr8PHZsUDAzaeNqW9jDa27v4yHarksMuKl3I6xnuhAerZ1SxED0emS9qugK6AdY949xqOCGizqessIDppcMtOvCDOaXCo9Z4k1ypvIsI6hT_lFKkCK2xNo7SeZpgQeLrdaUrrlI53mT9380kC4BvtctfaznwW8ws_pTYj0=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 76,
+      "category": "home-appliances",
+      "type": "robotVacuum",
+      "profile": "xiaomi",
+      "query": "샤오미 로봇청소기 X20 Max",
+      "required": [
+        "샤오미",
+        "X20 Max"
+      ],
+      "productId": 9572093102,
+      "productName": "예원컴퍼니 샤오미 X20 PRO 샤오미 X20 MAX 로봇청소기 소모품 세트",
+      "productPrice": 35000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9572093102&itemId=28570511632&vendorItemId=95514896370&traceid=V0-153-9ce511b80859f623&requestid=20260817202438757084834032&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/Vwh3piutmtspE_5uVyDcqrmWH1odMgB_DuxB6dpeJ3v_z7P9OYBt83cox9JvZl8HsJf8mz6UzunWKgcbJALS-xRO5S4HGrOUg3q3gMChpfr_Xbah_4e9b9Jn_BxWrj9koEsxFoOKffsqIslboW-xUm8ESpUXYQfaYKR86Blfy0y2_MCv1JSHhTZcQpUSPokopLjOjWtkRVpu1MeK3ZqtdqYPBUVvUU_ANiDG69o84uDTdo-5R11whnCvqdP6atXkTnPhmh3xC-ls1i87n50526ZjmgZdrrLIxNA-9eKkZkFlNdZRxzwqdaUD2M0_KZjRQkcgIZg=",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 82,
+      "category": "home-appliances",
+      "type": "airCare",
+      "profile": "winix",
+      "query": "위닉스 타워 프라임 공기청정기",
+      "required": [
+        "위닉스",
+        "타워 프라임"
+      ],
+      "productId": 5844405676,
+      "productName": "상상그램 더프리미엄 위닉스 타워프라임 공기청정기 호환 필터, CAF-N0S4",
+      "productPrice": 48900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=5844405676&itemId=10152028844&vendorItemId=77434720916&traceid=V0-153-cef8599159e67b1e&clickBeacon=3d445ea0-9a2e-11f1-90c2-4b651949749a%7E3&requestid=20260817202441152230837093&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/nZkmwvqa5eRux3VInVZo4tzIQfvPkZly8Zox2UH3TKoZYWNo4De0eSGZMtJm_FwCGE1dTfKMoV1Rgz30p6uaElOqUjcANewacma0WlRaU_OC5HQpILw-hoMCv7lOq3kIJWJM5BKhDxqJ4S7Gu4yIpCk5cTJVp21R9RFqLfxRhwnbCZzfHFtesnM8G0p34P-FCE_Pkn6jLPz5MqYnS6KikwK89M3-h-YTTnOaUnKBVxAAPTdsAUyf68pTYr0tkqJaikuW-xG44JysLaifUsPVHs8=",
+      "categoryName": "가전디지털",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 87,
+      "category": "home-appliances",
+      "type": "laundry",
+      "profile": "lg",
+      "query": "LG 워시콤보 오브제컬렉션",
+      "required": [
+        "LG",
+        "워시콤보"
+      ],
+      "productId": 8899176108,
+      "productName": "LG정품 트롬 오브제컬렉션 워시콤보 세탁건조기 외부필터 FH25ES FH25ESE",
+      "productPrice": 18000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8899176108&itemId=26239145333&vendorItemId=94773625476&traceid=V0-153-d89c50174f6396de&requestid=20260817202443334000541031&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/yEJdnEUxGep5wCg4yB2kc7nV-L4q-1pJAsNXD10WLNA6c_jdaLYc5IsLFlkGrFevxQYvwe7MKKQFbFm_YdThENSs_sUmZ4y5yYAx4lwQPOhIU7pmo6a-krTF7QSoNfUPHDXsIe6kH8d99jIKR75ac1Es1u3t8Ate2QtMa2rSuVkOYiJQITphH86qU7zisZcyXqwPQv4EAJucfwtTCI6nnyvT5kMrZVeOvfmTB0AhdWBQWJNxta-YDBqIUZoJ9YxyFZvk8lew0KEPLrCrNj4C8yNki_-oIBwOuuHNZgOP-H2S_mxE15Hk3TFU65sG9ptPsv6xfw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": false,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 111,
+      "category": "fashion-beauty",
+      "type": "shaver",
+      "profile": "braun",
+      "query": "브라운 시리즈9 PRO 플러스",
+      "required": [
+        "브라운",
+        "시리즈9"
+      ],
+      "productId": 9624987846,
+      "productName": "[호환] 브라운 면도기 96M 9 프로 + 플러스 면도날 시리즈9 날망 헤드 S9, 1개, 실버, 96M",
+      "productPrice": 32900,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9624987846&itemId=28744075227&vendorItemId=95683274150&traceid=V0-153-847a43a57556729b&clickBeacon=46c9f610-9a2e-11f1-9c64-3799d3a49026%7E3&requestid=20260817202457121043228559&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/KNm7hOB0yjyjAE0HKKX1yVl2psu-MzwC7MgtC4V7PN23MIHwa1utfQ-KhokIYrxOl7uNf4onMEEpMMK8bFKJvzkYsgkhd1CgbvsnRMLHyIs9ePDEyuRVtEWeLUfzjqmBSYS8dQFmE3rhL5aQCAKP-uYPYPeBtvkWwu-W0YZhswWJd2xZwp5oqDKFkEyeuin1TxRLdjD1U8usBfiW8cGBzWpBHaH69k6oKe8zKfWC2CyybeVE7VTObKnXkt2ekOqSOqTeidryLfiSs0JQ74UtAMzCi84GxG82Ozm9MmsH0ITgUkkA6n5T",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 113,
+      "category": "fashion-beauty",
+      "type": "shaver",
+      "profile": "philips",
+      "query": "필립스 i9000 프레스티지 면도기",
+      "required": [
+        "필립스",
+        "i9000"
+      ],
+      "productId": 9187989109,
+      "productName": "필립스 전기면도기 SkinIQ 프레스티지 i9000 호환세척기 무선 클렌징 팟, 1개, 1개입",
+      "productPrice": 35700,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9187989109&itemId=27107448867&vendorItemId=94075562416&traceid=V0-153-3f3c4fe8fca07151&clickBeacon=478a38d0-9a2e-11f1-8838-8b69aad2fce4%7E3&requestid=20260817202458393124959959&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/BLrUCVYn_cKJu9dRBGUrnhJJwQttN8xe3XScnjYdzpp7a1CeQcCHjyrLF-MgmZAqD_GNlCex7WJ8DgvEIl06rg2C6vxZAzXhIZyu0WvEfc1Oqr4MLyuSZU_NlRbscm6HFrr4GuDekaIYz3bBKRsMiCK5k3oeRAPWdB2AElMVqjWWVr38IE9ltP8HhcbHTGU-7wf9zpURoSfE2oYnDvCUHNNF4gAeGInYgxdFu2M4aLdl5yOMQruEMoDEwHpNKj6TbUbPNP2Bex5GNPK3H3_UE0Ru5RUp8GCkvBJ5m7BYzE7DARti9qGZ2no=",
+      "categoryName": "생활용품",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 121,
+      "category": "outdoor-auto",
+      "type": "outdoorPower",
+      "profile": "ecoflow",
+      "query": "에코플로우 리버3 플러스",
+      "required": [
+        "에코플로우",
+        "리버3"
+      ],
+      "productId": 8950782177,
+      "productName": "에코플로우 에코플로우 리버3 플러스 추가배터리 파워뱅크 EB300",
+      "productPrice": 449000,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=8950782177&itemId=26858463235&vendorItemId=93818749265&traceid=V0-153-13ab8580e7421bcd&clickBeacon=4a3d4ae0-9a2e-11f1-8f80-8b07efa2f806%7E3&requestid=20260817202502935121699418&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/eSmtruhe_ZZ_A89geSUr0aukHwlgUcV9sW5UMokPt3YyvhTIgv2SZRbPGnGgebihTWtMuGGVnN1HlWkwPeiPmrST2aFY4iZy8SVctyZEMI75fjECK8SEesnxrrGQ6HTLoLogj2ms4nxqfPg_CP9EYRqpvgy4ocBYE1Bt3OUJGJK0TPwVmlXZiw71vUcgTpinTaeS-91SgWLeqe1i8bG876TrjBevJFAe-YMS2yb2FeuG3L4c6Ru-0ROGatz-PHTJzR2i6g9v-rHrZ9X69WcUUxFISvrXQ0deJlPaHDIt0wfBczVuV1Zka524cA==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 123,
+      "category": "outdoor-auto",
+      "type": "dashcam",
+      "profile": "blackvue",
+      "query": "블랙뷰 DR970X 블랙박스",
+      "required": [
+        "블랙뷰",
+        "DR970X"
+      ],
+      "productId": 9663410577,
+      "productName": "블랙뷰 DR970X Plus 블랙박스SD카드 128GB MLC타입 전용메모리",
+      "productPrice": 79500,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9663410577&itemId=28889759962&vendorItemId=95822354250&traceid=V0-153-2b36cecb6a6587d5&requestid=20260817202504015326622923&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/qxnAQ0Me56m5Q_Xoq41XCjIFpDYc129-sonYuYlWxQh8hrN_IY4TC0ddcllwLNWD5R5XKcAzLtNcDAGeza28beX_nZIFDKeTkz2drr20cRPtbArIi58GRbDs9OHQPECiV8PJ3DG0z2ANrRI_oFE7XAamc0jLJvw_E7cMMP-BcnSjrOMuQMdihYRFMcfh4lg47jmC_b93m9Lbt3E3yB6_mAoA71d9u-tPDUTvNK1Ht_A04MBofd9M0bBKQ6cRmSvu94Dus2DF5ClxS9fpLLe3ZVTEHQ_Tek_3POF8FOd1fbvolv0BxnrMiW72ktlmHkqZsRBShg==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": true,
+      "reason": "액세서리·호환품·해외 옵션 문구 감지"
+    },
+    {
+      "order": 125,
+      "category": "pet-family",
+      "type": "petCare",
+      "profile": "dyson",
+      "query": "다이슨 펫 그루밍 툴",
+      "required": [
+        "다이슨",
+        "그루밍"
+      ],
+      "productId": 9688300244,
+      "productName": "다이슨 청소기 펫 그루밍 브러쉬 툴 세트 V6 V7 V8 V10 V11",
+      "productPrice": 16500,
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF3381108&pageKey=9688300244&itemId=28974470327&vendorItemId=95904081086&traceid=V0-153-ea4951c502992181&requestid=20260817202505755326623394&token=31850C%7CMIXED",
+      "productImage": "https://ads-partners.coupang.com/image1/R3VdXNBynu6DZjLKR9WNecHtwBDgEL-e-UohNiaXBTeHzW37EZvyP9wuknYaRkMde_oW2WvZq8Uqadgr3U2agnjLCQGfBhFzPliXwnItnWrF18mqnaybUigl-1B0rwR9V26OtM3SeolfOTU3-4Y5AMBshNaKhorgQeuA_ijXRdoelkIlt8X3mr48pVPr8c2HQrnVbQtyPnYRQmblp35r4oyVsm59pno594ZmZ6BXB6NGTFMYJ4ZdeSVX_reZ-iiJs34OKNbiCbKK8YpurkLjS_aF7D-HGlGN_W50MVWwpisX8sz_maHdrkNk4M-T3FuXdFaDnw==",
+      "categoryName": "가전디지털",
+      "isRocket": false,
+      "isFreeShipping": false,
+      "reason": "본품 기준가격 미달(16500 < 30000)"
+    }
+  ],
+  "cleanedAt": "2026-08-17T11:26:28.838Z",
+  "cleanRejectedCount": 22,
+  "supplementAttemptedQueries": [],
+  "supplementedAt": "2026-08-17T11:54:02.656Z",
+  "approvedRecoveryAt": "2026-08-17T12:01:07.684Z"
+}
