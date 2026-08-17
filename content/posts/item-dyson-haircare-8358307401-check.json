@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 4,
   "productId": "8358307401",
   "slug": "item-dyson-haircare-8358307401-check",
   "category": "fashion-beauty",
@@ -94,5 +93,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T02:25:38+09:00",
+  "updatedAt": "2026-08-18T02:25:38+09:00"
 }
