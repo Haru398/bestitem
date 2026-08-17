@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 2,
-      "slug": "item-samsung-ai-7989878606-check",
-      "productId": "7989878606",
-      "title": "삼성 비스포크 AI 스팀 로봇청소기 구매 전: 문턱·가구·도크 공간·소모품·앱",
-      "category": "home-appliances"
-    },
-    {
       "order": 3,
       "slug": "item-ninja-cooking-6921108355-check",
       "productId": "6921108355",
@@ -754,12 +747,17 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 107,
+  "remaining": 106,
   "history": [
     {
       "order": 1,
       "slug": "item-samsung-s26-9309948201-check",
       "publishedAt": "2026-08-17T22:38:01+09:00"
+    },
+    {
+      "order": 2,
+      "slug": "item-samsung-ai-7989878606-check",
+      "publishedAt": "2026-08-17T23:25:18+09:00"
     }
   ]
 }
