@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 8,
-      "slug": "item-roborock-qrevo-edge-8936511061-check",
-      "productId": "8936511061",
-      "title": "로보락 Qrevo Edge 구매 전: 문턱·가구·도크 공간·소모품·앱",
-      "category": "home-appliances"
-    },
-    {
       "order": 9,
       "slug": "item-ninja-cooking-9535512844-check",
       "productId": "9535512844",
@@ -712,7 +705,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 101,
+  "remaining": 100,
   "history": [
     {
       "order": 1,
@@ -748,6 +741,11 @@
       "order": 7,
       "slug": "item-samsung-s26-9440658564-check",
       "publishedAt": "2026-08-18T04:01:13+09:00"
+    },
+    {
+      "order": 8,
+      "slug": "item-roborock-qrevo-edge-8936511061-check",
+      "publishedAt": "2026-08-18T04:26:30+09:00"
     }
   ]
 }

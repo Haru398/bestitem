@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 8,
   "productId": "8936511061",
   "slug": "item-roborock-qrevo-edge-8936511061-check",
   "category": "home-appliances",
@@ -102,5 +101,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T04:26:30+09:00",
+  "updatedAt": "2026-08-18T04:26:30+09:00"
 }
