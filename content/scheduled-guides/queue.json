@@ -5,12 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 2,
-      "slug": "guide-electric-shaver-head-cleaning-station",
-      "title": "전기면도기 고르는 법: 날망·세척 스테이션·교체 비용",
-      "category": "fashion-beauty"
-    },
-    {
       "order": 3,
       "slug": "guide-cordless-vacuum-runtime-charge-storage",
       "title": "무선청소기 고르는 법: 사용시간·충전·거치·소모품",
@@ -119,12 +113,17 @@
       "category": "living-kitchen"
     }
   ],
-  "remaining": 19,
+  "remaining": 18,
   "history": [
     {
       "order": 1,
       "slug": "guide-air-purifier-room-size-filter-sensor",
       "publishedAt": "2026-08-18T05:32:34+09:00"
+    },
+    {
+      "order": 2,
+      "slug": "guide-electric-shaver-head-cleaning-station",
+      "publishedAt": "2026-08-18T11:15:26+09:00"
     }
   ]
 }
