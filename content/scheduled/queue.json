@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 14,
-      "slug": "item-ninja-cooking-8462762881-check",
-      "productId": "8462762881",
-      "title": "닌자 콤비 멀티쿠커 구매 전: 용량·열원·세척 구조·구성품",
-      "category": "living-kitchen"
-    },
-    {
       "order": 15,
       "slug": "item-braun-8-6722881281-check",
       "productId": "6722881281",
@@ -670,7 +663,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 95,
+  "remaining": 94,
   "history": [
     {
       "order": 1,
@@ -736,6 +729,11 @@
       "order": 13,
       "slug": "item-dreame-x50-8585044754-check",
       "publishedAt": "2026-08-18T10:05:50+09:00"
+    },
+    {
+      "order": 14,
+      "slug": "item-ninja-cooking-8462762881-check",
+      "publishedAt": "2026-08-18T11:54:00+09:00"
     }
   ]
 }
