@@ -3,6 +3,10 @@ name: Publish one scheduled product guide
 on:
   # AdSense 재심사 준비 기간에는 자동 상품 발행을 중지합니다.
   # 품질 보류를 해제한 뒤에도 먼저 workflow_dispatch의 check를 통과해야 합니다.
+  # main의 일반 편집은 품질 게이트를 통과한 현재 사이트만 배포하며 예약 글을 꺼내지 않습니다.
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       mode:
@@ -66,23 +70,23 @@ jobs:
         run: node scripts/schedule/release-next.cjs
 
       - name: Validate public content
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npm run content:validate
 
       - name: Enforce AdSense editorial quality gate
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npm run content:adsense-audit
 
       - name: Build static site
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npx next build --webpack
 
       - name: Verify sitemap
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npm run sitemap:verify
 
       - name: Verify latest-content RSS
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npm run rss:verify
 
       - name: Commit actual publication time and remaining queue
@@ -99,17 +103,17 @@ jobs:
           git push origin HEAD:main
 
       - name: Configure GitHub Pages
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         uses: actions/configure-pages@v5
 
       - name: Upload static Pages artifact
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         uses: actions/upload-pages-artifact@v4
         with:
           path: out
 
       - name: Deploy the same verified artifact
-        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        if: ${{ github.event_name == 'push' || steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         id: deployment
         uses: actions/deploy-pages@v4
 
