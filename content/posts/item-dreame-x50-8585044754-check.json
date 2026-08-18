@@ -1,6 +1,5 @@
 {
   "kind": "post",
-  "queueOrder": 13,
   "productId": "8585044754",
   "slug": "item-dreame-x50-8585044754-check",
   "category": "home-appliances",
@@ -102,5 +101,7 @@
       "sourceType": "manufacturer-support",
       "checkedAt": "2026-08-17"
     }
-  ]
+  ],
+  "publishedAt": "2026-08-18T10:05:50+09:00",
+  "updatedAt": "2026-08-18T10:05:50+09:00"
 }

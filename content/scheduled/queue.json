@@ -5,13 +5,6 @@
   "timezone": "Asia/Seoul",
   "items": [
     {
-      "order": 13,
-      "slug": "item-dreame-x50-8585044754-check",
-      "productId": "8585044754",
-      "title": "드리미 X50 Ultra 구매 전: 문턱·가구·도크 공간·소모품·앱",
-      "category": "home-appliances"
-    },
-    {
       "order": 14,
       "slug": "item-ninja-cooking-8462762881-check",
       "productId": "8462762881",
@@ -677,7 +670,7 @@
       "category": "digital-pc"
     }
   ],
-  "remaining": 96,
+  "remaining": 95,
   "history": [
     {
       "order": 1,
@@ -738,6 +731,11 @@
       "order": 12,
       "slug": "item-samsung-s26-9440658767-check",
       "publishedAt": "2026-08-18T08:20:45+09:00"
+    },
+    {
+      "order": 13,
+      "slug": "item-dreame-x50-8585044754-check",
+      "publishedAt": "2026-08-18T10:05:50+09:00"
     }
   ]
 }
