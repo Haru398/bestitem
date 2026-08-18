@@ -19,6 +19,18 @@ import siteStyles from "../../site.module.css";
 
 type Props = { params: Promise<{ id: string }> };
 
+function getSourceLinkRel(value: string) {
+  try {
+    const hostname = new URL(value).hostname.toLowerCase();
+    if (hostname === "coupang.com" || hostname.endsWith(".coupang.com")) {
+      return "sponsored nofollow noopener noreferrer";
+    }
+  } catch {
+    // Content validation reports malformed source URLs; keep the rendered link isolated meanwhile.
+  }
+  return "noopener noreferrer";
+}
+
 export function generateStaticParams() {
   const posts = process.env.ITEM_MONSTER_LOCAL_PREVIEW === "true"
     ? getAllPosts()
@@ -146,7 +158,7 @@ export default async function PostPage({ params }: Props) {
                 <figcaption>
                   {post.heroImageCaption ? <span>{post.heroImageCaption}</span> : null}
                   {post.heroImageCredit ? (
-                    post.heroImageSourceUrl ? <a href={post.heroImageSourceUrl} target="_blank" rel="noreferrer">출처: {post.heroImageCredit}</a> : <small>출처: {post.heroImageCredit}</small>
+                    post.heroImageSourceUrl ? <a href={post.heroImageSourceUrl} target="_blank" rel={getSourceLinkRel(post.heroImageSourceUrl)}>출처: {post.heroImageCredit}</a> : <small>출처: {post.heroImageCredit}</small>
                   ) : null}
                 </figcaption>
               ) : null}
@@ -211,7 +223,7 @@ export default async function PostPage({ params }: Props) {
                       <figcaption>
                         <span>{section.imageCaption || section.imageAlt}</span>
                         {section.imageCredit ? (
-                          section.imageSourceUrl ? <a href={section.imageSourceUrl} target="_blank" rel="noreferrer">출처: {section.imageCredit}</a> : <small>출처: {section.imageCredit}</small>
+                          section.imageSourceUrl ? <a href={section.imageSourceUrl} target="_blank" rel={getSourceLinkRel(section.imageSourceUrl)}>출처: {section.imageCredit}</a> : <small>출처: {section.imageCredit}</small>
                         ) : null}
                       </figcaption>
                     ) : null}
