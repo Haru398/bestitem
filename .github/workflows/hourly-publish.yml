@@ -1,9 +1,8 @@
 name: Publish one scheduled product guide
 
 on:
-  schedule:
-    - cron: '0 * * * *'
-      timezone: 'Asia/Seoul'
+  # AdSense 재심사 준비 기간에는 자동 상품 발행을 중지합니다.
+  # 품질 보류를 해제한 뒤에도 먼저 workflow_dispatch의 check를 통과해야 합니다.
   workflow_dispatch:
     inputs:
       mode:
@@ -62,7 +61,7 @@ jobs:
 
       - name: Release exactly one reservation
         id: release
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'publish' }}
+        if: ${{ inputs.mode == 'publish' }}
         run: node scripts/schedule/release-next.cjs
 
       - name: Validate public content

@@ -3,6 +3,9 @@
   "total": 108,
   "cadence": "one per hour",
   "timezone": "Asia/Seoul",
+  "qualityStatus": "paused-for-adsense-review",
+  "automaticPublishing": false,
+  "holdReason": "상품별 고유 정보와 문장 중복을 다시 검수할 때까지 자동 발행을 중지합니다.",
   "items": [
     {
       "order": 15,

@@ -35,6 +35,20 @@ function main() {
     githubOutput('released', 'false');
     return;
   }
+  const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
+  if (queue.qualityStatus !== 'approved') {
+    const result = {
+      released: false,
+      paused: true,
+      qualityStatus: queue.qualityStatus || 'not-approved',
+      reason: queue.holdReason || '예약 상품 글의 개별 검수 승인이 필요합니다.',
+      remaining: files.length,
+    };
+    console.log(JSON.stringify(result, null, 2));
+    githubOutput('released', 'false');
+    if (!dryRun) throw new Error(`Product publishing is paused: ${result.reason}`);
+    return;
+  }
   const sourcePostPath = path.join(postsDir, files[0]);
   const post = JSON.parse(fs.readFileSync(sourcePostPath, 'utf8'));
   const imageNames = [...new Set([
@@ -68,7 +82,6 @@ function main() {
   fs.unlinkSync(sourcePostPath);
   for (const sourceImagePath of sourceImagePaths) fs.unlinkSync(sourceImagePath);
 
-  const queue = JSON.parse(fs.readFileSync(queuePath, 'utf8'));
   queue.items = (queue.items || []).filter((item) => item.slug !== post.slug);
   queue.remaining = queue.items.length;
   queue.history = [...(queue.history || []), { order: post.queueOrder, slug: post.slug, publishedAt: actualPublishedAt }];
