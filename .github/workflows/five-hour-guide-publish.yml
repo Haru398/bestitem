@@ -94,6 +94,10 @@ jobs:
         if: ${{ steps.release.outputs.released == 'true' }}
         run: npm run content:validate
 
+      - name: Enforce AdSense editorial quality gate
+        if: ${{ steps.release.outputs.released == 'true' }}
+        run: npm run content:adsense-audit
+
       - name: Build static site
         if: ${{ steps.release.outputs.released == 'true' }}
         run: npx next build --webpack

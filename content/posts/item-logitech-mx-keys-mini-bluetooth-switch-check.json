@@ -47,7 +47,11 @@
     },
     {
       "heading": "2. Easy-Switch 3대 연결은 동시 입력이 아니라 채널 전환",
-      "body": "Logitech 공식 시작 안내에 따르면 MX Keys Mini는 Bluetooth로 연결하고 Easy-Switch 키에 최대 3대의 컴퓨터를 등록할 수 있습니다. 첫 기기에서는 원하는 Easy-Switch 키를 약 3초 동안 눌러 표시등이 빠르게 깜박이게 한 뒤, 컴퓨터나 태블릿의 Bluetooth 목록에서 키보드를 선택해 페어링합니다. 두 번째와 세 번째 기기도 다른 채널에 같은 과정을 반복합니다. 여기서 `3대 연결`은 세 기기에 동시에 글자가 입력된다는 뜻이 아닙니다. 작업할 때 Easy-Switch 1·2·3 중 하나를 눌러 현재 입력을 받을 기기로 바꾸는 방식입니다. 구매 전에는 실제로 연결하려는 기기가 몇 개인지, 각 기기에서 Bluetooth를 켤 수 있는지부터 적어보세요. 회사 PC처럼 Bluetooth 사용이 정책으로 막혀 있거나 로그인 전 연결이 중요한 환경이라면, Bluetooth만으로 충분한지 별도 수신기가 필요한지도 함께 판단해야 합니다."
+      "body": "Logitech 공식 시작 안내에 따르면 MX Keys Mini는 Bluetooth로 연결하고 Easy-Switch 키에 최대 3대의 컴퓨터를 등록할 수 있습니다. 첫 기기에서는 원하는 Easy-Switch 키를 약 3초 동안 눌러 표시등이 빠르게 깜박이게 한 뒤, 컴퓨터나 태블릿의 Bluetooth 목록에서 키보드를 선택해 페어링합니다. 두 번째와 세 번째 기기도 다른 채널에 같은 과정을 반복합니다. 여기서 `3대 연결`은 세 기기에 동시에 글자가 입력된다는 뜻이 아닙니다. 작업할 때 Easy-Switch 1·2·3 중 하나를 눌러 현재 입력을 받을 기기로 바꾸는 방식입니다. 구매 전에는 실제로 연결하려는 기기가 몇 개인지, 각 기기에서 Bluetooth를 켤 수 있는지부터 적어보세요. 회사 PC처럼 Bluetooth 사용이 정책으로 막혀 있거나 로그인 전 연결이 중요한 환경이라면, Bluetooth만으로 충분한지 별도 수신기가 필요한지도 함께 판단해야 합니다.",
+      "image": "/images/item-logitech-mx-keys-mini-bluetooth-switch-check--buying-map.png",
+      "imageAlt": "로지텍 MX Keys Mini 구매 전 세 가지 핵심 확인 순서 도식",
+      "imageCaption": "주문 옵션이 원하는 색상과 한글 배열인지·Logi Bolt 수신기가 실제 구성품에 포함되는지·사용할 기기의 Bluetooth 지원 여부와 충전용 USB-C 케이블 구성 순서로 확인할 내용을 정리한 원본 도식",
+      "imageCredit": "아이템몬스터 직접 제작"
     },
     {
       "heading": "3. Logi Bolt와 Unifying은 같은 수신기가 아니다",
@@ -55,7 +59,11 @@
     },
     {
       "heading": "4. 한글 각인과 다중 운영체제 키 표시는 따로 살펴보기",
-      "body": "공식 지원 문서는 MX Keys Mini가 Windows, macOS, iOS·iPadOS, Linux, ChromeOS, Android 등 여러 운영체제에서 연결될 수 있다고 안내합니다. 다중 운영체제를 지원한다는 말과 내가 익숙한 키 배열이라는 말은 같지 않습니다. 작은 키보드에서는 Windows용 `Alt`, macOS용 `Option·Command`, 화면 캡처와 마이크 음소거 같은 기능 키가 한 자리에 함께 표시될 수 있어 처음에는 위치를 다시 익혀야 합니다. 한글 입력이 중요하다면 대표 사진의 한글 각인만 보지 말고 선택 옵션에도 한글 배열이 적혀 있는지 확인하세요. 기능 키의 동작은 운영체제와 앱, Logi Options+ 설정에 따라 달라질 수 있으므로 특정 단축키가 업무에 필수라면 공식 지원 페이지에서 해당 운영체제 지원 여부를 먼저 보는 편이 좋습니다. 숫자 입력이 많은 회계·재고 작업이라면 Mini의 작은 폭보다 독립 숫자 키패드가 없는 불편이 더 클 수 있다는 점도 함께 계산해야 합니다."
+      "body": "공식 지원 문서는 MX Keys Mini가 Windows, macOS, iOS·iPadOS, Linux, ChromeOS, Android 등 여러 운영체제에서 연결될 수 있다고 안내합니다. 다중 운영체제를 지원한다는 말과 내가 익숙한 키 배열이라는 말은 같지 않습니다. 작은 키보드에서는 Windows용 `Alt`, macOS용 `Option·Command`, 화면 캡처와 마이크 음소거 같은 기능 키가 한 자리에 함께 표시될 수 있어 처음에는 위치를 다시 익혀야 합니다. 한글 입력이 중요하다면 대표 사진의 한글 각인만 보지 말고 선택 옵션에도 한글 배열이 적혀 있는지 확인하세요. 기능 키의 동작은 운영체제와 앱, Logi Options+ 설정에 따라 달라질 수 있으므로 특정 단축키가 업무에 필수라면 공식 지원 페이지에서 해당 운영체제 지원 여부를 먼저 보는 편이 좋습니다. 숫자 입력이 많은 회계·재고 작업이라면 Mini의 작은 폭보다 독립 숫자 키패드가 없는 불편이 더 클 수 있다는 점도 함께 계산해야 합니다.",
+      "image": "/images/item-logitech-mx-keys-mini-bluetooth-switch-check--final-check.png",
+      "imageAlt": "로지텍 MX Keys Mini 결제 직전 모델 옵션 구성 지원 체크 도식",
+      "imageCaption": "모델·옵션·구성·지원 조건을 결제 직전에 다시 확인하는 원본 체크표",
+      "imageCredit": "아이템몬스터 직접 제작"
     },
     {
       "heading": "5. USB-C는 충전용이며 백라이트 사용 조건도 점검",

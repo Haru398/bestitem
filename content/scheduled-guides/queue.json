@@ -3,117 +3,8 @@
   "total": 20,
   "cadence": "one every five hours",
   "timezone": "Asia/Seoul",
-  "items": [
-    {
-      "order": 3,
-      "slug": "guide-cordless-vacuum-runtime-charge-storage",
-      "title": "무선청소기 고르는 법: 사용시간·충전·거치·소모품",
-      "category": "home-appliances"
-    },
-    {
-      "order": 4,
-      "slug": "guide-air-fryer-capacity-basket-cleaning",
-      "title": "에어프라이어 용량 고르는 법: 바스켓·열원·세척 공간",
-      "category": "living-kitchen"
-    },
-    {
-      "order": 5,
-      "slug": "guide-blender-container-blade-cleaning",
-      "title": "블렌더 고르는 법: 용기·칼날·얼음 분쇄·세척 순서",
-      "category": "living-kitchen"
-    },
-    {
-      "order": 6,
-      "slug": "guide-electric-kettle-capacity-lid-filter",
-      "title": "전기주전자 고르는 법: 용량·뚜껑·필터·안전 기능",
-      "category": "living-kitchen"
-    },
-    {
-      "order": 7,
-      "slug": "guide-robot-vacuum-threshold-dock-clearance",
-      "title": "로봇청소기 사기 전 집 재는 법: 문턱·가구·도크 공간",
-      "category": "home-appliances"
-    },
-    {
-      "order": 8,
-      "slug": "guide-dehumidifier-daily-capacity-drain-space",
-      "title": "제습기 용량 고르는 법: 일일제습량·물통·연속배수",
-      "category": "home-appliances"
-    },
-    {
-      "order": 9,
-      "slug": "guide-refrigerator-door-path-ventilation-space",
-      "title": "냉장고 설치 전 사이즈 재는 법: 문폭·통로·방열 공간",
-      "category": "home-appliances"
-    },
-    {
-      "order": 10,
-      "slug": "guide-washing-machine-capacity-door-drain",
-      "title": "세탁기 용량 고르는 법: kg·문폭·급수·배수 확인",
-      "category": "home-appliances"
-    },
-    {
-      "order": 11,
-      "slug": "guide-power-bank-flight-wh-port-output",
-      "title": "보조배터리 고르는 법: Wh 계산·기내 반입·포트 출력",
-      "category": "digital-pc"
-    },
-    {
-      "order": 12,
-      "slug": "guide-external-storage-usb-speed-backup",
-      "title": "외장 SSD·HDD 고르는 법: USB 속도·용량·백업 계획",
-      "category": "digital-pc"
-    },
-    {
-      "order": 13,
-      "slug": "guide-wireless-earbuds-fit-codec-multipoint",
-      "title": "무선 이어폰 고르는 법: 착용·코덱·멀티포인트·배터리",
-      "category": "digital-pc"
-    },
-    {
-      "order": 14,
-      "slug": "guide-gaming-mouse-grip-weight-receiver",
-      "title": "게이밍 마우스 고르는 법: 그립·무게·수신기·폴링레이트",
-      "category": "digital-pc"
-    },
-    {
-      "order": 15,
-      "slug": "guide-monitor-size-input-stand-hdr",
-      "title": "모니터 고르는 법: 화면 크기·입력 단자·스탠드 공간",
-      "category": "digital-pc"
-    },
-    {
-      "order": 16,
-      "slug": "guide-cpu-socket-graphics-memory-cooler",
-      "title": "데스크톱 CPU 고르는 법: 소켓·내장그래픽·메모리·쿨러",
-      "category": "digital-pc"
-    },
-    {
-      "order": 17,
-      "slug": "guide-action-camera-storage-waterproof-battery",
-      "title": "액션캠 고르는 법: 저장매체·방수·배터리·촬영 방식",
-      "category": "digital-pc"
-    },
-    {
-      "order": 18,
-      "slug": "guide-projector-throw-distance-brightness-input",
-      "title": "빔프로젝터 고르는 법: 투사거리·밝기·입력·소리",
-      "category": "digital-pc"
-    },
-    {
-      "order": 19,
-      "slug": "guide-home-camera-power-wifi-storage-privacy",
-      "title": "홈캠·CCTV 고르는 법: 전원·Wi‑Fi·저장·개인정보",
-      "category": "digital-pc"
-    },
-    {
-      "order": 20,
-      "slug": "guide-office-chair-seat-armrest-tilt",
-      "title": "사무용 의자 고르는 법: 좌판·팔걸이·틸트·책상 높이",
-      "category": "living-kitchen"
-    }
-  ],
-  "remaining": 18,
+  "items": [],
+  "remaining": 0,
   "history": [
     {
       "order": 1,
@@ -124,6 +15,96 @@
       "order": 2,
       "slug": "guide-electric-shaver-head-cleaning-station",
       "publishedAt": "2026-08-18T11:15:26+09:00"
+    },
+    {
+      "order": 3,
+      "slug": "guide-cordless-vacuum-runtime-charge-storage",
+      "publishedAt": "2026-08-18T12:38:10+09:00"
+    },
+    {
+      "order": 4,
+      "slug": "guide-air-fryer-capacity-basket-cleaning",
+      "publishedAt": "2026-08-18T12:38:10+09:00"
+    },
+    {
+      "order": 5,
+      "slug": "guide-blender-container-blade-cleaning",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 6,
+      "slug": "guide-electric-kettle-capacity-lid-filter",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 7,
+      "slug": "guide-robot-vacuum-threshold-dock-clearance",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 8,
+      "slug": "guide-dehumidifier-daily-capacity-drain-space",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 9,
+      "slug": "guide-refrigerator-door-path-ventilation-space",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 10,
+      "slug": "guide-washing-machine-capacity-door-drain",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 11,
+      "slug": "guide-power-bank-flight-wh-port-output",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 12,
+      "slug": "guide-external-storage-usb-speed-backup",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 13,
+      "slug": "guide-wireless-earbuds-fit-codec-multipoint",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 14,
+      "slug": "guide-gaming-mouse-grip-weight-receiver",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 15,
+      "slug": "guide-monitor-size-input-stand-hdr",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 16,
+      "slug": "guide-cpu-socket-graphics-memory-cooler",
+      "publishedAt": "2026-08-18T12:38:11+09:00"
+    },
+    {
+      "order": 17,
+      "slug": "guide-action-camera-storage-waterproof-battery",
+      "publishedAt": "2026-08-18T12:38:12+09:00"
+    },
+    {
+      "order": 18,
+      "slug": "guide-projector-throw-distance-brightness-input",
+      "publishedAt": "2026-08-18T12:38:12+09:00"
+    },
+    {
+      "order": 19,
+      "slug": "guide-home-camera-power-wifi-storage-privacy",
+      "publishedAt": "2026-08-18T12:38:12+09:00"
+    },
+    {
+      "order": 20,
+      "slug": "guide-office-chair-seat-armrest-tilt",
+      "publishedAt": "2026-08-18T12:38:12+09:00"
     }
   ]
 }

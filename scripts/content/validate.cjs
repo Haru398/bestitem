@@ -9,7 +9,15 @@ const slugs = new Set();
 const bannedHype = /(무조건|100%\s*(효과|차단|보장)|완벽한\s*제품|(^|[^가-힣])기적([^가-힣]|$)|끝판왕|가성비\s*갑|박살)/m;
 const roboticOpening = /^.{0,120}이 글은 .{0,80}직접 .{0,40}(후기|사용)/s;
 const validStatuses = new Set(['draft', 'legacy', 'reviewed', 'hidden']);
-const validSourceTypes = new Set(['manufacturer-spec', 'manufacturer-support', 'official-standard', 'public-agency']);
+const validSourceTypes = new Set([
+  'manufacturer',
+  'manufacturer-product',
+  'manufacturer-manual',
+  'manufacturer-spec',
+  'manufacturer-support',
+  'official-standard',
+  'public-agency',
+]);
 const validPostSourceTypes = new Set([
   'manufacturer',
   'manufacturer-product',
@@ -246,14 +254,15 @@ for (const entry of [...read('posts'), ...read('guides')]) {
 
       if (item.category === 'digital-pc') {
         const productMedia = (item.media || []).filter((media) => media.usageBasis !== 'original');
+        const originalMedia = (item.media || []).filter((media) => media.usageBasis === 'original');
         const bodyHeadings = new Set(
           [...String(item.content || '').matchAll(/^## (.+)$/gm)].map((match) => match[1].trim()),
         );
         if ((item.media || []).length < 5) {
           errors.push(`${prefix} PC 전문 가이드는 본문 도식을 포함해 시각 자료가 5장 이상 필요합니다.`);
         }
-        if (productMedia.length < 4) {
-          errors.push(`${prefix} PC 전문 가이드는 이용 근거가 확인된 실제 제품 이미지가 4장 이상 필요합니다.`);
+        if (originalMedia.length < 5 && productMedia.length < 4) {
+          errors.push(`${prefix} PC 전문 가이드는 직접 제작 도식 5장 또는 이용 근거가 확인된 실제 제품 이미지 4장 이상이 필요합니다.`);
         }
         for (const [index, media] of productMedia.entries()) {
           if (media.path !== item.heroImage && !media.placement) {

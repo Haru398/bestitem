@@ -61,32 +61,18 @@ export default function Home() {
           </aside>
         </section>
 
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <div>
-              <span className={styles.eyebrow}>최근 다시 확인한 구매 메모</span>
-              <h2>공식 자료로 다시 확인한 제품</h2>
-              <p>계절성 문구로 묶지 않고, 모델·구성·설치 조건을 다시 확인한 제품만 모았습니다.</p>
-            </div>
-            <Link href="/articles/" className={styles.textLink}>쓴 글 전부 보기 →</Link>
-          </div>
-          <div className={styles.cardGrid}>
-            {featured.map((post) => (post ? <ArticleCard post={post} key={post.slug} /> : null))}
-          </div>
-        </section>
-
         {guides.length > 0 ? (
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div>
-                <span className={styles.eyebrow}>제품명보다 먼저 볼 것</span>
-                <h2>뭘 사야 할지부터 헷갈린다면</h2>
-                <p>바로 상품부터 고르지 말고, 어떤 방식이 내 상황에 맞는지 먼저 비교해 봅니다.</p>
+                <span className={styles.eyebrow}>제휴 링크 없는 선택 가이드</span>
+                <h2>상품보다 먼저, 고르는 기준부터</h2>
+                <p>제조사·공공기관 자료를 대조하고 직접 제작한 도식으로 종류와 조건을 먼저 설명합니다.</p>
               </div>
-              <Link href="/guide/" className={styles.textLink}>정리한 내용 더 보기 →</Link>
+              <Link href="/guide/" className={styles.textLink}>선택 가이드 전부 보기 →</Link>
             </div>
             <div className={styles.cardGrid}>
-              {guides.slice(0, 3).map((guide) => (
+              {guides.slice(0, 6).map((guide) => (
                 <Link href={`/guide/${guide.slug}/`} className={styles.articleCard} key={guide.slug}>
                   {guide.heroImage ? <Image src={guide.heroImage} alt={guide.heroImageAlt || ""} className={styles.cardImage} width={640} height={400} /> : null}
                   <div className={styles.cardBody}>
@@ -100,6 +86,20 @@ export default function Home() {
             </div>
           </section>
         ) : null}
+
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <div>
+              <span className={styles.eyebrow}>공식 자료로 다시 확인한 구매 메모</span>
+              <h2>모델과 옵션을 정했다면</h2>
+              <p>판매 페이지와 제조사 자료를 대조해 구성·설치·호환 조건을 확인한 제품 글입니다.</p>
+            </div>
+            <Link href="/articles/" className={styles.textLink}>상품 글 전부 보기 →</Link>
+          </div>
+          <div className={styles.cardGrid}>
+            {featured.map((post) => (post ? <ArticleCard post={post} key={post.slug} /> : null))}
+          </div>
+        </section>
 
         {additional.length > 0 ? (
           <section className={styles.section}>

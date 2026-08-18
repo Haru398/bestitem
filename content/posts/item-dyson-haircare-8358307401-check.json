@@ -11,14 +11,14 @@
   "heroImageCaption": "판매 페이지에서 확인한 다이슨 슈퍼소닉 뉴럴 헤어 드라이어",
   "heroImageCredit": "쿠팡 파트너스 제공 이미지",
   "heroImageSourceUrl": "https://partners.coupang.com/",
-  "indexable": true,
+  "indexable": false,
   "searchIntent": "다이슨 슈퍼소닉 뉴럴를 구매하기 전에 전압·소비전력, 노즐 구성, 보관 공간과 정확한 판매 옵션을 확인하려는 검색",
   "targetQuery": "다이슨 슈퍼소닉 뉴럴 전압·소비전력 노즐 구성 보관 공간",
   "editorial": {
-    "status": "reviewed",
+    "status": "hidden",
     "basis": "쿠팡 파트너스가 제공한 상품명·상품번호·이미지·개별 연결 URL과 Dyson Korea 공식 제품 및 지원 페이지를 분리해 대조하고, 확인되지 않은 가격·성능 수치는 쓰지 않았습니다.",
     "lastChecked": "2026-08-17",
-    "caution": "판매 제목은 판매 옵션 전체를 보증하지 않습니다. 모델번호, 선택 옵션, 구성품, 국내 서비스와 가격은 결제 직전 판매 페이지와 제조사 공식 자료에서 다시 확인해야 합니다."
+    "caution": "자동화 초안의 상품별 고유 정보와 반복 문장을 다시 검수할 때까지 공개하지 않습니다."
   },
   "verdict": {
     "oneLine": "직접 확인할 항목은 전압·소비전력·노즐 구성·보관 공간입니다. 판매 제목만으로 정확한 옵션과 호환을 단정하면 안 되는 상품입니다.",

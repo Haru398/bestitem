@@ -6,13 +6,14 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'check는 큐만 확인하고 publish는 글 1개를 즉시 공개합니다.'
+        description: 'check는 큐 확인, publish는 승인된 글 1개 공개, deploy는 현재 검증된 사이트만 재배포합니다.'
         required: true
         default: check
         type: choice
         options:
           - check
           - publish
+          - deploy
 
 permissions:
   actions: write
@@ -65,19 +66,23 @@ jobs:
         run: node scripts/schedule/release-next.cjs
 
       - name: Validate public content
-        if: ${{ steps.release.outputs.released == 'true' }}
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npm run content:validate
 
+      - name: Enforce AdSense editorial quality gate
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
+        run: npm run content:adsense-audit
+
       - name: Build static site
-        if: ${{ steps.release.outputs.released == 'true' }}
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npx next build --webpack
 
       - name: Verify sitemap
-        if: ${{ steps.release.outputs.released == 'true' }}
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npm run sitemap:verify
 
       - name: Verify latest-content RSS
-        if: ${{ steps.release.outputs.released == 'true' }}
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         run: npm run rss:verify
 
       - name: Commit actual publication time and remaining queue
@@ -94,17 +99,17 @@ jobs:
           git push origin HEAD:main
 
       - name: Configure GitHub Pages
-        if: ${{ steps.release.outputs.released == 'true' }}
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         uses: actions/configure-pages@v5
 
       - name: Upload static Pages artifact
-        if: ${{ steps.release.outputs.released == 'true' }}
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         uses: actions/upload-pages-artifact@v4
         with:
           path: out
 
       - name: Deploy the same verified artifact
-        if: ${{ steps.release.outputs.released == 'true' }}
+        if: ${{ steps.release.outputs.released == 'true' || inputs.mode == 'deploy' }}
         id: deployment
         uses: actions/deploy-pages@v4
 

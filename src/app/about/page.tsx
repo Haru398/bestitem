@@ -57,6 +57,14 @@ export default function AboutPage() {
         </section>
 
         <section className={articleStyles.articleSection}>
+          <h2>자동화 도구는 공개 수량을 늘리는 용도로 쓰지 않습니다</h2>
+          <div className={articleStyles.markdown}>
+            <p>상품 후보 정리, 문서 형식 통일과 누락 항목 점검에는 자동화 도구를 사용할 수 있습니다. 그러나 같은 문장을 제품명만 바꿔 대량 공개하거나, 확인하지 않은 사양과 사용 경험을 채워 넣는 방식으로 운영하지 않습니다.</p>
+            <p>공개 전에는 글마다 검색 의도, 모델 식별 정보, 공식 출처, 이미지 이용 근거와 다른 글과의 문장 중복을 확인합니다. 이 기준을 통과하지 못한 예약 글은 자동 발행하지 않고 비공개 상태로 보관합니다.</p>
+          </div>
+        </section>
+
+        <section className={articleStyles.articleSection}>
           <h2>쿠팡 링크는 이렇게 씁니다</h2>
           <div className={articleStyles.markdown}>
             <p><strong>{COUPANG_PARTNERS_DISCLOSURE}</strong></p>
